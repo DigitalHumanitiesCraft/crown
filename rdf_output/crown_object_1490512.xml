@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490512">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490512/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1797-1919_026</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1797-1919_026, niedrig; stark vereinfacht; RK in der linken Bildhälfte im Hintergrund, hinter dem rechten Arm Josephs II; auf Prunkkissen, auf Tisch; mit Reichsapfel und Szepter; Proportionen stark abweichend; Differenzierung in Edelstein- u. Bildplatte; allerdings kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht;Bügel und Kreuz kaum lesbar; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1797-1919_026</rdfs:label>
+    <rdfs:comment>niedrig; stark vereinfacht; RK in der linken Bildhälfte im Hintergrund, hinter dem rechten Arm Josephs II; auf Prunkkissen, auf Tisch; mit Reichsapfel und Szepter; Proportionen stark abweichend; Differenzierung in Edelstein- u. Bildplatte; allerdings kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht;Bügel und Kreuz kaum lesbar; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</rdfs:comment>
+    <rdfs:comment>Joseph ist stehend in ganzer Figur dargestellt. Die rechte Hand stützt sich in die Hüfte, während er sich mit dem linken ausgestreckten Arm auf einen Stock stützt. Die Kleidung besteht aus einem weisen Rock mit goldener Ornamentik an der Knopfleiste, roter Weste mit goldener Ornamentik und roten Kniehosen soiwi weisen Strümpfen und schwarzen Schuhen. Er trägt eine kurze graue Perücke. Neben den Schulterbändern des königlich ungarischen St. Stephansordens und des Militär Maria-Theresia-Ordens trägt er das Kleinod des Ordens vom goldenen Vlies am Roten Band. An der linken Hüfte neben den Orden trägt er einen Degen.</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>246 x 144 cm</dcterms:extent>
+    <gams:textualContent>1490512 CR_1_QB_Gm_1797-1919_026 Bildquelle Gemälde 1874 Öl; Leinwand niedrig; stark vereinfacht; RK in der linken Bildhälfte im Hintergrund, hinter dem rechten Arm Josephs II; auf Prunkkissen, auf Tisch; mit Reichsapfel und Szepter; Proportionen stark abweichend; Differenzierung in Edelstein- u. Bildplatte; allerdings kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht;Bügel und Kreuz kaum lesbar; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.media.906295">
+        <rdfs:label>INV_GG_7168.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.media.1194957">
+        <rdfs:label>GG_7175_ScanBDA_2019_001</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.media.1194958">
+        <rdfs:label>GG_7175_2018_10_002</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.media.179105">
+        <rdfs:label>GG_7175_SW_III_18542_01.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:label>\"Josef Festl874\", über der Jahreszahl Kürzungsstrich</crown:label>
+    <crown:bemerkung>Josef Festls Porträt ist nach dem Vorbild des Porträts Josephs II. von Anton von Maron (1731-1808) das 1773 gefertigt wurde und sich in Wien, Oberes Belvedere, Inv. Nr. 6200 befindet. Er eliminierte die Skulptur des sitzenden Mars und den Landschaftsausblick mit exzerzierender Infanterie sowie den schwarzen Hut, welchen Josph II. unter dem linken Arm gklemmt hält. Der verkleinerte und veränderte Bildraum führen entsprechend der Hängung als Teil einer Ahnengalerie zu einer unmittelbareren Betrachtungsperspektive.</crown:bemerkung>
+    <schema:identifier>MD066620</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490512.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.4">
+    <schema:contentURL>GG_7175\GG_7175_SW_III_18542_01.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.3">
+    <schema:contentURL>GG\Verband\Revision Objekte\GG_7175_2018_10_002.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.1">
+    <schema:contentURL>INV_GG_7000_8999\INV_GG_7168.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490512/IMAGE.2">
+    <schema:contentURL>GG\Verband\Revision Objekte\GG_7175_ScanBDA_2019_001.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_071</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; mittel; RK am linken Bildrand, auf grünem Samtpolster, auf Tisch; mit Stephanskrone, Reichsapfel, Szepter, Böhmischer Krone (?); Proportionen weitgehend korrekt; Stein- u. Perlbesatz weitgehend korrekt; kleinere Details fehlen; Bügel- Besatz nicht klar lesbar; Bild- u. Steinplatten differenziert; figurales Motiv auf B als Salomon identifizierbar; Schrift angedeutet; Bügelhalterungen auf EE dargstellt; dargestellte Bauteile: Kreuz, Bügel, A, B, C, EE; mit Samthaube</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>297 x 196 cm</dcterms:extent>
+    <gams:textualContent>1490588 CR_1_QB_Gm_1526-1796_071 Bildquelle Gemälde um 1730 Öl; Leinwand ÜBERARBEITEN; mittel; RK am linken Bildrand, auf grünem Samtpolster, auf Tisch; mit Stephanskrone, Reichsapfel, Szepter, Böhmischer Krone (?); Proportionen weitgehend korrekt; Stein- u. Perlbesatz weitgehend korrekt; kleinere Details fehlen; Bügel- Besatz nicht klar lesbar; Bild- u. Steinplatten differenziert; figurales Motiv auf B als Salomon identifizierbar; Schrift angedeutet; Bügelhalterungen auf EE dargstellt; dargestellte Bauteile: Kreuz, Bügel, A, B, C, EE; mit Samthaube</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.media.8013">
+        <rdfs:label>GG_2140.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.media.14866">
+        <rdfs:label>GG_2140_2.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.media.961992">
+        <rdfs:label>GG_2140x.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.media.907299">
+        <rdfs:label>INV_GG_2137.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.media.1468328">
+        <rdfs:label>CR_1_QB_Gm_1526-1796_071_Karl-VI_Johann_Gottfrie</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.5"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490588.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490588">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490588/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_071</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_071, ÜBERARBEITEN; mittel; RK am linken Bildrand, auf grünem Samtpolster, auf Tisch; mit Stephanskrone, Reichsapfel, Szepter, Böhmischer Krone (?); Proportionen weitgehend korrekt; Stein- u. Perlbesatz weitgehend korrekt; kleinere Details fehlen; Bügel- Besatz nicht klar lesbar; Bild- u. Steinplatten differenziert; figurales Motiv auf B als Salomon identifizierbar; Schrift angedeutet; Bügelhalterungen auf EE dargstellt; dargestellte Bauteile: Kreuz, Bügel, A, B, C, EE; mit Samthaube</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.1">
+    <schema:contentURL>GG_2140\GG_2140.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.5">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1526-1796\CR_1_QB_Gm_1526-1796_071_Karl-VI_Johann_Gottfried_Auerbach_.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.2">
+    <schema:contentURL>GG_2140\GG_2140_2.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.4">
+    <schema:contentURL>INV_GG_1_2208\INV_GG_2137.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490588/IMAGE.3">
+    <schema:contentURL>GG_2140\GG_2140x.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

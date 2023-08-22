@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10244">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kurfürst Maximilian Franz Sohn des Franz I. Stephan von Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87981">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Borcking</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13567">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Fend</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.74261">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>G. A. Müller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88117">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Alexander Linnemann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.257">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Francesco Lupicini</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.47534">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Josef Schmutzer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8657">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heinrich I. Sohn des Otto von Sachsen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.34666">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Xaver Gaul</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86677">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Heinrich IV.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9614">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzog Karl Sohn des Leopold II. von Habsburg Lothringen Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8202">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Franz Joseph I.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13183">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Ludwig IV. Sohn des Ludwig III. von Wittelsbach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.6110">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rudolf Krziwanek</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88215">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Otto I.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86576">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Sebastiano Bombelli</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4676">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jacob Zanusi</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88159">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Wappler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86659">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Klinger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4566">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Marie Christine Tochter d. Franz I. Stephan Habsburg-Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8218">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Friedrich III. (IV.) Sohn des Ernst von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7413">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eleonora di Vincenzo I. Gonzaga</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.15615">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Elisabeth Tochter d. Franz I. Stephan v. Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.57597">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Schubart von Ehrenberg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.39462">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Ernst Mansfeld</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.14179">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Edler von Zauner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.63850">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Leonard Heckenauer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.657">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Martin van Meytens d. J.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87518">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erwin Huppert</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13973">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jeremias Ritter</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.54128">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>August Stefan Kronstein</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.55344">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Azelt</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.55438">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Vischer d. Ä.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7897">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Karl V. Sohn des Philipp von Habsburg</schema:name>
+  </schema:Person>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.index.person">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.index.person/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <dc:title>Personenindex</dc:title>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:rights>Creative Commons BY 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+  </void:Dataset>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88234">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Paul Decker</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87350">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Herbert Wefels</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.418">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Holbein d. J.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.39992">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Wilhelm I.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4936">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>(Wilhelm) Heinrich Schlesinger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10116">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Karl IV. Sohn des Johann von Luxenburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.41719">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Artaria et Comp., Wien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86679">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eduard Ille</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86605">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunigunde von Luxemburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7697">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Matthias Sohn des Maximilian II. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7117">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Albrecht I. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.53960">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Emmanuel Fischer von Erlach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88225">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Hiebel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.23067">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Johann Reich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88149">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Monogrammist B. K. C.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88316">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gustav Simon</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.588">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Hickel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.59277">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Clemens Kohl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7745">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>König Ferdinand IV. Sohn des Ferdinand III. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.571">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Veit Hauck</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.17566">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Vincenz Pilz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.244">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ferdinand Georg Waldmüller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5412">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karel Javurek</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87455">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Hautsch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4230">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Heinrich Füger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.57604">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gustav Adolf Müller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.29242">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Matzenkopf d. Ä</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.23540">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gabriel Bodenehr</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88312">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>S. Schmerbersche Buchhandlung, Nachfolger H. Keller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88157">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jeremias Wolff Erben</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4200">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Nepomuk Ender</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.66110">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Martin Will</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87692">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Hottenroth</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87349">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karl Stubenrauch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86548">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Andreas Geyer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7895">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Anna Tochter des Leopold I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.23076">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Wilhelm III. von Preußen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7932">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Elisabeth Christine Tochter des Ludwig Rudolf von Braunschweig-Wolfenbüttel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13865">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Balthasar Ferdinand  Moll</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7658">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Rudolf II., Sohn Kaiser Maximilians II. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.6964">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eduard Bendemann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8448">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rudolf Sohn des Franz Joseph I. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86542">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>S. Schramm</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5478">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bürger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.833">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Baptist Edler von Lampi d. J.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.16219">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Maria Tochter Karls des Kühnen von Burgund</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88147">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gerard de Groos</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88397">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jacopo Perinetti</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13321">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Karolina, Tochter d. Franz I. Stephan v. Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4480">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Edward (Eduard) Jakob von Steinle</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.59204">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Paul Fürst</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.64681">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Friedrich II. Sohn des Kaisers Heinrich VI.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88146">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christoph Heinrich Müller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7773">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Joseph I. Sohn des Leopold I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.27434">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann II Hoffmann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4935">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Schilcher</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.73855">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann August Corvinus</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86669">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Homannsche Erben</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88255">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Friedrich Gleditsch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86518">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Erich Zimmer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4547">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Gottfried Auerbach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88151">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Leonhard Loschge</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7648">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Ferdinand I. Sohn des Philipp von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86613">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wolfgang Christoph von Meyer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.55327">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Philipp Kilian</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.16978">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ottokar II. Sohn d. Wenzel I. König von Böhmen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.15614">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Anna Tochter d. Franz I Stephan von Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87483">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jakob Philipp Drentwett</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.14106">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Victor Oskar Tilgner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8192">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz I. Stephan Sohn des Leopold I. von Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.54098">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jeremias Wolff</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88124">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Matthias Wulacher</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88154">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Isaac Fisches</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4658">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Leopold Stöber</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87533">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gustav Philipp Jakob Bieling</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87600">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Friedrich Stölzel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88144">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Sebastian Klauber</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13833">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>I. S. R. Meister</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88325">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gabriel Bareiss (Parys)</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88221">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Püschel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.77674">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Nikolaus Knilling</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87139">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kurt Busch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.73175">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Stadler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9629">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Karl Sohn des Pippin III. Karolinger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.570">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Ulrich Mayr</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7862">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eleonora di Carlo II. Gonzaga</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10879">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>E. Kieser</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.494">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jan Thomas</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87461">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Martin Brunner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88335">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ludwig Michael Schwanthaler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4653">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Robert Schuster von Bärnrode</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7894">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiserin Eleonore Magdalena Tochter d. Philipp Wilhelm von Pfalz-Neuburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.59125">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Elias Christoph Heiss</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88165">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Anton Berka</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86520">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>König Ferdinand II. (1578-1637) Sohn des Karl II. von Innerösterreich und der Maria von Bayern</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.612">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Leopold Kupelwieser</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.77682">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm von Diez</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.21294">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Ferdinand von Österreich-Este</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.112">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Anton von Maron</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8229">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich I. (III.) der Schöne Sohn des Albrecht I. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9520">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Josepha Tochter d. Franz I. Stephan v. Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88211">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karl Ernst Forberg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.46855">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jacopo Amigoni</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88166">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Niedermann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7899">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johannes Andreas Pfeffel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87348">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Udo Otto</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.76827">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Moritz Oppenheim</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88139">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Cosmas Damian Asam</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88163">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Anton Johann Gareis</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4646">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Russ</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.40715">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Martin Bernigeroth</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13420">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Breithut</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87719">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Charles Rochet</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.37055">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Salomon Kleiner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87579">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Michel Natalis</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88334">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Ignaz Günther</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88320">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Effner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88257">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Mathias van Somer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4655">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Xaver Simm</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87578">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Isaac Brun</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5378">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Czermak</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86660">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ambrosius Gabler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87457">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Caspar Gottfried Lauffer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88405">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Christian Reich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88233">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Heinrich Schifflin</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87598">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>J. E. Kühnel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87463">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Lazarus Gottlieb Lauffer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8298">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich von Gentz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4819">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Natale Schiavone</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87458">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jeremias Paul Werner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87581">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ignatius Wallter</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86662">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Franz II. (I.) von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7721">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzog Ferdinand II. von Innerösterreich, Sohn des Erzh. Karl II. von Habsburg Österreich, ab 1619 Kaiser Ferdinand II.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.48125">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>A. Leykum, Wien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87353">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Alfred Rethel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87451">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm Peter Zimmermann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9519">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiserin Maria Josepha Tochter d. Karl Albrecht von Bayern</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4231">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph von Führich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86581">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Josef Wlha</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4553">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Julius Viktor Berger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86571">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Philipp Veit</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.382">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Giuseppe Arcimboldo</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.53951">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hieronymus Sperling</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88164">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Kittel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87400">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Philipp Andreas Kilian</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87295">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Pichler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13207">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Amalia Tochter d. Franz Stephan I. Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88258">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gerhard Altzenbach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88153">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Simon Philippe Thomassin</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87599">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Eleazar Schenau</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9381">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bertold Löffler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4705">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum, Wien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13884">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Philipp Heinrich Müller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88310">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Arthur Strasser</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13727">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jörg Kölderer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88142">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Matthias Götz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88401">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Parler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88130">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Carl Eduard von Wendelstadt</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.11910">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Bock</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87354">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Josef Kehren</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88155">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Jakob Thurneysen d. J.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87454">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Leonhard Oexlein</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5674">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm von Kaulbach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.40281">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Wolf</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9109">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Joseph II. Sohn des Franz I. Stephan von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.37898">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Adam Gottlieb Schneider</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88311">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Angilbert Göbel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.72720">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Andreas Matthäus Wolffgang</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4659">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ludwig (Louis) Streitenfeld</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.261">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Francesco Solimena</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88210">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eduard Luttich von Luttichheim</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.77761">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eduard Gustav May</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88150">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Martin Lerch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86549">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Otto Zeiller</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13322">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Marie Antoinette Tochter d. Franz I. Stephan v. Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10320">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Penzel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5145">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Overbeck</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87580">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jacob Männl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4271">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gustav Adolf Hessl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5909">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Esaias Nilson</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87372">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Paul Beumers</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86678">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Eduard Julius Friedrich Bendemann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.15804">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>König Heinrich VI.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13689">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiserin Gemahlin Kaiser Karls VI. Elisabeth Christine Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.665">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Maximilian Josef Handel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.79334">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gabrielle Bertrand Beyer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.29338">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>August Stauda</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13219">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Isabella di Filippo di Bourbon Parma</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88187">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm Kareis</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88315">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heinrich Wilhelm Schlesinger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87355">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Baptist Zwecker</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8193">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Franz I. (II.) Sohn des Leopold II. von Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.59578">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Alexander Boener</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86607">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hanns Peheim</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87345">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Freiherr Friedrich Dalberg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87977">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Sebastian Furck</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88326">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Bernhard Rode</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.6886">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Daniel Herz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8162">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Alfred Cossmann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86611">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Nikolaus Lentzner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88038">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Conrad Friedrich Felsing</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88143">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gottfried Bernhard Göz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13723">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Knoderer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8070">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzog Ferdinand Sohn des Franz I. Stephan Habsburg-Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.37897">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Adam Delsenbach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4635">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wenzel Pohl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7767">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Elisabeth Tochter des Leopold I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87693">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jan Lauwryn Krafft</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87686">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Ludwig Catel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.41778">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johannes Ronge</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88156">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Jakob Thurneysen d. Ä.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87399">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Leinberger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.27004">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christoph Dorsch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.63858">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wolfgang Kilian</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86566">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Dietrich von Berg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.58831">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Lippoldt</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88441">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Anton Domink Fernkorn</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.47065">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Max Slevogt</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.14264">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Dr. Otto Winkler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88148">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Dittmann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87687">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>König Friedrich Wilhelm IV. von Preußen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87530">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kurfürst Karl I. Ludwig von der Pfalz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.42851">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Carl Emil Doepler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88141">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Sigmund Rösch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5413">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Antonín Lhota</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86523">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Paul Nürnberger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87720">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Louis Rochet</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.64710">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Heiliges Römisches Reich Otto III.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88272">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ernst Albert Goldfriedrich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.58721">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Cornelis Meyssens</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4568">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz von Fahrenschon</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.20147">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Thomassin &amp; Cie., Paris</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.68">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Albrecht Dürer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88167">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz Anton Palko</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87522">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rudolf Rahn</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87351">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Lukas Schnitzer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7802">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiserin Margarita Teresa Tochter des Philipp IV. von Habsburg Spanien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.31451">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Sigmund von Birken</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86671">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>F. C. Wentzel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8222">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Friedrich I. Barbarossa Sohn des Herzog Friedrich II.  Hohenstaufen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13424">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Martin Brunner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.22996">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Franz I. Stefan von Habsburg-Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.57598">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Christian Engelbrecht</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87347">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rudolf Heß</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.30051">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Bernhard Fischer von Erlach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88254">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Jakob Mechtl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9476">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzog Karl Josef Sohn des Franz I. Stephan von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9466">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Karl VI. Sohn des Leopold I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13317">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Maria Amalie Tochter d. Joseph I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88314">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Ludwig Detlev Neubauer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.17706">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rudolf I. Sohn d. Albrecht IV. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.15267">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Sigismund I. Sohn des Karl IV. von Luxemburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.58850">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bartholomäus Kilian</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4929">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karl Russ</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87722">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jiří Urban</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88236">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Christian Leopold</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4899">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Nepomuk Hoechle</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4570">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Josef Festl</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87524">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johannes Mühlenbruch</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.40343">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erwin Meyer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.65857">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heinrich II.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.57272">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Karl VII.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.56019">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Friedrich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13742">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Ernst Kunckel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.58725">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph Anton Zimmermann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.58447">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm Hecht</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4319">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Kupetzky</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87978">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Engelhard Nunzer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86575">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Daniel Siegmund Dockler der Jüngere</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.65663">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karl der Große</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.68777">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Friedrich Beer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7651">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Maximilian II., Sohn des Ferdinand I. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10138">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiserin Maria Theresia Tochter des Karl VI. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.74385">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm Jury</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9475">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Leopold II. Sohn des Franz I. Stephan Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.204">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Daniel Gran</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8566">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Clemens Holzmeister</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4158">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Carl Theodor von Blaas</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.543">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joachim von Sandrart</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.84087">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ferdinand (Johann Friedrich) Olivier</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.13284">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Antonio Daniele Bertoli</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88186">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Messerschmidt</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10205">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Markgraf Leopold III. Sohn von Leopold II. von Babenberg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88168">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Michael Rösler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88140">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jacob Andreas Fridrich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86546">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Inge Kitlitschka</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87418">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>George de Marées</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.18011">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Amalie Wilhelmine Tochter d. Johann-Friedrich v. Braunschweig-Lüneburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88313">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ludwig Kohlbacher</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7738">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Ferdinand III. Sohn des Ferdinand II. von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87135">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>William O'Kelly D'Aghrim</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7900">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Elias Baeck</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.291">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Frans van Stampart</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.6908">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Maximilian I. Sohn d. Friedrich III. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87453">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wilhelm Geyer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.12142">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Matthäus Küsel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88145">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Michael Rößler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4617">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Ludwig Minnigerode</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88269">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Waldreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87456">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Georg Wilhelm Vestner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.86612">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Georg Finck</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4287">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Baptist Jungblut</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88235">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Joseph de Montalegre</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4315">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Josef Kreutzinger</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88152">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Richard Collin</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88332">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heinrich Raspe</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7225">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gundaker Ludwig Graf von Althann</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.26852">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Kobler von Ehrensorg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.415">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hans Burgkmair d. Ä.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87459">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Karl Goetz</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87482">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Nikolaus Nell</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.49329">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Schenk</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4234">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gustav Gaul</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.39547">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Andreas Schmutzer</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88224">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Nikolaus Bruno Belau</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4213">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Peter Fendi</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87138">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Dominik Dvořák</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88125">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>C. Bastien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4600">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Peter Krafft</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.55360">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Paulus Decker</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.5373">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hermann Eichler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.4391">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Andreas Nesselthaler</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87296">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Nikolaus Moll</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7118">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Albrecht II. von Habsburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.321">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Gerard Du Chateau</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.662">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Matthäus Gundelach</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88440">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>August Stixner</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87462">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Friedrich Kleinert</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87688">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>John Tenniel</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.9353">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Erzherzogin Johanna Gabriele Tochter d. Franz I. Stephan von Habsburg Lothringen</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.7748">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Leopold I.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.18228">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Leopold II. Sohn d. Ferdinand III. von Habsburg-Toskana</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.10107">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbibliothek, Wien</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.88317">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Nicolaus Wurmser von Straßburg</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.8067">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kaiser Ferdinand I. Sohn des Franz II. (I.) von Habsburg Österreich</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87452">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Johann Christoph Berndt d. Ä.</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.55055">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Jermias Jacob Sedelmayr</schema:name>
+  </schema:Person>
+  <schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.48697">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heinrich Hoffmann, München</schema:name>
+  </schema:Person>
+</rdf:RDF>

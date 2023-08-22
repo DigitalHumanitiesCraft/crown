@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490511">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490511/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1797-1919_025</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1797-1919_025, niedrig; stark vereinfacht; stark angeschnitten; RK am linken Bildrand, auf Prunkkissen, auf Postament (?); mit Reichsapfel, Erzherzogshut und Szepter; Differenzierung in Edelstein- u. Bildplatte; vermutl. aber kein Email und kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht; Bogenfelder mit Perlschnur, unterer Rand des Bügels mit Granten (?); ansonsten keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490511.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1797-1919_025</rdfs:label>
+    <rdfs:comment>niedrig; stark vereinfacht; stark angeschnitten; RK am linken Bildrand, auf Prunkkissen, auf Postament (?); mit Reichsapfel, Erzherzogshut und Szepter; Differenzierung in Edelstein- u. Bildplatte; vermutl. aber kein Email und kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht; Bogenfelder mit Perlschnur, unterer Rand des Bügels mit Granten (?); ansonsten keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</rdfs:comment>
+    <rdfs:comment>Kaiser Franz II. (I.) ist von der Seite mit nach links ausgerichteten Oberkörper zu sehen. Er dreht den Kopf zum Dreiviertelprofil. Der Habsburger trägt einen Harnisch, einen Mühlsteinkragen und die Collane des Ordens vom Goldenen Vlies. Mit der rechten Hand hält er den Griff eine Schwertes. Auf der linken Bildseite sind Szepter, Reichsapfel, Reichskrone und der Erherzogshut auf einem rot samtenen Kissen platziert.</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>65,5 cm × 69 cm Rahmenmaße: 75,3 cm × 80,7 cm</dcterms:extent>
+    <gams:textualContent>1490511 CR_1_QB_Gm_1797-1919_025 Bildquelle Gemälde Ende 18. / Anfang 19. Jahrhundert Öl; Leinwand niedrig; stark vereinfacht; stark angeschnitten; RK am linken Bildrand, auf Prunkkissen, auf Postament (?); mit Reichsapfel, Erzherzogshut und Szepter; Differenzierung in Edelstein- u. Bildplatte; vermutl. aber kein Email und kein Motiv sichtbar; Edelstein- u. Perlbesatz angegeben, allerdings stark vereinfacht; Bogenfelder mit Perlschnur, unterer Rand des Bügels mit Granten (?); ansonsten keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A, H (stark angeschnitten); mit Haube</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511.media.10747">
+        <rdfs:label>GG_9370.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511.media.1281196">
+        <rdfs:label>GG_9370_9378_Kartei.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511.media.906577">
+        <rdfs:label>INV_GG_9370.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:bemerkung>GG_9370 und GG_9378 (Porträt der Maria Theresia von Neapel) bilden eingelassen in die Türrahmungen des Thronsaals ein Paar; Beide sind im Köstüm historisierend und die Darstellung der Kronen (Kaiser Franz: Reichskrone und Erherzogshut - Kaiserin Maria Theresia: Wenzels- und Stephanskrone) ergänzen sich.</crown:bemerkung>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490511.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.2">
+    <schema:contentURL>GG_9370\GG_9370_9378_Kartei.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.3">
+    <schema:contentURL>INV_GG_9000_9911\INV_GG_9370.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490511/IMAGE.1">
+    <schema:contentURL>GG_9370\GG_9370.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

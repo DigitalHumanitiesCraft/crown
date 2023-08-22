@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.o">
+    <rdfs:label>Grafik, CR_1_QB_Gm_1421-1525_005</rdfs:label>
+    <rdfs:comment>AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Aquarell</dcterms:medium>
+    <dcterms:medium>Pergament</dcterms:medium>
+    <dcterms:extent>H. 37 cm, B. 340 cm</dcterms:extent>
+    <gams:textualContent>1502683 CR_1_QB_Gm_1421-1525_005 Bildquelle Grafik um 1512/14 oder 1528 Aquarell; Pergament AUSSTEHEND</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.1169530">
+        <rdfs:label>KK_KK_5333_1.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.1169531">
+        <rdfs:label>KK_KK_5333_2.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24677">
+        <rdfs:label>KK_5333_21365.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24678">
+        <rdfs:label>KK_5333_21369.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24679">
+        <rdfs:label>KK_5333_21372.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.5"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24680">
+        <rdfs:label>KK_5333_21374.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.6"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24681">
+        <rdfs:label>KK_5333_21379.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.7"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24682">
+        <rdfs:label>KK_5333_21380.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.8"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24683">
+        <rdfs:label>KK_5333_21383.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.9"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24684">
+        <rdfs:label>KK_5333_21386.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.10"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24685">
+        <rdfs:label>KK_5333_21389.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.11"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24686">
+        <rdfs:label>KK_5333_21392.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.12"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24687">
+        <rdfs:label>KK_5333_21395.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.13"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24688">
+        <rdfs:label>KK_5333_21400.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.14"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.24689">
+        <rdfs:label>KK_5333_21401.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.15"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361775">
+        <rdfs:label>KK_5333_01.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.16"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361776">
+        <rdfs:label>KK_5333_02.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.17"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361777">
+        <rdfs:label>KK_5333_03.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.18"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361778">
+        <rdfs:label>KK_5333_04.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.19"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361779">
+        <rdfs:label>KK_5333_05.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.20"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361780">
+        <rdfs:label>KK_5333_06.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.21"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361781">
+        <rdfs:label>KK_5333_07.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.22"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361782">
+        <rdfs:label>KK_5333_08.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.23"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361783">
+        <rdfs:label>KK_5333_09.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.24"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.media.361784">
+        <rdfs:label>KK_5333_Gesamt_CD.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.25"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1502683.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1502683">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1502683/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Grafik, CR_1_QB_Gm_1421-1525_005</dc:title>
+    <dc:description>Grafik, CR_1_QB_Gm_1421-1525_005, AUSSTEHEND</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.8">
+    <schema:contentURL>KK_5333\KK_5333_21380.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.2">
+    <schema:contentURL>KK_5333\KK_KK_5333_2.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.15">
+    <schema:contentURL>KK_5333\KK_5333_21401.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.5">
+    <schema:contentURL>KK_5333\KK_5333_21372.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.20">
+    <schema:contentURL>KK_5333\KK_5333_05.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.19">
+    <schema:contentURL>KK_5333\KK_5333_04.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.16">
+    <schema:contentURL>KK_5333\KK_5333_01.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.24">
+    <schema:contentURL>KK_5333\KK_5333_09.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.13">
+    <schema:contentURL>KK_5333\KK_5333_21395.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.25">
+    <schema:contentURL>KK_5333\KK_5333_Gesamt_CD.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.6">
+    <schema:contentURL>KK_5333\KK_5333_21374.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.21">
+    <schema:contentURL>KK_5333\KK_5333_06.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.22">
+    <schema:contentURL>KK_5333\KK_5333_07.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.9">
+    <schema:contentURL>KK_5333\KK_5333_21383.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.18">
+    <schema:contentURL>KK_5333\KK_5333_03.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.10">
+    <schema:contentURL>KK_5333\KK_5333_21386.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.23">
+    <schema:contentURL>KK_5333\KK_5333_08.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.14">
+    <schema:contentURL>KK_5333\KK_5333_21400.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.12">
+    <schema:contentURL>KK_5333\KK_5333_21392.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.1">
+    <schema:contentURL>KK_5333\KK_KK_5333_1.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.7">
+    <schema:contentURL>KK_5333\KK_5333_21379.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.17">
+    <schema:contentURL>KK_5333\KK_5333_02.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.3">
+    <schema:contentURL>KK_5333\KK_5333_21365.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.4">
+    <schema:contentURL>KK_5333\KK_5333_21369.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502683/IMAGE.11">
+    <schema:contentURL>KK_5333\KK_5333_21389.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

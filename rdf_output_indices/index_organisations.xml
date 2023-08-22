@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.38501">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Správa Prazského hradu (Prager Burg), Prag</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.51139">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Theatermuseum Wien, Sammlung Kostüme</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.8839">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Theatermuseum Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.87517">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Burg Trifels, Annweiler</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.32421">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Germanisches Nationalmuseum, Nürnberg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5004">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Kunstsammlungen Dresden, Dresden</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.39235">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Bibliothek</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.65169">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbank</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4975">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Albertina, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4705">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5006">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bayerische Verwaltung der staatlichen Schlösser, Gärten und Seen, München</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5538">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>MAK - Museum für angewandte Kunst, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.47922">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Museen zu Berlin, Gemäldegalerie, Berlin</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.10215">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Klassik Stiftung Weimar, Weimar</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.45868">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>The British Museum, London</schema:name>
+  </schema:Organisation>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.index.organisation">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.index.organisation/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <dc:title>Organisationenindex</dc:title>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:rights>Creative Commons BY 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+  </void:Dataset>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.44180">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wienbibliothek im Rathaus, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.43098">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Freies Deutsches Hochstift, Frankfurt am Main</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88296">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>National Archives Washington</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.12080">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Landesmuseum Württemberg, Stuttgart</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.10107">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbibliothek, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.87460">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bayerisches Hauptmünzamt München</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4739">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>The National Museum of Fine Arts, Stockholm</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88333">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Archives de la Ville et de l'Eurométropole de Strasbourg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5746">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Hofjagd- und Rüstkammer</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.66534">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Musée du Louvre, Cabinet des dessins, Paris</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.38887">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Diözesanmuseum Bamberg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5479">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Gemäldegalerie</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.78105">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bundesmobilienverwaltung, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.21545">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Liechtenstein. The Princely Collections, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.87352">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Universität München, Institut für Kunstgeschichte</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4734">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Suermondt-Ludwig-Museum, Aachen</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.14822">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Historisches Museum Frankfurt, Frankfurt am Main</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.66546">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Deutsches Historisches Museum, Berlin</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.43432">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Landesmuseum Mainz, Mainz</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.38642">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Muzeul National de Arta al României, Bukarest</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.39209">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bayerische Staatsbibliothek, München</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.87369">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Zeichenakademie Hanau</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88377">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Schloss Litomyšl</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4814">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Münzkabinett</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.28145">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Kaiserliche Schatzkammer Wien</schema:name>
+    <schema:name>Kunsthistorisches Museum Wien, Schatzkammer</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4962">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wallraf-Richartz-Museum, Köln</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88331">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bayerisches Hauptstaatsarchiv München</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.64755">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Kunstsammlungen Dresden, Kupferstich-Kabinett, Dresden</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.71592">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Stift Klosterneuburg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88321">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Marienmünster Dießen</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.79063">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staats- und Stadtbibliothek, Augsburg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88378">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Museum Schöne Stiege, Riedlingen</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.46780">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>GASK Galerie, Kutná Hora</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.39197">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Antikensammlung</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4830">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Wien Museum, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.10482">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Hermann Fillitz</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4844">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Schloss Ambras, Innsbruck</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88434">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Museum im Prediger Schwäbisch Gmünd</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.50752">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Rathaus, Aachen</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.14444">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Museen zu Berlin, Berlin</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.65265">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Museen zu Berlin, Münzkabinett</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.66261">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Schlösser, Burgen und Gärten Sachsen gemeinnützige GmbH, Dresden</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5326">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Heeresgeschichtliches Museum, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.55876">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Adolf Würth GmbH &amp; Co. KG, Künzelsau</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4751">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Städel Museum / Städelsches Kunstinstitut, Frankfurt am Main</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88371">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Saarbrücken; Saarlandmuseum</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.65031">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Universität Wien, Institut für Kunstgeschichte</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88373">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Universitäts- und Landesbibliothek Darmstadt</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.27062">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Victoria and Albert Museum, London</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4719">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Galerie Belvedere, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88372">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Herzog August Bibliothek Wolfenbüttel</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4818">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Bundesmobilienverwaltung, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.14313">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbibliothek, Bildarchiv, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.5534">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kunsthistorisches Museum Wien, Kunstkammer, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.4731">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>The Metropolitan Museum of Art, New York</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88374">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Bibliothek Regensburg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.27884">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Stiftung Museum Kunstpalast, Düsseldorf</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.39028">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Staatliche Bibliothek Passau</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88327">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Universität Göttingen; Kunstsammlungen</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.14414">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>National Gallery Prague, Prag</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.87380">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Katharinenkloster Nürnberg</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.86502">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kapuzinergruft, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.13337">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbibliothek, Wien, Porträtsammlung</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.44187">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Österreichische Nationalbibliothek, Sammlung für Handschriften und alte Drucke, Wien</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.88439">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Kriminalmuseum Rothenburg ob der Tauber</schema:name>
+  </schema:Organisation>
+  <schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.36578">
+    <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+    <schema:name>Herzog Anton Ulrich-Museum, Braunschweig</schema:name>
+  </schema:Organisation>
+</rdf:RDF>

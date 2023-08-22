@@ -1,0 +1,1109 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix crown: <https://gams.uni-graz.at/o:ontology.crown#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://gams.uni-graz.at/o:ontology.crown#analysisPerformed
+crown:analysisPerformed rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty ;
+                        rdfs:domain crown:Object ;
+                        rdfs:range crown:Analysis .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#basicShape
+crown:basicShape rdf:type owl:ObjectProperty .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#color
+crown:color rdf:type owl:ObjectProperty ;
+            rdfs:domain crown:Color ;
+            rdfs:range skos:Concept .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#conditionOfObject
+crown:conditionOfObject rdf:type owl:ObjectProperty ;
+                        rdfs:domain crown:Object ;
+                        rdfs:range crown:Condition .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#cut
+crown:cut rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain crown:Component ;
+          rdfs:range skos:Concept .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#descriptionOfComponents
+crown:descriptionOfComponents rdf:type owl:ObjectProperty ;
+                              rdfs:domain crown:Object ;
+                              rdfs:range crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#descriptionOfObject
+crown:descriptionOfObject rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain crown:Object ;
+                          rdfs:range crown:Description .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#featureOfObject
+crown:featureOfObject rdf:type owl:ObjectProperty ;
+                      rdfs:domain crown:Object ;
+                      rdfs:range crown:Feature .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#material
+crown:material rdf:type owl:ObjectProperty ;
+               rdfs:domain crown:Object ;
+               rdfs:range skos:Concept .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#pin
+crown:pin rdf:type owl:ObjectProperty ;
+          rdfs:domain crown:Pins ;
+          rdfs:range crown:Pin .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#stoneInSetting
+crown:stoneInSetting rdf:type owl:ObjectProperty ;
+                     rdfs:domain crown:Component ;
+                     rdfs:range skos:Concept ;
+                     rdfs:comment "Stein in Fassung"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#technique
+crown:technique rdf:type owl:ObjectProperty ;
+                rdfs:domain crown:Component ;
+                rdfs:range skos:Concept .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#wire
+crown:wire rdf:type owl:ObjectProperty ;
+           rdfs:domain crown:Wires ;
+           rdfs:range crown:Wire .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://gams.uni-graz.at/o:ontology.crown#bottomPlate
+crown:bottomPlate rdf:type owl:DatatypeProperty ;
+                  rdfs:domain crown:HoleRow ;
+                  rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#burnedSurface
+crown:burnedSurface rdf:type owl:DatatypeProperty ;
+                    rdfs:domain crown:Solder ;
+                    rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#crossSection
+crown:crossSection rdf:type owl:DatatypeProperty ;
+                   rdfs:domain crown:Component ;
+                   rdfs:range xsd:float ;
+                   rdfs:label "Querschnitt"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#depth
+crown:depth rdf:type owl:DatatypeProperty ;
+            rdfs:domain crown:Component ;
+            rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#description
+crown:description rdf:type owl:DatatypeProperty ;
+                  rdfs:domain crown:Component ,
+                              crown:Condition ,
+                              crown:Description ,
+                              crown:Object ;
+                  rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#diameter
+crown:diameter rdf:type owl:DatatypeProperty ;
+               rdfs:domain crown:Component ;
+               rdfs:range xsd:float ;
+               rdfs:label "Durchmesser"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#dianumberBemeter
+crown:dianumberBemeter rdf:type owl:DatatypeProperty .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#distanceBetween
+crown:distanceBetween rdf:type owl:DatatypeProperty ;
+                      rdfs:domain crown:Component ;
+                      rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#distanceBetweenGrains
+crown:distanceBetweenGrains rdf:type owl:DatatypeProperty ;
+                            rdfs:domain crown:Component ;
+                            rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#endOfWire
+crown:endOfWire rdf:type owl:DatatypeProperty ;
+                rdfs:domain crown:Wire ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "Drahtenden"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#equatorLine
+crown:equatorLine rdf:type owl:DatatypeProperty ;
+                  rdfs:domain crown:CarrierPlate ,
+                              crown:Perldraht ;
+                  rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#floodedSurface
+crown:floodedSurface rdf:type owl:DatatypeProperty ;
+                     rdfs:domain crown:Solder ;
+                     rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#gap
+crown:gap rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#hasDamageDescription
+crown:hasDamageDescription rdf:type owl:DatatypeProperty ;
+                           rdfs:domain crown:Damage ;
+                           rdfs:range xsd:string ;
+                           rdfs:label "Schadensbeschreibung"@de ,
+                                      "damage description"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#hasDamageIdentifier
+crown:hasDamageIdentifier rdf:type owl:DatatypeProperty ;
+                          rdfs:domain crown:Damage ;
+                          rdfs:range xsd:string ;
+                          rdfs:label "Damage identifier"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#hasSuspectedCause
+crown:hasSuspectedCause rdf:type owl:DatatypeProperty ;
+                        rdfs:domain crown:Damage ;
+                        rdfs:range xsd:string ;
+                        rdfs:label "suspected cause of damage"@en ,
+                                   "vermutete Schadensursache"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#height
+crown:height rdf:type owl:DatatypeProperty ;
+             rdfs:domain crown:Component ;
+             rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#innerDiameter
+crown:innerDiameter rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf crown:diameter ;
+                    rdfs:domain crown:Component ;
+                    rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#isPresent
+crown:isPresent rdf:type owl:DatatypeProperty ;
+                rdfs:domain crown:WireBinding ;
+                rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#jointCount
+crown:jointCount rdf:type owl:DatatypeProperty ;
+                 rdfs:domain crown:Component ;
+                 rdfs:range xsd:integer .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#jointDescription
+crown:jointDescription rdf:type owl:DatatypeProperty ;
+                       rdfs:domain crown:Joint ;
+                       rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#length
+crown:length rdf:type owl:DatatypeProperty .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#maxDiameter
+crown:maxDiameter rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf crown:diameter ;
+                  rdfs:domain crown:Component ;
+                  rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#minDiameter
+crown:minDiameter rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf crown:dianumberBemeter ;
+                  rdfs:domain crown:Component ;
+                  rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#number
+crown:number rdf:type owl:DatatypeProperty ;
+             rdfs:domain crown:Component ,
+                         crown:Object ;
+             rdfs:range xsd:integer ;
+             rdfs:label "Anzahl"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#numberBetweenTalons
+crown:numberBetweenTalons rdf:type owl:DatatypeProperty ;
+                          rdfs:domain crown:Component ;
+                          rdfs:range xsd:integer .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#numberOfDrillholes
+crown:numberOfDrillholes rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf crown:number ;
+                         rdfs:label "Anzahl der Bohrlöcher"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#numberOfGrooves
+crown:numberOfGrooves rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf crown:number ;
+                      rdfs:label " Anzahl der Rillen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#numberOfMeasuringpoint
+crown:numberOfMeasuringpoint rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf crown:number ;
+                             rdfs:label "Anzahl Messpunkte"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#numberOfRibs
+crown:numberOfRibs rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf crown:number ;
+                   rdfs:label "Anzahl der Rippen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#other
+crown:other rdf:type owl:DatatypeProperty ;
+            rdfs:comment "Sonstiges"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#otherCharacteristics
+crown:otherCharacteristics rdf:type owl:DatatypeProperty ;
+                           rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#production
+crown:production rdf:type owl:DatatypeProperty ;
+                 rdfs:domain crown:Component ;
+                 rdfs:range rdfs:Literal ;
+                 rdfs:label "Herstellung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#productionTechnique
+crown:productionTechnique rdf:type owl:DatatypeProperty .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#scratch
+crown:scratch rdf:type owl:DatatypeProperty ;
+              rdfs:domain crown:Object ;
+              rdfs:range xsd:boolean .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#scratchType
+crown:scratchType rdf:type owl:DatatypeProperty ;
+                  rdfs:domain crown:Object ;
+                  rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#size
+crown:size rdf:type owl:DatatypeProperty ;
+           rdfs:domain crown:BeadWire ;
+           rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#soldered
+crown:soldered rdf:type owl:DatatypeProperty ;
+               rdfs:domain crown:Perldrahtring ;
+               rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#techniqueDescription
+crown:techniqueDescription rdf:type owl:DatatypeProperty ;
+                           rdfs:domain crown:StabilizationMaterial ;
+                           rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#thickness
+crown:thickness rdf:type owl:DatatypeProperty ;
+                rdfs:domain crown:Component ;
+                rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#toolTraceDescription
+crown:toolTraceDescription rdf:type owl:DatatypeProperty ;
+                           rdfs:domain crown:Component ;
+                           rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#toolTraceDiameter
+crown:toolTraceDiameter rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf crown:diameter ;
+                        rdfs:domain crown:Rivets ;
+                        rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#toolTracesDescription
+crown:toolTracesDescription rdf:type owl:DatatypeProperty ;
+                            rdfs:domain crown:Rivets ;
+                            rdfs:range xsd:string .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#width
+crown:width rdf:type owl:DatatypeProperty ;
+            rdfs:domain crown:Component ;
+            rdfs:range xsd:float .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#wireDiameter
+crown:wireDiameter rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf crown:diameter ;
+                   rdfs:comment "Drahtdurchmesser"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#wireNumber
+crown:wireNumber rdf:type owl:DatatypeProperty ;
+                 rdfs:domain crown:WireBinding ;
+                 rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#AdditionalMaterial
+crown:AdditionalMaterial rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#AdhesionDamage
+crown:AdhesionDamage rdf:type owl:Class ;
+                     rdfs:subClassOf crown:Damage ;
+                     rdfs:label "Schaden: Anhaftungen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Analysis
+crown:Analysis rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Aperture
+crown:Aperture rdf:type owl:Class ;
+               rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Arc
+crown:Arc rdf:type owl:Class ;
+          rdfs:subClassOf crown:Component ;
+          rdfs:label "Bogen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Arkadenfiligran
+crown:Arkadenfiligran rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Component ;
+                      rdfs:label "Arkadenfiligran"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#BeadWire
+crown:BeadWire rdf:type owl:Class ;
+               rdfs:subClassOf crown:Wire .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#BeadWireRing
+crown:BeadWireRing rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Ring .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Bezel
+crown:Bezel rdf:type owl:Class ;
+            rdfs:subClassOf crown:Setting .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#BowShapedClamp
+crown:BowShapedClamp rdf:type owl:Class ;
+                     rdfs:subClassOf crown:Clamp ;
+                     rdfs:label "Klammer"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Bracket
+crown:Bracket rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#BrokenSolderingDamage
+crown:BrokenSolderingDamage rdf:type owl:Class ;
+                            rdfs:subClassOf crown:Damage ;
+                            rdfs:label "Schaden: aufgerissene Lötverbindung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Bulge
+crown:Bulge rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CVolutes
+crown:CVolutes rdf:type owl:Class ;
+               rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CapitalsArkadenfiligran
+crown:CapitalsArkadenfiligran rdf:type owl:Class ;
+                              rdfs:subClassOf crown:Arkadenfiligran ;
+                              rdfs:label "Arkadenfiligran: Kapitelle"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Carrier
+crown:Carrier rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CarrierPlate
+crown:CarrierPlate rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ChunkedArc
+crown:ChunkedArc rdf:type owl:Class ;
+                 rdfs:subClassOf crown:Arc ;
+                 rdfs:label "Bogen: gestückelt"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Clamp
+crown:Clamp rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component ;
+            rdfs:label "Klammer"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Color
+crown:Color rdf:type owl:Class ;
+            rdfs:subClassOf crown:Description .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Component
+crown:Component rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Condition
+crown:Condition rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CrackDamage
+crown:CrackDamage rdf:type owl:Class ;
+                  rdfs:subClassOf crown:Damage ;
+                  rdfs:label "Crack Damage"@en ,
+                             "Scahden: Riss"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CracksDamage
+crown:CracksDamage rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Damage ;
+                   rdfs:label "Cracks Damage"@en ,
+                              "Schaden: Risse"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#CrystallineEfflorescenceDamage
+crown:CrystallineEfflorescenceDamage rdf:type owl:Class ;
+                                     rdfs:subClassOf crown:Damage ;
+                                     rdfs:label "Damage: crystalline efflorescence"@en ,
+                                                "Schaden: kristalline Ausblühungen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Damage
+crown:Damage rdf:type owl:Class ;
+             rdfs:subClassOf crown:Condition ;
+             rdfs:label "Damage"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#DefectsDamage
+crown:DefectsDamage rdf:type owl:Class ;
+                    rdfs:subClassOf crown:Damage ;
+                    rdfs:label "Schaden: Fehlstellen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#DeformationDamage
+crown:DeformationDamage rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Damage ;
+                        rdfs:label "Schaden: Deformierung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Description
+crown:Description rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#DetachmentOfPlateDamage
+crown:DetachmentOfPlateDamage rdf:type owl:Class ;
+                              rdfs:subClassOf crown:Damage ;
+                              rdfs:label "Schaden: Abhebung vom Grundblech"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Dimensions
+crown:Dimensions rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#DiscolorationDamage
+crown:DiscolorationDamage rdf:type owl:Class ;
+                          rdfs:subClassOf crown:Damage ;
+                          rdfs:label "Schaden: Verfärbung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#DrillHole
+crown:DrillHole rdf:type owl:Class ;
+                rdfs:subClassOf crown:Component ;
+                rdfs:label "Bohrloch"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Drilling
+crown:Drilling rdf:type owl:Class ;
+               rdfs:subClassOf crown:Component ;
+               rdfs:label "Bohrung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Email
+crown:Email rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component ;
+            rdfs:label "Email"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#EmailDamage
+crown:EmailDamage rdf:type owl:Class ;
+                  rdfs:subClassOf crown:Damage ;
+                  rdfs:label "Schaden: Email"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#EmailIntervention
+crown:EmailIntervention rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Process .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#EmailOtherDamage
+crown:EmailOtherDamage rdf:type owl:Class ;
+                       rdfs:subClassOf crown:EmailDamage ,
+                                       crown:OtherDamage ;
+                       rdfs:label "Schadensbild Email: Sonstiges"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#EmailSupplement
+crown:EmailSupplement rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Component ;
+                      rdfs:label "Emailergänzung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#EmailToolTraceDamage
+crown:EmailToolTraceDamage rdf:type owl:Class ;
+                           rdfs:subClassOf crown:EmailDamage ,
+                                           crown:ToolTraceDamage ;
+                           rdfs:label "Schadensbild Email: Werkzeugspuren"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Ends
+crown:Ends rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Feature
+crown:Feature rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Flaw
+crown:Flaw rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#FractureDamage
+crown:FractureDamage rdf:type owl:Class ;
+                     rdfs:subClassOf crown:Damage ;
+                     rdfs:label "Fracture"@en ,
+                                "Schaden: Bruch"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#FracturesDamage
+crown:FracturesDamage rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Damage ;
+                      rdfs:label "Fractures"@en ,
+                                 "Schaden: Brüche"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldCrackDamage
+crown:GoldCrackDamage rdf:type owl:Class ;
+                      rdfs:subClassOf crown:CrackDamage ,
+                                      crown:GoldDamage ;
+                      rdfs:label "Schadensbild Gold: Riss"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldDamage
+crown:GoldDamage rdf:type owl:Class ;
+                 rdfs:subClassOf crown:Damage ;
+                 rdfs:label "Schaden: Gold"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldDeformationDamage
+crown:GoldDeformationDamage rdf:type owl:Class ;
+                            rdfs:subClassOf crown:DeformationDamage ,
+                                            crown:GoldDamage ;
+                            rdfs:label "Schaden Gold: Deformierungen"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldIntervention
+crown:GoldIntervention rdf:type owl:Class ;
+                       rdfs:subClassOf crown:Process .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldOtherDamage
+crown:GoldOtherDamage rdf:type owl:Class ;
+                      rdfs:subClassOf crown:GoldDamage ;
+                      rdfs:label "Schaden Gold: Sonstiges"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldSettingEvidenceDamage
+crown:GoldSettingEvidenceDamage rdf:type owl:Class ;
+                                rdfs:subClassOf crown:GoldDamage ,
+                                                crown:SettingEvidenceDamage ;
+                                rdfs:label "Schadensbild Gold: Hinweise auf Ausfassung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldSupplement
+crown:GoldSupplement rdf:type owl:Class ;
+                     rdfs:label "Goldergänzung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GoldToolTraceDamage
+crown:GoldToolTraceDamage rdf:type owl:Class ;
+                          rdfs:subClassOf crown:GoldDamage ;
+                          rdfs:label "Schadensbild Gold: Werkzeugspuren"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Granule
+crown:Granule rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Grooves
+crown:Grooves rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#GroundInclusionsProcessing
+crown:GroundInclusionsProcessing rdf:type owl:Class ;
+                                 rdfs:subClassOf crown:Processing ;
+                                 rdfs:label "Bearbeitung: ausgeschliffene Einschlüsse"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Head
+crown:Head rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component ;
+           rdfs:label "Kopf"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Helix
+crown:Helix rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#HoleRow
+crown:HoleRow rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Holes
+crown:Holes rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Inclusion
+crown:Inclusion rdf:type owl:Class ;
+                rdfs:subClassOf crown:Description ;
+                rdfs:label "Einschlüsse"@de ,
+                           "Inclusion"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#InclusionProfil
+crown:InclusionProfil rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Description ;
+                      rdfs:label "Einschlussprofil"@de ,
+                                 "Inclusion profil"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Indentation
+crown:Indentation rdf:type owl:Class ;
+                  rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Intervention
+crown:Intervention rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Description ;
+                   rdfs:label "Eingriff"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#InterventionCausedDamage
+crown:InterventionCausedDamage rdf:type owl:Class ;
+                               rdfs:subClassOf crown:Damage ;
+                               rdfs:label "Schaden: durch Eingriff verursachte Schäden"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#InterventionEmail
+crown:InterventionEmail rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Intervention ;
+                        rdfs:label "Eingriff Email"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#InterventionGold
+crown:InterventionGold rdf:type owl:Class ;
+                       rdfs:subClassOf crown:Intervention ;
+                       rdfs:label "Eingriff Gold"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#InterventionGoldSurface
+crown:InterventionGoldSurface rdf:type owl:Class ;
+                              rdfs:subClassOf crown:InterventionGold ;
+                              rdfs:label "Eingriff Gold: überschliffene Oberfläche"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Joint
+crown:Joint rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Latch
+crown:Latch rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#LevelDifferenceToSupportDamage
+crown:LevelDifferenceToSupportDamage rdf:type owl:Class ;
+                                     rdfs:subClassOf crown:EmailDamage ;
+                                     rdfs:label "Schadensbild Email: Niveauunterschied zum Träger"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#LiabilityLossDamage
+crown:LiabilityLossDamage rdf:type owl:Class ;
+                          rdfs:subClassOf crown:Damage ;
+                          rdfs:label "Schaden: Haftungsverlust"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Lochfiligran
+crown:Lochfiligran rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#LooseConnectionDamage
+crown:LooseConnectionDamage rdf:type owl:Class ;
+                            rdfs:subClassOf crown:Damage ;
+                            rdfs:label "Schaden: gelöste Verbindung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#LowerEdge
+crown:LowerEdge rdf:type owl:Class ;
+                rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#LowerEnd
+crown:LowerEnd rdf:type owl:Class ;
+               rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcess
+crown:ManufacturingProcess rdf:type owl:Class ;
+                           rdfs:subClassOf crown:Description ;
+                           rdfs:label "Herstellungsprozess"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcessSurface
+crown:ManufacturingProcessSurface rdf:type owl:Class ;
+                                  rdfs:subClassOf crown:ManufacturingProcess ;
+                                  rdfs:label "Herstellungsprozess: Oberfläche"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcessToolTraces
+crown:ManufacturingProcessToolTraces rdf:type owl:Class ;
+                                     rdfs:subClassOf crown:ManufacturingProcess ;
+                                     rdfs:label "Herstellungsprozess: Werkzeugspuren Beschreibung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#MaterialRemovalDamage
+crown:MaterialRemovalDamage rdf:type owl:Class ;
+                            rdfs:subClassOf crown:Damage ;
+                            rdfs:label "Damage: material removal"@en ,
+                                       "Schaden: Materialabtrag"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Measurements
+crown:Measurements rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Description ;
+                   rdfs:label "Maße"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#MeltedParts
+crown:MeltedParts rdf:type owl:Class ;
+                  rdfs:subClassOf crown:Description .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#MicroCrackDamage
+crown:MicroCrackDamage rdf:type owl:Class ;
+                       rdfs:subClassOf crown:Damage ;
+                       rdfs:label "Schaden: Mikroriss"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#MissingPartDamage
+crown:MissingPartDamage rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Damage ;
+                        rdfs:label "Schaden: fehlende Teile"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Object
+crown:Object rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#OtherDamage
+crown:OtherDamage rdf:type owl:Class ;
+                  rdfs:subClassOf crown:Damage ;
+                  rdfs:label "Schaden: Sonstiges"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PearlIntervention
+crown:PearlIntervention rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Process .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PearlWire
+crown:PearlWire rdf:type owl:Class ;
+                rdfs:subClassOf crown:Wire ;
+                rdfs:label "Perldraht"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PearlWireArc
+crown:PearlWireArc rdf:type owl:Class ;
+                   rdfs:subClassOf crown:Arc ,
+                                   crown:PearlWire ;
+                   rdfs:label "Bogen: Perldraht"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PearlWireRing
+crown:PearlWireRing rdf:type owl:Class ;
+                    rdfs:subClassOf crown:Wire ;
+                    rdfs:label "Perldrahtring"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Perldraht
+crown:Perldraht rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Perldrahtring
+crown:Perldrahtring rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Pin
+crown:Pin rdf:type owl:Class ;
+          rdfs:subClassOf crown:Component ;
+          rdfs:label "Einsteckstift"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Pins
+crown:Pins rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component ;
+           rdfs:label "Einsteckstifte"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PreservationProcess
+crown:PreservationProcess rdf:type owl:Class ;
+                          rdfs:subClassOf crown:Process .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Process
+crown:Process rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Processing
+crown:Processing rdf:type owl:Class ;
+                 rdfs:subClassOf crown:Description ;
+                 rdfs:label "Bearbeitung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Prong
+crown:Prong rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component ,
+                            crown:Setting .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#PyramidOfGranules
+crown:PyramidOfGranules rdf:type owl:Class ;
+                        rdfs:subClassOf crown:Component ;
+                        rdfs:label "Kugelpyramide"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Recess
+crown:Recess rdf:type owl:Class ;
+             rdfs:subClassOf crown:Description ;
+             rdfs:label "Eintiefung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#RestorationProcess
+crown:RestorationProcess rdf:type owl:Class ;
+                         rdfs:subClassOf crown:Process .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Ribs
+crown:Ribs rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Ring
+crown:Ring rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#RivetToolTraces
+crown:RivetToolTraces rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Rivets .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Rivets
+crown:Rivets rdf:type owl:Class ;
+             rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ScratchDamage
+crown:ScratchDamage rdf:type owl:Class ;
+                    rdfs:subClassOf crown:Damage ;
+                    rdfs:label "Schaden: Kratzer"@de ,
+                               "Scratch"@en .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Setting
+crown:Setting rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#SettingEvidenceDamage
+crown:SettingEvidenceDamage rdf:type owl:Class ;
+                            rdfs:subClassOf crown:Damage ;
+                            rdfs:label "Schadensbild : Hinweise auf Ausfassung"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Shape
+crown:Shape rdf:type owl:Class ;
+            rdfs:subClassOf crown:Description .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Sockets
+crown:Sockets rdf:type owl:Class ;
+              rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Solder
+crown:Solder rdf:type owl:Class ;
+             rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Soldering
+crown:Soldering rdf:type owl:Class ;
+                rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#SolderingTechnique
+crown:SolderingTechnique rdf:type owl:Class ;
+                         rdfs:subClassOf crown:Description .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#StabilizationMaterial
+crown:StabilizationMaterial rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Stone
+crown:Stone rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Strap
+crown:Strap rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Surface
+crown:Surface rdf:type owl:Class ;
+              rdfs:subClassOf crown:Description ;
+              rdfs:label "Oberfläche"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#SurfaceTurbidityDamage
+crown:SurfaceTurbidityDamage rdf:type owl:Class ;
+                             rdfs:subClassOf crown:Damage ;
+                             rdfs:label "Schaden: Trübung der Oberfläche"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Talon
+crown:Talon rdf:type owl:Class ;
+            rdfs:subClassOf crown:Setting .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#TextileFiberHoleRow
+crown:TextileFiberHoleRow rdf:type owl:Class ;
+                          rdfs:subClassOf crown:HoleRow .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#ToolTraceDamage
+crown:ToolTraceDamage rdf:type owl:Class ;
+                      rdfs:subClassOf crown:Damage ;
+                      rdfs:label "Schaden: Werkzeugspuren"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Treatment
+crown:Treatment rdf:type owl:Class ;
+                rdfs:subClassOf crown:Feature .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Tube
+crown:Tube rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#UpperEdge
+crown:UpperEdge rdf:type owl:Class ;
+                rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Webs
+crown:Webs rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Wire
+crown:Wire rdf:type owl:Class ;
+           rdfs:subClassOf crown:Component ;
+           rdfs:label "Draht"@de .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#WireBinding
+crown:WireBinding rdf:type owl:Class .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#WireCVolutes
+crown:WireCVolutes rdf:type owl:Class ;
+                   rdfs:subClassOf crown:CVolutes ,
+                                   crown:Wire .
+
+
+###  https://gams.uni-graz.at/o:ontology.crown#Wires
+crown:Wires rdf:type owl:Class ;
+            rdfs:subClassOf crown:Component ;
+            rdfs:label "Drähte"@de .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

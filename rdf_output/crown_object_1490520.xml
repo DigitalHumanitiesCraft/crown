@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490520">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490520/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_040</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_040, ÜBERARBEITEN; mittel; RK in der linken Bildhälfte; mit Szepter, Reichsapfel auf Tisch; zu sehen Kreuz, Bügel, A, H, G; Figuren auf H identifizierbar, Schrift angedeutet, aber nicht lesbar; Schrift auf Bügel angedeutet, nicht klar lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490520.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_040</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; mittel; RK in der linken Bildhälfte; mit Szepter, Reichsapfel auf Tisch; zu sehen Kreuz, Bügel, A, H, G; Figuren auf H identifizierbar, Schrift angedeutet, aber nicht lesbar; Schrift auf Bügel angedeutet, nicht klar lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</rdfs:comment>
+    <rdfs:comment>Kaiser Maximilian hat die rechte behandschuhte Hand in die Hüfte gestemmt; Die linke hat er am Griff des Degens. Strümpfe und Wams sind weis. Die Schuhe und die geschlitzte Hose mit weisem Futter silbern. Sein Brustharnich ist ebenfalls silbern mit goldener Ornamentik. Auf der Brust die Collane des Ordens vom goldenen Vlies. Er trägt ein kleine Halskrause. Links ein Tisch auf dessen steinerner Platte Szepter, Reichsapfel und die Reichskrone platziert sind. Die Krone ist mit Stirnkreuz und Platte auf Maximilian ausgerichtet. Durch die schräge Positionierung ist die Platte der Krone mit dem Emaillle mit Chrisus flankiert von zwei Engeln sichtbar. Die Inschrift \"P [er] me reges regnant\" ist ebenfalls wiedergegeben. Auf der Säule hinter dem Tisch ist ein schwarzer Doppeladler zu sehen. Der Hut des Kaisers mit weiser Feder liegt auf einem Thronstuhl, dessen Stoffbespannung der Rückenlehne eine Darstellung der rudolfinischen Krone ziert.</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>246 x 144 cm</dcterms:extent>
+    <gams:textualContent>1490520 CR_1_QB_Gm_1526-1796_040 Bildquelle Gemälde 1875 Öl; Leinwand ÜBERARBEITEN; mittel; RK in der linken Bildhälfte; mit Szepter, Reichsapfel auf Tisch; zu sehen Kreuz, Bügel, A, H, G; Figuren auf H identifizierbar, Schrift angedeutet, aber nicht lesbar; Schrift auf Bügel angedeutet, nicht klar lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520.media.906296">
+        <rdfs:label>INV_GG_7176.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520.media.1195617">
+        <rdfs:label>GG_7182_ScanBDA_2019_001</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520.media.1195619">
+        <rdfs:label>GG_7182_2018_10_002</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:label>Signiert links unten: \"L. Minnigerode 875\" mit Kürzungsstrich über der Jahreszahl</crown:label>
+    <schema:identifier>MD066627</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490520.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.1">
+    <schema:contentURL>INV_GG_7000_8999\INV_GG_7176.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.2">
+    <schema:contentURL>GG\Verband\Revision Objekte\GG_7182_ScanBDA_2019_001.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490520/IMAGE.3">
+    <schema:contentURL>GG\Verband\Revision Objekte\GG_7182_2018_10_002.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

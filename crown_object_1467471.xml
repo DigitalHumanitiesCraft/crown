@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:void="http://rdfs.org/ns/void#"
+>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object1467471.o">
+    <crown:descriptionOfComponents>
+      <crown:Aperture rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.aperture">
+        <rdfs:label>Öffnung in Grundplatte</rdfs:label>
+        <rdfs:label>Öffnung</rdfs:label>
+        <crown:onBaseplate rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BasePlate"/>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#PearlWireIncluding"/>
+        <crown:other>unterster Teil überdeckt vom Eisenband; </crown:other>
+      </crown:Aperture>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:PearlWireRing rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.pearlwirering">
+        <crown:wire>
+          <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.wire.1">
+            <crown:onBaseplate rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#zweireihig"/>
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline"/>
+          </crown:Wire>
+        </crown:wire>
+        <crown:wire>
+          <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.wire.2">
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline"/>
+          </crown:Wire>
+        </crown:wire>
+        <crown:wire>
+          <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.wire.3">
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline"/>
+          </crown:Wire>
+        </crown:wire>
+      </crown:PearlWireRing>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.tube">
+        <rdfs:label>Röhrchen</rdfs:label>
+        <crown:number>8</crown:number>
+        <crown:topEdge rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Runddraht"/>
+        <crown:bottomEdge rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Runddraht"/>
+        <crown:joint rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#offen"/>
+        <crown:other>1. Röhrchen Wand zwischen Basis und Kapitell über gesamte Längsseite ein angelötetes Stück Halbrunddraht – Stabilisierung Röhrchenwand?;_x000d_
+_x000d_
+</crown:other>
+      </crown:Tube>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Talons rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.talons">
+        <rdfs:label>Krallen</rdfs:label>
+        <crown:number>4</crown:number>
+      </crown:Talons>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Strap rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.strap">
+        <rdfs:label>Schlaufen</rdfs:label>
+        <crown:crossSection rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#HalbzylindirscherFlachdraht"/>
+      </crown:Strap>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Granules rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.granules">
+        <rdfs:label>Granalien</rdfs:label>
+        <crown:number>12</crown:number>
+        <crown:numberBetweenTalons>3</crown:numberBetweenTalons>
+      </crown:Granules>
+    </crown:descriptionOfComponents>
+    <crown:conditionOfObject>
+      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.deformationdamage">
+        <rdfs:label>Deformierungen</rdfs:label>
+        <crown:comment>6. Röhrchen Wand zusammengedrückt längsgerichtet weiche Falte; /. Röhrchen Wand verbeult; </crown:comment>
+      </crown:DeformationDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.detachmentofplatedamage">
+        <rdfs:label>Abhebung vom Grundblech</rdfs:label>
+        <crown:comment>möglicherweise wegwn Montage Eisenband Ei_15;</crown:comment>
+      </crown:DetachmentOfPlateDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.tooltracedamage">
+        <rdfs:label>Werkzeugspuren</rdfs:label>
+        <crown:comment>Krallen Dellen Kerben flachgedrückte Stelen; _x000d_
+1. Perldrahtring bei 6. Röhrchen halbrunde Kerbe von Kugelkopfniete Eisenband Ei_15; </crown:comment>
+      </crown:ToolTraceDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.adhesiondamage">
+        <rdfs:label>Anhaftungen</rdfs:label>
+        <crown:comment>rötlich pulvrig sandig; _x000d_
+rötlich wachsartige Masse unter 2. Kralle; </crown:comment>
+      </crown:AdhesionDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.settingevidencedamage">
+        <rdfs:label>Hinweise auf Ausfassung</rdfs:label>
+        <crown:comment>_x000d_
+Krallen Werkzeugspuren;  verschmort (wiedererhitzt) wirkende Oberfläche  Hinweis auf Reparaturlötung;_x000d_
+</crown:comment>
+      </crown:SettingEvidenceDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.condition">
+        <rdfs:label>herstellungszeitlicher Zustand</rdfs:label>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#ProductionStatusnein"/>
+      </crown:Condition>
+    </crown:conditionOfObject>
+    <crown:description>
+      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1467471.interventions">
+        <rdfs:label>Eingriff</rdfs:label>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumberH_Ei_15;"/>
+      </crown:Interventions>
+    </crown:description>
+  </crown:Object>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object1467471">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1467471/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:rights>Creative Commons BY 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-22</dcterms:modified>
+  </void:Dataset>
+</rdf:RDF>

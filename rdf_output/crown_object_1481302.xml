@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:schema="https://schema.org/"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.o">
+    <rdfs:label>Lochfassung für Perle mit Einsteckstift, CR_1_K_Fa_36</rdfs:label>
+    <rdfs:comment>mit Perle</rdfs:comment>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1481302 CR_1_K_Fa_36 Stirnkreuz Lochfassung für Perle mit Einsteckstift Gold mit Perle</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.media.1435102">
+        <rdfs:label>CR_1_K_Fa_36_Lokalisation</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.media.1435103">
+        <rdfs:label>CR_1_K_Fa_37_Lokalisation</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.media.1423823">
+        <rdfs:label>CR_1_K_Fa_Nummerierung_farbig</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:conditionOfObject>
+      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.adhesiondamage">
+        <crown:comment>rötlich; pulvrig;</crown:comment>
+      </crown:AdhesionDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.discolorationdamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:DiscolorationDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.burntsurface">
+        <crown:comment>Trägerblech: rund um Löcher ausgemeiselte Kanten, weich gerundet nach innen zusammengesunken;</crown:comment>
+      </crown:BurntSurface>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.tooltracedamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:ToolTraceDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.deformationdamage">
+        <crown:comment>Fassung: seitlich nach innen gedrückt; Trägerblech, Oberkante: an einer Stelle eingedrückt;</crown:comment>
+      </crown:DeformationDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.detachmentofplatedamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:DetachmentOfPlateDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.crackdamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:CrackDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.brokensolderingdamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:BrokenSolderingDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.fracturedamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:FractureDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.missingpartdamage">
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:MissingPartDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.settingevidencedamage">
+        <crown:comment>Perle: mit Reparaturdraht aus Gold an die Fassung gebunden;</crown:comment>
+      </crown:SettingEvidenceDamage>
+    </crown:conditionOfObject>
+    <crown:conditionOfObject>
+      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.condition">
+        <crown:other>(not assigned)</crown:other>
+      </crown:Condition>
+    </crown:conditionOfObject>
+    <crown:description>
+      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.interventions">
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumberCR_1_K_Ei_11"/>
+      </crown:Interventions>
+    </crown:description>
+    <crown:description>
+      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.intervention">
+        <crown:comment>Perle: mit Reparaturdraht aus Gold an die Fassung gebunden;</crown:comment>
+      </crown:Intervention>
+    </crown:description>
+    <crown:description>
+      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.manufacturingprocess">
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
+      </crown:ManufacturingProcess>
+    </crown:description>
+    <crown:descriptionOfComponents>
+      <crown:CapitalsArkadenfiligran rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.capitalsarkadenfiligran">
+        <crown:wireDiameter rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#0.00000000"/>
+        <crown:crossSection rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#(auswaehlen)"/>
+      </crown:CapitalsArkadenfiligran>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Arkadenfiligran rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.arkadenfiligran">
+        <crown:other>(not assigned)</crown:other>
+      </crown:Arkadenfiligran>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Granules rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.granules">
+        <crown:number>0</crown:number>
+        <crown:distanceBetween>0</crown:distanceBetween>
+      </crown:Granules>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:PearlWireRing rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.pearlwirering">
+        <crown:wire rdf:resource="https://gams.uni-graz.at/o:crown.object.1481302.descriptionOfComponents.wire"/>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline0"/>
+      </crown:PearlWireRing>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Talons rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.talons">
+        <crown:number>0</crown:number>
+        <crown:other>(not assigned)</crown:other>
+      </crown:Talons>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Pins rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.pins">
+        <crown:other>(not assigned)</crown:other>
+      </crown:Pins>
+    </crown:descriptionOfComponents>
+  </crown:Object>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481302">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481302/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Lochfassung für Perle mit Einsteckstift, CR_1_K_Fa_36</dc:title>
+    <dc:description>Lochfassung für Perle mit Einsteckstift, CR_1_K_Fa_36, mit Perle</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.3">
+    <schema:contentURL>Projekte\CROWN\CR_1_K\CR_1_K_Fa_Nummerierung_farbig.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_K\CR_1_K_Fa\CR_1_K_Fa_36\CR_1_K_Fa_36_Lokalisation.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481302/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_K\CR_1_K_Fa\CR_1_K_Fa_37\CR_1_K_Fa_37_Lokalisation.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1481302.descriptionOfComponents.wire">
+    <crown:diameter>0</crown:diameter>
+  </crown:Wire>
+</rdf:RDF>

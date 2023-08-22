@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482017">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482017/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Foto, CR_1_QB_Fo_1797-1919_015</dc:title>
+    <dc:description>Foto, CR_1_QB_Fo_1797-1919_015, Detailfotografie der Reichskrone; Fotografie des Stirnkreuzes; S/W-Aufnahme; Ansicht von hinten; vor hellem Grund; Details gut lesbar; Dargestellte Bauteile: KK; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482017.o">
+    <rdfs:label>Foto, CR_1_QB_Fo_1797-1919_015</rdfs:label>
+    <rdfs:comment>Detailfotografie der Reichskrone; Fotografie des Stirnkreuzes; S/W-Aufnahme; Ansicht von hinten; vor hellem Grund; Details gut lesbar; Dargestellte Bauteile: KK; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Fotografie</dcterms:medium>
+    <dcterms:extent>Kartonmaß: 32,2 cm × 24,8 cm Bildmaß: 11,3 cm × 12,4 cm</dcterms:extent>
+    <gams:textualContent>1482017 CR_1_QB_Fo_1797-1919_015 Bildquelle Foto 1918 Fotografie Detailfotografie der Reichskrone; Fotografie des Stirnkreuzes; S/W-Aufnahme; Ansicht von hinten; vor hellem Grund; Details gut lesbar; Dargestellte Bauteile: KK; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482017.media.1432527">
+        <rdfs:label>CR_1_QB_Fo_1797-1919_015 (0011)</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482017/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482017.media.1432528">
+        <rdfs:label>CR_1_QB_Fo_1797-1919_015_rueckseite</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482017/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:label>Handschriftliche Beschriftung rückseitig: 31</crown:label>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482017.color">
+        <crown:color>schwarz-weiß</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482017/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_015_rueckseite.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482017/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_015 (0011).jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

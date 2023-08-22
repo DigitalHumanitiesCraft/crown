@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:schema="https://schema.org/"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.o">
+    <rdfs:label>Umarbeitung, CR_1_G_Ei_23</rdfs:label>
+    <rdfs:comment>9 Löcher angereiht an Unterkante von Grundplatte;  Löcher gehen teilweise durch Ornamente von Grundplattenfiligran; </rdfs:comment>
+    <gams:textualContent>1481934 CR_1_G_Ei_23 Kronreif Umarbeitung 9 Löcher angereiht an Unterkante von Grundplatte; 
+Löcher gehen teilweise durch Ornamente von Grundplattenfiligran;</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.media.1424201">
+        <rdfs:label>CR_1_G_Ei_23_Lokalisation</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481934/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:descriptionOfComponents>
+      <crown:HoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.holerow">
+        <crown:number>9</crown:number>
+        <crown:production>regelmäßiger Grat auf Rückseite der Platte [[Löcher gebohrt (?)]]; _x000d_
+</crown:production>
+      </crown:HoleRow>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:TextileFiberHoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.textilefiberholerow">
+        <crown:comment>2. Loch und um Fa_66, Fa_67 u. Fa_68 gewunden: hellrosa Faden - in Bündeln locker verdrehte Fasern; _x000d_
+7., 8., u. 9. Loch: beiger Faden, teilweise mehrfach, durch Löcher gefädelt; </crown:comment>
+      </crown:TextileFiberHoleRow>
+    </crown:descriptionOfComponents>
+    <crown:descriptionOfComponents>
+      <crown:Soldering rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.soldering">
+        <crown:material>(not assigned)</crown:material>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SlushySurface0"/>
+        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BurntSurface0"/>
+        <crown:other>(not assigned)</crown:other>
+      </crown:Soldering>
+    </crown:descriptionOfComponents>
+    <crown:conditionOfObject>
+      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1481934.intervention">
+        <crown:comment>fehlende Teile / Materialverlust duch Bohrung:_x000d_
+- GrFi: 1., 3., 5., 7. u. 8. Loch durch Ornament gebohrt_x000d_
+- GrUm: 4. Loch;_x000d_
+ _x000d_
+Werkzeugspuren: _x000d_
+- Fa_68: 1. Perldrahtring (4. Loch);</crown:comment>
+      </crown:Intervention>
+    </crown:conditionOfObject>
+  </crown:Object>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481934">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481934/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Umarbeitung, CR_1_G_Ei_23</dc:title>
+    <dc:description>Umarbeitung, CR_1_G_Ei_23, 9 Löcher angereiht an Unterkante von Grundplatte;  Löcher gehen teilweise durch Ornamente von Grundplattenfiligran; </dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481934/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_G\CR_1_G_Ei\CR_1_G_Ei_23\CR_1_G_Ei_23_Lokalisation.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

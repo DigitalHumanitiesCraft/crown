@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489849">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Kopie, CR_1_QB_Ko_Bis1919_002</dc:title>
+    <dc:description>Kopie, CR_1_QB_Ko_Bis1919_002, AUSSTEHEND; niedrig; freie Nachbildung der RK; stark vereinfacht; formal an der Reichskrone orientiert: Bügel, Kreuz, allerdings sechs Platten; ursprünglich reicher Edelsteinschmuck</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.o">
+    <rdfs:label>Kopie, CR_1_QB_Ko_Bis1919_002</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; niedrig; freie Nachbildung der RK; stark vereinfacht; formal an der Reichskrone orientiert: Bügel, Kreuz, allerdings sechs Platten; ursprünglich reicher Edelsteinschmuck</rdfs:comment>
+    <rdfs:comment>\"Zwei weitere fiktive, schlichte und freie Nachbildungen in vergoldetem Silber und inzwischen ohne ursprünglichern Edelsteinbesatz wurden 1742 in Frankfurt am Main von Nikolaus Nell oder in Augsburg von Jakob Philipp VI. hergestellt. Die Kopien befinden sich zusammen mit Kopien des Reichsapfels und des Zepters in der Schatzkammer der Münchner Residenz und dürften innerhalb der Krönungszeremonie als Sogenannte Hauskronen für den Regierungsalltag gedient haben. Die vielleicht ebenfalls 1742 geschaffenen Nachbildungen sind vereinfacht. [...]\"</rdfs:comment>
+    <rdfs:comment>\"[...] freie Nachbildungen der römisch-deutschen Reichskrone aus vergoldetem Silber. Beide weisen sieben zusammenhängende Platten mit einem kaiserlichen Kronbügel auf und beide tragen ein Kreuz über der Stirnplatte. Auf zwei der vorderen Platten finden sich die Figuren der beiden Apostel Petrus und Paulus. Die erste, größere Krone wurde von Jakob Philipp Drentwett in Augsburg hergestellt. Sie [...] zeigt auf den Platten Muschel-, Blatt- und Knorpelornamente. Die zweite, kleinere Krone wurde von Nikolaus Nell in Frankfurt am Main hergestellt. Sie [...] zeigt gravierte Ranken und Bandornamente. Beide Kronen besaßen ursprünglich Kronhauben und waren mit reichem Edelsteinschmuck versehen. Der Edelsteinbesatz wurde unter den Nachfolgern, wahrscheinlich schon unter Kurfürst Max III. Joseph, aus den Kronen entfernt und in Orden und Schmuckstücken weiterverarbeitet.\"</rdfs:comment>
+    <rdfs:comment>Kaiserkrone Karls VII.  Zu den Reichskleinodien zählten Herrschaftszeichen und Reliquien. Anlässlich der Krönung Karls VII. wurden – in Anlehnung an die mittelalterlichen Insignien – zusätzliche Herrschaftszeichen angefertigt, die später ihres Edelsteinschmucks beraubt wurden.  Philipp Jacob Drentwett d. J. (1694–1751) Augsburg, um 1742 Silber, vergoldet, getrieben, ziseliert, graviert, H. 25,3, Durchmesser 23 München, Bayerische Verwaltung der staatlichen Schlösser, Gärten und Seen, Schatzkammer der Residenz (Schk. 239)  Die Bestimmung eines neuen Herrschers war zunächst das Ergebnis einer Mehrheitsentscheidung der Kurfürsten, die ihre Rechtskraft durch die Wahlzeremonie im sakralen Raum des Frankfurter Kaiserdoms erhielt. Der designierte Herrscher war also mit göttlichem Beistand gewählt, jedoch noch nicht als Stellvertreter Gottes auf Erden gekennzeichnet. Während der Krönungszeremonie wurden ihm deshalb wertvolle Gegenstände und Kleidungsstücke verliehen, die seine Erwählung als von Gott gewollt sichtbar machten. Die Hauptstücke der Insignien waren Krone, Reichsapfel, Schwert und Zepter. Daneben zählten weitere Kleidungsstücke, Reliquien und sakrale Schriften zu den Reichskleinodien. Kaiser Sigismund übergab die Herrschaftszeichen 1424 zur dauerhaften Aufbewahrung der Stadt Nürnberg, weitere Reichsinsignien befanden sich in Aachen. Das Hauptstück des Nürnberger Insignienschatzes war die Reichskrone. Anlässlich der Krönung Kaiser Karls VII. 1742 wurden zusätzlich zwei Hauskronen angefertigt, die 1745 erstmals als „Zwey Haus cronen von Silber, vnd vergoldt …” in den Beständen der Schatzkammer erscheinen. Ihre genaue Bestimmung im Zusammenhang des Krönungszeremoniells ist unklar. Möglicherweise wurde eine der Kronen 1745 bei der Bestattung Karls VII. benutzt. Mit ihren sechs Platten, Bügel, Kreuz und ursprünglich reichem Edelsteinschmuck orientieren sich beide Kronen formal an der Reichskrone. Sie erheben jedoch keineswegs den Anspruch einer Kopie, sondern verweisen vielmehr auf die Reichskrone. Eine der beiden Hauskronen entstand am Ort der Krönung, die andere wurde von dem Augsburger Goldschmied Jacob Philipp VI. Drentwett angefertigt. Die Schläfenplatten der Krone zeigen die Apostel Petrus und Paulus, während die übrigen mit vegetabilem Ornament verziert sind. Unklar ist, wann und aus welchem Grund die Edelsteine der Krone entfernt wurden, so dass sie sich heute als Karkasse darbietet. Der Reichsapfel vereint das heidnische Symbol der Sphaira, Symbol des Kosmos, und das christliche Kreuz zur Insignie des göttlich legitimierten Herrschaftsanspruchs. Auch die vereinfachte Nachbildung des Reichsapfels für Karl VII. wurde ihres Edelsteinschmucks beraubt. Ferner zählte das Zepter bereits zu den kaiserlichen Insignien der Antike, das die Rechtsprechung des Herrschers symbolisiert. Stärker als Hauskrone und Reichsapfel orientiert sich das Zepter Karls VII. an seinem mittelalterlichen Vorbild, das auf Kaiser Ludwig den Bayern zurückgeht. Der sich nach oben verjüngende Stab schließt in einem vierseitigen Knauf aus Blättern ab, die an Eichenlaub erinnern. Unter den Reichskleinodien befand sich auch eine Lanze, die angeblich einen Nagel vom Kreuz Christi enthielt und deshalb als „Heilige Lanze” hohe religiöse Verehrung empfing. Die militärischen Siege ihrer Besitzer, wie der Ottos I. in der Schlacht bei Birten (939), wurden auf die Kraft der Reliquie zurückgeführt. Otto III. ließ die Lanze bei seiner Krönung 996 in Rom voraustragen. Von der Heiligen Lanze wurden mehrfach Imitationen angefertigt, von denen sich eine aus der Zeit um 1000 im Krakauer Domschatz befindet.</rdfs:comment>
+    <dcterms:medium>Silber</dcterms:medium>
+    <dcterms:medium>Gold</dcterms:medium>
+    <dcterms:extent>Außenmaß: 25,2 cm × 22 cm × 22 cm</dcterms:extent>
+    <gams:textualContent>1489849 CR_1_QB_Ko_Bis1919_002 Bildquelle Kopie 1742 Silber; Gold AUSSTEHEND; niedrig; freie Nachbildung der RK; stark vereinfacht; formal an der Reichskrone orientiert: Bügel, Kreuz, allerdings sechs Platten; ursprünglich reicher Edelsteinschmuck</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.media.1441918">
+        <rdfs:label>CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_3</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.media.1441919">
+        <rdfs:label>CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_1</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.media.1441920">
+        <rdfs:label>CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_2</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.media.1442206">
+        <rdfs:label>CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_4</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.media.1442207">
+        <rdfs:label>CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_5</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.5"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <schema:identifier>https://www.residenz-muenchen.de/deutsch/skammer/index.htm</schema:identifier>
+    <schema:identifier>https://de.wikipedia.org/wiki/Kaiserkronen_Karls_VII.</schema:identifier>
+    <schema:identifier>https://www.hdbg.de/bavaria2003/de/d_vergro/d04_03/text.html</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489849.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_3.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_1.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.3">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_2.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.4">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_4.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489849/IMAGE.5">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis 1919_002_kopie_münchen_NELL_5.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

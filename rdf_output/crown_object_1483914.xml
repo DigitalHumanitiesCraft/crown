@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1483914">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1483914/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Objekt, CR_1_QB_Ob_1526-1796_012</dc:title>
+    <dc:description>Objekt, CR_1_QB_Ob_1526-1796_012, NOCH AUSSTEHEND</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1483914.o">
+    <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_012</rdfs:label>
+    <rdfs:comment>NOCH AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Zinn</dcterms:medium>
+    <gams:textualContent>1483914 CR_1_QB_Ob_1526-1796_012 Bildquelle Objekt 1751 Zinn NOCH AUSSTEHEND</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483914.media.1434338">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_012_Elisabeth_Christine_det</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1483914/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483914.media.1434337">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_012_Elisabeth_Christine_ges</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1483914/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:inscription>Inschrift zu Häupten:  PIETATI, ET. PERPETUITATI. DIVAE. ELISABETHAE. CHRISTINAE. VIRTUTIS. ET SAPIENTIAE. GLORIA. COMMEMORANDAE. AN. MDCXCI. XXVIII. AUG. IN. VITAM. INGRESSAE. AN. MDCCVIII. I AUG. CAROLO. BARCINONAE. FELICI. CONNUBIO. IUNCTAE. AN. MDCCXI XII OCT. IMPERII. QUO. NULLUM. EST. SACRATIUS. HONORIFIENTIA. EXALTATAE. AN. MDCCXIV. X. OCT. APOSTOLICI. INSIGNIBUS. REGNI. GLORIFICATAE. AN. MDCCXXIII. VIII. SEP. SACRA. UNCTIONE. PRAGAE. SANCTIFICATAE. AN. MDCCL. XXI. DEC. MORT. NON. CONSUMTAE. SED. CONSUMMATAE. AETERNA. ENIM. FELICITAS. SPEI. CHRISTIANAE. FINIS. EST.  In Liebe und zur Verewigung der hochseligen Elisabeth Christine, der ob ihrer Tugend und Weisheit ruhmwürdigen, die im Jahre 1691, den 28. August, ins Leben getreten, im Jahre 1708, den 1. August, mit Karl in Barcelona in glücklicher Ehe verbunden, im Jahre 1711, den 12. Oktober, zur allerhöchsten Würde einer Kaiserin erhoben, im Jahre 1714, den 10. Oktober, mit den Insignien des apostolischen Königreiches geschmückt, im Jahre 1723, den 8. September, in Prag durch heilige Salbung geweiht, im Jahre 1750, den 21. Dezember, gestorben ist, nicht verzehrt, sondern vollendet, denn die ewige Glückseligkeit ist das Ziel der christlichen Hoffnung.    Inschrift am Fußende:  HAEC. ITAQ. COELESTI. VIRTUTE. FEMINA. NATURAE. FORTUNAE. GRATIAE. DONIS.  IPSAQUE. ORIS. CORPORISQ. GRAVI. MAIESTATE. SUSPICIENDA. SUB. EXPEDITIONE. HISPANICA. COMES. LABORUM. SOLLICITUDINUM. CURARUM. IN SUMMO. FASTIQIO. REGIO. PRIVATORUM. SORTEM. EXPERTA. EST. LUSTRATIS. TERRA, MARIQ. FINIBUS. IN. GERMANIAM. REDUX. OPT. OPTATIS. Q. OPTIMATUM. CIVIUM. PAUPERUM. MATER. NON. RARO. ABSTERSIT. ILLORUM. LACRUMAS QUORUM. OCULOS. NON. VIDIT. DESIDERIO. TRANSMUNDANI. ILLIUS. IMPERII. ACCENSA. TEMPORIS. ET. NATURAE. MISERIAS. FORTITER. TULIT. ATQUE. INAUDITA. SE. IPSA,. CONSTANTIA. VICIT. EDITISQ. ILLUSTRIBUS. EXEMPLIS. ADHIC. IN. SEPULCHRO. VIVIT.  Die Frau also, von himmlischer Tugend, mit ihren Gaben der Natur, des Glücks und der Gnade selbst, schon ob der erhabenen Majestät des Antlitzes und der Leibesgestalt verehrenswert, hat im spanischen Feldzug als Gefährtin in Arbeit, Mühe und Sorge auf dem höchsten Gipfel der Königsmacht das Los der gewöhnlichen Menschen geteilt und ist nach ihren Reisen zu Land nach Deutschland zurückgekehrt, die beste und beliebteste Mutter der Adeligen, der Bürger und der Armen gewesen. Nicht selten wischte sie die Tränen jener ab, deren Augen sie nicht sah. Von Verlangen nach jenem überirdischen Reich entflammt, ertrug sie tapfer die Unbilden der Zeit und der Natur und mit unerhörter Standhaftigkeit hat sie sich selbst besiegt und durch ihr leuchtendes Beispiel lebt sie noch heute im Grabe.</crown:inscription>
+    <schema:identifier>https://kapuzinergruft.com/kaiserin-elisabeth-christine-von-braunschweig-wolfenbuettel</schema:identifier>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483914/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_012_Elisabeth_Christine_gesamt.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483914/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_012_Elisabeth_Christine_detail.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

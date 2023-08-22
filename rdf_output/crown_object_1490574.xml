@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490574">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490574/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_066</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_066, ÜBERARBEITEN; niedrig; RK am rechten Bildrand, auf Tisch; mit Reichsapfel; Steinbesatz angegeben, allerdings abweichend; Bild- und Steinplatten differenziert; ev. auf B figurales Motive angedeutet, aber schlecht lesbar (auch wg. Erhaltungszustand); Bügel mit abweichendem Besatz; dargestellte Bauteile: Kreuz, Bügel, A, B, C; mit stark stilisierter Samthaube</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490574.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_066</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; niedrig; RK am rechten Bildrand, auf Tisch; mit Reichsapfel; Steinbesatz angegeben, allerdings abweichend; Bild- und Steinplatten differenziert; ev. auf B figurales Motive angedeutet, aber schlecht lesbar (auch wg. Erhaltungszustand); Bügel mit abweichendem Besatz; dargestellte Bauteile: Kreuz, Bügel, A, B, C; mit stark stilisierter Samthaube</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>238 x 179 x 3 cm</dcterms:extent>
+    <gams:textualContent>1490574 CR_1_QB_Gm_1526-1796_066 Bildquelle Gemälde 17. Jahrhundert Öl; Leinwand ÜBERARBEITEN; niedrig; RK am rechten Bildrand, auf Tisch; mit Reichsapfel; Steinbesatz angegeben, allerdings abweichend; Bild- und Steinplatten differenziert; ev. auf B figurales Motive angedeutet, aber schlecht lesbar (auch wg. Erhaltungszustand); Bügel mit abweichendem Besatz; dargestellte Bauteile: Kreuz, Bügel, A, B, C; mit stark stilisierter Samthaube</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490574.media.9817">
+        <rdfs:label>GG_7157.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490574/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490574.media.906293">
+        <rdfs:label>INV_GG_7152.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490574/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490574.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490574/IMAGE.1">
+    <schema:contentURL>GG_7157\GG_7157.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490574/IMAGE.2">
+    <schema:contentURL>INV_GG_7000_8999\INV_GG_7152.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

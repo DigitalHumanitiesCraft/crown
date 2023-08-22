@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1483793">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1483793/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1421-1525_004</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1421-1525_004, Ansicht der RK leicht untersichtig; v. vorne rechts; Kaiser Karl der Große trägt sie auf dem Haupt; mit Samthaube; Elemente frei erfunden (G); Email-Motiv ident (Majestas Domini) und an richtiger Position (H); Figuren allerdings in zeitgenössischer Darstellungsweise; Email-Motiv nicht identifzierbar (B); Anzahl, Form, Größe und Position der Hauptsteine und Perlen annähernd ident; Farbigkeit abweichend; Reduktion der Steinfarben auf Rot, Grün, Blau; erkennbare Details: Perldrahtring, Krallen, Grundplattenperldrahtumsäumung; Steinfassungen meist als Kastenfassung dargestellt; keine Fassungen mit Fehlstellen; Reparaturen und Beschädigungen nicht abgebildet Vergleichbare Bauteile: A; B; G (fragmentarisch); H; K; Bg (Seite nicht identifizierbar) Relevanteste Abweichungen: Abweichung der Farbigkeit, keine Fassungen mit Fehlstellen; zusätzliche Steine auf Platte A; Platte G frei erfunden</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1483793.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1421-1525_004</rdfs:label>
+    <rdfs:comment>Ansicht der RK leicht untersichtig; v. vorne rechts; Kaiser Karl der Große trägt sie auf dem Haupt; mit Samthaube; Elemente frei erfunden (G); Email-Motiv ident (Majestas Domini) und an richtiger Position (H); Figuren allerdings in zeitgenössischer Darstellungsweise; Email-Motiv nicht identifzierbar (B); Anzahl, Form, Größe und Position der Hauptsteine und Perlen annähernd ident; Farbigkeit abweichend; Reduktion der Steinfarben auf Rot, Grün, Blau; erkennbare Details: Perldrahtring, Krallen, Grundplattenperldrahtumsäumung; Steinfassungen meist als Kastenfassung dargestellt; keine Fassungen mit Fehlstellen; Reparaturen und Beschädigungen nicht abgebildet Vergleichbare Bauteile: A; B; G (fragmentarisch); H; K; Bg (Seite nicht identifizierbar) Relevanteste Abweichungen: Abweichung der Farbigkeit, keine Fassungen mit Fehlstellen; zusätzliche Steine auf Platte A; Platte G frei erfunden</rdfs:comment>
+    <rdfs:comment> Beschreibung   Kniestück vor dunklem Grund. Karl hält in der bekleideten Rechten das Reichsschwert, in der bekleideten Linken den Reichsapfel. Auf seinem Kopf die Reichskrone. Der Ornat besteht aus der Adlerdalmatica, der über der Brust gekreuzten Stola und dem um die Schultern gelegten Mantel. Alles ist reich mit Perlen und gefaßten Edelsteinen geschmückt. Die Frontalität, der ernste Blick, wallendes Haar und Bart, Kleid und Insignien geben dem Bild Feierlichkeit und Würde. Oben das deutsche Adler- und das französische Lilienwappen. Um den Rahmen läuft eine Umschrift.     Vermerk am Objekt   Beschriftung: \"Dis·ist·keiser·karlus·gstalt· / sein·kran·vnd·kleidung manigfalt· / zu·nurenberg·offenlich·zeige(n)·wirt· / mit·anderm·heiltum·wie·sich·gepirt· / kung·pippinus·sun·auß·franckreich· / vnd·remischer·keiser·auch·geleich \". (Auf der Rückseite dieselben Wappen, darunter)     Vitrinentext   Sammelkommentar: Karl der Große hatte die Idee des römischen Kaisertums wieder aufgegriffen und galt den folgenden Kaisern als Vorbild. Mit der Tafel schuf Dürer ein neues, fortan gültiges Idealbild. Neben ihm steht Sigismund, der 1424 die Reichskleinodien nach Nürnberg brachte. Nürnberg war seit 1424 Aufbewahrungsort der Reichskleinodien: Die wichtigsten Bestandteile bildeten Kaiserkrone, hl. Lanze und Reichsschwert. Der Schatz wurde einmal im Jahr auf dem Hauptmarkt gezeigt, wofür es Ablass gab. In der Nacht davor wurde er im Schopperschen Haus in einer Art Schrein aufbewahrt. Im Auftrag des Rates malte Dürer hierfür die beiden Tafeln. Sie verloren 1526 mit Aufhebung der Heiltumsweisung ihre Funktion und kamen ins Rathaus. Der Rat sicherte sich das Monopol über alle Kopien.</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Holz</dcterms:medium>
+    <dcterms:extent>Bildmaß: 215 cm × 115 cm</dcterms:extent>
+    <gams:textualContent>1483793 CR_1_QB_Gm_1421-1525_004 Bildquelle Gemälde um 1511/1513 Öl; Holz Ansicht der RK leicht untersichtig; v. vorne rechts; Kaiser Karl der Große trägt sie auf dem Haupt; mit Samthaube; Elemente frei erfunden (G); Email-Motiv ident (Majestas Domini) und an richtiger Position (H); Figuren allerdings in zeitgenössischer Darstellungsweise; Email-Motiv nicht identifzierbar (B); Anzahl, Form, Größe und Position der Hauptsteine und Perlen annähernd ident; Farbigkeit abweichend; Reduktion der Steinfarben auf Rot, Grün, Blau; erkennbare Details: Perldrahtring, Krallen, Grundplattenperldrahtumsäumung; Steinfassungen meist als Kastenfassung dargestellt; keine Fassungen mit Fehlstellen; Reparaturen und Beschädigungen nicht abgebildet
+Vergleichbare Bauteile: A; B; G (fragmentarisch); H; K; Bg (Seite nicht identifizierbar)
+Relevanteste Abweichungen: Abweichung der Farbigkeit, keine Fassungen mit Fehlstellen; zusätzliche Steine auf Platte A; Platte G frei erfunden</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483793.media.1434196">
+        <rdfs:label>CR_1_QB_Gm_1421-1525_004_Albrecht_Duerer_detail</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1483793/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483793.media.1434197">
+        <rdfs:label>CR_1_QB_Gm_1421-1525_004_Albrecht_Duerer_Kaiserb</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1483793/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:label>\"Dis·ist·keiser·karlus·gstalt· / sein·kran·vnd·kleidung manigfalt· / zu·nurenberg·offenlich·zeige(n)·wirt· / mit·anderm·heiltum·wie·sich·gepirt· / kung·pippinus·sun·auß·franckreich· / vnd·remischer·keiser·auch·geleich \"</crown:label>
+    <crown:label>„Karolus magnus imp(er)avit Annis 14“</crown:label>
+    <schema:identifier>http://objektkatalog.gnm.de/objekt/Gm167</schema:identifier>
+    <schema:identifier>Gm167</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1483793.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483793/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1421-1525\CR_1_QB_Gm_1421-1525_004_Albrecht_Duerer_Kaiserbild_Karl_der_Grosse_Deutschland_Nuernberg_760f0303.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1483793/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1421-1525\CR_1_QB_Gm_1421-1525_004_Albrecht_Duerer_detail.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

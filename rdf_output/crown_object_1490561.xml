@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490561">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_053</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_053, ÜBERARBEITEN; niedrig; RK am linken Bildrand, neben der Schulter des verstorbenen Franz I. Stephan; auf mit goldenem Brokat bedecktem Tisch, mit Szepter; Proportionen der RK abweichend; Stein- u. Perlbesatz in der Position grob korrekt, Formen und größe abweichend; sechs Perlen in der der untesten Zeile von A.; Filigrandekor, Perldrähte und Fassungen grob angedeutet; Sichtbare Bauteile: Kreuz, Bügel (kleiner Teil, ohne Text), A; mit Samthaube</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_053</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; niedrig; RK am linken Bildrand, neben der Schulter des verstorbenen Franz I. Stephan; auf mit goldenem Brokat bedecktem Tisch, mit Szepter; Proportionen der RK abweichend; Stein- u. Perlbesatz in der Position grob korrekt, Formen und größe abweichend; sechs Perlen in der der untesten Zeile von A.; Filigrandekor, Perldrähte und Fassungen grob angedeutet; Sichtbare Bauteile: Kreuz, Bügel (kleiner Teil, ohne Text), A; mit Samthaube</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>Bildmaß: 75,3 cm × 97,5 cm × 2 cm Rahmenmaße: 89,5 cm × 112,5 cm × 7,5 cm Gewicht (inkl. Verglasung und Rahmen): 16 kg Falzmaß: 76,1 cm × 98,9 cm × 3 cm Lichtmaß: 73 cm × 96,5 cm</dcterms:extent>
+    <gams:textualContent>1490561 CR_1_QB_Gm_1526-1796_053 Bildquelle Gemälde 1765 Öl; Leinwand ÜBERARBEITEN; niedrig; RK am linken Bildrand, neben der Schulter des verstorbenen Franz I. Stephan; auf mit goldenem Brokat bedecktem Tisch, mit Szepter; Proportionen der RK abweichend; Stein- u. Perlbesatz in der Position grob korrekt, Formen und größe abweichend; sechs Perlen in der der untesten Zeile von A.; Filigrandekor, Perldrähte und Fassungen grob angedeutet; Sichtbare Bauteile: Kreuz, Bügel (kleiner Teil, ohne Text), A; mit Samthaube</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.8033">
+        <rdfs:label>GG_2188.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.232686">
+        <rdfs:label>GG_2188_2000_kat.txt</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.2"/>
+        <dcterms:format>text/plain</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.907305">
+        <rdfs:label>INV_GG_2185.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.961993">
+        <rdfs:label>GG_2188x.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.1274939">
+        <rdfs:label>GG_2188_SW_III_3584_1.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.5"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.media.1274940">
+        <rdfs:label>GG_2188_SW_III_3584_2.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.6"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490561.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.6">
+    <schema:contentURL>GG_2188\GG_2188_SW_III_3584_2.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.3">
+    <schema:contentURL>INV_GG_1_2208\INV_GG_2185.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.1">
+    <schema:contentURL>GG_2188\GG_2188.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.2">
+    <schema:contentURL>GG_2188\GG_2188_2000_kat.txt</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.4">
+    <schema:contentURL>GG_2188\GG_2188x.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490561/IMAGE.5">
+    <schema:contentURL>GG_2188\GG_2188_SW_III_3584_1.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481418">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481418/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_5</dc:title>
+    <dc:description>Akte, CR_1_QS_Ak_1797-1919_5, Akten der Weltlichen Schatzkammer 1838-1839, Faszikel 10</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481418.o">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_5</rdfs:label>
+    <rdfs:comment>Akten der Weltlichen Schatzkammer 1838-1839, Faszikel 10</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <dcterms:medium>Tinte</dcterms:medium>
+    <dcterms:extent>Bögen gefaltet: ca. H. 38 cm × B. 24 cm</dcterms:extent>
+    <gams:textualContent>1481418 CR_1_QS_Ak_1797-1919_5 Schriftquelle Akte 17. Juni 1839 Papier, Tinte Akten der Weltlichen Schatzkammer 1838-1839, Faszikel 10</gams:textualContent>
+    <crown:transcription>  882.  27/1839  Bei der am 13., 14. u. 15. Mai d Js vorschriftmäßig vorgenommenen Revision der kk. Schatzkammer sind die laut Inventarium vorhanden sein sollenden Schmuck= und Präziosen=Gegenstände, dann die Medaillen aller Gattungen durchgehends vollzählig vorgefunden worden. Ebenso haben sich bei den übrigen Sammlungsobjekten keine Abgänge gezeigt, indem jedes Stück, deßen Vorweisung die Kommißion verlangte, auch richtig vorhanden war. Dieses Resultat, so wie die getroffene Einleitung, daß nunmehr die Anzahl der an der Reichskrone sub Nro 1, dann an dem großen Kreuze von Gold sub Nro. 11 bisher nur im Allgemeinen als abgängig angegebenen Steine und Perlen, ermittelt und im Inventarium angemerkt worden ist, dient zur beruhigenden Wißenschaft.  Bei diesem Anlaße hat es sich aber auch als sehr wünschenswerth dargestellt, daß mehrere Piecen der Insignien und Heiligthümer des ehemaligen heil. Römischen Reiches und auch einige andere Gegenstände, welche allenthalben mit verschiedenartigen Edelsteinen und Perlen reich besetzt sind einer genauen Prüfung und Bestimmung der Anzahl, Gattung und Ächtheit dieser Steine und Perlen unterzogen, und inventarisch beschrieben werden.  Diese Piecen von den Reichsinsignien sind folgende:  Kasten Nro 13 Post Nro 1 Reichskrone von feinem Golde. – Posten Nro 3 Reichsapfel, Post Nro 6 die Stola von Goldstoff, Post Nro 7 das Pluviale vom rothen Seidenstoff, – Post Nro 8 zwei Handschuhe, Post Nro 10 zwei Schuhe, – Post Nro 12 das Schwert Carls des Großen.  Ferner von den Reichsheiligthümern:  das Lädchen Nro 6, worin ein Span der Krippe Kristi, Nro 9 und 10 die beschriebenen Monstranzen – Nro 11 ein großes Kreutz von Gold, Nro 12 ein Säbel Karls des Großen, Nro 13 eine Kapsel, Nro ein Evangeliumbuch, endlich auch folgende andere Gegenstände als  Kasten Nro 11 Nachbildung der römisch-kaiserlichen Krone, Abbildung des erzh. östr. Hutes, ein zum erzherzogl. Ornate gehöriger Säbel, endlich eine runde zugespitzte Krone von getriebenem Goldblech.  Diese zur Vervollständigung des Inventariums notwendige Maßregel muß demnach ergriffen werden, zu welchem Ende man hiermit die Anordnung trifft, daß die Echtheit dieser Edelsteine mittels Beiziehung eines Hofjuweliers und des Kustos des kk. Hofmineralienkabinetts im Beisein der hierämtl. Kanzleidirekzion und der kk. Hofstaatsbuchhaltung gehörig geprüft und zugleich auch die Zahl und Gattung derselben, insofern es möglich sein wird, näher bestimmt und inventarisch beschrieben werde, wozu man der kk. Schatzkammer den geeigneten Zeitpunkt b.m. bekannt zu machen sich vorbehält.  Auch ist zur Verminderung der Schreiberei für zweckmäßig erachtet worden und wird der kk. Schatzkammer zugleich hiermit aufgetragen, alle jene verschiedenartigen in den Kästen sub Nro 10, 11, 11½ und 13 aufbewahrten Gegenstände an Krönungsornaten und Insignien, Reichskleinodien u. and. Heiligthümern, da sie keine Veränderung in ihrer Gestalt und Form unterliegen, aus dem Haupt=Schmuck=Inventar auszuscheiden und darüber ein besonderes für sich allein bestehendes Inventarium Ein für allemal zu verfaßen, wozu die vorerwähnte Constatirung der Ächtheit der Edelsteine u. Perlen die entsprechendste Gelegenheit darbietet, wodurch sodann die fast alljährlich widerkehrende neue Verfaßung des geamten Schmuckinventars wird entbehrt werden können, und nur allein über den im Kasten Nro 12 aufbewahrten, veränderlichen Schmuckvorrath eine zweitweise neue Abfaßung des Inventars erforderlich sein wird.  Der zur Krönung in Mailand für den dortigen Erblandes-Obersthofmeister Grafen Scotti – [Anm. SH: Seite leider abgeschnitten] verfertigte Obersthofmeisterstab ist vor […] als theures Andenken an diese Funkzion zu […] ten worden, wozu Se. kk. Majestät durch den […] ligen Oberstkämmerer-Stellvertreter Grafen Seger[?] die mündliche allerhöchste Bewilligung zu ertheilen geruht haben, welches der kk. Schatzkammer dießfalls zur Bedeckung dient.  Czernin  Von dem kk. Oberstkämmereramte  Wien am 17. Juni 1839  Freyh. von Sacken  An die kk. Schatzkammer</crown:transcription>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

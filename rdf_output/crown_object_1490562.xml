@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490562.o">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_054</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; niedrig; RK. im Hintergrund auf rotem Samtpolster mit Szepter und Erzherzogshut auf Tisch; zur Rechten Franz I. Stephans (?, Bild hier beschnitten; sitzend) und zur Linken Josephs II. (?, stehend) als Kind; Stein- und Perlebesatz dargestellt, soweit ersichtlich stark vereinfacht; sichtbare Bauteile: kreuz, Bügel (schemenhaft), A;</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>236,5 x 169 x 6 cm</dcterms:extent>
+    <gams:textualContent>1490562 CR_1_QB_Gm_1526-1796_054 Bildquelle Gemälde Mitte 18. Jahrhundert Öl; Leinwand ÜBERARBEITEN; niedrig; RK. im Hintergrund auf rotem Samtpolster mit Szepter und Erzherzogshut auf Tisch; zur Rechten Franz I. Stephans (?, Bild hier beschnitten; sitzend) und zur Linken Josephs II. (?, stehend) als Kind; Stein- und Perlebesatz dargestellt, soweit ersichtlich stark vereinfacht; sichtbare Bauteile: kreuz, Bügel (schemenhaft), A;</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562.media.1352266">
+        <rdfs:label>GG_9401_SW_III_3818.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562.media.906580">
+        <rdfs:label>INV_GG_9394.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562.media.15672">
+        <rdfs:label>GG_9401.jpg</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490562.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490562">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490562/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_054</dc:title>
+    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_054, ÜBERARBEITEN; niedrig; RK. im Hintergrund auf rotem Samtpolster mit Szepter und Erzherzogshut auf Tisch; zur Rechten Franz I. Stephans (?, Bild hier beschnitten; sitzend) und zur Linken Josephs II. (?, stehend) als Kind; Stein- und Perlebesatz dargestellt, soweit ersichtlich stark vereinfacht; sichtbare Bauteile: kreuz, Bügel (schemenhaft), A;</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.2">
+    <schema:contentURL>INV_GG_9000_9911\INV_GG_9394.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.1">
+    <schema:contentURL>GG_9401\GG_9401_SW_III_3818.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490562/IMAGE.3">
+    <schema:contentURL>GG_9401\GG_9401.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

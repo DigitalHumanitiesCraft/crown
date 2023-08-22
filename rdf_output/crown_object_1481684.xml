@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.o">
+    <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_001</rdfs:label>
+    <rdfs:comment>Dreidimensionale Darstellung der RK auf Totenkopf; mit Samthaube; abweichende Form des Kronenkörpers (sechseckig); sechs Platten; Plattengröße nicht differenziert; Ausschließlich Steinplatten dargestellt; Anzahl, Größe und Position der Hauptsteine und Perlen auf A und Kreuz vergleichbar; Anordnung der Steine und Perlen auf übrigen Platten frei erfunden; Insgesamt weniger kleine Steine; erkennbare Details: Grundplattenumsäumung (ohne Perldraht), Scharnier (mit Details und Scharnierstift mit Perle), Bogenfelder des Bügels mit Perlschnur; Bügelinschrift aus Perlschnur (lesbar, Text nicht ident); abweichende Fassungen (Kastenfassungen mit Rundbogen); Dargestellte Bauteile: A, AA, E, EE, Bg, K andere Bauteile nicht klar zuzuordnen</rdfs:comment>
+    <rdfs:comment>Der ursprüngliche Sarkophag war ein Gemeinschaftswerk von Nikolaus Moll, dem älteren Bruder Balthazar Ferdinands, und Johann Georg Pichler. Der Holzsarg wurde am 18. Oktober 1742 um 1 Uhr nachts in den fertigen Prunksarg eingefügt. Beide Bildhauer erhielten 1743 \"wegen für Carl VI und die Erzherzoginnen Elisabetha und Carolina verfertigt 3 zinnernen Särge\" 3645 fl.  Von diesem ursprünglichen Sarkophag wurde 1747 von Salomon Kleiner ein Stich angefertigt, weswegen er somit der Nachwelt erhalten ist. Dieser zeigt die gebauchte Truhe auf reich ornamentierten volutenförmigen Stützen und ein Waffentableau in der Mitte der Längsseiten um die von Eichenlaub umgebenen Initialen C C für Carolus Caesar (= Kaiser Karl). Der Deckel trug die trauernde Austria mit dem Brustbild des Kaisers und dem Genius, der das Zeichen der Unvergänglichkeit emporhebt.  Die bei der letzten Restaurierung deutlich sichtbar gewordene Signatur auf der Figurengruppe \"trauernde Austria und Genius\" weist ebenfalls auf Nikolaus Moll hin. Die Figurengruppe zeigt eine vollendete Beherrschung der Körperstruktur. Es besteht eine gestaltliche Bezugnahme zu Michelangelos Grabfiguren in der Medicikapelle in Florenz und zu G. R. Donners Brunnenfiguren auf dem Neuen Markt (1739).  Als Balthazar Ferdinand Moll 1751 – sein Bruder Nikolaus war 1743 gestorben – den Sarkophag der Elisabeth Christine vollendet hatte, war dieser im wesentlichen der Form des von seinem Bruder verfertigten Sarges angepasst.  Weil Maria Theresia den Sarkophag ihres Vaters weniger prächtig fand als den ihrer Mutter, erhielt der Künstler den Auftrag, ihn in seine jetzige repräsentative Form zu bringen \"in austustiorum adhuc formam\".  Molls 1752 abgeschlossenes Werk bestand in der Hinzufügung der vier Kronen und der vier Löwen, die den Sarg tragen, sowie der Schlachtenreliefs.  Beinahe die gesamte vordere Längsseite nimmt das Schlachtenrelief von Saragossa vom 20. August 1710 ein. Darunter sind der Doppeladler mit der Rudolfskrone, Zepter und Schwert angebracht. An den vier Ecken befinden sich Schilde mit den Wappen des Heiligen Römischen Reiches, Kastiliens, Böhmens und Ungarns. Jeder der Wappenschilder ist von Kriegstrophäen umgeben und von einem Totenkopf, der die Krone des jeweiligen Reiches trägt, überhöht.  Der Deckel des Sarkophags ist wie ein reich ziselierter Überwurf ausgestattet und mit arabesken Mustern durchwirkt. Die trauernde Austria – erkenntlich am österreichischen Wappenschild – hält zusammen mit dem Genius das lorbeerbekränzte Medaillonbild des Kaisers über einer Weltkugel. Das Medaillon wird von einem in den Wolken schwebenden Stern und der sich selbst verzehrenden Schlange, dem Sinnbild der Ewigkeit, bekrönt.  Links liegen auf einem Polster Erzherzogshut, Zepter, Schwert und das goldene Vlies, rechts auf einem anderen Polster Reichsapfel, Streitkolben und ein Manipulus, das Zeichen der römischen Imperatorenwürde.  Auf der Rückseite des Sarges zeigt das Relief die Schlacht von Belgrad vom 16. bis zum 18. August 1717. Die mit Rosengewinden bekränzten Kartuschen sind von großer Prägnanz.  Molls Name ist auf dem Sarg zweimal signiert. Er war 20 Jahre lang der Zinngießer des Kaiserhauses und ein Protegé der Kaiserin Maria Theresia.</rdfs:comment>
+    <dcterms:medium>Zinn</dcterms:medium>
+    <dcterms:extent>k. A.</dcterms:extent>
+    <gams:textualContent>1481684 CR_1_QB_Ob_1526-1796_001 Bildquelle Objekt 1740-1752 Zinn Dreidimensionale Darstellung der RK auf Totenkopf; mit Samthaube; abweichende Form des Kronenkörpers (sechseckig); sechs Platten; Plattengröße nicht differenziert; Ausschließlich Steinplatten dargestellt; Anzahl, Größe und Position der Hauptsteine und Perlen auf A und Kreuz vergleichbar; Anordnung der Steine und Perlen auf übrigen Platten frei erfunden; Insgesamt weniger kleine Steine; erkennbare Details: Grundplattenumsäumung (ohne Perldraht), Scharnier (mit Details und Scharnierstift mit Perle), Bogenfelder des Bügels mit Perlschnur; Bügelinschrift aus Perlschnur (lesbar, Text nicht ident); abweichende Fassungen (Kastenfassungen mit Rundbogen); Dargestellte Bauteile: A, AA, E, EE, Bg, K andere Bauteile nicht klar zuzuordnen</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.media.1441872">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_001_kugler_sarkophag</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.media.1441873">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_001_sarkophag_detail</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.media.1469500">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_001_sarkophag_gesamt</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.media.1469501">
+        <rdfs:label>CR_1_QB_Ob_1526-1796_001_sarkophag_karlVI_RK_v_l</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.4"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:label>Zu Häupten des Sarges:  AET. MEM. SAC. INFANDUM. DOLOREM. RENOVANT. SACRI. CINERAS. DIVI. IMP. CAROLI. VI. AUG. P. FEL. P. P. CONSTANTIA. ET. FORTITUDINE. AUSTRIACI. NEC. SOLUM. IN. UTRAQUE. SED. IN. OMNIBUS. HEROICIS. VIRTUTIBUS. CONSUMATISSIMI. PERFECTISSIMIQ. CAESARIS. QUI. ADHUC. IN. SEPULCHRO. VIVIT. UT. SCIA. VIATOR. VEL. SEPULTAM. MAIESTATEAM. NUNQUAM INTERIRE.  Der ewigen Erinnerung gewidmet. Unsäglichen Schmerz erneuert die heilige Asche des hochseligen, allerdurchlauchtigsten Kaisers Karl VI., der überaus glücklich und vollkommen in der Beständigkeit und Tapferkeit eines Österreichers, und nicht nur in diesen beiden, sondern in allen heroischen Tugenden ein ganz vollendeter und tüchtiger Kaiser war, der noch im Grabe lebt, damit du weißt, Wanderer, dass die Majestät auch begraben nie untergeht.  Am Fußende des Sarges:  COMMODATUS. PUBL. SALUTI. AN. CHR. D. N. MDCLXXXV. KALENDIS. OCTOBRIS. COELESTI. PATRIAE. REDDITUS. A. MDCCXL. XIII. KAL. NOV. NULLUM. POTUIT. MONUMENTUM CLARIUS. RELINQUERE. QUAM. EFFIGIEM, SUAE. VIRTUTIS. SAPIENTIAE. PIETATIS MARIAM. THERESIAM. AUGUSTAM. REGNANTIS. IUSTITIAE. ET. CLEMENTIAE. DECUS. EXEMPLAR. DISCILPINAM. VIXIT. ANN. LV. D. XIX., H. IIX  Dem allgemeinen Wohl verliehen im Jahre Christi, unseres Herrn 1685, den 1. Oktober, der himmlischen Heimat zurückgegeben im Jahre 1740, den 20. Oktober, konnte er kein vortrefflicheres Denkmal hinterlassen als das Bild seiner Tugend, Weisheit und Frömmigkeit, Maria Theresia, die Kaiserin, der Gerechtigkeit und Güte eines Herrschers Zierde, Vorbild und Richtschnur. Er lebte 55 Jahre, 19 Tage und 8 Stunden.</crown:label>
+    <schema:identifier>https://www.kapuzinergruft.com/kaiser-karl-vi</schema:identifier>
+    <schema:identifier>https://austria-forum.org/attach/User/Lanz%20Ernst/Kaiser_Karl_VI._-_Schirmherr_des_Glaubens._Von_Ernst_Zentner/Sarkophag_Kaiser_Karls_VI._Kapuzinergruft_Wien.jpg</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1481684.color">
+        <crown:color>(auswählen)</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481684">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481684/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Objekt, CR_1_QB_Ob_1526-1796_001</dc:title>
+    <dc:description>Objekt, CR_1_QB_Ob_1526-1796_001, Dreidimensionale Darstellung der RK auf Totenkopf; mit Samthaube; abweichende Form des Kronenkörpers (sechseckig); sechs Platten; Plattengröße nicht differenziert; Ausschließlich Steinplatten dargestellt; Anzahl, Größe und Position der Hauptsteine und Perlen auf A und Kreuz vergleichbar; Anordnung der Steine und Perlen auf übrigen Platten frei erfunden; Insgesamt weniger kleine Steine; erkennbare Details: Grundplattenumsäumung (ohne Perldraht), Scharnier (mit Details und Scharnierstift mit Perle), Bogenfelder des Bügels mit Perlschnur; Bügelinschrift aus Perlschnur (lesbar, Text nicht ident); abweichende Fassungen (Kastenfassungen mit Rundbogen); Dargestellte Bauteile: A, AA, E, EE, Bg, K andere Bauteile nicht klar zuzuordnen</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_001_sarkophag_detail.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_001_kugler_sarkophag.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.3">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_001_sarkophag_gesamt.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481684/IMAGE.4">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_001_sarkophag_karlVI_RK_v_links.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>

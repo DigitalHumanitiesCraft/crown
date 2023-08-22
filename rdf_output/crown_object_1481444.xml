@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481444.o">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_14</rdfs:label>
+    <rdfs:comment>Akten der Weltlichen Schatzkammer 1889-1894, Faszikel 28</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <dcterms:medium>Tinte</dcterms:medium>
+    <dcterms:extent>Bögen gefaltet: ca. H. 34 cm × 21,5 cm</dcterms:extent>
+    <gams:textualContent>1481444 CR_1_QS_Ak_1797-1919_14 Schriftquelle Akte 13. Oktober 1893 Papier, Tinte Akten der Weltlichen Schatzkammer 1889-1894, Faszikel 28</gams:textualContent>
+    <crown:transcription> Ersuchen von Wentworth Sturgeon, die Reichkleinodien besichtigen zu können – Ablehnung  The Director General of The Imperial Treasury  Schweizerhof  Vienna  8 Oct.r 1893  Sir  I am very anxious to see the Crown &amp; Sceptre of Charlemagne being, as you may see by my arms, one of his descendants.  I applied at the Imperial Treasury for permission to view the relics but was informed that they were no longer to be seen – the Treasury being closed to the public by order of his Majesty the Emperor of Austria.  I am remaining in Budapest for a few days and I should esteem it a great favour if you would inform me whether I can be permitted to view relics which are to me of great personal interest.  I trust you will excuse the trouble I am giving you, I could stop in Vienna when returning to London.  Yours faithfully Wentworth Sturgeon  The Director General Imperial Treasury    Euer Excellenz!  Über inliegendes mir soeben zugekommenes Ersuchschreiben um Bewilligung zur Besichtigung von Gegenständen der Schatzkammer, womit jedenfalls die römisch-deutschen Krönungs-Insignien gemeint sind, erbitte ich gehorsamst Euer Excellenz hochgeneigte Entscheidung.  Im Falle der hohen Genehmigung würde ich zugleich gehorsamst bitten, die bezeichneten Objecte zur Besichtigung in mein Bureau übertragen zu dürfen, um nicht unberufene Personen in das Schatzkammer-Depot führen zu müssen.  Wien am 13. Oktober 1893.   Thill    Es erscheint mir schwer wegen eines unbekannten von niemanden empfohlenen Menschen sich diese nicht geringe Ungelegenheit zu machen. Schreiben Sie ihm einfach zurück, daß die Kleinodien wegen vorgenommenen baulichen Umänderungen jetzt verpackt sind u. daher nicht gezeigt werden können.  [Unterschrift]  Geschehen 15/10 1893 Thill</crown:transcription>
+  </crown:AdditionalMaterial>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481444">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481444/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_14</dc:title>
+    <dc:description>Akte, CR_1_QS_Ak_1797-1919_14, Akten der Weltlichen Schatzkammer 1889-1894, Faszikel 28</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+</rdf:RDF>

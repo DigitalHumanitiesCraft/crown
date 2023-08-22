@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:schema="https://schema.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490473">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490473/ONTOLOGY"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <dc:title>Kopie, CR_1_QB_Ko_Ab1920_001</dc:title>
+    <dc:description>Kopie, CR_1_QB_Ko_Ab1920_001, AUSSTEHEND; Nachbidlung der Reichskrone nach der Vorlage der Kopie in Aachen; Farbigkeit der Steine weicht vom Original ab; Unregelmäßigkeiten wiedergegeben; fehlende Perlen ergänzt</dc:description>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="en">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490473.o">
+    <rdfs:label>Kopie, CR_1_QB_Ko_Ab1920_001</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; Nachbidlung der Reichskrone nach der Vorlage der Kopie in Aachen; Farbigkeit der Steine weicht vom Original ab; Unregelmäßigkeiten wiedergegeben; fehlende Perlen ergänzt</rdfs:comment>
+    <rdfs:comment>\"Sie ist Ergebnis eines goldenen Mittelwegs zwischen einer – zumindest äußerlich – exakten Kopie des Originals im heutigen Zustand und einer Nachschöpfung, wie man sich die Krone im späten Mittelalter vorstellen kann.\"  \"[...] dieser Zustand des ausgehendes 18. Jahrhunderts mit seinen wahrscheinlich geringfügigen Veränderungen seither ist hier die Grundlage für die drei Kunsthandwerker der Fa. Weiland gewesen. Unregelmäßigkeiten bzw. Verformungen wurden dabei teilweise übernommen, aber z.B. fehlende Perlen ergänzt. Die unten stehenden Angaben zum verwendeten Material folgen den Angaben von 1975. Eine genaue gemmologische Bestimmung mit der heute üblichen Terminologie für die einzelnen Schmucksteine steht noch aus. \"</rdfs:comment>
+    <dcterms:medium>Gold</dcterms:medium>
+    <dcterms:medium>Email</dcterms:medium>
+    <dcterms:medium>Edelsteine</dcterms:medium>
+    <dcterms:medium>Perlen</dcterms:medium>
+    <dcterms:extent>26,5 cm × 25,6 cm, 3,87 kg, 24,3 cm (Höhenangabe betr. Stirnplatte einschließlich des Kreuzes)</dcterms:extent>
+    <gams:textualContent>1490473 CR_1_QB_Ko_Ab1920_001 Bildquelle Kopie 1974-1975 Gold; Email; Edelsteine; Perlen AUSSTEHEND; Nachbidlung der Reichskrone nach der Vorlage der Kopie in Aachen; Farbigkeit der Steine weicht vom Original ab; Unregelmäßigkeiten wiedergegeben; fehlende Perlen ergänzt</gams:textualContent>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473.media.1441955">
+        <rdfs:label>CR_1_QB_Ko_Ab1920_001_mainz_kopie_v_links</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.1"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473.media.1441956">
+        <rdfs:label>CR_1_QB_Ko_Ab1920_001_kopie_mainz_detail_ezechia</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.2"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <crown:media>
+      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473.media.1441957">
+        <rdfs:label>CR_1_QB_Ko_Ab1920_001_mainz_kopie_frontal</rdfs:label>
+        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.3"/>
+        <dcterms:format>image/jpeg</dcterms:format>
+      </schema:MediaObject>
+    </crown:media>
+    <schema:identifier>KH DL 2020/1</schema:identifier>
+    <schema:identifier>https://mein-weg-ins-museum.de/die-mainzer-reichskrone-ein-goldener-mittelweg/</schema:identifier>
+    <crown:description>
+      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490473.color">
+        <crown:color>bunt</crown:color>
+      </crown:Color>
+    </crown:description>
+  </crown:AdditionalMaterial>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.1">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_001_mainz_kopie_v_links.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.3">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_001_mainz_kopie_frontal.jpg</schema:contentURL>
+  </schema:ImageObject>
+  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490473/IMAGE.2">
+    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_001_kopie_mainz_detail_ezechias.jpg</schema:contentURL>
+  </schema:ImageObject>
+</rdf:RDF>
