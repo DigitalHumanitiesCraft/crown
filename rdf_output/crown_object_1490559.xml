@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490559">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_051</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_051, ÜBERARBEITEN; mittel (s. u.); RK auf grünem Samtpolster auf Tisch in der rechten Bildhälfte; mit Reichsapfel und weiterer Krone (nicht lesbar); auf der RK scheint der Arm Franz I. Stephans zu ruhen (!?); Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren (Apostel?), stehend, in abweichendem Stil; sichtbare Teile: Kreuz, Bügel, A, B, C; mit Samthaube</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren [[Apostel (?)]], stehend, in abweichendem Stil;</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,49 +32,30 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490559">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_051</rdfs:label>
-    <rdfs:comment>ÜBERARBEITEN; mittel (s. u.); RK auf grünem Samtpolster auf Tisch in der rechten Bildhälfte; mit Reichsapfel und weiterer Krone (nicht lesbar); auf der RK scheint der Arm Franz I. Stephans zu ruhen (!?); Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren (Apostel?), stehend, in abweichendem Stil; sichtbare Teile: Kreuz, Bügel, A, B, C; mit Samthaube</rdfs:comment>
+    <rdfs:comment>Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren [[Apostel (?)]], stehend, in abweichendem Stil;</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>130 x 100 cm</dcterms:extent>
-    <gams:textualContent>1490559 CR_1_QB_Gm_1526-1796_051 Bildquelle Gemälde um 1765 Öl; Leinwand ÜBERARBEITEN; mittel (s. u.); RK auf grünem Samtpolster auf Tisch in der rechten Bildhälfte; mit Reichsapfel und weiterer Krone (nicht lesbar); auf der RK scheint der Arm Franz I. Stephans zu ruhen (!?); Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren (Apostel?), stehend, in abweichendem Stil; sichtbare Teile: Kreuz, Bügel, A, B, C; mit Samthaube</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.media.10554">
-        <rdfs:label>GG_8872.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.media.10555">
-        <rdfs:label>GG_8872_2.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.media.906511">
-        <rdfs:label>INV_GG_8870.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <dcterms:extent>130 cm × 100 cm</dcterms:extent>
+    <crown:date>um 1765</crown:date>
+    <crown:dateBegin>1755</crown:dateBegin>
+    <crown:dateEnd>1765</crown:dateEnd>
+    <gams:textualContent>1490559 CR_1_QB_Gm_1526-1796_051 Bildquelle Gemälde um 1765 Öl; Leinwand Proportionen abweichend; Steinbesatz stark vereinfacht, aber grob korrekt; Abfolge Stein- und Bildplatten abweichend; Interessant: abweichende Motivik der Bildplatten - zwei Einzelfiguren [[Apostel (?)]], stehend, in abweichendem Stil;</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490559.PictorialSource">
+        <crown:origin>Österreich</crown:origin>
+        <crown:owner>Kunsthistorisches Museum Wien, GG, Inv. Nr. GG 8872; Extern, Ausstattung/Dauerleihgabe (keine genaue Angabe des Ortes lt. TMS GG-Eintrag)</crown:owner>
+        <crown:provenance>Schlosshof; Eckartsau [[Speisezimmer (?)]] Ausstattung befristet Ende 2007, ev. Verlängerung (keine Angabe des Orts lt. TMS GG-Eintrag)</crown:provenance>
+        <crown:depiction>Franz I. sitzend, halbfigurig; in rotem Rock; linke Hand auf Szepter [[oder Gehstock (?)]] ruhend; rechte Bildhälfte: RK auf grünem Samtpolster auf Tisch; mit Reichsapfel und weiterer, undefinierter Krone; Dargestelle Bauteile: K, Bg, A, B, C; mit Samthaube</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490559.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.1">
-    <schema:contentURL>GG_8872\GG_8872.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.2">
-    <schema:contentURL>GG_8872\GG_8872_2.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490559/IMAGE.3">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_8870.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

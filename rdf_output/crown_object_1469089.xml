@@ -1,129 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.o">
-    <rdfs:label>Stein, CR_1_B_St_13</rdfs:label>
-    <rdfs:comment>in Hochfassung für Stein mit dreifingrigen Krallen</rdfs:comment>
-    <dcterms:medium>Korund</dcterms:medium>
-    <dcterms:medium>Saphir</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.analysis.2">
-        <rdfs:label>PL</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.analysis.3">
-        <rdfs:label>Raman</rdfs:label>
-        <rdfs:label>Analyse des Objekts CR_1_B_St_13</rdfs:label>
-        <crown:surveyType>Analyse</crown:surveyType>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430"/>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431"/>
-        <crown:date>2022-05-18</crown:date>
-        <crown:attributeType>Raman</crown:attributeType>
-        <crown:briefDescription>Charakterisierung Edelstein</crown:briefDescription>
-        <crown:statement>Saphir</crown:statement>
-        <crown:proposal>weiterführende RFA-Analyse</crown:proposal>
-        <crown:treatment>Messgerät: WiTec alphaCART mit Raman-Probe, Laserwellenlänge 457 nm, TruePower-Modul (Definition und Dokumentation der Laserleistung per Software), Detektor UHTS300VIS mit BI-EMCCD-Kamera; Laserleistung: 0,5 mW (PL), 17 mW (R); Messzeit: 3 s (PL), 60 s (R); Anzahl der Messpunkte (insgesamt): 1; Datenauswertung: Suchsoftware SpecID; Messungen unterstützt von Annalena Erlacher (Uni Wien) und Martina Griesser (KHM)</crown:treatment>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436011"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436012"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436013"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436014"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436015"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436016"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436017"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.media.1436018"/>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1469089 CR_1_B_St_13 Kronreif Stein Korund; Saphir nan in Hochfassung für Stein mit dreifingrigen Krallen 3D Mikroskopie; PL; Raman</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1419087">
-        <rdfs:label>CR_1_B_St_13_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1418845">
-        <rdfs:label>CR_1_B_St_Nummerierung</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Shape rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.shape">
-        <crown:other>nicht polierte Bereiche; ausgeschliffene Einschlüsse;</crown:other>
-        <crown:stoneInSetting rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#passgenau"/>
-      </crown:Shape>
-    </crown:description>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.color">
-        <crown:color>milchig bläulich-lila</crown:color>
-      </crown:Color>
-    </crown:description>
-    <crown:description>
-      <crown:Surface rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.surface">
-        <crown:openBlisters>(not assigned)</crown:openBlisters>
-      </crown:Surface>
-    </crown:description>
-    <crown:description>
-      <crown:Treatment rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.treatment">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#treatments-surface-coated"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#cracksfilled"/>
-        <crown:other>Bohrloch, innen: blaue Pigmente [[Reste einer Verfüllung des Bohrlochs (?)]];_x000d_
-gelbliche Reste eines Überzugs (?) - Lumineszenz im UV-Licht_x000d_
-</crown:other>
-      </crown:Treatment>
-    </crown:description>
-    <crown:descriptionOfComponents>
-      <crown:DrillHole rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.drillhole">
-        <crown:type rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#(auswaehlen)"/>
-        <crown:diameter>0</crown:diameter>
-        <crown:machiningTraces>(not assigned)</crown:machiningTraces>
-        <crown:other>innen: dunkle Anhaftungen;_x000d_
-</crown:other>
-      </crown:DrillHole>
-    </crown:descriptionOfComponents>
-    <crown:conditionOfObject>
-      <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.scratches">
-        <crown:signsOfUsage>(auswählen)</crown:signsOfUsage>
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Scratches>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FracturesDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.fracturesdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FracturesDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CracksDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.cracksdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CracksDamage>
-    </crown:conditionOfObject>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1469089">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Stein, CR_1_B_St_13</dc:title>
-    <dc:description>Stein, CR_1_B_St_13, in Hochfassung für Stein mit dreifingrigen Krallen</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>in Hochfassung für Stein mit dreifingrigen Krallen</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -136,7 +24,7 @@ gelbliche Reste eines Überzugs (?) - Lumineszenz im UV-Licht_x000d_
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -144,44 +32,170 @@ gelbliche Reste eines Überzugs (?) - Lumineszenz im UV-Licht_x000d_
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436016">
-    <rdfs:label>CR_1_B_St_13_Messpunkte</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436018">
-    <rdfs:label>CR1_B_St13_PL1--Spectrum--043--Information</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469089/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_St_Nummerierung.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436011">
-    <rdfs:label>CR1_B_St13_PL1--Spectrum--043--Spec.Data 1</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436015">
-    <rdfs:label>CR1_B_St13_R1--Spectrum--041--Spec.Data 1</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436017">
-    <rdfs:label>CR1_B_St13_PL1--Spectrum--043</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436012">
-    <rdfs:label>CR1_B_St13_R1</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436013">
-    <rdfs:label>CR1_B_St13_R1--Spectrum--041</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436014">
-    <rdfs:label>CR1_B_St13_R1--Spectrum--041--Information</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469089/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1469089">
+    <rdfs:label>Stein, CR_1_B_St_13</rdfs:label>
+    <rdfs:comment>in Hochfassung für Stein mit dreifingrigen Krallen</rdfs:comment>
+    <dcterms:medium>Korund</dcterms:medium>
+    <dcterms:medium>Saphir</dcterms:medium>
+    <gams:textualContent>1469089 CR_1_B_St_13 Kronreif Stein Korund; Saphir nan in Hochfassung für Stein mit dreifingrigen Krallen 3D Mikroskopie; PL; Raman; µ-XRF; UV-Vis-Spektroskopie</gams:textualContent>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.206146">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431" />
+        <crown:date>2022-05-18</crown:date>
+        <crown:attributeType>Raman</crown:attributeType>
+        <crown:briefDescription>Charakterisierung Edelstein</crown:briefDescription>
+        <crown:statement>Saphir</crown:statement>
+        <crown:proposal>weiterführende RFA-Analyse</crown:proposal>
+        <crown:treatment>Messgerät: WiTec alphaCART mit Raman-Probe, Laserwellenlänge 457 nm, TruePower-Modul (Definition und Dokumentation der Laserleistung per Software), Detektor UHTS300VIS mit BI-EMCCD-Kamera; Laserleistung: 0,5 mW (PL), 17 mW (R); Messzeit: 3 s (PL), 60 s (R); Anzahl der Messpunkte (insgesamt): 1; Datenauswertung: Suchsoftware SpecID; Messungen unterstützt von Annalena Erlacher (Uni Wien) und Martina Griesser (KHM)</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436011">
+            <rdfs:label>CR1_B_St13_PL1--Spectrum--043--Spec.Data 1</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_PL1--Spectrum--043--Spec.Data 1.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436012">
+            <rdfs:label>CR1_B_St13_R1</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_R1.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436013">
+            <rdfs:label>CR1_B_St13_R1--Spectrum--041</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_R1--Spectrum--041.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436014">
+            <rdfs:label>CR1_B_St13_R1--Spectrum--041--Information</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_R1--Spectrum--041--Information.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436015">
+            <rdfs:label>CR1_B_St13_R1--Spectrum--041--Spec.Data 1</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_R1--Spectrum--041--Spec.Data 1.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436016">
+            <rdfs:label>CR_1_B_St_13_Messpunkte</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR_1_B_St_13_Messpunkte.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436017">
+            <rdfs:label>CR1_B_St13_PL1--Spectrum--043</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_PL1--Spectrum--043.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.media.1436018">
+            <rdfs:label>CR1_B_St13_PL1--Spectrum--043--Information</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_St\CR_1_B_St_13\CR_1_B_St_13_Raman_PL\CR1_B_St13_PL1--Spectrum--043--Information.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.214048">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90745" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90746" />
+        <crown:date>2023-09-01</crown:date>
+        <crown:attributeType>UV-VIS Absorptionsspektroskopie</crown:attributeType>
+        <crown:briefDescription>Präzisierung der Entstehung bzw. Provenienz von Edelsteinen</crown:briefDescription>
+        <crown:statement>metamorpher Saphir, vermutlich Sri Lanka</crown:statement>
+        <crown:treatment>Messgerät: Ocean Optics USB2000 mobiles Spektrometer mit Glasfaseroptik; Spektralbereich: 300 to 900 nm; Messzeit: 5 s (5 Zyklen); Spektrale Auflösung: 1,5 nm; Anzahl der Messpunkte (insgesamt): 1 (?) - kein Spektrum vorhanden</crown:treatment>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:descriptionOf>
+      <crown:Gemstone rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone">
+        <crown:feature>
+          <crown:Shape rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone.Shape">
+            <crown:other>nicht polierte Bereiche; ausgeschliffene Einschlüsse;</crown:other>
+            <crown:descriptionOfShape>oval</crown:descriptionOfShape>
+            <crown:feature rdf:resource="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone.Shape.Cut" />
+            <crown:gemstoneInSetting>passgenau</crown:gemstoneInSetting>
+          </crown:Shape>
+        </crown:feature>
+        <crown:feature>
+          <crown:Surface rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone.Surface">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Surface>
+        </crown:feature>
+        <crown:colour>milchig; bläulich-lila</crown:colour>
+        <crown:component>
+          <crown:DrillHole rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone.DrillHole">
+            <crown:number>0.00000000</crown:number>
+            <crown:type>(auswählen)</crown:type>
+            <crown:alignment>y-Achse (Länge)</crown:alignment>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:processingMark>(not assigned)</crown:processingMark>
+          </crown:DrillHole>
+        </crown:component>
+        <crown:other>(not assigned)</crown:other>
+        <crown:probability>(auswählen)</crown:probability>
+      </crown:Gemstone>
+    </crown:descriptionOf>
+    <crown:featuresOf>
+      <crown:GemstoneFeatures rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures">
+        <crown:feature>
+          <crown:Treatments rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures.Treatments">
+            <crown:coatedSurface>1</crown:coatedSurface>
+            <crown:filledCracks>1</crown:filledCracks>
+            <crown:other>Bohrloch, innen: blaue Pigmente [[Reste einer Verfüllung des Bohrlochs (?)]]; gelbliche Reste eines Überzugs (?) - Lumineszenz im UV-Licht</crown:other>
+          </crown:Treatments>
+        </crown:feature>
+        <crown:feature>
+          <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures.Scratches">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Scratches>
+        </crown:feature>
+        <crown:feature>
+          <crown:Fractures rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures.Fractures">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Fractures>
+        </crown:feature>
+        <crown:feature>
+          <crown:Cracks rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures.Cracks">
+            <crown:inherent>0</crown:inherent>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Cracks>
+        </crown:feature>
+        <crown:feature>
+          <crown:Inclusion rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneFeatures.Inclusion">
+            <crown:description>Schleier aus sehr feinen parallelen Linien; schwarze Partikel;</crown:description>
+          </crown:Inclusion>
+        </crown:feature>
+        <crown:other>rote Lumineszenz</crown:other>
+      </crown:GemstoneFeatures>
+    </crown:featuresOf>
+    <crown:analysisPerformed>
+      <crown:Raman rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Raman">
+        <crown:numberOfMeasuringPoints>1.00000000</crown:numberOfMeasuringPoints>
+        <crown:interpretation>(not assigned)</crown:interpretation>
+      </crown:Raman>
+    </crown:analysisPerformed>
+    <crown:analysisPerformed>
+      <crown:GemstoneUV-VIS rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.GemstoneUV-VIS">
+        <crown:formation>metamorph</crown:formation>
+      </crown:GemstoneUV-VIS>
+    </crown:analysisPerformed>
+  </crown:Object>
+  <crown:Cut rdf:about="https://gams.uni-graz.at/o:crown.object.1469089.Gemstone.Shape.Cut">
+    <crown:descriptionOfCut>kegelförmig</crown:descriptionOfCut>
+  </crown:Cut>
 </rdf:RDF>

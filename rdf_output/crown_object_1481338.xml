@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481338">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481338/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Akte, CR_1_QS_Ak_1797-1919_2</dc:title>
-    <dc:description>Akte, CR_1_QS_Ak_1797-1919_2, Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 1 Über die heil. Römischen Reichs Insignien und Reliquien</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481338/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_002</dc:title>
+    <dc:description>Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 1 Über die heil. Römischen Reichs Insignien und Reliquien</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,15 +32,29 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481338.o">
-    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_2</rdfs:label>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481338">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_002</rdfs:label>
     <rdfs:comment>Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 1 Über die heil. Römischen Reichs Insignien und Reliquien</rdfs:comment>
-    <dcterms:medium>Papier, Tinte, handgeschrieben</dcterms:medium>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
     <dcterms:extent>ca. H. 39 cm x B. 24 cm</dcterms:extent>
-    <gams:textualContent>1481338 CR_1_QS_Ak_1797-1919_2 Schriftquelle Akte 28. Dezember 1826 Papier, Tinte, handgeschrieben Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 1
-Über die heil. Römischen Reichs Insignien und Reliquien</gams:textualContent>
-    <crown:transcription> 2137  15/827  Damit die heil. Römischen Reichsinsignien und Heiligthümer auf eine ihrem hohen Werthe entsprechende Art in der k. k. Schatzkammer aufgestellt werden, findet man zu bewilligen, daß zu diesem Behufe ein eigener Kasten aus Nußbaumholz genau nach der Form der schon daselbst bestehenden um den mäßigen Preis von Einhundert achtzig zwei Gulden C.M. beigeschafft, und an der linken Wand der Abtheilung angebracht werde, in welcher sich die oesterreichisch-kaiserlichen Reichsinsignien verwahrt befinden.  Die k. k. Schatzkammer hat hiernach das Erforderliche zu veranlassen und die Conti der betreffenden Arbeitsleute nach beiläufiger buchhalterischer Adjustirung seiner Zeit zur Zahlungsanweisung hierorts vorzulegen.  Hirmit erhält der Bericht vom 21. Dezember 1826 die Erledigung, und folgt in der Anlage der beigebrachte Kostenüberschlag zurück.  E. den 2ten Juni 1827 [Unterschriftenkürzel]  […]  Von dem k. k. Oberstkämmereramte.  Wien, am 28. Dezember 1826  F. v. Paumgartten</crown:transcription>
+    <crown:date>28. Dezember 1826</crown:date>
+    <crown:dateBegin>1826</crown:dateBegin>
+    <crown:dateEnd>1826</crown:dateEnd>
+    <gams:textualContent>1481338 CR_1_QS_Ak_1797-1919_002 Schriftquelle Akte 28. Dezember 1826 Papier; Tinte; handgeschrieben Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 1 Über die heil. Römischen Reichs Insignien und Reliquien</gams:textualContent>
+    <crown:transcription>2137 15/827 Damit die heil. Römischen Reichsinsignien und Heiligthümer auf eine ihrem hohen Werthe entsprechende Art in der k. k. Schatzkammer aufgestellt werden, findet man zu bewilligen, daß zu diesem Behufe ein eigener Kasten aus Nußbaumholz genau nach der Form der schon daselbst bestehenden um den mäßigen Preis von Einhundert achtzig zwei Gulden C.M. beigeschafft, und an der linken Wand der Abtheilung angebracht werde, in welcher sich die oesterreichisch-kaiserlichen Reichsinsignien verwahrt befinden. Die k. k. Schatzkammer hat hiernach das Erforderliche zu veranlassen und die Conti der betreffenden Arbeitsleute nach beiläufiger buchhalterischer Adjustirung seiner Zeit zur Zahlungsanweisung hierorts vorzulegen. Hirmit erhält der Bericht vom 21. Dezember 1826 die Erledigung, und folgt in der Anlage der beigebrachte Kostenüberschlag zurück. E. den 2ten Juni 1827 [Unterschriftenkürzel] […] Von dem k. k. Oberstkämmereramte. Wien, am 28. Dezember 1826 F. v. Paumgartten</crown:transcription>
+    <schema:identifier>CR_1_QS_Ak_1797-1919_2</schema:identifier>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1481338.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>0</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>(auswählen)</crown:significance>
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
   </crown:AdditionalMaterial>
 </rdf:RDF>

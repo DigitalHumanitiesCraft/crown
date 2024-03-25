@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482220">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482220/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Akte, CR_1_QS_Ak_1797-1919_30</dc:title>
-    <dc:description>Akte, CR_1_QS_Ak_1797-1919_30, Akten der Weltlichen Schatzkammer 1911-1914, Faszikel 32</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482220/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_030</dc:title>
+    <dc:description>Akten der Weltlichen Schatzkammer 1911-1914, Faszikel 32</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,15 +32,30 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482220.o">
-    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_30</rdfs:label>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482220">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_030</rdfs:label>
     <rdfs:comment>Akten der Weltlichen Schatzkammer 1911-1914, Faszikel 32</rdfs:comment>
     <dcterms:medium>Papier</dcterms:medium>
     <dcterms:medium>Tinte</dcterms:medium>
     <dcterms:extent>Bögen gefaltet: ca. H. 36 cm × 22 cm</dcterms:extent>
-    <gams:textualContent>1482220 CR_1_QS_Ak_1797-1919_30 Schriftquelle Akte 24. Juni 1914 Papier, Tinte Akten der Weltlichen Schatzkammer 1911-1914, Faszikel 32</gams:textualContent>
-    <crown:transcription> Gewährung der Zollerleichterung seitens des Finanzministeriums  praes. 25./VI.  k. k. Finanzministerium No. 47.355  vom 24. Juni 1914 betreffend die Gewährung von Zollerleichterungen für die Nachbildungen der Krönungsinsignien des hl. römischen Reiches deutscher Nation  Wien, am 26. Juni 1914.  Nach Kenntnisnahme ad acta.  Wien, am 24. Juni 1914  47.355.  An die Schatzkammer des Allerhöchsten Kaiserhauses in Wien.  Bezugnehmend auf die dortige Zuschrift, betreffend die Gewährung von Zollerleichterungen für die Nachbildungen der Kroninsignien beehrt sich das k.k. Finanzministerium der Schatzkammer eine Abschrift der im Gegenstande getroffenen Verfügung mit dem beifügen zur Kenntnis zu bringen, daß die in Betracht kommenden Objekte zur Zollabfertigung an das k.k. Hauptzollamt Wienanzuweisen wären.  Für den Leiter des k. k. Finanzministeriums  [Unterschrift]  Abschrift.  Wien, am 24. Juni 1914.  47.355  Schatzkammer des Allerhöchsten Kaiserhauses, Vormerkbehandlung von Nachbildungen der Krönungsinsignien.  An das k.k. Hauptzollamt in Wien.  Ueber die in Abschrift mitfolgende Eingabe wird gestattet, daß die im Schlußsatze derselben bezeichneten Nachbildungen, welche seitens des C.A. Beumers in Düsseldorf und des A. Witte in Aachen behufs Begutachtung der Schatzkammer des Allerhöchsten Kaiserhauses zugesendet und teilweise im Inlande patiniert werden sollen, ohne Forderung einer Zollsicherstellung, gegen Identitätsfesthaltung durch Beschreibung, sowie eggen Festsetzung einer angemessenen Wiederausfuhrfrist dem Eingangsvormerkverfahren unterzogen werden.  Bei Abfertigung der fraglichen Objekte ist mit großer Vorsicht und Beschleunigung vorzugehen.  Hievon wird die Schatzkammer unter einem von hier aus mit dem Bemerken in Kenntnis gesetzt, daß die fraglichen Objekte zur Zollabfertigung an das k.k. Hauptzollamt anzuweisen sind.  Für den Leiter des k.k. Finanzministeriums.</crown:transcription>
+    <crown:date>24. Juni 1914</crown:date>
+    <crown:dateBegin>1914</crown:dateBegin>
+    <crown:dateEnd>1914</crown:dateEnd>
+    <gams:textualContent>1482220 CR_1_QS_Ak_1797-1919_030 Schriftquelle Akte 24. Juni 1914 Papier; Tinte Akten der Weltlichen Schatzkammer 1911-1914, Faszikel 32</gams:textualContent>
+    <crown:transcription>Gewährung der Zollerleichterung seitens des Finanzministeriums praes. 25./VI. k. k. Finanzministerium No. 47.355 vom 24. Juni 1914 betreffend die Gewährung von Zollerleichterungen für die Nachbildungen der Krönungsinsignien des hl. römischen Reiches deutscher Nation Wien, am 26. Juni 1914. Nach Kenntnisnahme ad acta. Wien, am 24. Juni 1914 47.355. An die Schatzkammer des Allerhöchsten Kaiserhauses in Wien. Bezugnehmend auf die dortige Zuschrift, betreffend die Gewährung von Zollerleichterungen für die Nachbildungen der Kroninsignien beehrt sich das k.k. Finanzministerium der Schatzkammer eine Abschrift der im Gegenstande getroffenen Verfügung mit dem beifügen zur Kenntnis zu bringen, daß die in Betracht kommenden Objekte zur Zollabfertigung an das k.k. Hauptzollamt Wienanzuweisen wären. Für den Leiter des k. k. Finanzministeriums [Unterschrift] Abschrift. Wien, am 24. Juni 1914. 47.355 Schatzkammer des Allerhöchsten Kaiserhauses, Vormerkbehandlung von Nachbildungen der Krönungsinsignien. An das k.k. Hauptzollamt in Wien. Ueber die in Abschrift mitfolgende Eingabe wird gestattet, daß die im Schlußsatze derselben bezeichneten Nachbildungen, welche seitens des C.A. Beumers in Düsseldorf und des A. Witte in Aachen behufs Begutachtung der Schatzkammer des Allerhöchsten Kaiserhauses zugesendet und teilweise im Inlande patiniert werden sollen, ohne Forderung einer Zollsicherstellung, gegen Identitätsfesthaltung durch Beschreibung, sowie eggen Festsetzung einer angemessenen Wiederausfuhrfrist dem Eingangsvormerkverfahren unterzogen werden. Bei Abfertigung der fraglichen Objekte ist mit großer Vorsicht und Beschleunigung vorzugehen. Hievon wird die Schatzkammer unter einem von hier aus mit dem Bemerken in Kenntnis gesetzt, daß die fraglichen Objekte zur Zollabfertigung an das k.k. Hauptzollamt anzuweisen sind. Für den Leiter des k.k. Finanzministeriums.</crown:transcription>
+    <schema:identifier>CR_1_QS_Ak_1797-1919_30</schema:identifier>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482220.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>0</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>(auswählen)</crown:significance>
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
   </crown:AdditionalMaterial>
 </rdf:RDF>

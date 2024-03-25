@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1501008">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1501008/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1501008/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Foto, CR_1_QB_Fo_1920-1950_034</dc:title>
-    <dc:description>Foto, CR_1_QB_Fo_1920-1950_034, Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; S/W-Aufnahme; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Zepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Szepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,32 +32,34 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1501008.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1501008">
     <rdfs:label>Foto, CR_1_QB_Fo_1920-1950_034</rdfs:label>
-    <rdfs:comment>Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; S/W-Aufnahme; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Zepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</rdfs:comment>
+    <rdfs:comment>Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Szepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</rdfs:comment>
+    <rdfs:comment>Von SS-Männern bewacht, die kaiserlichen Insignien wurden im Rathaus der Stadt Nürnberg am 5. September 1938 ausgestellt, Zum ersten Mal seit ihrer Beförderung aus Wien nach Nürnberg im August 1938. Anlass war die Rezeption von Hitler für den Reichsparteitag \"Grossdeutschland\" (Kundgebung von mehr Deutschland) Nach dem 'Anschluss' Österreichs. Später, die kaiserlichen Insignien wurde in die Kirche St. Katharina gehalten und auf der Nationalsozialistischen Reichsparteitage im Kongresshaus der NSDAP.</rdfs:comment>
     <dcterms:medium>Fotografie</dcterms:medium>
     <dcterms:extent>Getty Images: 19,05 cm × 26,67 cm</dcterms:extent>
-    <gams:textualContent>1501008 CR_1_QB_Fo_1920-1950_034 Bildquelle Foto 1938 Fotografie Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; S/W-Aufnahme; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Zepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1501008.media.1465226">
-        <rdfs:label>CR_1_QB_Fo_1920-1950_034_hitler1</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1501008/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
+    <crown:date>1938</crown:date>
+    <crown:dateBegin>1938</crown:dateBegin>
+    <crown:dateEnd>1938</crown:dateEnd>
+    <gams:textualContent>1501008 CR_1_QB_Fo_1920-1950_034 Bildquelle Foto 1938 Fotografie Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Szepter; Reichsschwert; auf zylindrischem Sockel; Details nicht lesbar; Dargestellte Bauteile: A, G, K, BgCh; Haube nicht dargestellt; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>hoff-21522</schema:identifier>
     <schema:identifier>https://bildarchiv.bsb-muenchen.de/search?id=hoff-21522&amp;View=bildarchiv</schema:identifier>
     <schema:identifier>541082101</schema:identifier>
     <schema:identifier>https://www.gettyimages.at/detail/nachrichtenfoto/adolf-hitler-visiting-the-exhibition-of-the-imperial-nachrichtenfoto/541082101</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1501008.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1501008.PictorialSource">
+        <crown:origin>Deutsch; Nürnberg</crown:origin>
+        <crown:owner>Bayerische Staatsbiblithek, Bildarchiv, Bildnummer hoff-21522, Signatur Fotoarchiv Hoffmann M.137</crown:owner>
+        <crown:provenance>Fotoarchiv Hoffmann</crown:provenance>
+        <crown:depiction>Ereignisdokumentation; Adolf Hitler vor den Reichsinsignien in der Katharinenkirche in Nürnberg; S/W-Aufnahme; RK in der rechten Bildhälfte; Ansicht von links; leicht untersichtig; in Vitrine; mit Reichsapfel; Zepter; Reichsschwert; auf zylindrischem Sockel; Einschätzung der Aussagekraft: niedrig; Ev. Datierungshilfe durch Sockel und Vitrine</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1501008.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1501008/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1920-1950\CR_1_QB_Fo_1920-1950_034_hitler1.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

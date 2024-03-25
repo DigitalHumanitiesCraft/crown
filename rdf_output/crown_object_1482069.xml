@@ -1,25 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482069">
+    <rdfs:label>Grafik, CR_1_QB_Gr_1421-1525_002</rdfs:label>
+    <rdfs:comment>AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Tuschezeichnung</dcterms:medium>
+    <dcterms:medium>Aquarell</dcterms:medium>
+    <dcterms:extent>Blattmaß: 41,5 cm × 28,4 cm</dcterms:extent>
+    <crown:date>1510</crown:date>
+    <crown:dateBegin>1510</crown:dateBegin>
+    <crown:dateEnd>1510</crown:dateEnd>
+    <gams:textualContent>1482069 CR_1_QB_Gr_1421-1525_002 Bildquelle Grafik 1510 Tuschezeichnung; Aquarell AUSSTEHEND</gams:textualContent>
+    <crown:caption>Das ist des heilgen grossen keiser / karels habitus 1510 AD</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>3125</schema:identifier>
+    <schema:identifier>https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3125]&amp;showtype=record</schema:identifier>
+    <schema:identifier>https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&amp;port=16001&amp;filename=images/3125.JPG&amp;width=850&amp;borderwidth=0&amp;borderheight=0&amp;bordercolor=e4e6e3&amp;bg=e4e6e3&amp;passepartoutwidth=0&amp;passepartoutheight=0&amp;passepartoutcolor=e4e6e3&amp;cache=yes</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482069.PictorialSource">
+        <crown:origin>Deutsch; Nürnberg</crown:origin>
+        <crown:owner>Albertina/Wien/Inv.Nr. 3125</crown:owner>
+        <crown:provenance>Willibald Imhoff (1519-1580), Nürnberg (Kunstbuch, Verzeichnis 1588, Zeichnung 67: \"Kaiser Karl der Groß in seinem Habit.\"); 1588 an Kaiser Rudolf II.; Kaiserliche Schatzkammer; seit 1783 Kaiserliche Hofbibliothek; 1796 an Herzog Albert von Sachsen-Teschen (Kein Hinweis auf Hofbibliothek im Alten Cahier III)</crown:provenance>
+        <crown:depiction>Gemäldestudie; Herrscherbildnis; ganzfigurig; auf leerem Grund; Kaiser Karl der Große mit Reichskrone auf dem Kopf; Reichsapfel in der Linken; blankes Zeremonienschwert in der Rechten; im Krönungsornat; bestehend aus: Krönungsmantel, Adlerdalmatika, Stola, Handschuhen; Beschriftung, Datierung und Monogramm rechts neben dem Kopf</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1482069.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482069">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482069/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482069/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1421-1525_002</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1421-1525_002, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +51,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,33 +59,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482069.o">
-    <rdfs:label>Grafik, CR_1_QB_Gr_1421-1525_002</rdfs:label>
-    <rdfs:comment>AUSSTEHEND</rdfs:comment>
-    <dcterms:medium>Tuschezeichnung</dcterms:medium>
-    <dcterms:medium>Aquarell</dcterms:medium>
-    <dcterms:extent>Blattmaß: 41,5 cm × 28,4 cm</dcterms:extent>
-    <gams:textualContent>1482069 CR_1_QB_Gr_1421-1525_002 Bildquelle Grafik 1510 Tuschezeichnung; Aquarell AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482069.media.1427343">
-        <rdfs:label>CR_1_QB_Gr_1421-1525_002_dürer_karl_der_grosse</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482069/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Das ist des heilgen grossen keiser / karels habitus 1510 AD</crown:label>
-    <schema:identifier>3125</schema:identifier>
-    <schema:identifier>https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3125]&amp;showtype=record</schema:identifier>
-    <schema:identifier>https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&amp;port=16001&amp;filename=images/3125.JPG&amp;width=850&amp;borderwidth=0&amp;borderheight=0&amp;bordercolor=e4e6e3&amp;bg=e4e6e3&amp;passepartoutwidth=0&amp;passepartoutheight=0&amp;passepartoutcolor=e4e6e3&amp;cache=yes</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482069.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482069/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1421-1525\CR_1_QB_Gr_1421-1525_002_dürer_karl_der_grosse.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

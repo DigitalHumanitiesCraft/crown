@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1500527">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500527/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500527/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Objekt, CR_1_QB_Ob_Bis_1250_002</dc:title>
-    <dc:description>Objekt, CR_1_QB_Ob_Bis_1250_002, VERGLEICHSBEISPIEL; Edelstein(?) besetzter Kronreif mit Bügel in Seitenansicht auf dem Haupt des knienden Otto I.; für manche die erste Darstellung der RK</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>VERGLEICHSBEISPIEL; Edelstein(?) besetzter Kronreif mit Bügel in Seitenansicht auf dem Haupt des knienden Otto I.; für manche die erste Darstellung der RK</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,40 +32,32 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500527.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500527">
     <rdfs:label>Objekt, CR_1_QB_Ob_Bis_1250_002</rdfs:label>
     <rdfs:comment>VERGLEICHSBEISPIEL; Edelstein(?) besetzter Kronreif mit Bügel in Seitenansicht auf dem Haupt des knienden Otto I.; für manche die erste Darstellung der RK</rdfs:comment>
+    <rdfs:comment>One of the most famous ivory carvings to survive from the tenth century, this plaque depicts Christ enthroned against an open worked checkerboard background. He is blessing a model of a church presented to him by Emperor Otto the Great (r. 962–973) and a host of saints including Peter, who holds his attribute, the keys. The ivory was destined for Otto's imperial church dedicated to Saint Mauritius in Magdeburg (Saxony) which was raised to the seat of an archbishopric in 968. This plaque, and an accompanying series of New Testament and symbolic scenes, must have been made for the dedication of the church in that year. This ensemble may have been part of some liturgical furnishing such as a chancel door, a pulpit, or an altar frontal. Probably carved in Milan, an important imperial and artistic center, the engaging style of the ivories with their uncomplicated figures, geometric setting, and emphatic gestures seem to assimilate features of both the Carolingian artistic tradition and that of Byzantium.</rdfs:comment>
     <dcterms:medium>Elfenbein</dcterms:medium>
     <dcterms:extent>Außenmaß: 13 cm × 11,3 cm × 0,8 cm</dcterms:extent>
+    <crown:date>962-968</crown:date>
+    <crown:dateBegin>962</crown:dateBegin>
+    <crown:dateEnd>968</crown:dateEnd>
     <gams:textualContent>1500527 CR_1_QB_Ob_Bis_1250_002 Bildquelle Objekt 962-968 Elfenbein VERGLEICHSBEISPIEL; Edelstein(?) besetzter Kronreif mit Bügel in Seitenansicht auf dem Haupt des knienden Otto I.; für manche die erste Darstellung der RK</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500527.media.1460954">
-        <rdfs:label>CR_1_QB_Ob_Bis_1250_002_MET_seitenstätter_altar_</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500527/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500527.media.1460956">
-        <rdfs:label>CR_1_QB_Ob_Bis_1250_002_MET_seitenstätter_altar</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500527/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>https://www.metmuseum.org/art/collection/search/467730?ft=reichskrone&amp;amp;offset=0&amp;amp;rpp=40&amp;amp;pos=1</schema:identifier>
     <schema:identifier>41.100.157</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1500527.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1500527.PictorialSource">
+        <crown:origin>Italien; Mailand (?)</crown:origin>
+        <crown:owner>NY, Metropolitan Museum of Art, Accession Number: 41.100.157</crown:owner>
+        <crown:provenance>Stift Seitenstetten, Austria ; Joseph Satinover (in 1926); George and Florence Blumenthal, Paris and New York (from 1927-1941); Gift of George Blumenthal, 1941</crown:provenance>
+        <crown:depiction>Elfenbeintafel; Dedikationsbild; Otto I. überreicht Christus ein Modell der Kirche St. Mauritius in Magdeburg; auf dem Kopf trägt der einen Kronreif mit Edelsteinbesatz (?) und einfachem Bügel</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1500527.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500527/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_Bis_1250\CR_1_QB_Ob_Bis_1250_002_MET_seitenstätter_altar.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500527/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_Bis_1250\CR_1_QB_Ob_Bis_1250_002_MET_seitenstätter_altar_DETAIL.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

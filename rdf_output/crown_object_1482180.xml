@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482180">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482180/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482180/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Foto, CR_1_QB_Fo_1951-2000_033</dc:title>
-    <dc:description>Foto, CR_1_QB_Fo_1951-2000_033, Detailfotografie der Reichskrone; Fotografie des Bügels; S/W-Aufnahme; Ansicht von links; in der Krone; ohne Kreuz; vor dunklem Hintergrund; Details gut lesbar (nur Bügel); Dargestellte Bauteile: BgCh; A, E (fragment.); mit Haube (fragment.); Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,30 +32,29 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482180.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482180">
     <rdfs:label>Foto, CR_1_QB_Fo_1951-2000_033</rdfs:label>
-    <rdfs:comment>Detailfotografie der Reichskrone; Fotografie des Bügels; S/W-Aufnahme; Ansicht von links; in der Krone; ohne Kreuz; vor dunklem Hintergrund; Details gut lesbar (nur Bügel); Dargestellte Bauteile: BgCh; A, E (fragment.); mit Haube (fragment.); Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</rdfs:comment>
     <dcterms:medium>Fotografie</dcterms:medium>
     <dcterms:extent>Kartonmaß: 24,8 cm × 34,4 cm Bildmaß: 16,6 cm × 23,8 cm</dcterms:extent>
-    <gams:textualContent>1482180 CR_1_QB_Fo_1951-2000_033 Bildquelle Foto 1980 Fotografie Detailfotografie der Reichskrone; Fotografie des Bügels; S/W-Aufnahme; Ansicht von links; in der Krone; ohne Kreuz; vor dunklem Hintergrund; Details gut lesbar (nur Bügel); Dargestellte Bauteile: BgCh; A, E (fragment.); mit Haube (fragment.); Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482180.media.1431186">
-        <rdfs:label>CR_1_QB_Fo_1951-2000_033 (0057)</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482180/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Handschriftlicher Vermerk auf Karton:   oben rechts: XIII / 1  unten rechts: II 26 450 - Aufnahme Meyer 1980</crown:label>
+    <crown:date>1980</crown:date>
+    <crown:dateBegin>1980</crown:dateBegin>
+    <crown:dateEnd>1980</crown:dateEnd>
+    <gams:textualContent>1482180 CR_1_QB_Fo_1951-2000_033 Bildquelle Foto 1980 Fotografie</gams:textualContent>
+    <crown:caption>oben rechts: XIII / 1; unten rechts: II 26 450 - Aufnahme Meyer 1980</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>II 26450</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482180.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482180.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Abzug auf Karton: Kunsthistorisches Museum Wien, Kunstkammer Kunsthistorisches Museum Wien, Archiv, Fotobuch: AR_XIV_1043 – 91691</crown:owner>
+        <crown:provenance>Kunsthistorisches Museum Wien (?)</crown:provenance>
+        <crown:depiction>Detailfotografie der Reichskrone; Fotografie des Bügels; Ansicht von links; in der Krone; ohne Kreuz; vor dunklem Hintergrund; Details gut lesbar (nur Bügel); Dargestellte Bauteile: BgCh; Dargestellte Bauteile (fragment.): A, E; mit Haube (fragment.);</crown:depiction>
+        <crown:significance>hoch</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1482180.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482180/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1951-2000\CR_1_QB_Fo_1951-2000_033 (0057).jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

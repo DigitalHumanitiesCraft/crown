@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1527939">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1527939/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_010</dc:title>
+    <dc:description>Nennung der Reichskrone als Teil der Krönungsinsignien; Nennung von mehreren[!] Samthauben, die unter die Reichskrone gehören.</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1527939">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_010</rdfs:label>
+    <rdfs:comment>Nennung der Reichskrone als Teil der Krönungsinsignien; Nennung von mehreren[!] Samthauben, die unter die Reichskrone gehören.</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>Dezember 1711</crown:date>
+    <crown:dateBegin>1711</crown:dateBegin>
+    <crown:dateEnd>1711</crown:dateEnd>
+    <gams:textualContent>1527939 CR_1_QS_Ak_1526-1796_010 Schriftquelle Akte Dezember 1711 Papier; Tinte; handgeschrieben Nennung der Reichskrone als Teil der Krönungsinsignien; Nennung von mehreren[!] Samthauben, die unter die Reichskrone gehören.</gams:textualContent>
+    <crown:transcription>[fol. 17r] Verzeichnus Der Stück, was von Kayserl[ich] Habit und Orna= menten zur Kayserlichen Crönung ad locum cororationis von hiesiger Stadt wegen zu über= bringen, ist, und in die eine Ornat, Küste in Dec. 1711. ist eingelegt worden.[1] 1. Die Veilblaue Dalmatica. Ni 1.[2] 2. Ein paar gestickte Strümpff 5 3. Ein paar mit Perlein gestickte Handschue. 6 4. die Stola 3 5. die Alba 2 6. Zwey Roth-Sammette, und zwey Roth Ad= laße Häublein, unter die Cron gehörig 9 7. Zwey Rothe Samette starcke Detti. 10 8. Ein paar Rothe Sammette Socken. 8 9. Ein paar gestickte Schue. 7 10. Ein Blau mit Perlen gestickter Gürtel= Band. 11 11. Ein Gulden Gürtel mit Silber verguld= en Beschlägen 12 12. Das mit Perlen Reich gestickte, und mit Gold eingewürckte Pontifical oder Pallium. 4 In der andern Küsten:[3] 1. die Kaysl. Kron 2. Kayßer[?] Caroli M. Schwerd. 3. Kaysers[?] Mauritii Schwerd. 4. der Reichsapffel 5. das Scepter. Herrn Bar. von Füßen Zinßn[?] fn 450 [1] Die Streichung des „ist“ und die nach stehenden (hier kursivgestellten) Worte wurden in anderer Schrift und mit anderer Tinte ergänzt. [2] Die Nummerierung am rechten Rand mit Bleistift - vermutlich später - hinzugefügt. [3] Ergänzung in gleicher Schrift und Tinte wie am Beginn des Blattes.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1527939.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>hoch</crown:significance>
+        <crown:comment>Nennung der Reichskrone als Teil der Krönungsinsignien; Nennung von mehreren[!] Samthauben, die unter die Reichskrone gehören.</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

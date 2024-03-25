@@ -1,54 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489699.o">
-    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_014</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</rdfs:comment>
-    <dcterms:medium>Öl</dcterms:medium>
-    <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>299 x 199 cm Rahmenmaße (Achtung, Maße stammen vom BKA!): 336 cm × 215 cm × 15 cm</dcterms:extent>
-    <gams:textualContent>1489699 CR_1_QB_Gm_1526-1796_014 Bildquelle Gemälde 18. Jahrhundert Öl; Leinwand AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489699.media.905702">
-        <rdfs:label>INV_GG_2585.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489699/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489699.media.8282">
-        <rdfs:label>GG_2590.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489699/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Vorderseite unten rechts in weißer Schrift:\"898\".</crown:label>
-    <crown:label>Am Rahmen aussen rechts unten Belchmarke: \"Bundeskanzleramt No. 0137 [Nummer gestanzt]\".</crown:label>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489699.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489699">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489699/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489699/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_014</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_014, AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -61,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -69,12 +32,31 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489699/IMAGE.1">
-    <schema:contentURL>INV_GG_2209_4379\INV_GG_2585.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489699/IMAGE.2">
-    <schema:contentURL>GG_2590\GG_2590.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489699">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_014</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>299 x 199 cm Rahmenmaße (Achtung, Maße stammen vom BKA!): 336 cm × 215 cm × 15 cm</dcterms:extent>
+    <crown:date>18. Jahrhundert</crown:date>
+    <crown:dateBegin>1695</crown:dateBegin>
+    <crown:dateEnd>1770</crown:dateEnd>
+    <gams:textualContent>1489699 CR_1_QB_Gm_1526-1796_014 Bildquelle Gemälde 18. Jahrhundert Öl; Leinwand AUSSTEHEND; niedrig; keine Details, Bildqualität ungenügend</gams:textualContent>
+    <crown:caption>Vorderseite unten rechts in weißer Schrift:\"898\".</crown:caption>
+    <crown:caption>Am Rahmen aussen rechts unten Belchmarke: \"Bundeskanzleramt No. 0137 [Nummer gestanzt]\".</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1489699.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Wien; Bundesdenkmalamt; Steinsaal</crown:owner>
+        <crown:provenance>1772 aus der Gemäldegalerie nach Schloss Schönbrunn; einige Zeit in Eckartsau, Blaues Schlafzimmer; Scheint dort in einem Inventar auf: FFGO194; Evidenzbuchnr. 1305 (Autorin G. Gruber, lt. GG TMS-Eintrag); seit 1960 Dauerleihgabe BKA, Wien.</crown:provenance>
+        <crown:depiction>ÜBERARBEITEN: Maria Theresia in rotem Kleid, Hermelinmantel und Stola. Sie trägt die Wenzelskrone. Auf dem Tisch links sind Reichskrone, Erherzogshut, Reichsapfel und auf einem roten Kissen die Stephanskrone. Rechts auf mit grünen Stoff bedeckten Podest ein Thronstuhl. Im Hintergrund ein kannelierter Doppelpilaster. Oberhalb des mit einem goldenen Stoff drapierten Tisches mit den Kronen ein goldener und ein grüner Vorhang.</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1489699.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

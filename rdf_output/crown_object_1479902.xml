@@ -1,120 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.o">
-    <rdfs:label>Tülle, CR_1_CC_Tuel_3</rdfs:label>
-    <dcterms:medium>Gold</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1479902 CR_1_CC_Tuel_3 Kronreif Tülle Gold nan 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.media.1419616">
-        <rdfs:label>CR_1_CC_Tuel_Nummerierung</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1479902/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.media.1419953">
-        <rdfs:label>CR_1_CC_Tuel_3_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1479902/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.adhesiondamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.discolorationdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.burntsurface">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BurntSurface>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.tooltracedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.deformationdamage">
-        <crown:comment>rechte Seite: zahlreiche Dellen, eingedrückte Stellen; _x000d_
-obere Öffnung: viereckig verformt - rechte Seite stärker zusammengedrückt [[Gebrauchspur (?)]]</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.detachmentofplatedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DetachmentOfPlateDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.crackdamage">
-        <crown:comment>Loch, Bereich neben Fuge: zwischen GrUm und Oberkante Tuel [[Gebrauchspur (?)]]</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.brokensolderingdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BrokenSolderingDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.fracturedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FractureDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.missingpartdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.settingevidencedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:SettingEvidenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.condition">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumber(notassigned)"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1479902.intervention">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1479902">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1479902/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1479902/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Tülle, CR_1_CC_Tuel_3</dc:title>
-    <dc:description>Tülle, CR_1_CC_Tuel_3, nan</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -127,7 +24,7 @@ obere Öffnung: viereckig verformt - rechte Seite stärker zusammengedrückt [[G
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -135,12 +32,11 @@ obere Öffnung: viereckig verformt - rechte Seite stärker zusammengedrückt [[G
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479902/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_C\CR_1_CC_Tuel\CR_1_CC_Tuel_3\CR_1_CC_Tuel_3_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479902/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_C\CR_1_CC_Tuel_Nummerierung.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1479902">
+    <rdfs:label>Tülle, CR_1_CC_Tuel_3</rdfs:label>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1479902 CR_1_CC_Tuel_3 Kronreif Tülle Gold nan 3D Mikroskopie</gams:textualContent>
+  </crown:Object>
 </rdf:RDF>

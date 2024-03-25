@@ -1,25 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481859">
+    <rdfs:label>Grafik, CR_1_QB_Gr_1797-1919_001</rdfs:label>
+    <rdfs:comment>AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Radierung</dcterms:medium>
+    <dcterms:extent>Plattenmaße : 216 × 191 mm</dcterms:extent>
+    <crown:date>1804-1806</crown:date>
+    <crown:dateBegin>1804</crown:dateBegin>
+    <crown:dateEnd>1806</crown:dateEnd>
+    <gams:textualContent>1481859 CR_1_QB_Gr_1797-1919_001 Bildquelle Grafik 1804-1806 Radierung AUSSTEHEND</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21437584850003338&amp;context=L&amp;vid=ONB&amp;lang=de_DE&amp;search_scope=ONB_gesamtbestand&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,wappen%20kaiser%20franz%20II.%20&amp;mode=basic</schema:identifier>
+    <schema:identifier>Pk 4776, 2</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1481859.PictorialSource">
+        <crown:origin>k. A.</crown:origin>
+        <crown:owner>ÖNB, Grafiksammlung, Sign. Pk 4776, 2 Abb. bei Georg Johannes Kugler, Die Reichskrone, Wien 1968, Abb. 42</crown:owner>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:depiction>(not assigned)</crown:depiction>
+        <crown:significance>(auswählen)</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1481859.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481859">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481859/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481859/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1797-1919_001</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1797-1919_001, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +49,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,40 +57,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481859.o">
-    <rdfs:label>Grafik, CR_1_QB_Gr_1797-1919_001</rdfs:label>
-    <rdfs:comment>AUSSTEHEND</rdfs:comment>
-    <dcterms:medium>Radierung</dcterms:medium>
-    <dcterms:extent>Plattenmaße : 216 × 191 mm</dcterms:extent>
-    <gams:textualContent>1481859 CR_1_QB_Gr_1797-1919_001 Bildquelle Grafik 1804-1806 Radierung AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481859.media.1424173">
-        <rdfs:label>CR_1_QB_Gr_1797-1919_001_wappen_franzII</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481859/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481859.media.1424174">
-        <rdfs:label>CR_1_QB_Gr_1797-1919_001_wappen_franzII_kugler</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481859/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <schema:identifier>https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21437584850003338&amp;context=L&amp;vid=ONB&amp;lang=de_DE&amp;search_scope=ONB_gesamtbestand&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,wappen%20kaiser%20franz%20II.%20&amp;mode=basic</schema:identifier>
-    <schema:identifier>Pk 4776, 2</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1481859.color">
-        <crown:color>(auswählen)</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481859/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1797-1919\CR_1_QB_Gr_1797-1919_001_wappen_franzII.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481859/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1797-1919\CR_1_QB_Gr_1797-1919_001_wappen_franzII_kugler.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

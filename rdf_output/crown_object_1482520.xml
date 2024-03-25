@@ -1,147 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.o">
-    <rdfs:label>Röhrchen mit Kugelpyramide, CR_1_F_RoeG_27</rdfs:label>
-    <dcterms:medium>Gold</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1482520 CR_1_F_RoeG_27 Kronreif Röhrchen mit Kugelpyramide Gold nan 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.media.1431953">
-        <rdfs:label>CR_1_F_RoeG_Nummerierung</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482520/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.media.1434778">
-        <rdfs:label>CR_1_F_RoeG_27_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482520/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.adhesiondamage">
-        <crown:comment>grau-weißlich; krustig:</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.discolorationdamage">
-        <crown:comment>rötliche Flecken; </crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.burntsurface">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BurntSurface>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.tooltracedamage">
-        <crown:comment>Granalien: Kerben, Dellen, flachgedrückte flachgeschabte Stellen;</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.deformationdamage">
-        <crown:comment>Wand: eingedrückte Stellen;</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.detachmentofplatedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DetachmentOfPlateDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.crackdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.brokensolderingdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BrokenSolderingDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.fracturedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FractureDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.missingpartdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.settingevidencedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:SettingEvidenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.condition">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumber(notassigned)"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.intervention">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:description>
-      <crown:SolderingTechnique rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.solderingtechnique">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:SolderingTechnique>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
-    <crown:descriptionOfComponents>
-      <crown:PearlWires rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.pearlwires">
-        <crown:diameter>0</crown:diameter>
-      </crown:PearlWires>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.tube">
-        <crown:plateThickness>0</crown:plateThickness>
-        <crown:joint rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#offen"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#topedgeadaptedtospherepyramid0"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Tube>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Granules rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.granules">
-        <crown:diameter>0</crown:diameter>
-      </crown:Granules>
-    </crown:descriptionOfComponents>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:ns7="https://gams.uni-graz.at/o:crown.ontology#crownvoc:" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482520">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482520/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482520/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Röhrchen mit Kugelpyramide, CR_1_F_RoeG_27</dc:title>
-    <dc:description>Röhrchen mit Kugelpyramide, CR_1_F_RoeG_27, nan</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -154,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -162,12 +32,50 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482520/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_F\CR_1_F_RoeG\CR_1_F_RoeG_27\CR_1_F_RoeG_27_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482520/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_F\CR_1_F_RoeG_Nummerierung.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482520">
+    <rdfs:label>Röhrchen mit Kugelpyramide, CR_1_F_RoeG_27</rdfs:label>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1482520 CR_1_F_RoeG_27 Kronreif Röhrchen mit Kugelpyramide Gold nan 3D Mikroskopie</gams:textualContent>
+    <crown:descriptionOf>
+      <crown:TubeWithGranules rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules">
+        <crown:beadedWireRingOnBaseplate>1</crown:beadedWireRingOnBaseplate>
+        <crown:component>
+          <crown:BeadedWireRing rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules.BeadedWireRing">
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:wireDiameter>0.00000000</crown:wireDiameter>
+            <ns7:EquatorLine>1</ns7:EquatorLine>
+          </crown:BeadedWireRing>
+        </crown:component>
+        <crown:component>
+          <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules.Tube">
+            <crown:height>0.00000000</crown:height>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:sheetThickness>0.00000000</crown:sheetThickness>
+            <crown:joint>offen</crown:joint>
+            <crown:upperEdgeMatchedToPyramidOfGranules>0</crown:upperEdgeMatchedToPyramidOfGranules>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Tube>
+        </crown:component>
+        <crown:component>
+          <crown:Granule rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules.Granule">
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Granule>
+        </crown:component>
+        <crown:pyramidOfGranulesOnCarrierSheet>exakt zugeschnitten</crown:pyramidOfGranulesOnCarrierSheet>
+        <crown:feature>
+          <crown:SolderingTechnique rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules.SolderingTechnique">
+            <crown:description>(not assigned)</crown:description>
+          </crown:SolderingTechnique>
+        </crown:feature>
+        <crown:feature>
+          <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1482520.TubeWithGranules.ManufacturingProcess">
+            <crown:features>(not assigned)</crown:features>
+          </crown:ManufacturingProcess>
+        </crown:feature>
+      </crown:TubeWithGranules>
+    </crown:descriptionOf>
+  </crown:Object>
 </rdf:RDF>

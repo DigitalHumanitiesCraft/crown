@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482551">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482551/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Zellenschmelz-Stege, CR_1_F_ET_Steg</dc:title>
-    <dc:description>Zellenschmelz-Stege, CR_1_F_ET_Steg, nan</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482551/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Stege für Senkschmelz, CR_1_F_ET_Steg</dc:title>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,33 +32,34 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.o">
-    <rdfs:label>Zellenschmelz-Stege, CR_1_F_ET_Steg</rdfs:label>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482551">
+    <rdfs:label>Stege für Senkschmelz, CR_1_F_ET_Steg</rdfs:label>
     <dcterms:medium>Gold</dcterms:medium>
-    <gams:textualContent>1482551 CR_1_F_ET_Steg Kronreif Zellenschmelz-Stege Gold</gams:textualContent>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1482546.analysis.1">
-        <rdfs:label>Analyse des Objekts CR_1_F_ET_Steg</rdfs:label>
+    <gams:textualContent>1482551 CR_1_F_ET_Steg Kronreif Stege für Senkschmelz Gold</gams:textualContent>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.206514">
         <crown:surveyType>Analyse</crown:surveyType>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430"/>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431"/>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431" />
         <crown:date>1999</crown:date>
         <crown:attributeType>Raman</crown:attributeType>
         <crown:briefDescription>Charakterisierung Edelstein</crown:briefDescription>
         <crown:treatment>Messgerät: WiTec alphaCART mit Raman-Probe, Laserwellenlänge 457 nm, TruePower-Modul (Definition und Dokumentation der Laserleistung per Software), Detektor UHTS300VIS mit BI-EMCCD-Kamera;</crown:treatment>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:description>
-      <crown:UpperEdge rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.upperedge">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:UpperEdge>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:conditionOf>
+      <crown:EnamelMetalStripes rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.EnamelMetalStripes">
+        <crown:sheetThickness>0.00000000</crown:sheetThickness>
+        <crown:depth>0.00000000</crown:depth>
+        <crown:feature>
+          <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1482551.EnamelMetalStripes.ManufacturingProcess">
+            <crown:features>(not assigned)</crown:features>
+          </crown:ManufacturingProcess>
+        </crown:feature>
+        <crown:description>(not assigned)</crown:description>
+      </crown:EnamelMetalStripes>
+    </crown:conditionOf>
   </crown:Object>
 </rdf:RDF>

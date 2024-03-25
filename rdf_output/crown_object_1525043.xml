@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1525043">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1525043/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akt, CR_1_QS_Ak_1421-1525_001</dc:title>
+    <dc:description>Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1525043">
+    <rdfs:label>Akt, CR_1_QS_Ak_1421-1525_001</rdfs:label>
+    <rdfs:comment>Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <crown:date>1521</crown:date>
+    <gams:textualContent>1525043 CR_1_QS_Ak_1421-1525_001 Schriftquelle Akt 1521 Papier Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</gams:textualContent>
+    <crown:transcription>[fol.1r] Verzaichnus, was Kayser Karl der funfft des Namens uff dem Erstgehaltten Reichstag zu Wormbs In funffzehnhundertisten und ainundzwanzigisten Jar von Sant Kayser Karls Pontificalien und Ornaten zu Verleyhung der fursten Regalien vff dem lehen=stuhl gebraucht. Vnd wie sein m[majestät] die nacheinander angethan hath erstlich Ein par Roter Kniehosen, Ein par gestickter Schuch mit perlein vnd Stainen Ein praune seydine kappen mit schwarzen Adlern Ein weiße Alm genannt Almatica mit Stainen. Vnd perlein, disselb alm ist kay[serliche]. [maiestät] mit ainem schmalen gulden schmugportten gegurtet worden. Ein großer guldener Stol mit perlein vnd schwarzen adlern gestickt vnd dweyl derselb stol zu lang ist, hat Ihr kay[serliche].[Maiestät] zweifach zusam gelegt. Gebraucht Mer ainen gulden Schurzportten damit kay[serliche]. [maiestät] den großen Stol zu sich gegurth, Ein ploben Manipel an den Arm. Ein Rotten Chormantl mit perlein gestickt, alls die kay[serliche]. [maiestät] den Chormantl angethan, hath Ir [maiestät] die kappen uber den kopff hinab gestraifft vnd uber der kormantl die gugel hangen laßen, Ein par gestickter hantschuch mit perlein vnd stainen, Darnach ist kay[serliche]. [maiestät] Sandt Kayser Karls Cron auffgesezt worden, Ein gar gulden mayestat Apffl mit perlen vnd [fol.1v] Stainen versetzt, hath Phalzgraff Ludwig Churfürst empfahngen vnnd kay[serliche]. [maiestät] Vorgetragen. Ein silbrin vergultes Cepter das hat Margg[ra]f Joachim Churfürst empfangen vnd kay[serliche] [maiestät] auch vorgetragen, Sandt Kayser Karls schwerth hat hertzog friedrich von Sachsen Churfurst kay[serliche]. [maiestät] vorgetragen. Mit welchem schwerth auch Ir [maiestät] nach der belegung etlich Ritter geschlagen. Die yeztgemelten Stuckh sind durch ainen Erbarn Rate zu Nurmberg her Casparn Nützel vnd her Leonharten Grolandt. Neben anderen sachen vnd zu obgemeltem Reichstag verordert, zubelassen[?] bevolhen, darauff haben gemelte eins Ehrbaren Rats Pottschafter zu yedem mal. So kay[serliche]. [maiestät] den Churfursten oder fursten Ihre Regalien, vff dem lehenstuel offenlich gelihen, das heylgthumb. daselbsthin gebracht. Daß ist durch die geschickten aines Ehrbern Rats kay[serliche]: [maiestät] anzuthun geraicht. Vnnd nach der belehnung, widerumb zu Iren handen geantwort worden. Wie dann mit altter herkomen ist, die geschickten eins Ehrbaren Rats. haben auch selbs kay[serliche]. [maiestät] die ornat helffen An vnnd abthun, [fol.2r] Vnnd hath die kay[serliche]. [maiestät] zu dreyen malen etlichen Churfürsten vnd fursten Ihr Regalia offenlich vff dem lehenstuhl gelihen wie hernach volgt Erstlich haben Margg[ra]f Joachim Churfürst Vnnd Margg[ra]f Casimirus von Brandenburg für sich selbs vnnd von wegen Marggraf Gorgen, seines brueders Ihr Regalia vff den Sechtzeheunden tag des Montas february empfangen. Zum andern haben Herzog Heinrich vnd Herzog Albrecht von Mecklenburg gebruedere Ihr Regalia den andern tag des Monats Maerz empfangen. Dritten hath Pfalzgraf Ludwig Churfürst, Herzog Fridrich, Herzog Otthainrich von Baiern, vnnd Bischoff Cunrat von Würzburg Irr Regalien miteinander am Zwölfften tag des Monats Marcy empfangen. Sunst hat kay[serliche]. [maiestät] allen andern Fürsten Ire Regalien vff dem Sal oder Inn Irer [maiestät] Camer vnnd nit öffentlich gelihen darzu man das lehen=gewandt nit gepraucht, Item wo herfuro vnnd Inn künfftig zeith ain [fol.2v] Romischer Kunig oder kaiser etlichen Churfürsten oder Fursten Inn ainer Camer, vnd nit offenlich vff dem lehenstuel Ire Regalia leyhen wolt unnd der pontificalia darzu begerte. Ist Inn acht zuhaben, solchs sovil müglich zuferkomen dann es dermaßen vnd mit altter here, alß nit gebraucht, Vnd Zubesorgen, wo die Ornat also ghen Hof geantwort, das etliche stuckh davon entzogen verloren, oder schadhafft werden möchten, Zu dem wer am Erbar Rath Ir pottschafften. allemal mit dem heylgthumb von haus aus an den kay[serlich]. oder kuniglichen hof schicken sollten. Das solchs einen großen Vncosten gepern wurde.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1525043.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>1</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>Nürnberg(?)</crown:localisation>
+        <crown:significance>niedrig</crown:significance>
+        <crown:comment>Nennung der RKrone als Teil des bei der Belehnung von Karl V. getragenen Ornats</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

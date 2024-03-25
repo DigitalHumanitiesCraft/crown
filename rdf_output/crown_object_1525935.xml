@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1525935">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1525935/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akt, CR_1_QS_Ak_1421-1525_005</dc:title>
+    <dc:description>Heiltumsweisung, Ausbesserung des Ornats, Verzeichnisse der Heiltümer, Ende 15. Jh., 16. Jh. 17. Jh. [Beilagezettel: Die Weisung der Heiligthümer u(nd) des Ornats, auch die Ausbesserung desselben be(treffend).] [Wegen Unstimmigkeiten bei der Nummerierung und der Ordnung im Faszikel wurden im Zuge der Transkription die Blätter in der Ordnung fortlaufen nummeriert]</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1525935">
+    <rdfs:label>Akt, CR_1_QS_Ak_1421-1525_005</rdfs:label>
+    <rdfs:comment>Heiltumsweisung, Ausbesserung des Ornats, Verzeichnisse der Heiltümer, Ende 15. Jh., 16. Jh. 17. Jh. [Beilagezettel: Die Weisung der Heiligthümer u(nd) des Ornats, auch die Ausbesserung desselben be(treffend).] [Wegen Unstimmigkeiten bei der Nummerierung und der Ordnung im Faszikel wurden im Zuge der Transkription die Blätter in der Ordnung fortlaufen nummeriert]</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <crown:date>1520</crown:date>
+    <crown:dateBegin>1520</crown:dateBegin>
+    <crown:dateEnd>1520</crown:dateEnd>
+    <gams:textualContent>1525935 CR_1_QS_Ak_1421-1525_005 Schriftquelle Akt 1520 Papier Heiltumsweisung, Ausbesserung des Ornats, Verzeichnisse der Heiltümer, Ende 15. Jh., 16. Jh. 17. Jh. [Beilagezettel: Die Weisung der Heiligthümer u(nd) des Ornats, auch die Ausbesserung desselben be(treffend).] [Wegen Unstimmigkeiten bei der Nummerierung und der Ordnung im Faszikel wurden im Zuge der Transkription die Blätter in der Ordnung fortlaufen nummeriert]</gams:textualContent>
+    <crown:transcription>[fol. 5r] Item zu der Königlichen Crönung Vnnsers er= wöhlten König Karls auff 1.ma Octobris gen Ach fürgenommen, darzu von eines Erbarn Raths verordnet sein H[err]. Leonhardt Grolandt vnnd H[err]. Hannß Ebner, soll man deß Heiligen Kayser Karls Cron, Schwerdt, Zepter, Maiestat Öpfel vnnd alle cleidung mit nehmen, doch solches alles zuvorn den Closter Frawen zu Sannt Clarn zustellen zu besichtigen vnnd zuheffen, wo es not ist. Actum 4.ta post Egidy. 1520. Item dieweil auff besichtigung der Closter Frawen zu St. Clarn sich erfindet, daß die Weiß Kayser Karls dalmatica alters halben zermodert ist, Soll man die mit einer newen Weißen Seiden Über= ziehen, deßgleichen die Kappen vnnd Kniehosen, so auch gebrechlich erfunden, Vnter futtern laßen. Actum sexta vigilia Nativit: Maria. 1520. P. H. Pawmaister.[1] [fol. 5v/Außenseite] Reichsverläß. A° 1520. Weiß dalmatica reficie= rung bet[reffend]: [1] Unterschrift</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1525935.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:comment>Nennung der Reichskrone als Teil der Insignien, die 1520 zur Krönung Karls V. gebracht wurden. Information zu Ausbesserungsmaßnahmen an Teilen der Gewänder.</crown:comment>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>Nürnberg(?)</crown:localisation>
+        <crown:significance>niedrig</crown:significance>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

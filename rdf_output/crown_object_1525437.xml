@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1525437">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1525437/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akt, CR_1_QS_Ak_1421-1525_002</dc:title>
+    <dc:description>Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1525437">
+    <rdfs:label>Akt, CR_1_QS_Ak_1421-1525_002</rdfs:label>
+    <rdfs:comment>Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <crown:date>07.03.1521</crown:date>
+    <gams:textualContent>1525437 CR_1_QS_Ak_1421-1525_002 Schriftquelle Akt 07.03.1521 Papier Teil eines Faszikels (StAN, Reichsstadt Nürnberg, Losungsamt, Akten S I L 134/1): Verzeichnis, was Kaiser Karl V., auf dem Reichstag zu Worms vom kaiserlichen Ornat zur Verleihung der fürstlichen Regalien auf dem Lehensstuhl gebraucht hat, nebst einer Spezifikation der Steine, welche sich in jeder Tafel der kaiserlichen Krone befinden.</gams:textualContent>
+    <crown:transcription>[fol. 3r] Vff donerstag nach kunegundis dem sibenden marcy 1521 sind die stain Inn Kayser Karls Cron sambt den berlein von tafeln zu taffeln abgezelt vnnd aufgeschriben durch Mathis Gorian Inn beysein Her Caspar Nüntzels vnd H[errn]. Leonharten Grolands vnd Lazarus Spenglers zu Wormbs wie hernach volgt. Inn der ersten tafl darein das Kreuz gesteckt, ist In der mitten ein großer Rubin vnd darumb acht clain Rubin vier prasem. Vier Saphir Zween Amatisten vnd oben am ort ain palas. Vnd 16 perlein, an dieser tafel. Sindt 6 lere Feldungen darinen ettwo stain vnd perlein gestanden sein Die ander taffl vff die Rechten handt hat diese nachvolgende stain Nemlich 10 saphir 12 perlein vnd zway lere feld, Die dritt darnach hat Neun Saphir, drey Rubin ain prasem 40 Grosse und cleine perlein vnd vier lere Veld. Die vierdt taffl hat zehen saphir zwolff perlein vnd zway lere feldt. Die fünfft vnd hintter tafel vntter dem steg darinn sind funff saphir, vier prasem, zwen amatisten aylff Rubin groß vnd clein gut und pos 15 perlein Vnd viere lere kesten oder feldung. [fol. 3v] Die sechst tafl hat neun Saphir aylff perlein vnd vier ler feldung. Die sibendt taffl hat funff Saphir ain prasem vir Rubin vnd 36 perlein clain und gros. Vnd 24 ler kesten. oder feldung zu stainen und perlein Die acht vnd letzte tafl hat Zehen Saphir, Zwolff perlein vnd zween ler kesten. Das Creutz vff der Cron hat dise Stain, drey Saphir ain prasem. Ain Amatist. drey Rubinlein vnd 16 grune vnd plobe stainlein, Sind mer fur glas dann Stain geacht, 17 perlein vnd funff ler feldungen, Der Steg vber der Cron hat diese Stain und perlein vff baiden Seitten 13 prasem 15 graneten, ain turckes[?] ain karniol 26 perlein außerhalb der schrifft von Berlein zwen ler kesten. Ettliche puchstaben von Perlein vntter denen etliche perlein an den puchstaben mangeln, Der gulden mayestat apfl von gold hat diese stain vnd perlein Vff dem apfl sind 4 saphir, drey amatisten, 3 granaten ain Rubin 8 Perlein 4 ler kesten. [fol. 4r] Das Creutz des Apfels vff beden seitten hat 5 prasem zwenn Saphir 21 graneten, klein vnd gros vier amatisten 16 versetzte große perlein, ain leren kasten Die zween hantschuch Der Recht hat 9 Saphir 5 palas. ain amatisten vnd acht granaten, Der Linkh hat aylff Saphir 5 granaten 4 palas seindt sunst mit perlein gestickht vnd beschlagen Die zween Schuch Der Recht hat drey Saphir 3 amatisten Der linkh hat zween Saphir zween Prasem ain Amatisten vnd auch mit perlen gestickht Die weiß Alm hat am Rechten Ermel 3 schmaraln 4 Saphir 1 palas 1 amatisten, dopasius Am linkhen Ermel hat 4 schmaral, 3 Saphir ain palas. Sonst ist die alm mit perlein gestickht. Der Rot Cormantl hat an Zweyen Schiltten Vornen an der prust [fol. 4v] am Rechten 4 Saphir 7 Granaten 15 lere kesten oder veldung. Am Linken 4 saphir 8 Granaten 14 lere Kesten oder Veldung. Vnd vornen am ge= sper vff der ainen seitten. 2 palas vnd vff der anderen seytten ainen palas.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1525437.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:comment>Angaben zu Steinbesatz auf Reichskrone, fehlenden Steinen und Perlen sowie leere Fassungen</crown:comment>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>Nürnberg(?)</crown:localisation>
+        <crown:significance>hoch</crown:significance>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

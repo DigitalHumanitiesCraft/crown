@@ -1,24 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481335">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_002</rdfs:label>
+    <rdfs:comment>Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4 Über die heil. Römischen Reichs Insignien und Reliquien</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <dcterms:extent>ca. H. 39 cm x B. 24 cm</dcterms:extent>
+    <crown:date>22. Juli 1796</crown:date>
+    <crown:dateBegin>1796</crown:dateBegin>
+    <crown:dateEnd>1796</crown:dateEnd>
+    <gams:textualContent>1481335 CR_1_QS_Ak_1526-1796_002 Schriftquelle Akte 22. Juli 1796 Papier; Tinte; handgeschrieben Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4 Über die heil. Römischen Reichs Insignien und Reliquien</gams:textualContent>
+    <crown:transcription>Spezifikation der Reichsinsignien | 1. Reichskrone | 2. Reichsscepter | 3. Reichsapfel | 4. Damatica | 5. Alba | 6. Stola | 7. Pluviale | 8. Handschuh | 9. Strümpfe | 10. Schuh | 11. Gürtel | Nürnberg, den 22. Juli 1796. LoosungsAmt | Gegenwärtiges Original-Verzeichniß der Reichs-Insignien ist dem k. k. Herrn Schatzmeister von Wolfskron von dem Unterzeichneten ausgehändiget worden. | Wien, den 29. 8ber 1800. A. W. Hügel</crown:transcription>
+    <schema:identifier>CR_1_QS_Ak_1526-1796_2</schema:identifier>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1481335.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>0</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>Wien</crown:localisation>
+        <crown:significance>niedrig</crown:significance>
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481335">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481335/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Akte, CR_1_QS_Ak_1526-1796_2</dc:title>
-    <dc:description>Akte, CR_1_QS_Ak_1526-1796_2, Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4 Über die heil. Römischen Reichs Insignien und Reliquien</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481335/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_002</dc:title>
+    <dc:description>Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4 Über die heil. Römischen Reichs Insignien und Reliquien</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +47,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,15 +55,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481335.o">
-    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_2</rdfs:label>
-    <rdfs:comment>Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4 Über die heil. Römischen Reichs Insignien und Reliquien</rdfs:comment>
-    <dcterms:medium>Papier, Tinte, handgeschrieben</dcterms:medium>
-    <dcterms:extent>ca. H. 39 cm x B. 24 cm</dcterms:extent>
-    <gams:textualContent>1481335 CR_1_QS_Ak_1526-1796_2 Schriftquelle Akte 22. Juli 1796 Papier, Tinte, handgeschrieben Älteste Schatzkammerakten, AR_II_623, 19b, Nr. 4
-Über die heil. Römischen Reichs Insignien und Reliquien</gams:textualContent>
-    <crown:transcription> Spezifikation der Reichsinsignien  1. Reichskrone  2. Reichsscepter  3. Reichsapfel  4. Damatica  5. Alba  6. Stola  7. Pluviale  8. Handschuh  9. Strümpfe  10. Schuh  11. Gürtel  Nürnberg, den 22. Juli 1796. LoosungsAmt  Gegenwärtiges Original-Verzeichniß der Reichs-Insignien ist dem k. k. Herrn Schatzmeister von Wolfskron von dem Unterzeichneten ausgehändiget worden.  Wien, den 29. 8ber 1800. A. W. Hügel</crown:transcription>
-  </crown:AdditionalMaterial>
 </rdf:RDF>

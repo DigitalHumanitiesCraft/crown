@@ -1,54 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1502654.o">
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1502654">
     <rdfs:label>Grafik, CR_1_QB_Gr_1797-1919_046</rdfs:label>
     <rdfs:comment>AUSSTEHEND; niedrig, stark vereinfacht</rdfs:comment>
-    <dcterms:medium>Bleistiftzeichung</dcterms:medium>
+    <rdfs:comment>Die Darstellung in der oberen Spitzbogenform zeigt Kaiser Karl den Großen über einer der beiden Thermalquellen in Aachen sitzend. Auf seinem linken Unterarm trägt er ein Modell des Aachener Münsters, während seine rechte Hand die Hand einer vor ihm knienden Quellnymphe hält. Es handelt sich um die Nachzeichnung eines 1851 gemalten Lunettenbildes von Alfred Rethel (1816-1859) aus den Karlsfresken im Aachener Rathaus (Schmid 1898, S. 96-97; Ponten 1911, S. 122; Schoenen 1965, S. 563-567). Diese Fresken, von denen der in Düsseldorf bei Schadow ausgebildete Rethel 1846 bis 1853 vier von insgesamt sieben Wandbildern selbst ausführte, gehören zu seinen Hauptwerken. Bendemann zeigt auch den das zentrale Motiv umgebenden, archivoltenförmigen Fries mit menschlichen Figuren in verschiedenen Körperhaltungen und floralen Formen. Die Zeichnung übernimmt viele Details aus Rethels Lunettenbild, ist aber eher skizzenhaft. Die untere kleinere Zeichnung zeigt eine Engelsgestalt, die sich über eine auf dem Boden sitzende und nach hinten lehnende Figur beugt und dieser mit ausgestreckten Armen einen langen, schmalen Gegenstand entgegenhält. An der linken Seite des Sitzenden lehnt ein schildartiger Gegenstand. Der schildförmige Gegenstand mit dem Kreuz, der über beiden Figuren schwebt, stellt möglicherweise eine Fahne dar, die an einem Stab hängt, der scheinbar von dem Sitzenden mit der rechten Hand hochgehalten wird. Ein motivisches Vorbild für diese Zeichnung ist nicht bekannt.</rdfs:comment>
+    <dcterms:medium>Bleistiftzeichnung</dcterms:medium>
     <dcterms:extent>Blattmaß: 49,1 cm × 40,8 cm</dcterms:extent>
-    <gams:textualContent>1502654 CR_1_QB_Gr_1797-1919_046 Bildquelle Grafik um 1850 Bleistiftzeichung AUSSTEHEND; niedrig, stark vereinfacht</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502654.media.1467983">
-        <rdfs:label>CR_1_QB_Gr_1797-1919_046_AachenerQuelle_DETAIL</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502654/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502654.media.1467984">
-        <rdfs:label>CR_1_QB_Gr_1797-1919_046_AachenerQuelle</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1502654/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
+    <crown:date>um 1850</crown:date>
+    <crown:dateBegin>1845</crown:dateBegin>
+    <crown:dateEnd>1855</crown:dateEnd>
+    <gams:textualContent>1502654 CR_1_QB_Gr_1797-1919_046 Bildquelle Grafik um 1850 Bleistiftzeichnung AUSSTEHEND; niedrig, stark vereinfacht</gams:textualContent>
+    <crown:caption>nach Rethel E. B.</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>https://unidam1.univie.ac.at/#/detail/154519@4f561f03-2c14-4fd5-81d1-d5582c84fef1;</schema:identifier>
     <schema:identifier>https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_666882/1/-/</schema:identifier>
     <schema:identifier>H 1977/96</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1502654.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1502654.PictorialSource">
+        <crown:origin>Deutsch; Aachen (?)</crown:origin>
+        <crown:owner>Universität Göttingen, Kunstsammlungen, Inv. Nr. H 1977/96</crown:owner>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:depiction>AUSSTEHEND; Zeichnung nach dem Lünettengemälde Alfred Rethels im Aachener Rathaus; Beschreibung der Onlinesammlung der Kunstsammlung der Unviersität Göttingen, siehe Feld \"Texteingaben\"</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1502654.PictorialSource" />
   </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1502654">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1502654/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1502654/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1797-1919_046</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1797-1919_046, AUSSTEHEND; niedrig, stark vereinfacht</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig, stark vereinfacht</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -61,7 +51,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -69,12 +59,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502654/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1797-1919\CR_1_QB_Gr_1797-1919_046_AachenerQuelle.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1502654/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1797-1919\CR_1_QB_Gr_1797-1919_046_AachenerQuelle_DETAIL.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

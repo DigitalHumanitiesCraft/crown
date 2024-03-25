@@ -1,82 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.o">
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482023">
     <rdfs:label>Foto, CR_1_QB_Fo_1797-1919_008</rdfs:label>
-    <rdfs:comment>Objektfotografie der Reichskrone; S/W-Aufnahme; Frontalansicht; RK zentral im Bild; auf Samt (?); vor dunklem Hintergrund; Details gut lesbar; Dargestellte Bauteile: A, B, H, K; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</rdfs:comment>
     <dcterms:medium>Fotografie</dcterms:medium>
     <dcterms:extent>Kartonmaß (Abzug 0016 a. gelblichem Karton): 30,2 cm × 23,5 cm Bildmaß (Abzug 0016 a. gelblichem Karton): 21 cm × 21 cm Außenmaß (Grusskarte): 14 cm × 8,9 cm Bildmaß (Abzug 0031 a. weißem Karton): 18,7 cm × 17,5 cm Kartonmaß (Abzug 0031 a. weißem Karton): 30,4 cm × 23,2 cm</dcterms:extent>
-    <gams:textualContent>1482023 CR_1_QB_Fo_1797-1919_008 Bildquelle Foto 1918 Fotografie Objektfotografie der Reichskrone; S/W-Aufnahme; Frontalansicht; RK zentral im Bild; auf Samt (?); vor dunklem Hintergrund; Details gut lesbar; Dargestellte Bauteile: A, B, H, K; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1432529">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008 (0016)</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1438000">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008_grusskarte</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1438001">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008_grusskarte_rueckseite</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1438007">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008_rueckseite</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1438008">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008 (0031)</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.5"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.media.1438027">
-        <rdfs:label>CR_1_QB_Fo_1797-1919_008_kohlhaussen_1939_RK_sch</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.6"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Beschriftung der Grusskarte rückseitig:   WIEN: SCHATZKAMMER DES ALLERHÖCHSTEN KAISERHAUSES - Kaiserkrone des ehemaligen heil. römischen Reiches deutscher Nation. Aus purem Golde, mit Perlen und Edelsteinen in Filigranfassung und mit Email=bildern (symbolischen Darstellungen) geziert. XI. Jhdt.   unten: (Nr. 1) Kunstverlagh Anton Schroll &amp; Co, G.m.b.H., Wien   Handschriftlich: Privater Glückwunsch an Franz Kirchweger</crown:label>
-    <crown:label>Handschriftlicher Vermerk auf Karton:   rückseitig: I 16329  vorne: AR_XIV_1038 - Pos. Nr. 58488: Deutsche Kaiserkrone von vorne (Repro) - Neg. I 16329, Aufnahme 11.11.1955 [nur Datum des Erwerbs des Negativs, EK]</crown:label>
+    <crown:date>1918</crown:date>
+    <crown:dateBegin>1918</crown:dateBegin>
+    <crown:dateEnd>1918</crown:dateEnd>
+    <gams:textualContent>1482023 CR_1_QB_Fo_1797-1919_008 Bildquelle Foto 1918 Fotografie</gams:textualContent>
+    <crown:caption>WIEN: SCHATZKAMMER DES ALLERHÖCHSTEN KAISERHAUSES - Kaiserkrone des ehemaligen heil. römischen Reiches deutscher Nation. Aus purem Golde, mit Perlen und Edelsteinen in Filigranfassung und mit Email=bildern (symbolischen Darstellungen) geziert. XI. Jhdt.; unten: (Nr. 1) Kunstverlagh Anton Schroll &amp; Co, G.m.b.H., Wien; Handschriftlich: Privater Glückwunsch an Franz Kirchweger</crown:caption>
+    <crown:caption>rückseitig: I 16329; vorne: AR_XIV_1038 - Pos. Nr. 58488: Deutsche Kaiserkrone von vorne (Repro) - Neg. I 16329, Aufnahme 11.11.1955 [nur Datum des Erwerbs des Negativs, Evelyn Klammer]</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>I 16329</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482023.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Abzüge auf Karton: Kunsthistorisches Museum Wien, Kunstkammer Kunsthistorisches Museum Wien, Archiv, Fotobuch: AR_XIV_1038, Pos. Nr. 58488, Neg. Nr. I 16329; Grusskarte: Kunsthistorisches Museum Wien, FK; S/W Tafel: Kohlhaussen 1939;</crown:owner>
+        <crown:provenance>Kunsthistorisches Museum Wien (?)</crown:provenance>
+        <crown:depiction>Objektfotografie der Reichskrone; RK zentral im Bild; auf Samt (?); vor dunklem Hintergrund; Details gut lesbar; Dargestellte Bauteile: A, B, H, K; Haube nicht dargestellt;</crown:depiction>
+        <crown:significance>hoch</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023.PictorialSource" />
   </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482023">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482023/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Foto, CR_1_QB_Fo_1797-1919_008</dc:title>
-    <dc:description>Foto, CR_1_QB_Fo_1797-1919_008, Objektfotografie der Reichskrone; S/W-Aufnahme; Frontalansicht; RK zentral im Bild; auf Samt (?); vor dunklem Hintergrund; Details gut lesbar; Dargestellte Bauteile: A, B, H, K; Haube nicht dargestellt; Einschätzung der Aussagekraft: hoch; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -89,7 +48,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -97,24 +56,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008 (0016).jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.3">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008_grusskarte_rueckseite.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.6">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008_kohlhaussen_1939_RK_schlosser.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.5">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008 (0031).jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.4">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008_rueckseite.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482023/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1797-1919\CR_1_QB_Fo_1797-1919_008_grusskarte.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

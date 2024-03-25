@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481342">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481342/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Akte, CR_1_QS_Ak_1797-1919_3</dc:title>
-    <dc:description>Akte, CR_1_QS_Ak_1797-1919_3, Akten der Weltlichen Schatzkammer 1827-1828, Faszikel 5</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481342/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_003</dc:title>
+    <dc:description>Akten der Weltlichen Schatzkammer 1827-1828, Faszikel 5</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,16 +32,31 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481342.o">
-    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_3</rdfs:label>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481342">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_003</rdfs:label>
     <rdfs:comment>Akten der Weltlichen Schatzkammer 1827-1828, Faszikel 5</rdfs:comment>
     <dcterms:medium>Papier</dcterms:medium>
     <dcterms:medium>Tinte</dcterms:medium>
     <dcterms:extent>Bögen gefaltet: ca. H. 40 cm × B. 25 cm</dcterms:extent>
-    <gams:textualContent>1481342 CR_1_QS_Ak_1797-1919_3 Schriftquelle Akte 27. März 1827 Papier, Tinte Akten der Weltlichen Schatzkammer 1827-1828, Faszikel 5</gams:textualContent>
-    <crown:transcription> Anschaffung eines neuen Kastens und Reparaturkosten  29/827  Euer Excellenz!  Mit hoher Genehmigung ist zur Ausstellung der Röm. Reichskleinodien und Heiligthümer ein neuer Kasten angeschafft worden.   Die hievon entstandenen Conti sind:  A. des Tischlermeisters Musch p. 120 f  B. des Glashändlers Rohrweck “ 33 “ 38  C. des Schlossermeisters Küster “ 19 “ 12  Zusammen 172 f 30x Konvz. Mze.     D. Die an obigen Gegenständen vorgenommenen Reparaturen haben laut sub D beigebogenen Conto des Galanteriehändlers Haas 59 f CM betragen und die beyden G. G. G. bitten E. E. diese Beträge aus der ordineeren Dotazion der k.k. Schatzkammer bey dem Hofzahlamte flüßig machen zu laßen. Wien, den 27. März 1827. [Unterschriften]</crown:transcription>
-    <crown:transcription> 29/827  595  Zur Bewilligung der mit Bericht vom 27. März 1827 angezeigten Auslagen für die Anschaffung des Kastens zur Aufstellung der römischen Reichskleinodien und deren Reparirung hat man die Einleitung getroffen, daß dem Tischler Musch 120 fl, dem Glashändler Rohrweck 33 fl 38 xr, dem Schloßer Küster 19 fl 12 xr, und dem Galanteriehändler Haas 59 fl auf Rechnung der kommenden Dotazion der k.k. Schatzkammer gegen deren ämtlich bestättigten buchhalterisch adjustirten Conti aus dem k.k. Hofzahlamte erfolgt werden.  Die ämtlich bestättigten Conti dieser Lieferanten folgen im Anschluße zu dem Ende zurück, damit sie b. m. der buchhalterischen Adjustirung unterzogen, und sodann den Eigenthümern zum weiteren Gebrauche ausgefolgt werden.  E. den 2ten April [Unterschrift]  Von dem k.k. Oberstkämmereramte.  Wien am 29. März 1827.  F. v. Paumgartten  An die k.k. Schatzkammer</crown:transcription>
+    <crown:date>27. März 1827</crown:date>
+    <crown:dateBegin>1827</crown:dateBegin>
+    <crown:dateEnd>1827</crown:dateEnd>
+    <gams:textualContent>1481342 CR_1_QS_Ak_1797-1919_003 Schriftquelle Akte 27. März 1827 Papier; Tinte Akten der Weltlichen Schatzkammer 1827-1828, Faszikel 5</gams:textualContent>
+    <crown:transcription>Anschaffung eines neuen Kastens und Reparaturkosten 29/827 Euer Excellenz! Mit hoher Genehmigung ist zur Ausstellung der Röm. Reichskleinodien und Heiligthümer ein neuer Kasten angeschafft worden. Die hievon entstandenen Conti sind: A. des Tischlermeisters Musch p. 120 f B. des Glashändlers Rohrweck “ 33 “ 38 C. des Schlossermeisters Küster “ 19 “ 12 Zusammen 172 f 30x Konvz. Mze. D. Die an obigen Gegenständen vorgenommenen Reparaturen haben laut sub D beigebogenen Conto des Galanteriehändlers Haas 59 f CM betragen und die beyden G. G. G. bitten E. E. diese Beträge aus der ordineeren Dotazion der k.k. Schatzkammer bey dem Hofzahlamte flüßig machen zu laßen. Wien, den 27. März 1827. [Unterschriften]</crown:transcription>
+    <crown:transcription>29/827 595 Zur Bewilligung der mit Bericht vom 27. März 1827 angezeigten Auslagen für die Anschaffung des Kastens zur Aufstellung der römischen Reichskleinodien und deren Reparirung hat man die Einleitung getroffen, daß dem Tischler Musch 120 fl, dem Glashändler Rohrweck 33 fl 38 xr, dem Schloßer Küster 19 fl 12 xr, und dem Galanteriehändler Haas 59 fl auf Rechnung der kommenden Dotazion der k.k. Schatzkammer gegen deren ämtlich bestättigten buchhalterisch adjustirten Conti aus dem k.k. Hofzahlamte erfolgt werden. Die ämtlich bestättigten Conti dieser Lieferanten folgen im Anschluße zu dem Ende zurück, damit sie b. m. der buchhalterischen Adjustirung unterzogen, und sodann den Eigenthümern zum weiteren Gebrauche ausgefolgt werden. E. den 2ten April [Unterschrift] Von dem k.k. Oberstkämmereramte. Wien am 29. März 1827. F. v. Paumgartten An die k.k. Schatzkammer</crown:transcription>
+    <schema:identifier>CR_1_QS_Ak_1797-1919_3</schema:identifier>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1481342.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>0</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>(auswählen)</crown:significance>
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
   </crown:AdditionalMaterial>
 </rdf:RDF>

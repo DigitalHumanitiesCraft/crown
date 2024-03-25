@@ -1,52 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490594.o">
-    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_077</rdfs:label>
-    <rdfs:comment>ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</rdfs:comment>
-    <dcterms:medium>Öl</dcterms:medium>
-    <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>280 x 205 cm Rahmenmaße: 298,5 x 203,5 x 7,5 cm</dcterms:extent>
-    <gams:textualContent>1490594 CR_1_QB_Gm_1526-1796_077 Bildquelle Gemälde um 1684 Öl; Leinwand ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490594.media.15586">
-        <rdfs:label>GG_8305.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490594/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490594.media.906438">
-        <rdfs:label>INV_GG_8298.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490594/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490594.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490594">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490594/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490594/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_077</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_077, ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -59,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -67,12 +32,30 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490594/IMAGE.1">
-    <schema:contentURL>GG_8305\GG_8305.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490594/IMAGE.2">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_8298.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490594">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_077</rdfs:label>
+    <rdfs:comment>ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>280 x 205 cm Rahmenmaße: 298,5 x 203,5 x 7,5 cm</dcterms:extent>
+    <crown:date>um 1684</crown:date>
+    <crown:dateBegin>1683</crown:dateBegin>
+    <crown:dateEnd>1685</crown:dateEnd>
+    <gams:textualContent>1490594 CR_1_QB_Gm_1526-1796_077 Bildquelle Gemälde um 1684 Öl; Leinwand ÜBERARBEITEN; niedrig; RK links im Hintergrund, neben Maria Elisabeth; schlecht lesbar aufgrund starker Verdunkelung u. schlechtem Erhaltungszustand; proportionen abweichend; Steinbesatz abweichend; keine Details</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490594.PictorialSource">
+        <crown:origin>Deutsch</crown:origin>
+        <crown:owner>Kunsthistorisches Museum GG 8305 Himberg</crown:owner>
+        <crown:provenance>Ambras</crown:provenance>
+        <crown:depiction>ÜBERARBEITEN; Kaiserin Eleonore v. d. Pfalz, sitzend, ganzfigurig; auf ihrem Schoß Erzherzogin Maria Anna; zu ihrer Rechten Erzherzogin Maria Elisabeth, mit Hund auf dem Schoß; neben ihr die RK; im Vordergrund, stehend, ganzfigurig, Joseph der erste im Alter von ca. fünf Jahren; Erhaltungzustand beeinträchtigt</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490594.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

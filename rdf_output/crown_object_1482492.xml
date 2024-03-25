@@ -1,75 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.o">
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1482492">
     <rdfs:label>Umarbeitung, CR_1_E_Ei_16</rdfs:label>
     <rdfs:comment>Lochreihe</rdfs:comment>
     <gams:textualContent>1482492 CR_1_E_Ei_16 Kronreif Umarbeitung Lochreihe</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.media.1434278">
-        <rdfs:label>CR_1_E_Ei_16_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482492/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:descriptionOfComponents>
-      <crown:HoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.holerow">
-        <crown:number>8</crown:number>
-        <crown:production>1. Loch: Grat auf Vorderseite, Durchmesser (DM): 1,5 mm; _x000d_
-2. Loch: kein Grat auf Vorderseite, DM: 1,7 mm, nicht exakt rund [[gedehnt (?)]]; _x000d_
-3. Loch: schwacher Grat auf Vorderseite, DM: 2,3 mm; _x000d_
-4. Loch: schwacher Grat auf Vorderseite, DM: 2,3 mm; _x000d_
-5. Loch: schwacher Grat auf Vorderseite, DM: 2,1 mm; _x000d_
-6. Loch: kein Grat, DM: 2,2 mm; _x000d_
-7. Loch: ;_x000d_
-8. Loch: Grat auf Vorderseite, DM: 2 mm;</crown:production>
-      </crown:HoleRow>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:TextileFiberHoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.textilefiberholerow">
-        <crown:comment>1. Loch: weißlich-beige Faserreste um Loch; _x000d_
-2. Loch: weißlich-beiger Faden im Loch; _x000d_
-3. Loch: weißlich-beiger Faden im Loch; _x000d_
-weißlich-beiger Faden an Vorderseite zwischen 3. u. 4. Loch; _x000d_
-gelblicher Faden an Vorderseite zwischen 5. u. 6. Loch; _x000d_
-weißlich-beige Fasern - teilweise unter gelblichen Faden; _x000d_
-gelblicher Faden;</crown:comment>
-      </crown:TextileFiberHoleRow>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Soldering rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.soldering">
-        <crown:material>(not assigned)</crown:material>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SlushySurface0"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BurntSurface0"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Soldering>
-    </crown:descriptionOfComponents>
-    <crown:conditionOfObject>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.intervention">
-        <crown:comment>Fa_36: 6. Röhrchen, oberer Runddraht Werkzeugspuren und 1. Perldrahtring mit angebohrt; _x000d_
-</crown:comment>
+    <crown:descriptionOf>
+      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention">
+        <crown:component>
+          <crown:Rivet rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.Rivet">
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#RivetToolMarks" />
+          </crown:Rivet>
+        </crown:component>
+        <crown:additionalInterventions>0</crown:additionalInterventions>
+        <crown:cause>
+          <crown:Deformation rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.Deformation">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Deformation>
+        </crown:cause>
+        <crown:cause>
+          <crown:Crack rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.Crack">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Crack>
+        </crown:cause>
+        <crown:cause>
+          <crown:Fracture rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.Fracture">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Fracture>
+        </crown:cause>
+        <crown:cause>
+          <crown:RupturedSolderConnection rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.RupturedSolderConnection">
+            <crown:description>(not assigned)</crown:description>
+          </crown:RupturedSolderConnection>
+        </crown:cause>
+        <crown:cause>
+          <crown:MissingParts rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.Intervention.MissingParts">
+            <crown:description>(not assigned)</crown:description>
+          </crown:MissingParts>
+        </crown:cause>
       </crown:Intervention>
-    </crown:conditionOfObject>
+    </crown:descriptionOf>
+    <crown:dating>
+      <crown:InterventionDatingIndications rdf:about="https://gams.uni-graz.at/o:crown.object.1482492.InterventionDatingIndications">
+        <crown:observation>(not assigned)</crown:observation>
+        <crown:chronologicalClassificationTextualSource>(not assigned)</crown:chronologicalClassificationTextualSource>
+        <crown:chronologicalClassificationPictorialSource>(not assigned)</crown:chronologicalClassificationPictorialSource>
+      </crown:InterventionDatingIndications>
+    </crown:dating>
   </crown:Object>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482492">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482492/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482492/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Umarbeitung, CR_1_E_Ei_16</dc:title>
-    <dc:description>Umarbeitung, CR_1_E_Ei_16, Lochreihe</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Lochreihe</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -82,7 +71,7 @@ gelblicher Faden;</crown:comment>
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -90,9 +79,6 @@ gelblicher Faden;</crown:comment>
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482492/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_E\CR_1_E_Ei\CR_1_E_Ei_16\CR_1_E_Ei_16_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

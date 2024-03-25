@@ -1,62 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.o">
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490516">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_037</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; mittel; RK am linken Bildrand auf Samtpolster auf Tisch; A, G und H sichtbar; Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</rdfs:comment>
+    <rdfs:comment>Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</rdfs:comment>
     <rdfs:comment>Maximilian I. ist in einen Harnisch und rotem Waffenrock gekleidet. Mit der rechten Hand hält er das vor ihm mit der Spitze auf den Boden gestellte Reichsschwert. Die linke Hand stemmt er in die Hüfte. Er trägt die Collane des Ordens vom goldenen Vlies. Auf dem Tisch rechts sind Szepter, Reichsapfel und Reichskrone zu sehen. Die Krone ist so gedreht, das die Stirnplatte mit Kreuz und die Platte mit dem Emaille zu sehen ist, welches Christus flankiert von zwei Seraphim zeigt. Im Hintergrung links hinter dem Reichsschwert ein Helm mit weis rotem Federbusch. An der Wand ein roter Behang mit dem kaiserlichen Wappen bekrönt von der Krone Rudolfs II.</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>246 x 144 cm</dcterms:extent>
-    <gams:textualContent>1490516 CR_1_QB_Gm_1526-1796_037 Bildquelle Gemälde 1874 Öl; Leinwand AUSSTEHEND; mittel; RK am linken Bildrand auf Samtpolster auf Tisch; A, G und H sichtbar; Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.media.1195058">
-        <rdfs:label>GG_7179_ScanBDA_2019_001</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.media.1195059">
-        <rdfs:label>GG_7179_2018_10_002</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.media.906296">
-        <rdfs:label>INV_GG_7176.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Signatur unten rechts \"Ludwig Minnigerode 1874.\"</crown:label>
+    <dcterms:extent>246 cm × 144 cm</dcterms:extent>
+    <crown:date>1874</crown:date>
+    <crown:dateBegin>1874</crown:dateBegin>
+    <crown:dateEnd>1874</crown:dateEnd>
+    <gams:textualContent>1490516 CR_1_QB_Gm_1526-1796_037 Bildquelle Gemälde 1874 Öl; Leinwand Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</gams:textualContent>
+    <crown:caption>Ludwig Minnigerode 1874.</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>MD066624</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490516.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:owner>Kunsthistorisches Museum Wien, GG, Inv. Nr. GG 7179 Extern, Ausstattung/Dauerleihgabe, Mobiliendepot, Inv. Nr. MD066624</crown:owner>
+        <crown:depiction>Maximilian I. mit Harnisch, Waffenrock, Collane des Ordens vom goldenen Vlies; in der Rechten: Reichsschwert, mit Spitze nach unten aufgestellt; dahinter, am Boden stehend, Helm mit rot-weißem Federbusch; RK am rechten Bildrand auf Samtpolster auf Tisch; Szepter; Reichsapfel; Hintergrund: roter Samtbehang mit kaiserlichem Wappen, darüber Rudolfskrone; Dargestellte Bauteile: A, G, H;</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516.PictorialSource" />
   </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490516">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490516/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_037</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_037, AUSSTEHEND; mittel; RK am linken Bildrand auf Samtpolster auf Tisch; A, G und H sichtbar; Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Majestas-Domini-Motiv identifizierbar, Inschrift nicht lesbar; Dekor des Bügels relativ klar lesbar, ebenso Perl- und Edelsteinbesatz der Platten; Filigrandekor nicht zu erkennen</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -69,7 +50,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -77,15 +58,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.2">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7179_2018_10_002.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.1">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7179_ScanBDA_2019_001.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490516/IMAGE.3">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_7176.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

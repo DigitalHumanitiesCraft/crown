@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1468877">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1468877/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1468877/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Reparatur, CR_1_A_Ei_12</dc:title>
-    <dc:description>Reparatur, CR_1_A_Ei_12, Vernietung einer abgerissenen Fassung mit der Grundplatte; auf Rückseite zur Hälfte vom unteren Eisenband verdeckt</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Vernietung einer abgerissenen Fassung mit der Grundplatte; auf Rückseite zur Hälfte vom unteren Eisenband verdeckt</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,50 +32,88 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.o">
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1468877">
     <rdfs:label>Reparatur, CR_1_A_Ei_12</rdfs:label>
     <rdfs:comment>Vernietung einer abgerissenen Fassung mit der Grundplatte; auf Rückseite zur Hälfte vom unteren Eisenband verdeckt</rdfs:comment>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
     <gams:textualContent>1468877 CR_1_A_Ei_12 Kronreif Reparatur nan Vernietung einer abgerissenen Fassung mit der Grundplatte; auf Rückseite zur Hälfte vom unteren Eisenband verdeckt 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.media.1419175">
-        <rdfs:label>CR_1_A_Ei_12_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1468877/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:descriptionOfComponents>
-      <crown:HoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.holerow">
-        <crown:number>0</crown:number>
-        <crown:production>(not assigned)</crown:production>
-      </crown:HoleRow>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:TextileFiberHoleRow rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.textilefiberholerow">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:TextileFiberHoleRow>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Soldering rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.soldering">
-        <crown:material>(not assigned)</crown:material>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SlushySurface0"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BurntSurface0"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Soldering>
-    </crown:descriptionOfComponents>
-    <crown:conditionOfObject>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.intervention">
-        <crown:comment>Deformierungen an Fa_40 und Grundplattenperldrahtumsäumung an Unterkante</crown:comment>
+    <crown:descriptionOf>
+      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention">
+        <crown:component>
+          <crown:Rivet rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.Rivet">
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#RivetToolMarks" />
+          </crown:Rivet>
+        </crown:component>
+        <crown:additionalInterventions>0</crown:additionalInterventions>
+        <crown:cause>
+          <crown:Deformation rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.Deformation">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Deformation>
+        </crown:cause>
+        <crown:cause>
+          <crown:Crack rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.Crack">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Crack>
+        </crown:cause>
+        <crown:cause>
+          <crown:Fracture rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.Fracture">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Fracture>
+        </crown:cause>
+        <crown:cause>
+          <crown:RupturedSolderConnection rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.RupturedSolderConnection">
+            <crown:description>Fa_40 als Ganzes von Grundblech gelöst (?);</crown:description>
+          </crown:RupturedSolderConnection>
+        </crown:cause>
+        <crown:cause>
+          <crown:MissingParts rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.Intervention.MissingParts">
+            <crown:description>(not assigned)</crown:description>
+          </crown:MissingParts>
+        </crown:cause>
       </crown:Intervention>
-    </crown:conditionOfObject>
+    </crown:descriptionOf>
+    <crown:dating>
+      <crown:InterventionDatingIndications rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.InterventionDatingIndications">
+        <crown:observation>CR_1_A_Ei_9; CR_1_A_Ei_10 (Eisenband); CR_1_A_Ei_11: Fassung über 3. Loch der Lochreihe genietet</crown:observation>
+        <crown:chronologicalClassificationTextualSource>(not assigned)</crown:chronologicalClassificationTextualSource>
+        <crown:chronologicalClassificationPictorialSource>(not assigned)</crown:chronologicalClassificationPictorialSource>
+      </crown:InterventionDatingIndications>
+    </crown:dating>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.img.1">
+        <rdfs:label>CR_1_A_Ei_12_ZL_P</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Ei_12/files/images/CR_1_A_Ei_12_ZL_P_30x_1.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.img.2">
+        <rdfs:label>CR_1_A_Ei_12_ZL_P</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Ei_12/files/images/CR_1_A_Ei_12_ZL_P_30x_2.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.img.3">
+        <rdfs:label>CR_1_A_Ei_12_ZL_P</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Ei_12/files/images/CR_1_A_Ei_12_ZL_P_40x_1.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.img.4">
+        <rdfs:label>CR_1_A_Ei_12_ZL_P_40x_ExL_1.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Ei_12/files/images/CR_1_A_Ei_12_ZL_P_40x_ExL_1.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877.img.5">
+        <rdfs:label>CR_1_A_Ei_12_ZL_P_40x_ExL_2.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Ei_12/files/images/CR_1_A_Ei_12_ZL_P_40x_ExL_2.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
   </crown:Object>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1468877/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_A\CR_1_A_Ei\CR_1_A_Ei_12\CR_1_A_Ei_12_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

@@ -1,94 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.o">
-    <rdfs:label>Grundplatte, CR_1_D_GrPl</rdfs:label>
-    <dcterms:medium>Gold</dcterms:medium>
-    <gams:textualContent>1480071 CR_1_D_GrPl Kronreif Grundplatte Gold</gams:textualContent>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1480049.analysis.1">
-        <rdfs:label>Analyse des Objekts CR_1_D_GrPl</rdfs:label>
-        <crown:surveyType>Analyse</crown:surveyType>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#45373"/>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#56142"/>
-        <crown:date>2023-06-21</crown:date>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.deformationdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.crackdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.tooltracedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.discolorationdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.missingpartdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MaterialRemovalDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.materialremovaldamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:MaterialRemovalDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:OtherDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.otherdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:OtherDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.condition">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumber0"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.intervention">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:ManufacturingProcess>
-    </crown:description>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1480071">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1480071/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1480071/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grundplatte, CR_1_D_GrPl</dc:title>
-    <dc:description>Grundplatte, CR_1_D_GrPl, nan</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -101,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -109,6 +32,44 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1480071">
+    <rdfs:label>Grundplatte, CR_1_D_GrPl</rdfs:label>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1480071 CR_1_D_GrPl Kronreif Grundplatte Gold</gams:textualContent>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.212338">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#45373" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#56142" />
+        <crown:date>2023-06-21</crown:date>
+        <crown:attributeType>FORS</crown:attributeType>
+        <crown:briefDescription>Farbcharakterisierung Gold</crown:briefDescription>
+        <crown:treatment>Messgerät: Gorgias Reflectance spectrometer for Art, Cultural Heritage Science Open Source (CHSOS); Lichtquelle: 10 W Halogenlampe; Reflexionsfasersonde mit 7 x 600 µ Kernfasern (6 Anegungsfaern, 1 Detektionsfaser; Messgeometrie: ca. 45° Detektor: Toshiba TCD1304DG linear array mit 300 – 1000 nm Spektralbereich; Durchmesser des Messspots: ca. 1 mm; Messpunkt: Rückseite</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.media.1497971">
+            <rdfs:label>CR_1_D_GrPl_DD_Au_FORS_67</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_D\CR_1_D_GrPl\CR_1_D_GrPl_FORS\CR_1_D_GrPl_DD_Au_FORS_67.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:descriptionOf>
+      <crown:Baseplate rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.Baseplate">
+        <crown:sheetThickness>0.00000000</crown:sheetThickness>
+        <crown:feature>
+          <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.Baseplate.ManufacturingProcess">
+            <crown:features>(not assigned)</crown:features>
+          </crown:ManufacturingProcess>
+        </crown:feature>
+        <crown:feature>
+          <crown:TechnicalAtructure rdf:about="https://gams.uni-graz.at/o:crown.object.1480071.Baseplate.TechnicalAtructure">
+            <crown:other>(not assigned)</crown:other>
+          </crown:TechnicalAtructure>
+        </crown:feature>
+      </crown:Baseplate>
+    </crown:descriptionOf>
+  </crown:Object>
 </rdf:RDF>

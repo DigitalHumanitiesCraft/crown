@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1526377">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1526377/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_004</dc:title>
+    <dc:description>Verzeichnus was bey denen A°: 1562, 1575 und 1612 fürgewesnen Kayßerl[iche] Crönungen von Ornat und Cleinodien gebraucht worden</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1526377">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_004</rdfs:label>
+    <rdfs:comment>Verzeichnus was bey denen A°: 1562, 1575 und 1612 fürgewesnen Kayßerl[iche] Crönungen von Ornat und Cleinodien gebraucht worden</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>1562, 1575</crown:date>
+    <crown:dateBegin>1796</crown:dateBegin>
+    <crown:dateEnd>1796</crown:dateEnd>
+    <gams:textualContent>1526377 CR_1_QS_Ak_1526-1796_004 Schriftquelle Akte 1562, 1575 Papier; Tinte; handgeschrieben Verzeichnus was bey denen A°: 1562, 1575 und 1612 fürgewesnen Kayßerl[iche] Crönungen von Ornat und Cleinodien gebraucht worden</gams:textualContent>
+    <crown:transcription>[fol. 1r] Anno 1562 Uff der Krönung zu Franck= furt, vnnd 1575 uff der Krönung zu Regenspurg, seind vonn den kais[erliche] Pontificalien vnd Clinodien nachverzaichnete Stück gebraucht worden. [Randnotiz]: Dessgleichen abermals zu Franchfort A. 1612 1 Die keyserliche Kron. 2 Apffel 3 Scepter. 4 Schwerdt. 5. Die roten seydene geschmückte Kniehosen. 6. Ein par Schuch mit perlein vnd Edelgestein gestickt. 7. Ein Braune Manipel. 8. Ein weiß daffete Dalmatica oder Alben 9. Mit dem braiten Gürtel, so grosse vergulte Rincken hat, haben sich Ihr [Mayestät] gegürtet und geschürtzt. 10. Die rot Ein guldene vnten mit 3 Franßen be= hengte Adlern gezierte lange Stola. 11. Der grosse königliche Mantel mit Löwen vnd Elephanten 12. Ein par schön geschmückte Handtschueh 13. Ein guldene Schmale Porten Zum Gürten der braunen Dalmatica zugebrauchen [fol. 1v/Außenseite] Verzeichnus was bey denen A[nn]o: 1562, 1575 u[nd] 1612 fürgewe= senen Kayßerl[iche]. Crönungen von Ornat und Cleino= dien gebraucht worden. [fol. 3r] Hernachvolgende Stuckh Pflegt man zu Kronung eines Romischen Kaysers oder Köning zugebrauchen Erstlich, die Kayserliche Cron. Inn ein fueter verwaret. Item ein Guldener Mayestat Apffel mit Edel gestain auch Inn ein fuetter verwardt. Item ein Rother Seidener Mantel, mit Goldt, Perlen und Edelgestain getziret, umbher mit Sirisch, Caldeisch[1] und Arabischer schrifft, darauf 2 Lewen mit goldt und perlein ausgeneth. Jeder Low ein Camelthier untergedruckht, Welche auch mit Goldt und Perlein getziert seien. Item ein Weysse Seidene Almatica mit Goldt, Perlein vnd Edelgestein getzierdt. Item ein Lanngen und praitten gulden Stoll, mit Perlen vnd schwartzen Adlern. Item ein Braune Seidene Almatica mit Adlern. Item ein Braune Seidene Kappen mit Adlern. Item ein Braun Seiden Manipell. Item ein Schmallen Guldenen Stoll. Verte. [fol. 3v] Item ein Rotes paar handtschuch mit perlein vnd Edelgestain getzieret. Item ein par Roter Seidener Kniehossen od[er] Socken mit gulden vnd Silberen portlein zugweiß geneht. Item ein par Schuch, mit Perlen vnd Edelgestain getzieret. Item ein Rot pardschuch vff Pantoffeln mit gulden portlein zugweiß geneht. Item Kaisers Carls Schwerdt Inn ein fueter verwart. Item ein Silberen Vergulten Scepter Inn ein Ledlein mit Leder vbertzogen verwartt. Item ein Braitte guldene Porttengurtel mit ein Silbern vergulten beschleg. [fol 4r / Außenseite] 1575 Adi 25 Octtober sindt Hieringen verzachtnete Pontificalien hn Iuliusn Geuden vnd Hieronimußn Paumgartenn In Zweijen vntterschiedlich truchen vber= antwort vnd zugestelt, dieselb igen Regensburg zu Krönung deß Erwelten Rö[mischen]: Königs zu fueren, vnd zu Presen= tiren [fol. 5r] Folgende Personen sollen Zu der Raiß und Comitat nach Regensprug mitgenommen werden. Georg Jakob Pomer. Wilhelm im Hoff. Hanns Hir: im Hoff. Leonhard Grundherr. Christ: Wilhelm Löffelholz. diese fahren auf einer Kutschen[2]. Gerg Tobins Ölhafen. Wolff Frid[rich] Pömer. Christ: Hiero[nimus] Kätzler Gabriel Im Hoff. Christ: Hiero[nimus] Kreß. Johann Jacob Haller. diese Reutter[?][3]. Marx Christ: Kreß Vnd ist der Convoy an die 50 Pferd starkh. [1] Vermutlich chaldäisch [2] Die Namen von Georg Jakob Pomer bis Chr: Hiero: Kätzler mittels Klammer auf die Fahrt in der Kutsche bezogen. [3] Die Namen von Gabriel Imhoff bis Marx Chris: Kreß mittels Klammer auf die Reise zu Pferd als „Reiter“[?] bezogen.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1526377.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>1</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>1</crown:aboutComponent>
+        <crown:localisation>Frankfurt am Main</crown:localisation>
+        <crown:significance>mittel</crown:significance>
+        <crown:comment>Nennung der Reichskrone „Inn ein fueter verwaret“ als Teil der Krönungsinsignien; Hinweis auf Nutzung des Lederfutterals.</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

@@ -1,129 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.o">
-    <rdfs:label>Stein, CR_1_C_St_62</rdfs:label>
-    <rdfs:comment>Hochfassung für Stein mit dreifingrigen Krallen</rdfs:comment>
-    <dcterms:medium>Korund</dcterms:medium>
-    <dcterms:medium>Saphir</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.analysis.2">
-        <rdfs:label>PL</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.analysis.3">
-        <rdfs:label>Raman</rdfs:label>
-        <rdfs:label>Analyse des Objekts CR_1_C_St_62</rdfs:label>
-        <crown:surveyType>Analyse</crown:surveyType>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430"/>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431"/>
-        <crown:date>2022-05-18</crown:date>
-        <crown:attributeType>Raman</crown:attributeType>
-        <crown:briefDescription>Charakterisierung Edelstein</crown:briefDescription>
-        <crown:statement>Saphir</crown:statement>
-        <crown:proposal>weiterführende RFA-Analyse</crown:proposal>
-        <crown:treatment>Messgerät: WiTec alphaCART mit Raman-Probe, Laserwellenlänge 457 nm, TruePower-Modul (Definition und Dokumentation der Laserleistung per Software), Detektor UHTS300VIS mit BI-EMCCD-Kamera; Laserleistung: 17 mW (PL), 17 mW (R); Messzeit: 3 s (PL), 60/120 s (R); Anzahl der Messpunkte (insgesamt): 1; Datenauswertung: Suchsoftware SpecID; Messungen unterstützt von Annalena Erlacher (Uni Wien) und Martina Griesser (KHM)</crown:treatment>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436158"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436159"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436160"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436161"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436162"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436163"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436164"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436165"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436166"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436167"/>
-        <crown:media rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.media.1436168"/>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1479640 CR_1_C_St_62 Kronreif Stein Korund; Saphir nan Hochfassung für Stein mit dreifingrigen Krallen 3D Mikroskopie; PL; Raman</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1419874">
-        <rdfs:label>CR_1_C_St_62_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1419100">
-        <rdfs:label>CR_1_C_St_Nummerierung</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Shape rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.shape">
-        <crown:other>Vorder- und Rückseite: vierseitige Pyramide; ausgeschliffene Einschlüsse: flache ovale Vertiefung an nach oben gewandter Fläche nahe der Spitze;</crown:other>
-        <crown:stoneInSetting rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#annaeherndpassgenau"/>
-      </crown:Shape>
-    </crown:description>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.color">
-        <crown:color>blau</crown:color>
-      </crown:Color>
-    </crown:description>
-    <crown:description>
-      <crown:Surface rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.surface">
-        <crown:openBlisters>(not assigned)</crown:openBlisters>
-      </crown:Surface>
-    </crown:description>
-    <crown:description>
-      <crown:Treatment rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.treatment">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#treatments-surface-coated0"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#cracksfilled0"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Treatment>
-    </crown:description>
-    <crown:descriptionOfComponents>
-      <crown:DrillHole rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.drillhole">
-        <crown:type rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#(auswaehlen)"/>
-        <crown:diameter>0</crown:diameter>
-        <crown:machiningTraces>(not assigned)</crown:machiningTraces>
-        <crown:other>(not assigned)</crown:other>
-      </crown:DrillHole>
-    </crown:descriptionOfComponents>
-    <crown:conditionOfObject>
-      <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.scratches">
-        <crown:signsOfUsage>(auswählen)</crown:signsOfUsage>
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Scratches>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FracturesDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.fracturesdamage">
-        <crown:comment>Kanten: abgesplittert - am weitesten vorstehende Bereiche der Platte</crown:comment>
-      </crown:FracturesDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CracksDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.cracksdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CracksDamage>
-    </crown:conditionOfObject>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1479640">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Stein, CR_1_C_St_62</dc:title>
-    <dc:description>Stein, CR_1_C_St_62, Hochfassung für Stein mit dreifingrigen Krallen</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Hochfassung für Stein mit dreifingrigen Krallen</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -136,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -144,56 +32,205 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436162">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--021--Information</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436159">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--019--Information</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479640/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436168">
-    <rdfs:label>CR1_C_St62_PL1--Spectrum--023--Spec.Data 1</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436160">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--019--Spec.Data 1</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436167">
-    <rdfs:label>CR1_C_St62_PL1--Spectrum--023--Information</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436164">
-    <rdfs:label>CR_1_C_St_62_Messpunkte</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436163">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--021--Spec.Data 1</rdfs:label>
-    <dcterms:format>text/plain</dcterms:format>
-  </crown:Media>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1479640/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_C\CR_1_C_St_Nummerierung.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436165">
-    <rdfs:label>CR_C_St62_R1</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436166">
-    <rdfs:label>CR1_C_St62_PL1--Spectrum--023</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436161">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--021--1800</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
-  <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436158">
-    <rdfs:label>CR1_C_St62_R1--Spectrum--019</rdfs:label>
-    <dcterms:format>image/jpeg</dcterms:format>
-  </crown:Media>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1479640">
+    <rdfs:label>Stein, CR_1_C_St_62</rdfs:label>
+    <rdfs:comment>Hochfassung für Stein mit dreifingrigen Krallen</rdfs:comment>
+    <dcterms:medium>Korund</dcterms:medium>
+    <dcterms:medium>Saphir</dcterms:medium>
+    <gams:textualContent>1479640 CR_1_C_St_62 Kronreif Stein Korund; Saphir nan Hochfassung für Stein mit dreifingrigen Krallen 3D Mikroskopie; PL; Raman; µ-XRF; UV-Vis-Spektroskopie</gams:textualContent>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.206165">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86430" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#86431" />
+        <crown:date>2022-05-18</crown:date>
+        <crown:attributeType>Raman</crown:attributeType>
+        <crown:briefDescription>Charakterisierung Edelstein</crown:briefDescription>
+        <crown:statement>Saphir</crown:statement>
+        <crown:proposal>weiterführende RFA-Analyse</crown:proposal>
+        <crown:treatment>Messgerät: WiTec alphaCART mit Raman-Probe, Laserwellenlänge 457 nm, TruePower-Modul (Definition und Dokumentation der Laserleistung per Software), Detektor UHTS300VIS mit BI-EMCCD-Kamera; Laserleistung: 17 mW (PL), 17 mW (R); Messzeit: 3 s (PL), 60/120 s (R); Anzahl der Messpunkte (insgesamt): 1; Datenauswertung: Suchsoftware SpecID; Messungen unterstützt von Annalena Erlacher (Uni Wien) und Martina Griesser (KHM)</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436158">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--019</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--019.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436159">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--019--Information</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--019--Information.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436160">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--019--Spec.Data 1</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--019--Spec.Data 1.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436161">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--021--1800</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--021--1800.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436162">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--021--Information</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--021--Information.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436163">
+            <rdfs:label>CR1_C_St62_R1--Spectrum--021--Spec.Data 1</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_R1--Spectrum--021--Spec.Data 1.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436164">
+            <rdfs:label>CR_1_C_St_62_Messpunkte</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR_1_C_St_62_Messpunkte.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436165">
+            <rdfs:label>CR_C_St62_R1</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR_C_St62_R1.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436166">
+            <rdfs:label>CR1_C_St62_PL1--Spectrum--023</rdfs:label>
+            <dcterms:format>image/jpeg</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_PL1--Spectrum--023.jpg</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436167">
+            <rdfs:label>CR1_C_St62_PL1--Spectrum--023--Information</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_PL1--Spectrum--023--Information.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1436168">
+            <rdfs:label>CR1_C_St62_PL1--Spectrum--023--Spec.Data 1</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_Raman_PL\CR1_C_St62_PL1--Spectrum--023--Spec.Data 1.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.214056">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90745" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90746" />
+        <crown:date>2023-09-01</crown:date>
+        <crown:attributeType>UV-VIS Absorptionsspektroskopie</crown:attributeType>
+        <crown:briefDescription>Präzisierung der Entstehung bzw. Provenienz von Edelsteinen</crown:briefDescription>
+        <crown:statement>metamorpher Saphir, vermutlich Sri Lanka</crown:statement>
+        <crown:treatment>Messgerät: Ocean Optics USB2000 mobiles Spektrometer mit Glasfaseroptik; Spektralbereich: 300 to 900 nm; Messzeit: 5 s (5 Zyklen); Spektrale Auflösung: 1,5 nm; Anzahl der Messpunkte (insgesamt): 3</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1521453">
+            <rdfs:label>C_St_62a_Absorbance__0__11-29-25-448</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_UV-VIS\C_St_62a_Absorbance__0__11-29-25-448.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.media.1521454">
+            <rdfs:label>C_St_62c_Absorbance__0__14-05-42-628</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_C\CR_1_C_St\CR_1_C_St_62\CR_1_C_St_62_UV-VIS\C_St_62c_Absorbance__0__14-05-42-628.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:descriptionOf>
+      <crown:Gemstone rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone">
+        <crown:feature>
+          <crown:Shape rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone.Shape">
+            <crown:other>Vorder- und Rückseite: vierseitige Pyramide; ausgeschliffene Einschlüsse: flache ovale Vertiefung an nach oben gewandter Fläche nahe der Spitze;</crown:other>
+            <crown:descriptionOfShape>viereckig</crown:descriptionOfShape>
+            <crown:feature rdf:resource="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone.Shape.Cut" />
+            <crown:gemstoneInSetting>annähernd passgenau</crown:gemstoneInSetting>
+          </crown:Shape>
+        </crown:feature>
+        <crown:feature>
+          <crown:Surface rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone.Surface">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Surface>
+        </crown:feature>
+        <crown:colour>blau</crown:colour>
+        <crown:component>
+          <crown:DrillHole rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone.DrillHole">
+            <crown:number>0.00000000</crown:number>
+            <crown:type>(auswählen)</crown:type>
+            <crown:alignment>(auswählen)</crown:alignment>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:processingMark>(not assigned)</crown:processingMark>
+          </crown:DrillHole>
+        </crown:component>
+        <crown:other>(not assigned)</crown:other>
+        <crown:probability>(auswählen)</crown:probability>
+      </crown:Gemstone>
+    </crown:descriptionOf>
+    <crown:featuresOf>
+      <crown:GemstoneFeatures rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures">
+        <crown:feature>
+          <crown:Treatments rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures.Treatments">
+            <crown:coatedSurface>0</crown:coatedSurface>
+            <crown:filledCracks>0</crown:filledCracks>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Treatments>
+        </crown:feature>
+        <crown:feature>
+          <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures.Scratches">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Scratches>
+        </crown:feature>
+        <crown:feature>
+          <crown:Fractures rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures.Fractures">
+            <crown:description>Kanten: abgesplittert - am weitesten vorstehende Bereiche der Platte</crown:description>
+          </crown:Fractures>
+        </crown:feature>
+        <crown:feature>
+          <crown:Cracks rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures.Cracks">
+            <crown:inherent>1</crown:inherent>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Cracks>
+        </crown:feature>
+        <crown:feature>
+          <crown:Inclusion rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneFeatures.Inclusion">
+            <crown:description>geheilte Risse; Schleier aus parallelen Rutilnadeln;</crown:description>
+          </crown:Inclusion>
+        </crown:feature>
+        <crown:other>(not assigned)</crown:other>
+      </crown:GemstoneFeatures>
+    </crown:featuresOf>
+    <crown:analysisPerformed>
+      <crown:Raman rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Raman">
+        <crown:numberOfMeasuringPoints>1.00000000</crown:numberOfMeasuringPoints>
+        <crown:interpretation>Chromarm</crown:interpretation>
+      </crown:Raman>
+    </crown:analysisPerformed>
+    <crown:analysisPerformed>
+      <crown:GemstoneUV-VIS rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.GemstoneUV-VIS">
+        <crown:formation>metamorph</crown:formation>
+      </crown:GemstoneUV-VIS>
+    </crown:analysisPerformed>
+  </crown:Object>
+  <crown:Cut rdf:about="https://gams.uni-graz.at/o:crown.object.1479640.Gemstone.Shape.Cut">
+    <crown:descriptionOfCut>kegelförmig</crown:descriptionOfCut>
+  </crown:Cut>
 </rdf:RDF>

@@ -1,54 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490117.o">
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490117">
     <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_045</rdfs:label>
     <rdfs:comment>AUSSTEHEND</rdfs:comment>
     <dcterms:medium>Holz</dcterms:medium>
     <dcterms:extent>58 × 12 mm</dcterms:extent>
+    <crown:date>1690</crown:date>
+    <crown:dateBegin>1690</crown:dateBegin>
     <gams:textualContent>1490117 CR_1_QB_Ob_1526-1796_045 Bildquelle Objekt 1690 Holz AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490117.media.1469468">
-        <rdfs:label>CR_1_QB_Ob_1526-1796_045_josephI</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490117/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490117.media.1469469">
-        <rdfs:label>CR_1_QB_Ob_1526-1796_045_josephI_2</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490117/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:inscription>Vs.: Umschrift: IOSEPHVS REX. ROM. / FILIUS ACCRESCENS IOSEPH &amp; DECORUS ASPECTU SEDET INFORTI ARCUS EIUS.  Rs.: Umschrift: SCILICET HUNC VIVUS CERERIS QUOQUE PARTUS ADORAT, CUMQUE SORORE OLIM CYNTHIUS IPSE COLET</crown:inscription>
+    <crown:inscription>Vs.: Umschrift: IOSEPHVS REX. ROM. / FILIUS ACCRESCENS IOSEPH &amp; DECORUS ASPECTU SEDET INFORTI ARCUS EIUS. Rs.: Umschrift: SCILICET HUNC VIVUS CERERIS QUOQUE PARTUS ADORAT, CUMQUE SORORE OLIM CYNTHIUS IPSE COLET</crown:inscription>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>HG8776_26</schema:identifier>
     <schema:identifier>http://objektkatalog.gnm.de/objekt/HG8776_26</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490117.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490117.PictorialSource">
+        <crown:origin>Deutsch; Nürnberg</crown:origin>
+        <crown:owner>Germanisches Nationalmuseum Nürnberg, Inv-Nr. HG8776_26</crown:owner>
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:depiction>Vs. An einer Palme das ovale Bildnis v. Joseph. Darüber im Wipfel der Palme die Reichskrone sowie die Kronen von Böhmen und Ungarn. Zu Füßen der Palme drei blühende Kaiserkronen. Im Hintergrund Springbrunnen und Gartenfiguren sowie einem abschließenden Palast. Rs. Auf einem Thron sitzt Joseph mit der Reichskrone auf dem Kopf unter einem Baldachin, dessen Rückseite mit dem doppelköpfigen Reichsadler geschmückt ist. Vor ihm kniet Diana.</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490117.PictorialSource" />
   </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490117">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490117/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490117/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Objekt, CR_1_QB_Ob_1526-1796_045</dc:title>
-    <dc:description>Objekt, CR_1_QB_Ob_1526-1796_045, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -61,7 +49,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -69,12 +57,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490117/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_045_josephI_2.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490117/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1526-1796\CR_1_QB_Ob_1526-1796_045_josephI.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

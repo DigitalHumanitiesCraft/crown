@@ -1,101 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.o">
-    <rdfs:label>Kopie, CR_1_QB_Ko_Bis1919_001</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; hoch; Fotografie der Kopie der Hanauer Zeichenakademie</rdfs:comment>
-    <dcterms:medium>Kupfer</dcterms:medium>
-    <dcterms:medium>Gold</dcterms:medium>
-    <dcterms:medium>Email</dcterms:medium>
-    <dcterms:medium>Glassteine</dcterms:medium>
-    <dcterms:medium>Synthetische Perlen</dcterms:medium>
-    <dcterms:extent>k. A.</dcterms:extent>
-    <gams:textualContent>1489778 CR_1_QB_Ko_Bis1919_001 Bildquelle Kopie 1911-1913 Kupfer; Gold; Email; Glassteine; Synthetische Perlen AUSSTEHEND; hoch; Fotografie der Kopie der Hanauer Zeichenakademie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1468321">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_detail_S</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1468323">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_frontal</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1468325">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_frontal_</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1468326">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_detail</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1468327">
-        <rdfs:label>CR_1_QB_Ko_Bis1919_001_bildindex_kopie_frankfurt</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.5"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1441022">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_schräg_S</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.6"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.media.1441023">
-        <rdfs:label>CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_schrägan</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.7"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <schema:citation>\"Repräsentativen Erinnerungszwecken dienten die Kopien von Reichskrone, Szepter und Reichsapfel, die der Magistrat der Stadt Frankfurt nach den Wiener Originalen in Auftrag gab. Die heute im Historischen Museum der Stadt Frankfurt bewahrten Kopien wurden 1911-1913 durch Mitarbeiter der für die Ausbildung zum Metallhandwerk berühmten Hanauer Zeichenakademie in einfacher Kupferfassung hergestellt. Zu nennen sind der Goldschmied Louis Beschor (1857-1929), Prof. Wilhelm Gertenbach für die Gravuren, Matthias von Dassbach für die Emails, Peter Beschor für Faßarbeiten und der Silberschmied Prof. August Bock (1879-1968).\"</schema:citation>
-    <schema:identifier>fmc204806</schema:identifier>
-    <schema:identifier>mi00603g08</schema:identifier>
-    <schema:identifier>X 26 454</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204806</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204806?medium=mi00603g08</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204807?medium=mi00603g07</schema:identifier>
-    <schema:identifier>mi00603g07</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204807?medium=fmc204807</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204808?medium=fmc204808</schema:identifier>
-    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204808?medium=mi00603g09</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489778">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Kopie, CR_1_QB_Ko_Bis1919_001</dc:title>
-    <dc:description>Kopie, CR_1_QB_Ko_Bis1919_001, AUSSTEHEND; hoch; Fotografie der Kopie der Hanauer Zeichenakademie</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -108,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -116,27 +32,43 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_frontal.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.7">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_schrägansicht.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_detail_SW.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.4">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_detail.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.5">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_Bis1919_001_bildindex_kopie_frankfurt.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.3">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_frontal_SW.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489778/IMAGE.6">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Bis 1919\CR_1_QB_Ko_bis 1919_001_Kopie_frankfurt_schräg_SW.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489778">
+    <rdfs:label>Kopie, CR_1_QB_Ko_Bis1919_001</rdfs:label>
+    <dcterms:medium>Kupfer</dcterms:medium>
+    <dcterms:medium>Gold</dcterms:medium>
+    <dcterms:medium>Email</dcterms:medium>
+    <dcterms:medium>Glassteine</dcterms:medium>
+    <dcterms:medium>Synthetische Perlen</dcterms:medium>
+    <dcterms:extent>k. A.</dcterms:extent>
+    <crown:date>1911-1913</crown:date>
+    <crown:dateBegin>1911</crown:dateBegin>
+    <crown:dateEnd>1913</crown:dateEnd>
+    <gams:textualContent>1489778 CR_1_QB_Ko_Bis1919_001 Bildquelle Kopie 1911-1913 Kupfer; Gold; Email; Glassteine; Synthetische Perlen</gams:textualContent>
+    <crown:citation>\"Repräsentativen Erinnerungszwecken dienten die Kopien von Reichskrone, Szepter und Reichsapfel, die der Magistrat der Stadt Frankfurt nach den Wiener Originalen in Auftrag gab. Die heute im Historischen Museum der Stadt Frankfurt bewahrten Kopien wurden 1911-1913 durch Mitarbeiter der für die Ausbildung zum Metallhandwerk berühmten Hanauer Zeichenakademie in einfacher Kupferfassung hergestellt. Zu nennen sind der Goldschmied Louis Beschor (1857-1929), Prof. Wilhelm Gertenbach für die Gravuren, Matthias von Dassbach für die Emails, Peter Beschor für Faßarbeiten und der Silberschmied Prof. August Bock (1879-1968).\"</crown:citation>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>fmc204806</schema:identifier>
+    <schema:identifier>mi00603g08</schema:identifier>
+    <schema:identifier>X 26 454</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204806</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204806?medium=mi00603g08</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204807?medium=mi00603g07</schema:identifier>
+    <schema:identifier>mi00603g07</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204807?medium=fmc204807</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204808?medium=fmc204808</schema:identifier>
+    <schema:identifier>https://www.bildindex.de/media/obj20242818/fmc204808?medium=mi00603g09</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1489778.PictorialSource">
+        <crown:origin>Deutschland; Hanau</crown:origin>
+        <crown:owner>Objekt: Historisches Museum Frankfurt, Inv. Nr. X 26 454; Fotografien: siehe \"Andere Nummer\"</crown:owner>
+        <crown:provenance>Nachbildung von Mitarbeitern der Staatlichen Zeichenakademie Hanau 1913 ins Historische Museum Frankfurt; zwischenzeitlich im Dommusem Frankfurt (2019/2000)</crown:provenance>
+        <crown:depiction>Fotografie der Kopie der Hanauer Zeichenakademie; Materialien abweichend</crown:depiction>
+        <crown:significance>hoch</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1489778.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

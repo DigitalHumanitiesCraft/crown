@@ -1,25 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490599">
+    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_045</rdfs:label>
+    <rdfs:comment>niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</rdfs:comment>
+    <rdfs:comment>Kniestück im Dreiviertelprofil nach links, im Krönungsornat.</rdfs:comment>
+    <dcterms:medium>Kupferstich</dcterms:medium>
+    <dcterms:extent>40 cm x 30 cm</dcterms:extent>
+    <crown:date>k. A.</crown:date>
+    <gams:textualContent>1490599 CR_1_QB_Gr_1526-1796_045 Bildquelle Grafik k. A. Kupferstich niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</gams:textualContent>
+    <crown:caption>\"Unbekannter Meister\"</crown:caption>
+    <crown:inscription>(links unten:) Unbekannter Meister. (rechts unten:) W. HECHT DEL. &amp; SC.\" KAISER JOSEPH II. VERLAG DER GESELLSCHAFT FÜR VERVIELF. KUNST IN WIEN - VERVIELFÄLTIGUNG VORBEHALTEN. - DRUCK DER K. K. HOF- UND STAATSDRUCKEREI IN WIEN</crown:inscription>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490599.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Theatermuseum Wien, GS_GPU7272</crown:owner>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:depiction>Reproduktion nach Kupferstich; Zivilporträt; Joseph II., stehend, Kniestück; in Marschalluniform; mit Kleinod des Ordens v. Goldenen Vlies; die Linke ruht auf dem Bügel der RK; außerdem Erzherzogshut, Stephanskrone, Böhmischer Krone; auf Prunkkissen; auf Tisch; zur Rechten Thronsessel; im Hintergrund Draperie, Arkadengang über Pfeilern</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490599.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490599">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490599/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490599/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1526-1796_045</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1526-1796_045, niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +47,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,31 +55,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490599.o">
-    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_045</rdfs:label>
-    <rdfs:comment>niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</rdfs:comment>
-    <rdfs:comment>Kniestück im Dreiviertelprofil nach links, im Krönungsornat.</rdfs:comment>
-    <dcterms:medium>Kupferstich</dcterms:medium>
-    <dcterms:extent>40 cm x 30 cm</dcterms:extent>
-    <gams:textualContent>1490599 CR_1_QB_Gr_1526-1796_045 Bildquelle Grafik k. A. Kupferstich niedrig; stark vereinfacht; RK auf Prunkkissen, auf Tisch; mit Erzherzogshut, Stephanskrone, Böhmischer Krone; auf dem Bügel der RK die Linke Josephs; Proportionen der sichtbaren Bauteile scheinen glaubwürdig; RK stark durch andere Gegenstände überschnitten; Differenzierung in Edelstein- und Bildplatte; Motiv nicht lesbar (überschnitten); ; Stein- u. Perlbesatz differenziert; keine Details dargestellt; Zusammenfassung der dargestellten Bauteile: K, Bg, A (fragmentarisch), B (nur Rand); mit Haube</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490599.media.697464">
-        <rdfs:label>GS_GPU7272.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490599/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>\"Unbekannter Meister\"</crown:label>
-    <crown:inscription>(links unten:) Unbekannter Meister. (rechts unten:) W. HECHT DEL. &amp; SC.\"  KAISER JOSEPH II.  VERLAG DER GESELLSCHAFT FÜR VERVIELF. KUNST IN WIEN - VERVIELFÄLTIGUNG VORBEHALTEN. - DRUCK DER K. K. HOF- UND STAATSDRUCKEREI IN WIEN</crown:inscription>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490599.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490599/IMAGE.1">
-    <schema:contentURL>GS_GP\GS_GPU7272\GS_GPU7272.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

@@ -1,25 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482314">
+    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_008</rdfs:label>
+    <dcterms:medium>Kupferstich</dcterms:medium>
+    <dcterms:extent>Buchformat: 2°</dcterms:extent>
+    <crown:date>1668</crown:date>
+    <gams:textualContent>1482314 CR_1_QB_Gr_1526-1796_008 Bildquelle Grafik 1668 Kupferstich</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:comment>Fugger, Johann Jakob, Spiegel der Ehren des Höchstlöblichsten Kayser- und Königlichen Erzhauses Oesterreich oder Ausführliche GeschichtSchrift von Desselben, und derer durch Erwählungs- Heurat- Erb- und Glücks-Fälle ihm zugewandter Käyserlichen HöchstWürde, Königreiche, Fürstentümer, Graf- und Herrschaften, Erster Ankunft, Aufnahme, Fortstammung und hoher Befreundung mit Käyser- König- Chur- und Fürstlichen Häusern: auch von Derer aus diesem Haus Erwählter Sechs Ersten Römischen Käysere, Ihrer Nachkommen und Befreundten, Leben und Großthaten: mit Käys. Rudolphi I GeburtsJahr 1212 anfahend, und mit Käys. Maximiliani I TodesJahr 1519 sich endend, Nürnberg 1668</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>999/4Hist.pol.3,48</schema:identifier>
+    <schema:identifier>https://www.digitale-sammlungen.de/view/bsb11062069?page=7</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482314.PictorialSource">
+        <crown:origin>Deutschland; Nürnberg</crown:origin>
+        <crown:owner>Fugger 1668, Bl. 3 r; Bayerische Staatsbibliothek/Regensburg/Sig. 999/4Hist.pol.3,48</crown:owner>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:depiction>Kupfertitel; sechs Habsburger Herrscher in Harnisch und Mantel, mit Szepter, Reichsapfel und Krone vor Säulenexedra; Rudolf I. als Stammvater mit Reichskrone; auf Kapitellen Herrschertugenden; darüber Porträt v. Kaiser Leopold I. mit Lorbeerkranz; getragen von 2 Putti mit den Attributen von Fama und Gloria; im Sockelbereich Embleme; davor Buchtitel; gehalten von 2 Putti; rechts unten Signatur</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1482314.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482314">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482314/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482314/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1526-1796_008</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1526-1796_008, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +47,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,30 +55,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482314.o">
-    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_008</rdfs:label>
-    <rdfs:comment>AUSSTEHEND</rdfs:comment>
-    <dcterms:medium>Kupferstich</dcterms:medium>
-    <dcterms:extent>Buchformat: 2°</dcterms:extent>
-    <gams:textualContent>1482314 CR_1_QB_Gr_1526-1796_008 Bildquelle Grafik 1668 Kupferstich AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482314.media.1431066">
-        <rdfs:label>CR_1_QB_Gr_1526-1796_008_spiegel_der_ehren</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482314/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <schema:identifier>999/4Hist.pol.3,48</schema:identifier>
-    <schema:identifier>https://www.digitale-sammlungen.de/view/bsb11062069?page=7</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482314.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482314/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1526-1796\CR_1_QB_Gr_1526-1796_008_spiegel_der_ehren.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

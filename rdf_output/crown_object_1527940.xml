@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1527940">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1527940/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_011</dc:title>
+    <dc:description>Angaben zum Steinbesatz der Reichskrone in Text und Bild (ZEICHNUNG mit einzelnen Platten und Bezeichnung der Steine), Schätzung des Wertes von Edelsteinen, Perlen und Gold (im selben Faszikel drei gleichlautende allgemeine Kurzbeschreibungen der Reichskrone, siehe CR_1_QS_Ak_1526-1796_012)</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1527940">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_011</rdfs:label>
+    <rdfs:comment>Angaben zum Steinbesatz der Reichskrone in Text und Bild (ZEICHNUNG mit einzelnen Platten und Bezeichnung der Steine), Schätzung des Wertes von Edelsteinen, Perlen und Gold (im selben Faszikel drei gleichlautende allgemeine Kurzbeschreibungen der Reichskrone, siehe CR_1_QS_Ak_1526-1796_012)</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>14. Juli 1612</crown:date>
+    <crown:dateBegin>1612</crown:dateBegin>
+    <crown:dateEnd>1612</crown:dateEnd>
+    <gams:textualContent>1527940 CR_1_QS_Ak_1526-1796_011 Schriftquelle Akte 14. Juli 1612 Papier; Tinte; handgeschrieben Angaben zum Steinbesatz der Reichskrone in Text und Bild (ZEICHNUNG mit einzelnen Platten und Bezeichnung der Steine), Schätzung des Wertes von Edelsteinen, Perlen und Gold (im selben Faszikel drei gleichlautende allgemeine Kurzbeschreibungen der Reichskrone, siehe CR_1_QS_Ak_1526-1796_012)</gams:textualContent>
+    <crown:transcription>[Beiblatt am Anfang] Beschreibungen der/Kayserl[ichen] Cron. // B:15.25. [Handzeichnung/Tusche zur Nackenplatte][1] Saphir Praße(m) Gr[anat] gr[anat] Pr[aßem] [leer] Rubin/pallas gr[anat] Saph[ir] gr[anat] gr[anat] Saph[ir] gr[anat] gr[anat] Schmar/de Prase[m] Saphir Pra[sem] gr[anat] gr[anat] Ametist gr[anat] Saphier gr[anat] Amet[hyst] [schmales Faltblatt, in dem weitere Schriftstücke sowie die Zeichnung mit den einzelnen Bestandteilen der RKr eingelegt sind] [Faltblatt, fol. 1r] A° 1612 adi 14 July: hat Hanns Peutmüller Goldschmidt. die Edlen stain an der kaiserlichen Cron. und andern Ornat folgenter gestalt gewürdigt und geschezt Erstlich in der fordern Taffl drein das Creutz gesteckt ist in der mitten: Ein groß Robinkorn Pro 50 fl[2]. Ein großer Saffir Vnten Pro 60 fl Ein großer Saffir oben Pro 50 fl 2 Saffier vff der seiten ain Pro 12 fl 4 Schmaral ain Pro 6 fl. 2 Amatisten ain Pro 2 fl. In dem Pogen darneben bey Konig David Solomon[3]. 4 Saphir. ain Pro 4 fl In dem andern Ruendel. Ein schöner Saffir 24 fl Mehr 4 ander Saffir. ain Pro 4 fl. 1 schmaral oder Prasem Pro 3 fl. In der Tafel darneben bey König David: 3 große Saffir. ain Pro 12 fl. 7 klainere Saffir ain Pro 4 fl. In dem dritten Ruendel. 3 schöne große Saffir. ain Pro 50 ein 60 fl. 4. klainere Saffir. ain Pro 8 fl. 5 schmaral Prasen ain Pro 4 fl. 1 Robinkorn. Pro 6 fl. In der Taffl darneben bey Konig Ezechias: 9 Saffir. ain Pro 4 fl In dem vierten Rundel Per me reges [Faltblatt, fol. 1v] Regnant: 10. Saffir. ainen Pro 6 fl. Die 60 große Perlen werden geschetzt aines in das andre Pro 17 fl. Die anderen so klainer und etwas schlechter miteinander zu 2 Taler. Zusammen aber und vber haubt geschetzt, möchten sie werth sein, bey 1000 fl. Summa was die kaiserliche Cron möcht werth sein: An Edlen stainen ungefher: 1649 fl Das Goldt 6 Hl[4] 23 Lot[5], Thut 14 M[ark][6]: 2 L[ot]. das Pfundt Per 34 lot Und 16 Lot als 1 Mark für 70 r[Reichs?]Cronen gerechnet. Thut 1000 Cronen Zu 2 fl. ………………………………………..…. 2000 fl.[7] Item: an dem Creutz der Cron seint: 3 Saffir ain Pro 8 fl. 1 amatist Pro 2 fl 1 Schmaral Pro 2 fl. [fol. 2r] [Handzeichnung in Tusche mit Darstellung der Krone, jeder Stein bezeichnet; Text am oberen Rand von links nach rechts:] Hier wird das Creuz eingesteckt A. Vide 2. Buch mosis 39. p. 12.[8] da diesen ein Stein lyncurer genennt wird, den dießes Praß gleich ist B. die Praßen sind die Schmaragde= mutter, also noch so von u[nd]. Außge= wachsten nicht wie die Schmaragd. [Strichzeichnung mit einzelnen Platten, dem Kreuz und dem Bügel, dabei jeder Stein bezeichnet, von links nach rechts] [Platte A] Rubin palé/ Saphir / Amethist Saphir / Schmaragd Prasen B / Saphir Granaten Topaß Praß A / Rubin palé oder Rubin / Topaß Praß Ametist / Saphir / Amethist [Platte B] REX SALOMON 10. Saphir [Platte C] Saphir Granaten Prasem Ametist Gar schöner Saphir [Platte D] REX DAVID 10. Saphir [Platte H] P ME REGES REGNANT 10. Saphir [Platte G] 10. Granaten Prasem 10. Saphir [Platte F] ESAIAS PPHETA EZECHIAS REX 10. Saphir [Platte E] Prasen / Saphir / Prasen Saphir / Rubin palé / Saphir Prasen / Saphier/ Prasen Ametist / Saphir gar schön / Ametist [Stirnkreuz K] Saphir Ametist / Saphir / Granat 4. Granatn 8. Saphir körner Prasen [Bügel] CH VON RAD VS DEI GR AT IA/ 1 2 1 2 1 2 1 2 1 2 1 3 1 3 1/ N.1. sind 8. Granati 2. sind 7. Scheckin[?] stein RO MA NOR VM I MPE RA TOR AVG die Steine wie oben. [fol. 3r] [Handzeichnung in Tusche mit schematischer Darstellung des Reichskreuzes und Wiedergabe der Umschrift] [von unten nach oben] ECC E.CRUCE M DOMI NI : F UGI AT : P ARS : HOS TIS : INI qVI [Kreuz] HIN : C CHVON RADE : IT BI CED ANT OMNES INIMI CI [Kleiner beilegter Zettel mit Text in Bleistift] REX SALOMON TIMOR DNI[DOMINI] SERVAT A MOLO Prov. 8 [1] Versuch einer Nachstellung der Position der Textangaben auf der Grafik [2] Im Text wird ein R ähnliches Kürzel für Gulden/Floren [fl] verwendet. [3] Name David wurde gestrichen, darüber wurde Solomon geschrieben [4] Gewichtseinheit, vermutlich Unze oder Pfund, mehr als Lot [5] Gewichtseinheit [6] Gewichtseinheit [7] Ergebnis des Goldwertes anhand von Gewicht. [8] 2. Buch Mose 39/12: die dritte ein Lynkurer, ein Achat und ein Amethyst</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1527940.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>hoch</crown:significance>
+        <crown:comment>Angaben zum Steinbesatz der Reichskrone in Text und Bild (ZEICHNUNG mit einzelnen Platten und Bezeichnung der Steine), Schätzung des Wertes von Edelsteinen, Perlen und Gold (im selben Faszikel drei gleichlautende allgemeine Kurzbeschreibungen der Reichskrone, siehe CR_1_QS_Ak_1526-1796_012)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490518">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_039</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_039, ÜBERARBEITEN; mittel; RK am rechten Bildrand auf rotem Kissen auf Tisch; davor Pergamente mit Siegeln, Reichsapfel; Sichtabre Bestandteile: Kreuz, Bügel, A, B; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>RK am rechten Bildrand auf rotem Kissen auf Tisch; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,52 +32,32 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490518">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_039</rdfs:label>
-    <rdfs:comment>ÜBERARBEITEN; mittel; RK am rechten Bildrand auf rotem Kissen auf Tisch; davor Pergamente mit Siegeln, Reichsapfel; Sichtabre Bestandteile: Kreuz, Bügel, A, B; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</rdfs:comment>
+    <rdfs:comment>RK am rechten Bildrand auf rotem Kissen auf Tisch; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</rdfs:comment>
     <rdfs:comment>Kaiser Ferdinand I. ist frontal im Kontrapost wiedergegeben. Das Gesicht wird als dreiviertel Profil gezeigt. Die behandschuhte rechte hält den Handschuh der linken Hand, welche auf dem Korb des Degens ruht. Die Kleidung des Herrschers ist schwarz inklusive des Baretts lediglich die Manschetten und der Kragen des Hemdes sind weis. Auf der Brust ist der am schwarzen Band getragene Orden vom goldenen Vlies zu sehen. Durch die schräge Stellung des Tisches links wird die Reichskrone mit Kreuz und Stirnplatte auf Ferdinand ausgerichtet und die Platte mit dem Emaille welches König Ezechias mit dem Propheten Jesaja sichtbar. Unterhalb des Kissens auf welchem die Reichskrone ruht sind mittealterliche auf Pergament geschriebene Urkunden und drei Siegel sichtbar. Der Reichsapfel steht ebenfalls auf den Urkunden. Im Hintergrund ist ein Postament mit den ligierten Initialen (F H) des Kaisers, eine kannelierte Säule, ein goldener Vorhang und ein Ausblick mit Himmel zu sehen.</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>246 x 144 cm</dcterms:extent>
-    <gams:textualContent>1490518 CR_1_QB_Gm_1526-1796_039 Bildquelle Gemälde 1874 Öl; Leinwand ÜBERARBEITEN; mittel; RK am rechten Bildrand auf rotem Kissen auf Tisch; davor Pergamente mit Siegeln, Reichsapfel; Sichtabre Bestandteile: Kreuz, Bügel, A, B; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.media.1195200">
-        <rdfs:label>GG_7181_SacnBDA_2019_002</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.media.1195615">
-        <rdfs:label>GG_7181_10_2018_002</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.media.906296">
-        <rdfs:label>INV_GG_7176.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Signatur links unten: \"Julius Berger 1874\"</crown:label>
+    <dcterms:extent>246 cm × 144 cm</dcterms:extent>
+    <crown:date>1874</crown:date>
+    <crown:dateBegin>1874</crown:dateBegin>
+    <crown:dateEnd>1874</crown:dateEnd>
+    <gams:textualContent>1490518 CR_1_QB_Gm_1526-1796_039 Bildquelle Gemälde 1874 Öl; Leinwand RK am rechten Bildrand auf rotem Kissen auf Tisch; Figurenmotiv auf B identifizierbar, Schrift nicht lesbar; Stein- u. Perlbesatz grob zu erkennen, Details nicht lesbar</gams:textualContent>
+    <crown:caption>Julius Berger 1874</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>MD66626</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490518.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:owner>Kunsthistorisches Museum Wien, GG, Inv. Nr. GG 7181 Extern, Ausstattung/Dauerleihgabe, Mobiliendepot, Inv. Nr. MD66626 Wien, BDA, Ahnengalerie, wandfest</crown:owner>
+        <crown:depiction>Kaiser Ferdinand I., stehend; Körper: frontal, Gesicht: Dreiviertelprofil; schwarze Kleidung, Hemd weiß; Barett, Handschuhe; Orden vom Goldenen Vlies, Degen; RK am linken Bildrand auf rotem Polster auf Tisch; davor Pergamenturkunden mit Siegeln; Reichsapfel; Hintergrund: Postament mit Initialen FH, kannelierte Säule, goldener Vorhang, Ausblick auf Himmel; Dargestellte Bauteile: K, Bg, A, B;</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490518.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.1">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7181_SacnBDA_2019_002.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.2">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7181_10_2018_002.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490518/IMAGE.3">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_7176.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

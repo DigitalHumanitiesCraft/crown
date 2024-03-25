@@ -1,132 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.o">
-    <rdfs:label>Schanierstift, CR_1_F_SchS</rdfs:label>
-    <dcterms:medium>Gold</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1481625 CR_1_F_SchS Kronreif Schanierstift Gold nan 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.media.1432093">
-        <rdfs:label>CR_1_F_SchS_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1481625/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.adhesiondamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.discolorationdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.burntsurface">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BurntSurface>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.tooltracedamage">
-        <crown:comment>Kugel: Schabspuren, Kerben; _x000d_
-</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.deformationdamage">
-        <crown:comment>Kopf: Oberseite flachgedrückt; _x000d_
-Bereich oberhalb der Schanierrohre nach vorne gebogen - Zusammenhang mit Ei_1 (?); _x000d_
-Helix: unteres Ende nach außen gedrückt - liegt nicht an SchS an; _x000d_
-</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.detachmentofplatedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DetachmentOfPlateDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.crackdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.brokensolderingdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BrokenSolderingDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.fracturedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FractureDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.missingpartdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.settingevidencedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:SettingEvidenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.condition">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumberCR_1_F_Ei_2;CR_1_Ei_1;_x000d_&#10;"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.intervention">
-        <crown:comment>CR_1_F_Ei_2 u. CR_1_Ei_1: Montage des oberen Eisenband: Werkzeugspuren an Perle, Deformierung von SchS oberhalb der Scharnierrohre;</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
-    <crown:descriptionOfComponents>
-      <crown:Head rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.head">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Head>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Helix rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.helix">
-        <crown:windingDirection rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#rechtsgaengig"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Helix>
-    </crown:descriptionOfComponents>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481625">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481625/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Schanierstift, CR_1_F_SchS</dc:title>
-    <dc:description>Schanierstift, CR_1_F_SchS, nan</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481625/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Scharnierstift, CR_1_F_SchS</dc:title>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -139,7 +24,7 @@ Helix: unteres Ende nach außen gedrückt - liegt nicht an SchS an; _x000d_
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -147,9 +32,43 @@ Helix: unteres Ende nach außen gedrückt - liegt nicht an SchS an; _x000d_
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1481625/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_F\CR_1_F_SchS\CR_1_F_SchS_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1481625">
+    <rdfs:label>Scharnierstift, CR_1_F_SchS</rdfs:label>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1481625 CR_1_F_SchS Kronreif Scharnierstift Gold nan 3D Mikroskopie</gams:textualContent>
+    <crown:descriptionOf>
+      <crown:HingePin rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.HingePin">
+        <crown:crossSection>eckig</crown:crossSection>
+        <crown:component>
+          <crown:Head rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.HingePin.Head">
+            <crown:description>Kugel: zusammen mit Stab geschmiedet (?) oder aufgesetzte Einzelgranalie (?); Kugel, Durchmesser: 2,48 mm; Ring: Perldrahtring (?) oder einzelne Granalien (?);</crown:description>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Head>
+        </crown:component>
+        <crown:component>
+          <crown:Helix rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.HingePin.Helix">
+            <crown:numberOfCoils>6.00000000</crown:numberOfCoils>
+            <crown:directionOfCoils>rechtsgängig</crown:directionOfCoils>
+            <crown:wireDiameter>0.00000000</crown:wireDiameter>
+            <crown:description>oberes Ende: deformiert - flach gedrückt; unteres Ende: deformiert - flach gedrückt; charakteristische Linien von Zieheisen;</crown:description>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Helix>
+        </crown:component>
+        <crown:component>
+          <crown:LowerEnd rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.HingePin.LowerEnd">
+            <crown:length>0.00000000</crown:length>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:other>(not assigned)</crown:other>
+          </crown:LowerEnd>
+        </crown:component>
+        <crown:feature>
+          <crown:TechnicalStructure rdf:about="https://gams.uni-graz.at/o:crown.object.1481625.HingePin.TechnicalStructure">
+            <crown:other>(not assigned)</crown:other>
+          </crown:TechnicalStructure>
+        </crown:feature>
+      </crown:HingePin>
+    </crown:descriptionOf>
+  </crown:Object>
 </rdf:RDF>

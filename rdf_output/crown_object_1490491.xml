@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490491">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Objekt, CR_1_QB_Ob_1526-1796_049</dc:title>
-    <dc:description>Objekt, CR_1_QB_Ob_1526-1796_049, niedrig; RK auf dem Haupt Rudolfs I. und Maximilians I.; stark vereinfacht, recht klein; Proportionen abweichend; Bügel mit Bogenfeldern (Max. I.) bzw. Kugeln (Rud. I.); Bild- u. Edelsteinplatten differenziert, bei Rudolf Kreuz im Bildfeld von B, statt Salomon; Haube auf beiden nicht zu sehen</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>niedrig; RK auf dem Haupt Rudolfs I. und Maximilians I.; stark vereinfacht, recht klein; Proportionen abweichend; Bügel mit Bogenfeldern (Max. I.) bzw. Kugeln (Rud. I.); Bild- u. Edelsteinplatten differenziert, bei Rudolf Kreuz im Bildfeld von B, statt Salomon; Haube auf beiden nicht zu sehen</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,9 +32,9 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490491">
     <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_049</rdfs:label>
     <rdfs:comment>niedrig; RK auf dem Haupt Rudolfs I. und Maximilians I.; stark vereinfacht, recht klein; Proportionen abweichend; Bügel mit Bogenfeldern (Max. I.) bzw. Kugeln (Rud. I.); Bild- u. Edelsteinplatten differenziert, bei Rudolf Kreuz im Bildfeld von B, statt Salomon; Haube auf beiden nicht zu sehen</rdfs:comment>
     <rdfs:comment>Die Krone des phantasievoll verzweigten Baumes aus Gold mit seinen 16 Medaillons ist einem Rhombus eingeschrieben. Die Medaillons aus Chalzedon enthalten Bildnisse von Königen und Kaisern des Hauses Habsburg und sind von unten nach oben und von links nach rechts in chronologischer Abfolge gereiht: Rudolf I. (1218/1273-1291), Albrecht I., Albrecht II., Friedrich III. (der Schöne), Friedrich IV. (heute als Friedrich III. gezählt), Maximilian I., Karl V., Ferdinand I., Maximilian II., Rudolf II., Matthias, Ferdinand II., Ferdinand III., Leopold I., Joseph I. und Karl VI. (1685/1711-1740). In Wirklichkeit war die Kaiserreihe natürlich durch Herrscher aus anderen Häusern unterbrochen. Sie ist hier aber durch das Motiv des Stammbaumes verbunden, der zugleich ein Ehrenmahl des Hauses Habsburg ist.</rdfs:comment>
@@ -51,193 +43,24 @@
     <dcterms:medium>Chalcedon</dcterms:medium>
     <dcterms:medium>Gold</dcterms:medium>
     <dcterms:extent>H. 29,2 cm, B. 17,4 cm, D. Fuß 12,8 cm</dcterms:extent>
+    <crown:date>um 1725/30</crown:date>
+    <crown:dateBegin>1725</crown:dateBegin>
+    <crown:dateEnd>1730</crown:dateEnd>
     <gams:textualContent>1490491 CR_1_QB_Ob_1526-1796_049 Bildquelle Objekt um 1725/30 Chalcedon; Gold niedrig; RK auf dem Haupt Rudolfs I. und Maximilians I.; stark vereinfacht, recht klein; Proportionen abweichend; Bügel mit Bogenfeldern (Max. I.) bzw. Kugeln (Rud. I.); Bild- u. Edelsteinplatten differenziert, bei Rudolf Kreuz im Bildfeld von B, statt Salomon; Haube auf beiden nicht zu sehen</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.84040">
-        <rdfs:label>ANSA_XII_783_276.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178390">
-        <rdfs:label>ANSA_XII_783_1.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178391">
-        <rdfs:label>ANSA_XII_783_10.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178392">
-        <rdfs:label>ANSA_XII_783_11.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178393">
-        <rdfs:label>ANSA_XII_783_12.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.5"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178394">
-        <rdfs:label>ANSA_XII_783_13.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.6"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178395">
-        <rdfs:label>ANSA_XII_783_14.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.7"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178396">
-        <rdfs:label>ANSA_XII_783_15.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.8"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178397">
-        <rdfs:label>ANSA_XII_783_16.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.9"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178398">
-        <rdfs:label>ANSA_XII_783_17.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.10"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178399">
-        <rdfs:label>ANSA_XII_783_2.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.11"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178400">
-        <rdfs:label>ANSA_XII_783_3.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.12"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178401">
-        <rdfs:label>ANSA_XII_783_4.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.13"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178402">
-        <rdfs:label>ANSA_XII_783_5.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.14"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178403">
-        <rdfs:label>ANSA_XII_783_6.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.15"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178404">
-        <rdfs:label>ANSA_XII_783_7.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.16"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178405">
-        <rdfs:label>ANSA_XII_783_8.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.17"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.media.178406">
-        <rdfs:label>ANSA_XII_783_9.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.18"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
     <crown:fotonummer>I 23984, II 23206, III 21191-206</crown:fotonummer>
-    <crown:bemerkung>Stammbaum des Hauses Habsburg von Gold mit 16 daran hängenden Chalcedon-Intaglien. Aus der Schatzkammer. Aus der Ambraser Sammlung.</crown:bemerkung>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:comment>Stammbaum des Hauses Habsburg von Gold mit 16 daran hängenden Chalcedon-Intaglien. Aus der Schatzkammer. Aus der Ambraser Sammlung.</crown:comment>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490491.PictorialSource">
+        <crown:origin>Österreich; Wien (Bäumchen); Deutsch; Nürnberg (Intaglios)</crown:origin>
+        <crown:owner>KHM ANSA_XII_783 Schatzkammer, WS, Raum 07, Vitrine 05</crown:owner>
+        <crown:provenance>Ambraser Sammlung; 1880 Übernahme</crown:provenance>
+        <crown:depiction>TMS SK-Eintrag, Beschreibung Online: \"Die Krone des phantasievoll verzweigten Baumes aus Gold mit seinen 16 Medaillons ist einem Rhombus eingeschrieben. Die Medaillons aus Chalzedon enthalten Bildnisse von Königen und Kaisern des Hauses Habsburg und sind von unten nach oben und von links nach rechts in chronologischer Abfolge gereiht [...].\"</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490491.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.1">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_276.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.17">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_8.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.2">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_1.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.4">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_11.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.8">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_15.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.12">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_3.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.15">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_6.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.5">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_12.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.13">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_4.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.3">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_10.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.6">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_13.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.16">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_7.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.11">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_2.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.18">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_9.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.10">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_17.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.14">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_5.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.7">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_14.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490491/IMAGE.9">
-    <schema:contentURL>ANSA_XII_783\ANSA_XII_783_16.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

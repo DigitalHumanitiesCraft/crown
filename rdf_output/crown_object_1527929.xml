@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1527929">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1527929/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_009</dc:title>
+    <dc:description>Nennung der Reichskrone als Teil der transportierten Insignien.</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1527929">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_009</rdfs:label>
+    <rdfs:comment>Nennung der Reichskrone als Teil der transportierten Insignien.</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>ohne Jahr (1658 [?])</crown:date>
+    <crown:dateBegin>1658</crown:dateBegin>
+    <crown:dateEnd>1658</crown:dateEnd>
+    <gams:textualContent>1527929 CR_1_QS_Ak_1526-1796_009 Schriftquelle Akte ohne Jahr (1658 [?]) Papier; Tinte; handgeschrieben Nennung der Reichskrone als Teil der transportierten Insignien.</gams:textualContent>
+    <crown:transcription>[fol. 15r] 1. Die[1] Kayserl[iche] Con. 2. Ein jener Majestät Apfel. 3. Zwey Kayserl[iche] Scepter. 4. Kayser Carls Schwerdt. 5. Ein dunckelbraune dalmatica. 6. Ein weiße seidene Alben oder dalmatica. 7. Ein guldener gewürckhter Gürtel mit vergulden lincken zur gürtung der weißen dalmatica. 8. Ein lange guldene Stola, mit Schwarzen Adlern. gesch###[2] 9. Ein roth guldener gemusirter Chormantel mit Löben vnd Elephanten. Cammel 10. Ein par Handtschue mit berlein gestickt. 11. Ein guldener Schmaler bortten zum gürten der Braunen dalmatica zugebrauchen. 12. Ein par roth seidener gestickter Kniehoßen. 13. Ein par Schuhe mit perlein gestickt. 14. Ein Praun Chormantel Rock mit Adlern zu Unterst im Kasten[3] [fol. 15v / Außenseite] Verzeichnuß Der Reichs Cleinodien, So anhero, nach Regenspurg gebracht worden. [1] Die Unterstreichungen, Korrekturen und Ergänzungen in Bleistift ausgeführt. [2] Verwischte Ergänzung in Bleistift [3] Nr. 14 insgesamt als Ergänzung in Bleistift</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1527929.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>niedrig</crown:significance>
+        <crown:comment>Nennung der Reichskrone als Teil der transportierten Insignien.</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

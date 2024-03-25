@@ -1,52 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489707.o">
-    <rdfs:label>Gemälde, CR_1_QB_Gm_1797-1919_007</rdfs:label>
-    <rdfs:comment>AUSSTEHEND</rdfs:comment>
-    <dcterms:medium>Wandmalerei</dcterms:medium>
-    <dcterms:extent>560 cm × 660 cm</dcterms:extent>
-    <gams:textualContent>1489707 CR_1_QB_Gm_1797-1919_007 Bildquelle Gemälde 1860-1862 Wandmalerei AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489707.media.1440940">
-        <rdfs:label>CR_1_QB_Gm_1797-1919_007_krönung_ludwig_2019</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489707/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489707.media.1440941">
-        <rdfs:label>CR_1_QB_Gm_1797-1919_007_krönung_ludwig_1943</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489707/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <schema:identifier>https://www.bildindex.de/document/obj01030314?part=8</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489707.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489707">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489707/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489707/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1797-1919_007</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1797-1919_007, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -59,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -67,12 +32,29 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489707/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1797-1919\CR_1_QB_Gm_1797-1919_007_krönung_ludwig_2019.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489707/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1797-1919\CR_1_QB_Gm_1797-1919_007_krönung_ludwig_1943.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489707">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1797-1919_007</rdfs:label>
+    <dcterms:medium>Wandmalerei</dcterms:medium>
+    <dcterms:extent>560 cm × 660 cm</dcterms:extent>
+    <crown:date>1860-1862</crown:date>
+    <crown:dateBegin>1860</crown:dateBegin>
+    <crown:dateEnd>1862</crown:dateEnd>
+    <gams:textualContent>1489707 CR_1_QB_Gm_1797-1919_007 Bildquelle Gemälde 1860-1862 Wandmalerei</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>https://www.bildindex.de/document/obj01030314?part=8</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1489707.PictorialSource">
+        <crown:origin>Deutschland; Aachen</crown:origin>
+        <crown:owner>Aachen, Rathaus, Krönungssaal</crown:owner>
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:depiction>(not assigned)</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1489707.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

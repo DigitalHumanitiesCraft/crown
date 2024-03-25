@@ -1,216 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.o">
-    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_073</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; niedrig; vereinfacht</rdfs:comment>
-    <rdfs:comment>The director of imperial buildings, Gundacker Count Althann, is presenting Charles VI with the inventory of the imperial art collections. The occasion for this paean to a Baroque ruler was the concentration and redisplay of the Habsburg artworks in Vienna’s Stallburg. The emperor commissioned this picture from the most important Neapolitan painter, Francesco Solimena. The portrait heads of Charles and his director of buildings were added in Vienna by the painter Johann Gottfried Auerbach.</rdfs:comment>
-    <rdfs:comment>Der Hofbaudirektor Gundaker Althann überreicht Karl VI. das Inventar der kaiserlichen Kunstsammlungen. Anlaß für dieses Schaustück barocken Herrscherlobs waren die Zusammenführung und Neuaufstellung des habsburgischen Kunstbesitzes in der Stallburg in Wien. Der Kaiser gab beim bedeutendsten neapolitanischen Maler, Francesco Solimena, dieses Widmungsbild in Auftrag. Erst in Wien wurden die Porträtköpfe Karls und seines Baudirektors vom Maler Johann Gottfried Auerbach eingefügt.</rdfs:comment>
-    <dcterms:medium>Öl</dcterms:medium>
-    <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>309 x 284 cm</dcterms:extent>
-    <gams:textualContent>1490590 CR_1_QB_Gm_1526-1796_073 Bildquelle Gemälde 1728 datiert Öl; Leinwand AUSSTEHEND; niedrig; vereinfacht</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.50053">
-        <rdfs:label>GG_1601_HP.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.7671">
-        <rdfs:label>GG_1601.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255149">
-        <rdfs:label>GG_1601_Detail_02.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255150">
-        <rdfs:label>GG_1601_Detail_04.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255151">
-        <rdfs:label>GG_1601_Detail_05.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.5"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255152">
-        <rdfs:label>GG_1601_Detail_06.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.6"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255153">
-        <rdfs:label>GG_1601_Detail_08.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.7"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255154">
-        <rdfs:label>GG_1601_Detail_09.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.8"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255155">
-        <rdfs:label>GG_1601_Detail_11.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.9"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255156">
-        <rdfs:label>GG_1601_Detail_13.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.10"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255157">
-        <rdfs:label>GG_1601_Detail_14.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.11"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255158">
-        <rdfs:label>GG_1601_Detail_15.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.12"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255159">
-        <rdfs:label>GG_1601_Detail_16.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.13"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255160">
-        <rdfs:label>GG_1601_Detail_17.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.14"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255161">
-        <rdfs:label>GG_1601_Detail_18.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.15"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255162">
-        <rdfs:label>GG_1601_Detail_19.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.16"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255163">
-        <rdfs:label>GG_1601_Detail_20.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.17"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255164">
-        <rdfs:label>GG_1601_Detail_21.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.18"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.255165">
-        <rdfs:label>GG_1601_Gesamt.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.19"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.907232">
-        <rdfs:label>INV_GG_1601.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.20"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.1105060">
-        <rdfs:label>INV_1772_I_071.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.21"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.1105370">
-        <rdfs:label>INV_1772_II_67.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.22"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.1265151">
-        <rdfs:label>GG_1601_Web.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.23"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.1227598">
-        <rdfs:label>GG_1601_Rahmung.JPG</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.24"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.media.1393409">
-        <rdfs:label>GG_1601_neu.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.25"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:recherchenotiz>Belvedere Inv. 1816/17, Depot in der Gartenrondelle, Nr. 37. Carl der 6te mit Gundacker Althan wie selber ein buch kniend überreicht. Fr. Solimena Belvedere Inv. 1824, Marmor=Saal, Kaiser Carl VI.. Francesco Solimena [ohne Nummer] Belvedere Inv. 1837, Erdgeschoss, I. Logiezimmer, Kaiser Karl VI. von seinem Hofe umgeben /empfängt das Inventarium der kais. Gallerie, / welches ihm Graf Gundacker von Althann k. / Hofbaudirektor nach volleneter Einrichtung der / selben in der k. Stallburg im J. 1728 kni / end überreicht, Lw, 9 Schuh 8 Zoll hoch 8 Schuh 10 Zoll vreutm Francesco Solimena / der Ko[...] des Kaisers und des Grafen sind von Joh. Gottfr. Auerbach</crown:recherchenotiz>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490590">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_073</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_073, AUSSTEHEND; niedrig; vereinfacht</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig; vereinfacht</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -223,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -231,81 +32,35 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.5">
-    <schema:contentURL>GG_1601\GG_1601_Detail_05.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.24">
-    <schema:contentURL>GG\Verband\Gemälde mit Rahmen\GG_1601\GG_1601_Rahmung.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.17">
-    <schema:contentURL>GG_1601\GG_1601_Detail_20.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.14">
-    <schema:contentURL>GG_1601\GG_1601_Detail_17.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.6">
-    <schema:contentURL>GG_1601\GG_1601_Detail_06.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.25">
-    <schema:contentURL>GG_1601\GG_1601_neu.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.16">
-    <schema:contentURL>GG_1601\GG_1601_Detail_19.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.4">
-    <schema:contentURL>GG_1601\GG_1601_Detail_04.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.1">
-    <schema:contentURL>GG_1601\GG_1601_HP.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.13">
-    <schema:contentURL>GG_1601\GG_1601_Detail_16.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.9">
-    <schema:contentURL>GG_1601\GG_1601_Detail_11.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.8">
-    <schema:contentURL>GG_1601\GG_1601_Detail_09.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.19">
-    <schema:contentURL>GG_1601\GG_1601_Gesamt.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.21">
-    <schema:contentURL>inv_1772_I\INV_1772_I_071.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.2">
-    <schema:contentURL>GG_1601\GG_1601.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.3">
-    <schema:contentURL>GG_1601\GG_1601_Detail_02.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.10">
-    <schema:contentURL>GG_1601\GG_1601_Detail_13.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.7">
-    <schema:contentURL>GG_1601\GG_1601_Detail_08.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.18">
-    <schema:contentURL>GG_1601\GG_1601_Detail_21.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.12">
-    <schema:contentURL>GG_1601\GG_1601_Detail_15.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.23">
-    <schema:contentURL>GG_1601\GG_1601_Web.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.20">
-    <schema:contentURL>INV_GG_1_2208\INV_GG_1601.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.11">
-    <schema:contentURL>GG_1601\GG_1601_Detail_14.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.15">
-    <schema:contentURL>GG_1601\GG_1601_Detail_18.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490590/IMAGE.22">
-    <schema:contentURL>inv_1772_II\INV_1772_II_67.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490590">
+    <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_073</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; niedrig; vereinfacht</rdfs:comment>
+    <rdfs:comment>The director of imperial buildings, Gundacker Count Althann, is presenting Charles VI with the inventory of the imperial art collections. The occasion for this paean to a Baroque ruler was the concentration and redisplay of the Habsburg artworks in Vienna’s Stallburg. The emperor commissioned this picture from the most important Neapolitan painter, Francesco Solimena. The portrait heads of Charles and his director of buildings were added in Vienna by the painter Johann Gottfried Auerbach.</rdfs:comment>
+    <rdfs:comment>Der Hofbaudirektor Gundaker Althann überreicht Karl VI. das Inventar der kaiserlichen Kunstsammlungen. Anlaß für dieses Schaustück barocken Herrscherlobs waren die Zusammenführung und Neuaufstellung des habsburgischen Kunstbesitzes in der Stallburg in Wien. Der Kaiser gab beim bedeutendsten neapolitanischen Maler, Francesco Solimena, dieses Widmungsbild in Auftrag. Erst in Wien wurden die Porträtköpfe Karls und seines Baudirektors vom Maler Johann Gottfried Auerbach eingefügt.</rdfs:comment>
+    <dcterms:medium>Öl</dcterms:medium>
+    <dcterms:medium>Leinwand</dcterms:medium>
+    <dcterms:extent>309 x 284 cm</dcterms:extent>
+    <crown:date>1728 datiert</crown:date>
+    <crown:dateBegin>1728</crown:dateBegin>
+    <crown:dateEnd>1728</crown:dateEnd>
+    <gams:textualContent>1490590 CR_1_QB_Gm_1526-1796_073 Bildquelle Gemälde 1728 datiert Öl; Leinwand AUSSTEHEND; niedrig; vereinfacht</gams:textualContent>
+    <crown:note>Belvedere Inv. 1816/17, Depot in der Gartenrondelle, Nr. 37. Carl der 6te mit Gundacker Althan wie selber ein buch kniend überreicht. Fr. Solimena Belvedere Inv. 1824, Marmor=Saal, Kaiser Carl VI.. Francesco Solimena [ohne Nummer] Belvedere Inv. 1837, Erdgeschoss, I. Logiezimmer, Kaiser Karl VI. von seinem Hofe umgeben /empfängt das Inventarium der kais. Gallerie, / welches ihm Graf Gundacker von Althann k. / Hofbaudirektor nach volleneter Einrichtung der / selben in der k. Stallburg im J. 1728 kni / end überreicht, Lw, 9 Schuh 8 Zoll hoch 8 Schuh 10 Zoll vreutm Francesco Solimena / der Ko[...] des Kaisers und des Grafen sind von Joh. Gottfr. Auerbach</crown:note>
+    <crown:inscription>F. SOLIMENA</crown:inscription>
+    <crown:inscription>IMP:ROM:CAROLO:PYNACOTHECAE RESTAVRATORI AVGVSTO FELICI:OBSEQVIO AEDIL:PRAEF:COM: ALTHANN. 1728</crown:inscription>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490590.PictorialSource">
+        <crown:origin>Italien; Neapel</crown:origin>
+        <crown:owner>Kunsthistorisches Museum Wien, GG 1601</crown:owner>
+        <crown:provenance>1628 nach Wien</crown:provenance>
+        <crown:depiction>AUSSTEHEND; Beschreibung Kunsthistorisches Museum Wien, Onlinesammlung siehe Feld \"Texteingaben\"</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490590.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

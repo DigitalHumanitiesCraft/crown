@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490522">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_042</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_042, ÜBERARBEITEN; mittel; RK in der linken Bildhälfte, auf rotem Samtkissen auf Tisch; mit Reichsapfel; Szepter in der Hand Kaiser Leopolds I.; Sichtbar: Kreuz, Bügel, A, H, G; Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar;</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,52 +32,32 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490522">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_042</rdfs:label>
-    <rdfs:comment>ÜBERARBEITEN; mittel; RK in der linken Bildhälfte, auf rotem Samtkissen auf Tisch; mit Reichsapfel; Szepter in der Hand Kaiser Leopolds I.; Sichtbar: Kreuz, Bügel, A, H, G; Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar</rdfs:comment>
+    <rdfs:comment>Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar;</rdfs:comment>
     <rdfs:comment>Leopold steht in schwarz goldener Kleidung vor einer mit Pilaster und Säule gegliederten Wand. Er trägt einen Degen am Gehänge und eine lange Allongeperücke. Die Collade des Ordens vom goldenen Vlies ist unterhalb seines Kragens aus weiser Spitze sichtbar. Mit der linken Hand hält er ein an ihne adressiertes Schreiben (\"Seine Mayestät Kayser Leopold\"); Die rechte Hand, in welcher er auch das Szepter hält, ruht auf einem mit rotem Samt verkleideten Tisch, der als Unterlage für das Kissen mit Reichsapfel und Reichskrone dient. Die schräge Stellung der Krone ermöglicht es die Bügelinschrift (\"Chuonradus Dei Gratia\") und die Platte mit der emaillle Darstellung Christus flankiert von Engeln (ohne Wiedergabe der Inschrift) zu sehen.</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
-    <dcterms:extent>246 x 144 cm</dcterms:extent>
-    <gams:textualContent>1490522 CR_1_QB_Gm_1526-1796_042 Bildquelle Gemälde 1875 Öl; Leinwand ÜBERARBEITEN; mittel; RK in der linken Bildhälfte, auf rotem Samtkissen auf Tisch; mit Reichsapfel; Szepter in der Hand Kaiser Leopolds I.; Sichtbar: Kreuz, Bügel, A, H, G; Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.media.906297">
-        <rdfs:label>INV_GG_7184.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.media.1195716">
-        <rdfs:label>GG_7184_ScanBDA_2019_001</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.media.1195717">
-        <rdfs:label>GG_7184_2018_10_003</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Signiert rechts unten: \"G. Hefsl 1875\"</crown:label>
+    <dcterms:extent>246 cm × 144 cm</dcterms:extent>
+    <crown:date>1875</crown:date>
+    <crown:dateBegin>1875</crown:dateBegin>
+    <crown:dateEnd>1875</crown:dateEnd>
+    <gams:textualContent>1490522 CR_1_QB_Gm_1526-1796_042 Bildquelle Gemälde 1875 Öl; Leinwand Majestas-Domini-Motiv identifizierbar, Text nicht lesbar, Details nicht zu erkennen; Perl- und Steinbesatz grob lesbar, keine Details; Schrift auf Bügel angedeutet, schwer lesbar;</gams:textualContent>
+    <crown:caption>Signiert rechts unten: \"G. Hefsl 1875\"</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>MD066629</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490522.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Kunsthistorisches Museum Wien, GG, Inv. Nr. GG 7184 Extern, Ausstattung/Dauerleihgabe, Mobiliendepot, Inv. Nr. MD066629 Wien, BDA, Ahnengalerie, wandfest</crown:owner>
+        <crown:provenance>k. A.</crown:provenance>
+        <crown:depiction>Leopold I., stehend, ganzfigurig; Körper: frontal; Gesicht: Dreiviertelansicht; in schwarz-goldener Kleidung; Allongeperücke; Degen an Hüfte; Collane des Ordens vom goldenen Vlies; in der Linken ein an ihn adressiertes Schreiben; RK in der linken Bildhälfte, auf rotem Samtkissen auf Tisch; mit Reichsapfel; Szepter in der Hand Kaiser Leopolds I.; Dargestellete Bauteile: K, Bg, A, H, G; im Hintergrund Wandpfeiler mit Grotesken;</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490522.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.2">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7184_ScanBDA_2019_001.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.3">
-    <schema:contentURL>GG\Verband\Revision Objekte\GG_7184_2018_10_003.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490522/IMAGE.1">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_7184.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

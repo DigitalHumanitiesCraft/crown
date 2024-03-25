@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1500147">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500147/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500147/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_036</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_036, AUSSTEHEND; niedrig; vereinfacht</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig; vereinfacht</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,41 +32,33 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500147.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500147">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_036</rdfs:label>
     <rdfs:comment>AUSSTEHEND; niedrig; vereinfacht</rdfs:comment>
+    <rdfs:comment>In seiner delikaten Farbgebung wie auch seiner bewegten Komposition unterscheidet sich dieses posthume Bildnis von Kaiser Ferdinand I. ebenso wie sein Pendant, darstellend Kaiser Maximilian II. (Inv.-Nr. 4271) von der übrigen Porträtmalerei der Zeit. Die Tatsache, dass hier zwei Kaiser aus dem Haus Habsburg lange Zeit nach ihrem Tod in einem derart großen Format dargestellt wurden, lässt vermuten, dass sie zur Ausstattung eines repräsentativen Raums intendiert waren. Elfriede Baum vermutete eine Herkunft aus dem Ahnensaal der Wiener Hofburg, was bislang jedoch nicht verifiziert werden konnte. Ferdinand I. wird hier jedoch mit ungewöhnlichen Attributen gezeigt: Er berührt auf dem Tisch vor ihm zwei unbearbeitete Steine. Maximilian II. hingegen hat Münzen und Prägestempel vor sich liegen. Beruhend auf der Tatsache, dass die Gemälde um 1904 durch eine Fotografie im Gelben Salon des einstigen Winterpalais des Prinzen Eugen in der Wiener Himmelpfortgasse nachgewiesen sind, ergibt sich jedoch noch eine weitere Möglichkeit. Da dort unter Maria Theresia die Behörde für Bergbau und Münzwesen untergebracht wurde, kann es sich bei den beiden Gemälden auch um Auftragsarbeiten im Zuge der Umbaumaßnahmen der 1750-er Jahre handeln. Dies würde jedenfalls mit den auf den Tischen präsentierten Objekten korrelieren (freundlicher Hinweis von Mag. Philipp Reichel MA).</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
     <dcterms:extent>Bildmaß: 380 cm × 215 cm Rahmenmaße: 404 cm × 227 cm × 7,5 cm</dcterms:extent>
+    <crown:date>1859</crown:date>
+    <crown:dateBegin>1859</crown:dateBegin>
+    <crown:dateEnd>1859</crown:dateEnd>
     <gams:textualContent>1500147 CR_1_QB_Gm_1526-1796_036 Bildquelle Gemälde 1859 Öl; Leinwand AUSSTEHEND; niedrig; vereinfacht</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500147.media.1460906">
-        <rdfs:label>CR_1_QB_Gm_1526-1796_036_palko_ferdinand_DETAIL</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500147/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500147.media.1460907">
-        <rdfs:label>CR_1_QB_Gm_1526-1796_036_palko_ferdinand</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500147/IMAGE.2"/>
-        <dcterms:format>Please consider this format!</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>4061</schema:identifier>
     <schema:identifier>https://sammlung.belvedere.at/objects/2855/kaiser-ferdinand</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1500147.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1500147.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Österreichische Galerie Belvedere, Inv. Nr. 4061</crown:owner>
+        <crown:provenance>Kaiserlicher Besitz. – Finanzministerium, Wien; 1941 Übernahme aus dem Finanzministerium, Wien</crown:provenance>
+        <crown:depiction>AUSSTEHEND; Herrscherbildnis, ganzfigurig; Beschreibung Österreichische Galerie Belvedere, Onlinesammlung siehe Feld \"Texteingaben\"</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1500147.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500147/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1526-1796\CR_1_QB_Gm_1526-1796_036_palko_ferdinand_DETAIL.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500147/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gm\Gm_1526-1796\CR_1_QB_Gm_1526-1796_036_palko_ferdinand.jpeg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

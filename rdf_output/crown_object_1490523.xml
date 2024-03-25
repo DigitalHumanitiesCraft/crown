@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1490523">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490523/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1490523/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Gemälde, CR_1_QB_Gm_1526-1796_043</dc:title>
-    <dc:description>Gemälde, CR_1_QB_Gm_1526-1796_043, ÜBERARBEITEN; gering; RK am rechten Bildrand, auf goldenem Brokatkissen, auf Tisch; mit Stephanskrone und Böhmischer Krone; zu erkennen: Kreuz, Bügel, A, H (stark angeschnitten); Proportionen abweichend; Stein- und Perlbesatz zu erkennen, keine Details</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>ÜBERARBEITEN; gering; RK am rechten Bildrand, auf goldenem Brokatkissen, auf Tisch; mit Stephanskrone und Böhmischer Krone; zu erkennen: Kreuz, Bügel, A, H (stark angeschnitten); Proportionen abweichend; Stein- und Perlbesatz zu erkennen, keine Details</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,41 +32,32 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490523.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1490523">
     <rdfs:label>Gemälde, CR_1_QB_Gm_1526-1796_043</rdfs:label>
     <rdfs:comment>ÜBERARBEITEN; gering; RK am rechten Bildrand, auf goldenem Brokatkissen, auf Tisch; mit Stephanskrone und Böhmischer Krone; zu erkennen: Kreuz, Bügel, A, H (stark angeschnitten); Proportionen abweichend; Stein- und Perlbesatz zu erkennen, keine Details</rdfs:comment>
     <dcterms:medium>Öl</dcterms:medium>
     <dcterms:medium>Leinwand</dcterms:medium>
     <dcterms:extent>250 x 160 cm Rahmenmaße: 300 x 195 x 15 cm</dcterms:extent>
+    <crown:date>1791</crown:date>
+    <crown:dateBegin>1791</crown:dateBegin>
+    <crown:dateEnd>1791</crown:dateEnd>
     <gams:textualContent>1490523 CR_1_QB_Gm_1526-1796_043 Bildquelle Gemälde 1791 Öl; Leinwand ÜBERARBEITEN; gering; RK am rechten Bildrand, auf goldenem Brokatkissen, auf Tisch; mit Stephanskrone und Böhmischer Krone; zu erkennen: Kreuz, Bügel, A, H (stark angeschnitten); Proportionen abweichend; Stein- und Perlbesatz zu erkennen, keine Details</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490523.media.906298">
-        <rdfs:label>INV_GG_7192.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490523/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490523.media.9823">
-        <rdfs:label>GG_7193.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1490523/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:recherchenotiz>Restauriert Markowsky 1841 aufspannen 1868 nach Wien Prager Inv. 1860, 654 Kaiser Leopold II. in Lebensgröße</crown:recherchenotiz>
+    <crown:note>Restauriert Markowsky 1841 aufspannen 1868 nach Wien Prager Inv. 1860, 654 Kaiser Leopold II. in Lebensgröße</crown:note>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>MD19322</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1490523.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1490523.PictorialSource">
+        <crown:origin>Böhmen; Prag</crown:origin>
+        <crown:owner>Kunsthistorisches Museum Wien, GG, Inv. Nr. GG 7193, Himberg</crown:owner>
+        <crown:provenance>Recherchenotiz TMS GG-Eintrag: Restauriert Markowsky 1841 aufspannen 1868 nach Wien Prager Inv. 1860, 654: \"Kaiser Leopold II. in Lebensgröße\"</crown:provenance>
+        <crown:depiction>ÜBERARBEITEN; Kaiser Leopold II., stehend, ganzfigurig; Körper frontal, Gesicht in Dreiviertelansicht; im Toissonornat; Collane des Ordens vom Goldenen Vlies; die Linke an der Hüfte, das Gewand raffend; die Rechte ruht auf einem Tisch mit Steinplatte; darauf auf goldenem Brokat RK, Reichsapfel, Stephanskrone, Krone v. Böhmen; im Hintergrund grüne Drapiere, darüber goldener Baldachin; weiß-blau-gelber Fliesenboden</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1490523.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490523/IMAGE.1">
-    <schema:contentURL>INV_GG_7000_8999\INV_GG_7192.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1490523/IMAGE.2">
-    <schema:contentURL>GG_7193\GG_7193.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

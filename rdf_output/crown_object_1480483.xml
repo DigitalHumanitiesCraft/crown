@@ -1,168 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.o">
-    <rdfs:label>Hochfassung für Stein mit dreifingrigen Krallen, CR_1_G_Fa_5</rdfs:label>
-    <rdfs:comment>mit Stein</rdfs:comment>
-    <dcterms:medium>Gold</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
-    <gams:textualContent>1480483 CR_1_G_Fa_5 Kronreif Hochfassung für Stein mit dreifingrigen Krallen Gold nan mit Stein 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.media.1423954">
-        <rdfs:label>CR_1_G_Fa_5_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1480483/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.media.1419106">
-        <rdfs:label>CR_1_G_Fa_Nummerierung_bunt</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1480483/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:descriptionOfComponents>
-      <crown:Aperture rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.aperture">
-        <crown:onBaseplate rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BasePlate"/>
-        <crown:other>Öffnung, Rückseite: 3 Tüllen darübergelegt</crown:other>
-      </crown:Aperture>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:PearlWireRing rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.pearlwirering">
-        <crown:wire rdf:resource="https://gams.uni-graz.at/o:crown.object.1480483.descriptionOfComponents.wire"/>
-      </crown:PearlWireRing>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.tube">
-        <crown:number>12</crown:number>
-        <crown:plateThickness>0</crown:plateThickness>
-        <crown:distanceBetween>0</crown:distanceBetween>
-        <crown:other>3. Röhrchen, Basis: keine Runddraht;</crown:other>
-      </crown:Tube>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Talons rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.talons">
-        <crown:number>4</crown:number>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Talons>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Strap rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.strap">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Strap>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:PearlWires rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.pearlwires">
-        <crown:other>(not assigned)</crown:other>
-      </crown:PearlWires>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Granules rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.granules">
-        <crown:number>13</crown:number>
-        <crown:numberBetweenTalons>0</crown:numberBetweenTalons>
-        <crown:distanceBetween>0</crown:distanceBetween>
-      </crown:Granules>
-    </crown:descriptionOfComponents>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumberCR_1_G_Ei_1"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.intervention">
-        <crown:comment>Stein mit einem Bündel aus dünnen Drähten an die Fassung gebunden;</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.adhesiondamage">
-        <crown:comment>rötlich; grau; pulvrig; teilweise dickkrustig;</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.discolorationdamage">
-        <crown:comment>rötliche Flecken;</crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.burntsurface">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BurntSurface>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.tooltracedamage">
-        <crown:comment>Krallen: gesamte Oberfläche überzogen mit Kerben, Dellen und Kratzer, Fingerspitzen flachgehämmerte Stellen; 1. Schlaufe: tiefe vertikale Riefen; 3. Schlaufe: tiefe dreieckige Kerbe;</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.deformationdamage">
-        <crown:comment>1., 2. und 12. Röhrchen, Kapitelle Außenseite und Röhrchenwand: flachgedrückt;_x000d_
-3. Perldrahtring, Innenseite: flachgedrückte Stellen von [[früheren (?)]] Stein;</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.detachmentofplatedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DetachmentOfPlateDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.crackdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.brokensolderingdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BrokenSolderingDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.fracturedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FractureDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.missingpartdamage">
-        <crown:comment>1. Kralle: fehlt, oberhalb Schlaufe abgerissen; 4. Kralle, Mittelfinger: oberstes Stück fehlt;</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.settingevidencedamage">
-        <crown:comment>1. Kralle: fehlt; 4. Kralle, Mittelfinger: oberstes Stück fehlt; Stein mit einem Bündel aus dünnen Drähten an die Fassung gebunden;</crown:comment>
-      </crown:SettingEvidenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.condition">
-        <crown:other>(not assigned)</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-  </crown:Object>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1480483">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1480483/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1480483/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Hochfassung für Stein mit dreifingrigen Krallen, CR_1_G_Fa_5</dc:title>
-    <dc:description>Hochfassung für Stein mit dreifingrigen Krallen, CR_1_G_Fa_5, mit Stein</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>mit Stein</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -175,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -183,16 +32,78 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1480483/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_G\CR_1_G_Fa_Nummerierung_farbig.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.descriptionOfComponents.wire">
-    <crown:diameter>0</crown:diameter>
-    <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline"/>
-  </crown:Wire>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1480483/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_G\CR_1_G_Fa\CR_1_G_Fa_5\CR_1_G_Fa_5_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1480483">
+    <rdfs:label>Hochfassung für Stein mit dreifingrigen Krallen, CR_1_G_Fa_5</rdfs:label>
+    <rdfs:comment>mit Stein</rdfs:comment>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1480483 CR_1_G_Fa_5 Kronreif Hochfassung für Stein mit dreifingrigen Krallen Gold nan mit Stein 3D Mikroskopie</gams:textualContent>
+    <crown:descriptionOf>
+      <crown:ClawSetting rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting">
+        <crown:feature>
+          <crown:Shape rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.Shape">
+            <crown:descriptionOfShape>oval</crown:descriptionOfShape>
+          </crown:Shape>
+        </crown:feature>
+        <crown:feature>
+          <crown:OpeningBaseplat rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.OpeningBaseplat">
+            <crown:matchesFormOfSetting>1</crown:matchesFormOfSetting>
+            <crown:other>Öffnung, Rückseite: 3 Tüllen darübergelegt</crown:other>
+          </crown:OpeningBaseplat>
+        </crown:feature>
+        <crown:feature>
+          <crown:SolderingTechnique rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.SolderingTechnique">
+            <crown:other>(not assigned)</crown:other>
+          </crown:SolderingTechnique>
+        </crown:feature>
+        <crown:component>
+          <crown:BeadedWires rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.BeadedWires">
+            <crown:wire1Diameter>0.00000000</crown:wire1Diameter>
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#EquatorLine" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#EquatorLineWire2" />
+            <crown:wire3Diameter>0.00000000</crown:wire3Diameter>
+            <crown:wire2Diameter>0.00000000</crown:wire2Diameter>
+            <crown:other>(not assigned)</crown:other>
+          </crown:BeadedWires>
+        </crown:component>
+        <crown:component>
+          <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.Tube">
+            <crown:number>12.00000000</crown:number>
+            <crown:height>0.00000000</crown:height>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:sheetThickness>0.00000000</crown:sheetThickness>
+            <crown:spaceBetweenTubes>0.00000000</crown:spaceBetweenTubes>
+            <crown:other>3. Röhrchen, Basis: keine Runddraht;</crown:other>
+          </crown:Tube>
+        </crown:component>
+        <crown:component>
+          <crown:Claws rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.Claws">
+            <crown:number>4.00000000</crown:number>
+            <crown:width>0.00000000</crown:width>
+            <crown:lengthFromShaft>0.00000000</crown:lengthFromShaft>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Claws>
+        </crown:component>
+        <crown:component>
+          <crown:Loops rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.Loops">
+            <crown:other>(not assigned)</crown:other>
+          </crown:Loops>
+        </crown:component>
+        <crown:component>
+          <crown:Granules rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.Granules">
+            <crown:numberOfGranules>13.00000000</crown:numberOfGranules>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:numberOfGranulesBetweenClaws>0.00000000</crown:numberOfGranulesBetweenClaws>
+            <crown:spaceBetween>0.00000000</crown:spaceBetween>
+          </crown:Granules>
+        </crown:component>
+        <crown:component>
+          <crown:GranulesWithBeadedWireRings rdf:about="https://gams.uni-graz.at/o:crown.object.1480483.ClawSetting.GranulesWithBeadedWireRings">
+            <crown:diameter>0.00000000</crown:diameter>
+          </crown:GranulesWithBeadedWireRings>
+        </crown:component>
+      </crown:ClawSetting>
+    </crown:descriptionOf>
+  </crown:Object>
 </rdf:RDF>

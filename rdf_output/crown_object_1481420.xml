@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1481420">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481420/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
-    <dc:title>Akte, CR_1_QS_Ak_1797-1919_7</dc:title>
-    <dc:description>Akte, CR_1_QS_Ak_1797-1919_7, Akten der Weltlichen Schatzkammer 1856-1858, Faszikel 17</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1481420/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1797-1919_007</dc:title>
+    <dc:description>Akten der Weltlichen Schatzkammer 1856-1858, Faszikel 17</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -31,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -39,15 +32,30 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481420.o">
-    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_7</rdfs:label>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1481420">
+    <rdfs:label>Akte, CR_1_QS_Ak_1797-1919_007</rdfs:label>
     <rdfs:comment>Akten der Weltlichen Schatzkammer 1856-1858, Faszikel 17</rdfs:comment>
     <dcterms:medium>Papier</dcterms:medium>
     <dcterms:medium>Tinte</dcterms:medium>
     <dcterms:extent>Bögen gefaltet: ca. H. 40 cm × B. 25 cm</dcterms:extent>
-    <gams:textualContent>1481420 CR_1_QS_Ak_1797-1919_7 Schriftquelle Akte 21. Jänner 1857 bis 28. Jänner 1857 Papier, Tinte Akten der Weltlichen Schatzkammer 1856-1858, Faszikel 17</gams:textualContent>
-    <crown:transcription>  Neuaufstellung 1857/26  Se des k.k. Oberstkämmerer Hrn. Karl Grafen Lanckoronski  Excellenz  Den 21. Jänner 1857  E. E.  Dem mündlichen Auftrage E.E., die in der k.k. Schatzkammer befindlichen römisch-deutschen Kaisergewänder und Reichskleinodien auf eine ihrem welt- und kunsthistorischen Werth angemessene und ihrer sicheren Erhaltung für die Zukunft förderlichen Weise aufzubewahren als dies bisher der Fall war, mit möglichster Eile zu entsprechen bemüht, hat der gehorsamst Unterzeichnete ungesäumt den verwendbaren Raum abmessen, das Prospect für die neue Aufstellung entwerfen und eine beiläufige Zeichnung derselben anfertigen lassen, welche letztere er E.E. zur geneigten Ansicht zu unterbreiten die Ehre hatte. Da dieselbe von E.E. gütigst genehmigt wurde, so ließ ich von dem, bei den k.k. Hofanstalten mehrfach beschäftigten Tischler Jos. Spale, sogleich das genauere Ausmaß vornehmen, zu welchem Behuf es nöthig war, die alte Holzverkleidung abzulösen, um die Tiefe der Mauernische ermitteln zu können, und die bisher verwendeten Kästen hervorzurücken, von denen der eine, durch einen neuen von geringerer Tiefe zu ersetzende, für anderweitige Zwecke verfügbar wird, der andere durch eine kleine Modificirung mit den neu anzufertigenden in Harmonie gebracht werden muß; die Mittelwand ist ebenfalls durch einen neuen Schrank von mäßiger Tiefe auszufüllen. Es wird somit zwei neue Kästen, nämlich ein Doppelkasten für die Mittelwand mit zwei Thüren, jede zu 2 Flügeln, und ein einfacher für die Seitenwand mit 1 Thürflügel erforderlich. Dieselben sind an Form, Farben und Charakter zwar dem bereits bestehenden ähnlich, jedoch dünner im Holze zu halten, und mit […], so wie mit Gläsern ohne Querleisten, die mit aufeinander gesetzten L. durch eine außen um[…] zu verkleidende Bleiunterlage verbundene, zu versehen sind. Ich habe von dem Tischler Spale alsogleich einen Kostenüberschlag machen lassen, den ich in der Anlage E.E. zur gnädigen Genehmigung vorzulegen mir erlaube. Derselbe beläuft sich, mit Ausschluß des Glasercontos, nach vorgenommener buchhalterischer Adjustirung auf 640 f CM, welche Summe in Anbetracht der mühevollen, sehr ins Detail gehenden Arbeit nicht unbillig erscheinen dürfte.  Wenn dieser Überschlag die Billigung E.E. finden sollte, so würde ich mit dem Tischler ungesäumt abschließen und ihn dazu verbindlich machen, daß er die Arbeit tüchtig, zweckmässig und dauerhaft zu leisten, daß er den Termin ungefähr von 2 ½ Monaten (d. i. von jetzt bis Ende März), den er sich selbst gesetzt hat gewissenhaft einhalte, und daß er im Falle einer ungenügenden Leistung, sich deren Zurückweisung, so wie bei etwaiger Verspätung derselben einen verhältnismäßigen Abzug müßte gefallen lassen.  Der gehorsamst Unterzeichnete bittet daher dringend um eine baldige Erledigung, damit die Arbeit ungesäumt beginnen könne, zu dem nothwendigen Vorbereitungen er sub operati sofort den einen umzugestaltenden Wandschrank aus den Localitäten der k.k. Schatzkammerhinwegbringen ließ.  Copia  Überschlag über nachstehende zu machende Tischlerarbeiten für die kk. Schatzkammer  Preis in CM  Für einen neu zu verfertigenden Glaskasten, derselbe ist lang 16‘ 6“, hievon 6‘ 6“ breit, 18“ tief in der Nische, das übrige Maß 10“ tief mit zusammengestämmten Rückwänden, des außen genau nach dem bestehenden fournirten Kasten übereinstimmend […] mit Inbegriff sämmtlicher Schlosserarbeiten, so auch das Innere mit Sammt überspannen und allen hierzu nöthigen Nebenarbeiten, jedoch ohne Weglassung, in Summe 650640 fl  Die Ablieferung bis 20. März 857. Mit der Aufstellungszeit bis Ende März d. M.  Wien, den 20. Jänner 1857.     Obige Arbeiten mit Genehmigung Sr Excellenz des Herrn Oberstkämmerer vorläufig bestellt.  Wien, 28. Jänner 1857  [Unterschrift} k.k. Schatzmeister  Joseph Spale  Bürgerl. Tischlermeister  Revidirt und mit 640 f richtig gestellt.  Ullrich m/p  Gröger m/p  Erklerung  Der Unterzeichnete übernimmt mittelst gegenwärtigter Erklärung, contraktmäsig, laut seines unter 20ten Jänner l.J. abgegebenen, von der k.k. Hofstadtsbuchhaltung auf 640 f. Mz. richtig gestellten, und von Ser Excellenz dem Herrn Oberstkämmerer sub dato 23. Jänner l. J. genehmigten Überschlag für die k.k. Schatzkammer zu liefernden Tischlerarbeiten mit Inbegriff sämtlicher Schlosserarbeit, die innere Überspannung des Kastens mit Samt so wie auch die nöthigen Aufstellungsarbeiten im genannten Saale.  Für obigen Beitrag ferner verpflichtet sich derselbe die angeführten Arbeiten, auf daß Solideste und zweckmäßigeste unter der Aufsicht des Herrn Friedrich Reimann, in von ihm der im Überschlag angeführten Zeit, daß ist bis 20ten März abzuliefernden und bis Ende März l.J. beendeten Aufstellung, zu übernehmen u. gewissenhaft einzuhalten und im Falle einer Nichtzuhaltung dieser anberaumten Zeit sich einen Abzug von 10 f. CM per Tag bis zur gänzlichen Vollendung gefallen zu lassen.  Wien, den 24. Jänner 1857.   J. Spale, bürgl. Tischlermeister</crown:transcription>
+    <crown:date>21. Jänner 1857 bis 28. Jänner 1857</crown:date>
+    <crown:dateBegin>1857</crown:dateBegin>
+    <crown:dateEnd>1857</crown:dateEnd>
+    <gams:textualContent>1481420 CR_1_QS_Ak_1797-1919_007 Schriftquelle Akte 21. Jänner 1857 bis 28. Jänner 1857 Papier; Tinte Akten der Weltlichen Schatzkammer 1856-1858, Faszikel 17</gams:textualContent>
+    <crown:transcription>Neuaufstellung 1857/26 Se des k.k. Oberstkämmerer Hrn. Karl Grafen Lanckoronski Excellenz Den 21. Jänner 1857 E. E. Dem mündlichen Auftrage E.E., die in der k.k. Schatzkammer befindlichen römisch-deutschen Kaisergewänder und Reichskleinodien auf eine ihrem welt- und kunsthistorischen Werth angemessene und ihrer sicheren Erhaltung für die Zukunft förderlichen Weise aufzubewahren als dies bisher der Fall war, mit möglichster Eile zu entsprechen bemüht, hat der gehorsamst Unterzeichnete ungesäumt den verwendbaren Raum abmessen, das Prospect für die neue Aufstellung entwerfen und eine beiläufige Zeichnung derselben anfertigen lassen, welche letztere er E.E. zur geneigten Ansicht zu unterbreiten die Ehre hatte. Da dieselbe von E.E. gütigst genehmigt wurde, so ließ ich von dem, bei den k.k. Hofanstalten mehrfach beschäftigten Tischler Jos. Spale, sogleich das genauere Ausmaß vornehmen, zu welchem Behuf es nöthig war, die alte Holzverkleidung abzulösen, um die Tiefe der Mauernische ermitteln zu können, und die bisher verwendeten Kästen hervorzurücken, von denen der eine, durch einen neuen von geringerer Tiefe zu ersetzende, für anderweitige Zwecke verfügbar wird, der andere durch eine kleine Modificirung mit den neu anzufertigenden in Harmonie gebracht werden muß; die Mittelwand ist ebenfalls durch einen neuen Schrank von mäßiger Tiefe auszufüllen. Es wird somit zwei neue Kästen, nämlich ein Doppelkasten für die Mittelwand mit zwei Thüren, jede zu 2 Flügeln, und ein einfacher für die Seitenwand mit 1 Thürflügel erforderlich. Dieselben sind an Form, Farben und Charakter zwar dem bereits bestehenden ähnlich, jedoch dünner im Holze zu halten, und mit […], so wie mit Gläsern ohne Querleisten, die mit aufeinander gesetzten L. durch eine außen um[…] zu verkleidende Bleiunterlage verbundene, zu versehen sind. Ich habe von dem Tischler Spale alsogleich einen Kostenüberschlag machen lassen, den ich in der Anlage E.E. zur gnädigen Genehmigung vorzulegen mir erlaube. Derselbe beläuft sich, mit Ausschluß des Glasercontos, nach vorgenommener buchhalterischer Adjustirung auf 640 f CM, welche Summe in Anbetracht der mühevollen, sehr ins Detail gehenden Arbeit nicht unbillig erscheinen dürfte. Wenn dieser Überschlag die Billigung E.E. finden sollte, so würde ich mit dem Tischler ungesäumt abschließen und ihn dazu verbindlich machen, daß er die Arbeit tüchtig, zweckmässig und dauerhaft zu leisten, daß er den Termin ungefähr von 2 ½ Monaten (d. i. von jetzt bis Ende März), den er sich selbst gesetzt hat gewissenhaft einhalte, und daß er im Falle einer ungenügenden Leistung, sich deren Zurückweisung, so wie bei etwaiger Verspätung derselben einen verhältnismäßigen Abzug müßte gefallen lassen. Der gehorsamst Unterzeichnete bittet daher dringend um eine baldige Erledigung, damit die Arbeit ungesäumt beginnen könne, zu dem nothwendigen Vorbereitungen er sub operati sofort den einen umzugestaltenden Wandschrank aus den Localitäten der k.k. Schatzkammerhinwegbringen ließ. Copia Überschlag über nachstehende zu machende Tischlerarbeiten für die kk. Schatzkammer Preis in CM Für einen neu zu verfertigenden Glaskasten, derselbe ist lang 16‘ 6“, hievon 6‘ 6“ breit, 18“ tief in der Nische, das übrige Maß 10“ tief mit zusammengestämmten Rückwänden, des außen genau nach dem bestehenden fournirten Kasten übereinstimmend […] mit Inbegriff sämmtlicher Schlosserarbeiten, so auch das Innere mit Sammt überspannen und allen hierzu nöthigen Nebenarbeiten, jedoch ohne Weglassung, in Summe 650640 fl Die Ablieferung bis 20. März 857. Mit der Aufstellungszeit bis Ende März d. M. Wien, den 20. Jänner 1857. Obige Arbeiten mit Genehmigung Sr Excellenz des Herrn Oberstkämmerer vorläufig bestellt. Wien, 28. Jänner 1857 [Unterschrift} k.k. Schatzmeister Joseph Spale Bürgerl. Tischlermeister Revidirt und mit 640 f richtig gestellt. Ullrich m/p Gröger m/p Erklerung Der Unterzeichnete übernimmt mittelst gegenwärtigter Erklärung, contraktmäsig, laut seines unter 20ten Jänner l.J. abgegebenen, von der k.k. Hofstadtsbuchhaltung auf 640 f. Mz. richtig gestellten, und von Ser Excellenz dem Herrn Oberstkämmerer sub dato 23. Jänner l. J. genehmigten Überschlag für die k.k. Schatzkammer zu liefernden Tischlerarbeiten mit Inbegriff sämtlicher Schlosserarbeit, die innere Überspannung des Kastens mit Samt so wie auch die nöthigen Aufstellungsarbeiten im genannten Saale. Für obigen Beitrag ferner verpflichtet sich derselbe die angeführten Arbeiten, auf daß Solideste und zweckmäßigeste unter der Aufsicht des Herrn Friedrich Reimann, in von ihm der im Überschlag angeführten Zeit, daß ist bis 20ten März abzuliefernden und bis Ende März l.J. beendeten Aufstellung, zu übernehmen u. gewissenhaft einzuhalten und im Falle einer Nichtzuhaltung dieser anberaumten Zeit sich einen Abzug von 10 f. CM per Tag bis zur gänzlichen Vollendung gefallen zu lassen. Wien, den 24. Jänner 1857. J. Spale, bürgl. Tischlermeister</crown:transcription>
+    <schema:identifier>CR_1_QS_Ak_1797-1919_7</schema:identifier>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1481420.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>0</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>(auswählen)</crown:significance>
+        <crown:comment>(not assigned)</crown:comment>
+      </crown:TextualSource>
+    </crown:originOf>
   </crown:AdditionalMaterial>
 </rdf:RDF>

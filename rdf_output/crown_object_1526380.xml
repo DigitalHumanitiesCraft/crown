@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1526380">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1526380/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_005</dc:title>
+    <dc:description>A° 1612 Aid: 9 Juny, haben eines E. Raths nach Frankfort abgesannte hierinn verzeichnete Stuck von dem Kais[erlichen]: Ornat zu Krönung des erwelten Königs Mathiae mit sich genommen.</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1526380">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_005</rdfs:label>
+    <rdfs:comment>A° 1612 Aid: 9 Juny, haben eines E. Raths nach Frankfort abgesannte hierinn verzeichnete Stuck von dem Kais[erlichen]: Ornat zu Krönung des erwelten Königs Mathiae mit sich genommen.</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>9. Juni 1612</crown:date>
+    <crown:dateBegin>1612</crown:dateBegin>
+    <crown:dateEnd>1612</crown:dateEnd>
+    <gams:textualContent>1526380 CR_1_QS_Ak_1526-1796_005 Schriftquelle Akte 9. Juni 1612 Papier; Tinte; handgeschrieben A° 1612 Aid: 9 Juny, haben eines E. Raths nach Frankfort abgesannte hierinn verzeichnete Stuck von dem Kais[erlichen]: Ornat zu Krönung des erwelten Königs Mathiae mit sich genommen.</gams:textualContent>
+    <crown:transcription>[fol. 6r] A° 1612 adi: 9 Juny, haben Herr Wolff Löffelholtz vnd Herr Lienhart Grundherr, als eines E[hrbaren]. Raths der Stat Nürnberg zu bevorstehenter Crönung Königs Mathiae so nacher Franckfort abgeordnete, hernach verzaichnete Stück von dem kaiserlichen Ornat mit sich genommen. :1: Erstlich die kaiserliche Kron daran die Edlen stain vnd Perlen ordenlich nacheinander zuvor abgezehlet worden, und sich befunden: In dem ersten Bogen vornher: 12 große Edle stain. Manglet, 1 groß perlein Darneben gehen der rechten handt bey dem eingeschmelzten Bildnus des Königs Salomonis: 10 stain. Manglen: 2 perlein In dem andern Bogen darneben 7 edlestain Manglen: 4 stain vnd 7 perlein. Darneben bey der bildnus König Davidts: 10 edle stain Manglen: 3 perlein Ferners in dem dritten Bogen: 12 große edle stain Manglen: 3 perlein. Darneben bey der bildnus des Propheten Esaias: 10 stain Manglen: 2 perlein. In dem 4 Bogen: 10 edle stain 1 lere Casten darin vermutlich 1 stain gestanden Darneben bey den 3 Cherubim und der schrifft Per me reges regnant: 10 edle stain Manglen: 2 perlein. Item: In dem Bogen uber der Cron befinden sich 30 klaine edle stain vnd Zwischen Jedem stain 1 perlein. Manglen: 2 perlein. [fol. 6v] In dem Creutz so forn an die Cron gesteckt wird, haben sich befunden: 5 große edle stain. 6 Leer Cästen. :2: Ein gulden Maiestat Apfel: daran 4 Saphir. 3 Amatisten, 3 Granaten, 1 Rubin: 8 perlein. 4 Lere Cästen. Auff dem Creuz des Apfels uff beeden seiten: 5 Schmaral. 2 Saphir. 21 Granaten klain vnd groß. 4 Amatisten. 16 perlein. 1 Leer Casten. :3: Kaiser Carls schwert. Seint an der schaiden 26 ge: fierte geschmelzte Rosen vnd perlein darum gestickt. Manglet 6 uf der ainen seiten: 1 Casten mit sambt dem stain auff drey andern ist ein Leere Casten vnd seint 6 der klainen guldene Röslein zu wenig. :4: Zway Kaiserliche Scepter in einem futter das aine silbren vergult. Das ander silbern weiß :5: Ein rot guldener gemusirter Chormantel, forne mit Guldenem Gesperr. Darbey 2 guldene Schildt und darinnen versezt: 8 saphier, 15 Granaten vnd Amatisten 5. Klaine schmarällein. Mehr fornen uff beden Seiten herab vnd hinten vber Hals 31 geschmelzte Rößlein, darumb viel perlein gestickt. :6: Ein weiße seiden Alben, mit einer perlein Brustbuchsen [fol. 7r] Vnd mit perlein gestickten Armleisten, darinnen versezt 7 Saphir, 3. Rubin palas, 1. Topas, 7. Schmarallen. :7: Ein dunkel braune Dalmatica mit roten guldenen Leisten oben vnd unten, die Ermelpüchsen mit perlen gestickt und forne mit geschmelzten guldenen Rosen. :8: Ein lange Guldene Stola darin schwarze Adler gewirkt, seint daran: 68 geschmelzte Silbern Vergulte Rosen. :9: Ein braite guldener Porten mit grün Fransen. :10: Ein guldene etwas schmeler Porten zu gürtung der weißen Alben zu gebrauchen. :11: Mehr ein guldene schmale Gürtel zu der dunkelbraunen Dalmatica oder Manipel zugebrauchen. :12: Ein braune seidene Dalmatica mit Adlern, mitsambt der Kappen darzue gehörig. :13: Ein par Handschuch mit perlein gestickt vnd darin versetzt. 13. saphir. 21. granaten. 19. geschmelzte Rößlein. :14: Ein gar rot seidene mit Goldt gestickte Kniehosen :15: Ein par Schuch mit perlein gestickt vnd darunter 5 Saphir. 4 Amatisten. [fol. 7v / Außenseite] A° 1612 Aid: 9 Juny, haben eines E. Raths nach Frankfort abgesannte hierinn verzeichnete Stuck von dem Kais[erlichen]: Ornat zu Krönung des erwel= ten Königs Mathiae mit sich genommen.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1526380.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:comment>Genaue Erfassung des Bestandes an Edelsteinen und Perlen an der Reichskrone 1612, vor Verbringung nach Frankfurt als Teil der Krönungsinsignien.</crown:comment>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>1</crown:aboutComponent>
+        <crown:localisation>Frankfurt am Main?</crown:localisation>
+        <crown:significance>hoch</crown:significance>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

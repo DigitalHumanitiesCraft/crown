@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1525659">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1525659/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akt, CR_1_QS_Ak_1421-1525_003</dc:title>
+    <dc:description>Alte Verzeichnisse der Heiligtümer und Reichskleinodien, insbesondere wie diese nach Nürnberg gekommen (15. Jh., 1510, 1658, 17. Jh. 18. Jh.) [Beilagezettel: Alte Verzeichnisse der heiligthümer u[nd]. Reichskleinodien. SI L 133. B.15/15]</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1525659">
+    <rdfs:label>Akt, CR_1_QS_Ak_1421-1525_003</rdfs:label>
+    <rdfs:comment>Alte Verzeichnisse der Heiligtümer und Reichskleinodien, insbesondere wie diese nach Nürnberg gekommen (15. Jh., 1510, 1658, 17. Jh. 18. Jh.) [Beilagezettel: Alte Verzeichnisse der heiligthümer u[nd]. Reichskleinodien. SI L 133. B.15/15]</rdfs:comment>
+    <dcterms:medium>Papier</dcterms:medium>
+    <crown:date>15. Jahrhundert</crown:date>
+    <crown:dateBegin>1400</crown:dateBegin>
+    <crown:dateEnd>1499</crown:dateEnd>
+    <gams:textualContent>1525659 CR_1_QS_Ak_1421-1525_003 Schriftquelle Akt 15. Jahrhundert Papier Alte Verzeichnisse der Heiligtümer und Reichskleinodien, insbesondere wie diese nach Nürnberg gekommen (15. Jh., 1510, 1658, 17. Jh. 18. Jh.) [Beilagezettel: Alte Verzeichnisse der heiligthümer u[nd]. Reichskleinodien. SI L 133. B.15/15]</gams:textualContent>
+    <crown:transcription>[Einzelblatt] [###] die stucke des [ehrwürdi]gen Heyligtums in unsere gnedigiste Herren Kinig Sigmun(d)s Maiestatbrief begriffen Des ersten sand Karls des Kinig swert It[em] sand Maricij swert It[em] die crone sand karls des kinig mit edeln steynen vnd perlen It[em] von der krippen gots in in eine lange guldine beheltnuss getziert mit edeln steyne It[em] drew glyder Ketten san[kt] peters sand pauls vnd sand Johans in einem silbrin keastel vbergultem It[em] sand Annen arm in eine vbergult beheltnuss mit irem namen Ligend in einem silbrin Keastel vbergultem It[em] sand Johanns des ewangelisten rock in einem silbrin vbergiltem Leadel, darauf ein klein Cristallin Crewtz in der miten ist It[em] sand Johanns des Tawffers zand in einer kleine Cristalline Monstranc mit feynem golde vmbgeben It[em] das sper gottes vnd ein span des heligen Crewtzes mit ein and(er) in einem grossen Crewtz mit edeln steyne vnd vil Perlen vnd der Fusse desselben Crewzes ist silbrin vbergult getziert mit des Reichs vnd der Crone zu Beheim wappen vnd Cleynoden It[em] ein klein Crewtz darein das vorg(e)n(ant) holtz des Crewtzes gelegt wirdt als man das zaiget It[em] ein grosse beheltnuss silbrin vbergvlt mit einem großen Cristall darein man legt das sper vnd das Holtz gottes Crewtzes zu der Zeit der zeigung It[em] ein prawne dialmatica sand Karls mit adler It[em] ein dialmatica sand Karls swartz mit perlen It[em] ein weiße dialmatica mit perlen in den ermelin vnd vnten zu ring vmb It[em] ein lange stol guldein mit adler vnd perlen It[em] ein rote Kappen mit einem guldein Leben[1] vnd einem Cammel in perlen gesteppt It[em] sand Karls gürtel It[em] kunigliche sceptra zwey silbrin ein vbergult, das ander slecht It[em] zwen Opfel silbrin vbergult vnd vf yeglichem ein Crewtz It[em] sand Karls opfel awßen guldein ynwendig hültzein mit einem Crewtz vnd edeln steynen vnd Perlen It[em] sand Karls sporn silbrein vberguldet It[em] sand Karls rote gugel It[em] sand Karls Hantschuh mit edeln Steynen vnd Perlen It[em] sand Karls sandalia It[em] sand Karls niderschuh It[em] sand Karls gürtel in einem guldin porten in gürtels weise ein Knewffen vnd schellen [1] Löwen</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1525659.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:comment>Inventarliste jener Heiltümer, die über Sigismund von Luxemburg nach Nürnberg kamen. An dritter Stelle Nennung der Reichskrone: It[em] die crone sand karls des kinig mit edeln steynen vnd perlen.</crown:comment>
+        <crown:aboutRegalia>1</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>0</crown:aboutComponent>
+        <crown:localisation>Nürnberg(?)</crown:localisation>
+        <crown:significance>niedrig</crown:significance>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

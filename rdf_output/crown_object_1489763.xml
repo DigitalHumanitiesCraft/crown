@@ -1,52 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489763.o">
-    <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_024</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</rdfs:comment>
-    <dcterms:medium>Gold</dcterms:medium>
-    <dcterms:extent>Gewicht: 41,73 g, Stempelstellung: 12 Uhr, Durchmesser: 44,3 mm</dcterms:extent>
-    <gams:textualContent>1489763 CR_1_QB_Ob_1526-1796_024 Bildquelle Objekt 1745 Gold AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489763.media.864597">
-        <rdfs:label>MK_001637bb_1.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489763/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489763.media.864598">
-        <rdfs:label>MK_001637bb_2.jpg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489763/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:inscription>Avers: FRANCISCVS I· D· – G· ROM· IMP· SEMP· AVG·  Revers: IMPERIOSA IAM REDIT QVIES·; i. A. zweizeilige Legende: ELECT· D· XIII· SEPT· / CIƆIƆCCXXXXV; [auf Weltkugel:] AV–STRIA /</crown:inscription>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489763.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489763">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489763/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489763/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Objekt, CR_1_QB_Ob_1526-1796_024</dc:title>
-    <dc:description>Objekt, CR_1_QB_Ob_1526-1796_024, AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -59,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -67,12 +32,30 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489763/IMAGE.2">
-    <schema:contentURL>MK_1637bb\MK_001637bb_2.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489763/IMAGE.1">
-    <schema:contentURL>MK_1637bb\MK_001637bb_1.jpg</schema:contentURL>
-  </schema:ImageObject>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489763">
+    <rdfs:label>Objekt, CR_1_QB_Ob_1526-1796_024</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</rdfs:comment>
+    <dcterms:medium>Gold</dcterms:medium>
+    <dcterms:extent>Gewicht: 41,73 g, Stempelstellung: 12 Uhr, Durchmesser: 44,3 mm</dcterms:extent>
+    <crown:date>1745</crown:date>
+    <crown:dateBegin>1745</crown:dateBegin>
+    <crown:dateEnd>1745</crown:dateEnd>
+    <gams:textualContent>1489763 CR_1_QB_Ob_1526-1796_024 Bildquelle Objekt 1745 Gold AUSSTEHEND; niedrig; Medaille; revers: mittig über den Köpfen von zwei Adlern, auf einer Weltkugel sitzend; sehr klein; stark vereinfacht</gams:textualContent>
+    <crown:inscription>Avers: FRANCISCVS I· D· – G· ROM· IMP· SEMP· AVG· Revers: IMPERIOSA IAM REDIT QVIES·; i. A. zweizeilige Legende: ELECT· D· XIII· SEPT· / CIƆIƆCCXXXXV; [auf Weltkugel:] AV–STRIA /</crown:inscription>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1489763.PictorialSource">
+        <crown:origin>k. A.</crown:origin>
+        <crown:owner>Kunsthistorisches Museum Wien, MK, Inv. Nr. MK_1637bβ</crown:owner>
+        <crown:provenance>Zugangsjahr 1875</crown:provenance>
+        <crown:depiction>ÜBERARBEITEN; Avers: Brustbild in Dreiviertelansicht r., Kopf im Profil, Lorbeerkranz, Harnisch mit pteryges, Mantel, Vliescollane; Revers: zwei Adler auf Weltkugel, halten mit inneren Fängen Reichsapfel und mit äußeren Fängen Lilienszepter bzw. Schwert, auf Brust Wappen von Hzm. Lothringen und Ghzm. Toskana; auf Weltkugel: AV–STRIA / GER–MA–NIA; die Adler werden von Reichskrone überhöht</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1489763.PictorialSource" />
+  </crown:AdditionalMaterial>
 </rdf:RDF>

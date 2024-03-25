@@ -1,25 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1492106">
+    <rdfs:label>Kopie, CR_1_QB_Ko_Ab1920_003</rdfs:label>
+    <rdfs:comment>AUSSTEHEND</rdfs:comment>
+    <dcterms:medium>Silber</dcterms:medium>
+    <dcterms:medium>Gold</dcterms:medium>
+    <dcterms:medium>Glassteine</dcterms:medium>
+    <dcterms:medium>Email</dcterms:medium>
+    <crown:date>2007-2009</crown:date>
+    <crown:dateBegin>2007</crown:dateBegin>
+    <crown:dateEnd>2009</crown:dateEnd>
+    <gams:textualContent>1492106 CR_1_QB_Ko_Ab1920_003 Bildquelle Kopie 2007-2009 Silber; Gold; Glassteine; Email AUSSTEHEND</gams:textualContent>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.PictorialSource">
+        <crown:origin>Böhmen</crown:origin>
+        <crown:owner>Tschechien, Kutná Hora, Galerie Středočeského kraje (GASK)</crown:owner>
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:depiction>(not assigned)</crown:depiction>
+        <crown:significance>(auswählen)</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1492106">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Kopie, CR_1_QB_Ko_Ab1920_003</dc:title>
-    <dc:description>Kopie, CR_1_QB_Ko_Ab1920_003, AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +49,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,70 +57,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.o">
-    <rdfs:label>Kopie, CR_1_QB_Ko_Ab1920_003</rdfs:label>
-    <rdfs:comment>AUSSTEHEND</rdfs:comment>
-    <dcterms:medium>Silber</dcterms:medium>
-    <dcterms:medium>Gold</dcterms:medium>
-    <dcterms:medium>Glassteine</dcterms:medium>
-    <dcterms:medium>Email</dcterms:medium>
-    <gams:textualContent>1492106 CR_1_QB_Ko_Ab1920_003 Bildquelle Kopie 2007-2009 Silber; Gold; Glassteine; Email AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.media.1445422">
-        <rdfs:label>CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_detail_kr</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.media.1445423">
-        <rdfs:label>CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_detail_sa</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.media.1445424">
-        <rdfs:label>CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_frontal</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.media.1445425">
-        <rdfs:label>CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_schraeg</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.media.1445426">
-        <rdfs:label>CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_seite</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.5"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1492106.color">
-        <crown:color>(auswählen)</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.5">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_seite.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.3">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_frontal.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_detail_kreuz.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.4">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_schraeg.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1492106/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QM_Ko\Ko_Ab 1920\CR_1_QB_Ko_Ab1920_003_kopie_kutna_hora_detail_salomon.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

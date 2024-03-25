@@ -1,25 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489709">
+    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_037</rdfs:label>
+    <rdfs:comment>AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben</rdfs:comment>
+    <dcterms:medium>Tuschezeichnung</dcterms:medium>
+    <dcterms:medium>Gouache</dcterms:medium>
+    <dcterms:extent>Blattmaß: 410 × 280 mm</dcterms:extent>
+    <crown:date>1574-1575</crown:date>
+    <crown:dateBegin>1574</crown:dateBegin>
+    <crown:dateEnd>1575</crown:dateEnd>
+    <gams:textualContent>1489709 CR_1_QB_Gr_1526-1796_037 Bildquelle Grafik 1574-1575 Tuschezeichnung; Gouache AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben</gams:textualContent>
+    <crown:inscription>Auf dem Sockel: CAROLVS GENVIC LUDOVIC PIVM IMPERATOREM Unterhalb des Sockels: 32</crown:inscription>
+    <crown:caption>Handschriftl., in d. linken oberen Ecke: 36 (?)</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
+    <schema:identifier>https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2999728&amp;order=1&amp;view=SINGLE</schema:identifier>
+    <schema:identifier>Cod. 8330</schema:identifier>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.PictorialSource">
+        <crown:origin>Böhmen</crown:origin>
+        <crown:owner>ÖNB, Sammlung von Handschriften und alten Drucken, Sign. cod. 8330 S/W-Abbildung: Bühler 1974: 405</crown:owner>
+        <crown:provenance>Kopie nach dem sog. \"Luxemburgerstammbaum\" auf Burg Karlstein in Prag; unter Kaiser Maximilian II. 1574/1575 angefertigt; 1783 aus der Schatzkammer Wien</crown:provenance>
+        <crown:depiction>ÜBERARBEITEN; Buchseite; aus Handschrift mit Stammbaum v. Kaiser Karl IV. auf Burg Karlstein; Herrscherbildnis; ganzfigurig; Kaiser Karl d. Gr. auf einem Steinsockel thronend; vor leerem Grund; auf dem Kopf RK; Szepter in der Linken; Reichsapfel in der Rechten; in blauem, goldverbrämten Mantel und purpurnem Untergewand; im Sockel Inschrift</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709.PictorialSource" />
+  </crown:AdditionalMaterial>
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1489709">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Grafik, CR_1_QB_Gr_1526-1796_037</dc:title>
-    <dc:description>Grafik, CR_1_QB_Gr_1526-1796_037, AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben </dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +51,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,53 +59,6 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.o">
-    <rdfs:label>Grafik, CR_1_QB_Gr_1526-1796_037</rdfs:label>
-    <rdfs:comment>AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben </rdfs:comment>
-    <dcterms:medium>Tuschezeichnung</dcterms:medium>
-    <dcterms:medium>Gouache</dcterms:medium>
-    <dcterms:extent>Blattmaß: 410 × 280 mm</dcterms:extent>
-    <gams:textualContent>1489709 CR_1_QB_Gr_1526-1796_037 Bildquelle Grafik 1574-1575 Tuschezeichnung; Gouache AUSSTEHEND; niedrig; relevant, weil besonders frühe Darstellung von Plattenkrone mit Bügel, darum beschreiben</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.media.1440948">
-        <rdfs:label>CR_1_QB_Gr_1526-1796_037_luxemburgerstammbaum_ka</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.media.1440949">
-        <rdfs:label>CR_1_QB_Gr_1526-1796_037_luxemburgerstammbaum_ka</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.media.1469443">
-        <rdfs:label>CR_1_QB_Gr_1526-1796_037_bühler1974_abb1_8330_ka</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:inscription>Auf dem Sockel: CAROLVS GENVIC LUDOVIC PIVM IMPERATOREM   Unterhalb des Sockels: 32</crown:inscription>
-    <crown:label>Handschriftl., in d. linken oberen Ecke: 36 (?)</crown:label>
-    <schema:identifier>https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2999728&amp;order=1&amp;view=SINGLE</schema:identifier>
-    <schema:identifier>Cod. 8330</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1489709.color">
-        <crown:color>bunt</crown:color>
-      </crown:Color>
-    </crown:description>
-  </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1526-1796\CR_1_QB_Gr_1526-1796_037_luxemburgerstammbaum_karl__d_gr_ÖNB.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.3">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1526-1796\CR_1_QB_Gr_1526-1796_037_bühler1974_abb1_8330_karl_d_gr.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1489709/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Gr\Gr_1526-1796\CR_1_QB_Gr_1526-1796_037_luxemburgerstammbaum_karl__d_gr_ÖNB_detail.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

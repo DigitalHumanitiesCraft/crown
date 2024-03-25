@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1469101">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>opak hellblau, CR_1_B_ET_Em_ohbl</dc:title>
-    <dc:description>opak hellblau, CR_1_B_ET_Em_ohbl, Zellenschmelz</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>Senkschmelz</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,109 +32,180 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.o">
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1469101">
     <rdfs:label>opak hellblau, CR_1_B_ET_Em_ohbl</rdfs:label>
-    <rdfs:comment>Zellenschmelz</rdfs:comment>
+    <rdfs:comment>Senkschmelz</rdfs:comment>
     <dcterms:medium>Email</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-        <rdfs:label>Analyse des Objekts CR_1_B_ET_Em_ohbl</rdfs:label>
+    <gams:textualContent>1469101 CR_1_B_ET_Em_ohbl Kronreif opak hellblau Email nan Senkschmelz 3D Mikroskopie; µ-XRF; MA-XRF; µ-Raman; FORS; technische Fotografie</gams:textualContent>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.212283">
         <crown:surveyType>Analyse</crown:surveyType>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#45373"/>
-        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#56142"/>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#45373" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#56142" />
         <crown:date>2023-06-21</crown:date>
-      </crown:Analysis>
+        <crown:attributeType>FORS</crown:attributeType>
+        <crown:briefDescription>Farbcharakterisierung Email</crown:briefDescription>
+        <crown:treatment>Messgerät: Gorgias Reflectance spectrometer for Art, Cultural Heritage Science Open Source (CHSOS); Lichtquelle: 10 W Halogenlampe; Reflexionsfasersonde mit 7 x 600 µ Kernfasern (6 Anegungsfaern, 1 Detektionsfaser; Messgeometrie: ca. 45° Detektor: Toshiba TCD1304DG linear array mit 300 – 1000 nm Spektralbereich; Durchmesser des Messspots: ca. 1 mm; Messpunkt entspricht CRONO-Messpunkt</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1497940">
+            <rdfs:label>CR_1_B_ET_Em_ohbl_FORS_10</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_FORS\CR_1_B_ET_Em_ohbl_FORS_10.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1525050">
+            <rdfs:label>FORS_CROWN_ohbl_Vergleich</rdfs:label>
+            <dcterms:format>image/bmp</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_FORS\FORS_CROWN_ohbl_Vergleich.bmp</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1525194">
+            <rdfs:label>CR_1_B_ET_Em_FORS_10_ohbl</rdfs:label>
+            <dcterms:format>image/png</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_FORS\CR_1_B_ET_Em_FORS_10_ohbl.png</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:surveyPerformed>
+      <crown:Survey rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.214276">
+        <crown:surveyType>Analyse</crown:surveyType>
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90747" />
+        <crown:personInvolved rdf:resource="https://gams.uni-graz.at/o:crown.index.person#90752" />
+        <crown:date>2023-10-03</crown:date>
+        <crown:attributeType>µ-Raman</crown:attributeType>
+        <crown:briefDescription>Charakterisierung des Emailtyps, der farbgebenden Komponenten, Trübungsmittel, ev. Korrosionsprodukte</crown:briefDescription>
+        <crown:statement>opacifier calcium antimonate Ca2Sb2O7; signals from glass matrix ca. 554, 1100 cm-1: alkali glass</crown:statement>
+        <crown:treatment>portable i-Raman Plus instrument by BWTEC; two laser sources at 532 and 785 nm; two dedicated TE cooled CCD detectors; two optical fibre probes (one for each laser, both 1.5 m long) coupled to a micro-probe equipped with different objectives (4 x, 20 x, 40 x and 80 x); spot size: 90-100 µm; different lateral resolutions (depending on the objective used) reaching sampling spots of 300-400, 90-100, 40-50 and 15-20 µm, respectively); a camera for visualizing the sample and focusing the lasers on the selected measurement spots; spectral range: 65-4200 cm-1; laser power could be modulated up to 40-50 mW for the 532 nm and about 300 mW for the 785 nm excitation; number of measurement points: 2</crown:treatment>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524902">
+            <rdfs:label>CR_1_B_ET_Em_Rm_03_lightblue_m</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_03_lightblue_m.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524903">
+            <rdfs:label>CR_1_B_ET_Em_Rm_04_lightblue</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_04_lightblue.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524904">
+            <rdfs:label>CR_1_B_ET_Em_Rm_04_lightblue_m</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_04_lightblue_m.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524905">
+            <rdfs:label>CR_1_B_ET_Em_Rm_03_lightblue</rdfs:label>
+            <dcterms:format>text/plain</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_03_lightblue.txt</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524990">
+            <rdfs:label>CR_1_B_ET_Em_Rm_03_ohbl</rdfs:label>
+            <dcterms:format>image/png</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_03_ohbl.png</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+        <crown:media>
+          <crown:Media rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1524991">
+            <rdfs:label>CR_1_B_ET_Em_Rm_04_ohbl</rdfs:label>
+            <dcterms:format>image/png</dcterms:format>
+            <schema:contentUrl>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_Raman\CR_1_B_ET_Em_Rm_04_ohbl.png</schema:contentUrl>
+          </crown:Media>
+        </crown:media>
+      </crown:Survey>
+    </crown:surveyPerformed>
+    <crown:analysisPerformed>
+      <crown:EnamelMuRaman rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.EnamelMuRaman">
+        <crown:numberOfMeasuringPoints>2.00000000</crown:numberOfMeasuringPoints>
+        <crown:interpretation>Trübungsmittel: Kalziumantimonat; Alkaliglas (Banden bei ca. 554 und 1100 cm-1)</crown:interpretation>
+        <crown:other>(not assigned)</crown:other>
+      </crown:EnamelMuRaman>
     </crown:analysisPerformed>
-    <gams:textualContent>1469101 CR_1_B_ET_Em_ohbl Kronreif opak hellblau Email nan Zellenschmelz 3D Mikroskopie</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1419047">
-        <rdfs:label>CR_1_B_ET</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1419051">
-        <rdfs:label>CR_1_B_ET_Em_ohbl_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1419048">
-        <rdfs:label>CR_1_B_ET_Grafik_Darstellung</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.3"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.media.1473131">
-        <rdfs:label>CR_1_B_ET_Em_ohbl_Lokalisation_nummeriert</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.4"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumber0"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.color">
-        <crown:color>homogen</crown:color>
-      </crown:Color>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.intervention">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:conditionOfObject>
-      <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.scratches">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:Scratches>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DefectsDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.defectsdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DefectsDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrystallineEfflorescenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.crystallineefflorescencedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:CrystallineEfflorescenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:LiabilityLossDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.liabilitylossdamage">
-        <crown:comment>Schienbein links: Emailschicht seitlich von Steg gelöst [[durch mechanische Belastung (?)]]; _x000d_
-</crown:comment>
-      </crown:LiabilityLossDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.adhesiondamage">
-        <crown:comment>verschiedene Massen in Vertiefungen; _x000d_
-</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
+    <crown:descriptionOf>
+      <crown:Enamel rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel">
+        <crown:appearance>homogen</crown:appearance>
+        <crown:damage>
+          <crown:Scratches rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Scratches">
+            <crown:description>(not assigned)</crown:description>
+          </crown:Scratches>
+        </crown:damage>
+        <crown:damage>
+          <crown:CrackFracture rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.CrackFracture">
+            <crown:frequency>wenig</crown:frequency>
+            <crown:description>teilweise bräunlich verfärbt;</crown:description>
+          </crown:CrackFracture>
+        </crown:damage>
+        <crown:damage>
+          <crown:Losses rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Losses">
+            <crown:description>Schienbein, rechts (4): Flächen angrenzend an mit bräunlicher Masse gefüllte Luftblasen abgesplittert [[Fehlstelle nach Anhaftungen entstanden]];</crown:description>
+          </crown:Losses>
+        </crown:damage>
+        <crown:damage>
+          <crown:TurbidityOfSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.TurbidityOfSurface">
+            <crown:description>(not assigned)</crown:description>
+          </crown:TurbidityOfSurface>
+        </crown:damage>
+        <crown:damage>
+          <crown:CrystallineEfflorescence rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.CrystallineEfflorescence">
+            <crown:description>(not assigned)</crown:description>
+          </crown:CrystallineEfflorescence>
+        </crown:damage>
+        <crown:damage>
+          <crown:LossOfAdhesion rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.LossOfAdhesion">
+            <crown:description>Schienbein, links: partieller Haftungsverlust zwischen Emailschicht und Stegen: schmaler Spalt entstanden [[durch nachträgliche mechanische Belastungen oder herstellungsbedingte Spannungen oder Degradierungsprozesse]];</crown:description>
+          </crown:LossOfAdhesion>
+        </crown:damage>
+        <crown:damage>
+          <crown:Adhesion rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Adhesion">
+            <crown:description>bräunliche Masse in Vertiefungen (Blasen/Fehlstellen/Risse): teilweise mit weißen Ausblühungsprodukten an der Oberfläche, Goldpartikel an bräunlicher Masse anhaftend ; Knie, rechts (2): orangerote Masse; [[verschiedene Substanzen oder gleiche Masse mit abweichenden optischen Eigenschaften durch verschiedene Konzentrationen/Lichtsituationen/etc. (?)]];</crown:description>
+          </crown:Adhesion>
+        </crown:damage>
+        <crown:damage>
+          <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Intervention">
+            <crown:inventoryNumber>0</crown:inventoryNumber>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Intervention>
+        </crown:damage>
+        <crown:descriptionOfAppearance>sehr kleine weiße Partikel in sonst homogener Emailschicht verteilt [[Trübungsmittel]];</crown:descriptionOfAppearance>
+        <crown:feature>
+          <crown:Granularity rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Granularity">
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#GranularityVisible" />
+            <crown:grainSizeMax>0.00000000</crown:grainSizeMax>
+            <crown:grainSizeMin>0.00000000</crown:grainSizeMin>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Granularity>
+        </crown:feature>
+        <crown:feature>
+          <crown:Blisters rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.Blisters">
+            <crown:diameterMax>0.00000000</crown:diameterMax>
+            <crown:description>(not assigned)</crown:description>
+          </crown:Blisters>
+        </crown:feature>
+        <crown:feature>
+          <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.Enamel.ManufacturingProcess">
+            <crown:features>herstellungsbedingte Fehlstelle: Email in sehr spitzen Winkel zwischen den Stegen nicht eingeflossen; Emailkorn (dunkelblau tdbl (?)) zwischen Außenkante und Steg haftend [[Ursache (?), deplatziert (?)]];</crown:features>
+          </crown:ManufacturingProcess>
+        </crown:feature>
+        <crown:additionalDescription>(not assigned)</crown:additionalDescription>
+        <crown:other>lose Emailpartikel (Bruchstücke) in bräunlicher Masse (Anhaftung) eingeschlossen;</crown:other>
+      </crown:Enamel>
+    </crown:descriptionOf>
+    <crown:conditionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1469101.Enamel" />
+    <crown:Enamel>
+      <crown:damage rdf:about="https://gams.uni-graz.at/o:crown.object.1469101.damage">
+        <crown:Adhesion>1</crown:Adhesion>
+      </crown:damage>
+    </crown:Enamel>
   </crown:Object>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_ohbl\CR_1_B_ET_Em_ohbl_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.3">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Grafik_Darstellung.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1469101/IMAGE.4">
-    <schema:contentURL>Projekte\CROWN\CR_1_B\CR_1_B_ET\CR_1_B_ET_Em\CR_1_B_ET_Em_ohbl\CR_1_B_ET_Em_ohbl_Lokalisation_nummeriert.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1482193">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482193/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1482193/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Foto, CR_1_QB_Fo_1951-2000_044</dc:title>
-    <dc:description>Foto, CR_1_QB_Fo_1951-2000_044, Objektfotografie der Reichsinsignien; Reichskrone; Reichskreuz; Reichsschwert; S/W-Aufnahme; Ansicht der RK von rechts vorne; leicht obersichtig; RK in der linken Bildhälfte; auf Samt; vor dunklem Hintergrund; Details weitgehend lesbar; Dargestellte Bauteile: A, H, K; B, CC, EE, G, BgRo (fragment.); mit Haube; Einschätzung der Aussagekraft: mittel; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>nan</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,42 +32,32 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482193.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1482193">
     <rdfs:label>Foto, CR_1_QB_Fo_1951-2000_044</rdfs:label>
-    <rdfs:comment>Objektfotografie der Reichsinsignien; Reichskrone; Reichskreuz; Reichsschwert; S/W-Aufnahme; Ansicht der RK von rechts vorne; leicht obersichtig; RK in der linken Bildhälfte; auf Samt; vor dunklem Hintergrund; Details weitgehend lesbar; Dargestellte Bauteile: A, H, K; B, CC, EE, G, BgRo (fragment.); mit Haube; Einschätzung der Aussagekraft: mittel; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</rdfs:comment>
     <dcterms:medium>Fotografie</dcterms:medium>
-    <dcterms:extent>Kartonmaß (Untersatzkart. Hochformat): 34,4 cm × 24,8 cm Bildmaß (Untersatzkart. Hochformat): 23,7 cm × 17,2 cm Kartonmaß (Untersatzkart. Querformat): 24,8 cm × 34,4 cm Bildmaß (Untersatzkart. Querformat): 17,7 cm × 12,9 cm</dcterms:extent>
-    <gams:textualContent>1482193 CR_1_QB_Fo_1951-2000_044 Bildquelle Foto 1972 Fotografie Objektfotografie der Reichsinsignien; Reichskrone; Reichskreuz; Reichsschwert; S/W-Aufnahme; Ansicht der RK von rechts vorne; leicht obersichtig; RK in der linken Bildhälfte; auf Samt; vor dunklem Hintergrund; Details weitgehend lesbar; Dargestellte Bauteile: A, H, K; B, CC, EE, G, BgRo (fragment.); mit Haube; Einschätzung der Aussagekraft: mittel; Ev. interessante Abweichungen zum Referenzmaterial: AUSSTEHEND</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482193.media.1431197">
-        <rdfs:label>CR_1_QB_Fo_1951-2000_044 (0068)</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482193/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482193.media.1441088">
-        <rdfs:label>CR_1_QB_Fo_1951-2000_044 (0069)</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1482193/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:label>Handschriftlicher Vermerk auf Karton:   unten links: II 18219  unten rechts: XIII 1,2,17,21</crown:label>
-    <crown:label>Handschriftlicher Vermerk auf Karton:   oben links: Reichsinsignien: krone, Kreuz, Apfel, Schwert  oben rechts: Weltl. Schk. XIII 1,2,17,21  unten rechts: II 28.874a</crown:label>
+    <dcterms:extent>Kartonmaß (Untersatzkarton Hochformat): 34,4 cm × 24,8 cm Bildmaß (Untersatzkarton Hochformat): 23,7 cm × 17,2 cm Kartonmaß (Untersatzkarton Querformat): 24,8 cm × 34,4 cm Bildmaß (Untersatzkarton Querformat): 17,7 cm × 12,9 cm</dcterms:extent>
+    <crown:date>1972</crown:date>
+    <crown:dateBegin>1972</crown:dateBegin>
+    <crown:dateEnd>1972</crown:dateEnd>
+    <gams:textualContent>1482193 CR_1_QB_Fo_1951-2000_044 Bildquelle Foto 1972 Fotografie</gams:textualContent>
+    <crown:caption>II 18219</crown:caption>
+    <crown:caption>[[handschriftlich]]: oben links: Reichsinsignien: KRONE, KREUZ, APFEL, SCHWERT; oben rechts: Weltl. Schk. XIII 1,2,17,21; unten rechts: II 28.874a;</crown:caption>
+    <crown:caption>XIII 1,2,17,21</crown:caption>
+    <crown:comment>nan</crown:comment>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>II 18219</schema:identifier>
     <schema:identifier>II 28874a</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1482193.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1482193.PictorialSource">
+        <crown:origin>Österreich; Wien</crown:origin>
+        <crown:owner>Abzüge auf Karton: Kunsthistorisches Museum Wien, Kunstkammer Kunsthistorisches Museum Wien, Archiv, Fotobuch: AR_XIV_0041, Neg. Nr. II 18219; AR_XI_1044 – 99125, Neg. Nr. II 28874a</crown:owner>
+        <crown:provenance>Kunsthistorisches Museum Wien (?)</crown:provenance>
+        <crown:depiction>Objektfotografie der Reichsinsignien; Reichskrone; Reichskreuz; Reichsschwert; Ansicht der RK von rechts vorne; leicht obersichtig; RK in der linken Bildhälfte; auf Samt; vor dunklem Hintergrund; Details weitgehend lesbar; Dargestellte Bauteile: A, H, K; Dargestellte Bauteile (fragment.): B, CC, EE, G, BgRo; mit Haube;</crown:depiction>
+        <crown:significance>mittel</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1482193.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482193/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1951-2000\CR_1_QB_Fo_1951-2000_044 (0068).jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1482193/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Fo\Fo_1951-2000\CR_1_QB_Fo_1951-2000_044 (0069).jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

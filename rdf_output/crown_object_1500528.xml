@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:schema="https://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1500528">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500528/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1500528/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Objekt, CR_1_QB_Ob_1421-1525_002</dc:title>
-    <dc:description>Objekt, CR_1_QB_Ob_1421-1525_002, VERGLEICHSOBJEKT; nicht RK; Lilienkrone mit Doppelbügel, v. Reichsapfel bekrönt; vgl. Dürer u. Burgkmair Triumphzug f. Maximilian I.</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>VERGLEICHSOBJEKT; nicht RK; Lilienkrone mit Doppelbügel, v. Reichsapfel bekrönt; vgl. Dürer u. Burgkmair Triumphzug f. Maximilian I.</dc:description>
+    <dcterms:isPartOf>Bildquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,40 +32,33 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500528.o">
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1500528">
     <rdfs:label>Objekt, CR_1_QB_Ob_1421-1525_002</rdfs:label>
     <rdfs:comment>VERGLEICHSOBJEKT; nicht RK; Lilienkrone mit Doppelbügel, v. Reichsapfel bekrönt; vgl. Dürer u. Burgkmair Triumphzug f. Maximilian I.</rdfs:comment>
+    <rdfs:comment>\"Intended to show the excellence of Nuremburg craftsmanship, this medal was designed by Albrecht Dürer on the advice of Willibald Pirckheimer. The city council of Nuremburg commissioned it in 1521 for a proposed visit by the newly crowned Emperor Charles V to celebrate the first Parliament to be held there. The medal was never presented to him. He is shown wearing the imperial crown and Order of the Golden Fleece. The coats of arms on the rim are those of the Habsburg territories. By the time the emperor finally arrived in 1540, the youthful image was out of date.\"</rdfs:comment>
+    <rdfs:comment>\"The imperial double-headed eagle on the reverse has the arms of Austria and Burgundy on its breast. Around the circumference of the obverse are fourteen crowned coats of arms of the states in the Spanish Empire: Castile, Aragon, Leon, the Kingdom of Naples, the county (Grafschaft) of Tyrol), the Kingdom of Sicily, the Kingdom of Jerusalem, Andalusia, New Castile, Galicia, Valencia, Toledo, Granada and Navarre. Between the arms of Navarre and Castile are the pillars of Hercules with a scroll inscribed 'PLVS - VLTRA' (yet further). Around the cicumference of the reverse are 13 crowned coats of arms of states in the Spanish Empire: Sardinia, Cordoba, Corsica, Murcia, Jaen, ALgarve, Algeciras, Mazarron, an empty shield for the New World, Minorca, Majorca, the Canary Isles, and Gibraltar. A wreath encircling an 'N' between the arms of Algeciras and Mazarron stands for Nuremberg.\"</rdfs:comment>
     <dcterms:medium>Silber</dcterms:medium>
     <dcterms:extent>206,6 g, 7,2 × 1 mm</dcterms:extent>
+    <crown:date>1521</crown:date>
+    <crown:dateBegin>1521</crown:dateBegin>
+    <crown:dateEnd>1521</crown:dateEnd>
     <gams:textualContent>1500528 CR_1_QB_Ob_1421-1525_002 Bildquelle Objekt 1521 Silber VERGLEICHSOBJEKT; nicht RK; Lilienkrone mit Doppelbügel, v. Reichsapfel bekrönt; vgl. Dürer u. Burgkmair Triumphzug f. Maximilian I.</gams:textualContent>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500528.media.1469505">
-        <rdfs:label>CR_1_QB_Ob_1421-1525_002_krafft_karlV_medaille_V</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500528/IMAGE.1"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
-    <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500528.media.1469506">
-        <rdfs:label>CR_1_QB_Ob_1421-1525_002_krafft_karlV_medaille_V</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1500528/IMAGE.2"/>
-        <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
-    </crown:media>
+    <crown:comment>nan</crown:comment>
+    <crown:caption>nan</crown:caption>
+    <crown:TextType>Fix: Texentry type in spreadsheet! ;)</crown:TextType>
     <schema:identifier>A.380-1910</schema:identifier>
     <schema:identifier>https://collections.vam.ac.uk/item/O94128/charles-v-holy-roman-emperor-medal-krafft-hans-the/</schema:identifier>
-    <crown:description>
-      <crown:Color rdf:about="https://gams.uni-graz.at/o:crown.object.1500528.color">
-        <crown:color>schwarz-weiß</crown:color>
-      </crown:Color>
-    </crown:description>
+    <crown:originOf>
+      <crown:PictorialSource rdf:about="https://gams.uni-graz.at/o:crown.object.1500528.PictorialSource">
+        <crown:origin>Deutsch; Nürnberg</crown:origin>
+        <crown:owner>Victoria &amp; Albert Museum South Kensington, Sculpture Collection, A.380-1910</crown:owner>
+        <crown:provenance>k. A.; (Auftrag des Nürnberger Rats anlässlich eines projektierten Besuchs Karls V.; V&amp;A Onlinecollection: \"Salting Bequest. George Salting (b. 1836; d. 1909), an Australian who settled in England, bequeathed a large collection of works decorative art to the Museum in 1909.\")</crown:provenance>
+        <crown:depiction>Medaille; v.: Bildnis Karl V. im Alter v. rund 20 Jahren, im Harnisch, mit Collane des Goldenden Vlieses; bekrönt von Lilienkrone mit Doppelbügeln, am Scheitelpunkt Reichsapfel; am Rand ringförmig angeordnete Wappen; r.: Doppeladler, umgeben von ringförmig angeordneten Wappen Beschreibungen Victoria &amp; Albert Museum siehe Feld \"Texteingaben\"</crown:depiction>
+        <crown:significance>niedrig</crown:significance>
+      </crown:PictorialSource>
+    </crown:originOf>
+    <crown:descriptionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1500528.PictorialSource" />
   </crown:AdditionalMaterial>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500528/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1421_1525\CR_1_QB_Ob_1421-1525_002_krafft_karlV_medaille_VuA.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1500528/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_QB\CR_1_QB_Ob\Ob_1421_1525\CR_1_QB_Ob_1421-1525_002_krafft_karlV_medaille_VuA_rückseite.jpg</schema:contentURL>
-  </schema:ImageObject>
 </rdf:RDF>

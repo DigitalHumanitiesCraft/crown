@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1527814">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1527814/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Akte, CR_1_QS_Ak_1526-1796_007</dc:title>
+    <dc:description>Genaue Erfassung des Bestandes an Edelsteinen und Perlen an der Reichskrone 1619, vor Verbringung nach Frankfurt als Teil der Krönungsinsignien. Dieses Verzeichnis in 2 Ausführungen in diesem Faszikel eingelegt – vermutlich handelt es sich um das Konzept (CR_1_QS_Ak_1526-1796_007) und die Reinschrift (CR_1_QS_Ak_1526-1796_006)</dc:description>
+    <dcterms:isPartOf>Schriftquelle</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:AdditionalMaterial rdf:about="https://gams.uni-graz.at/o:crown.object.1527814">
+    <rdfs:label>Akte, CR_1_QS_Ak_1526-1796_007</rdfs:label>
+    <rdfs:comment>Genaue Erfassung des Bestandes an Edelsteinen und Perlen an der Reichskrone 1619, vor Verbringung nach Frankfurt als Teil der Krönungsinsignien. Dieses Verzeichnis in 2 Ausführungen in diesem Faszikel eingelegt – vermutlich handelt es sich um das Konzept (CR_1_QS_Ak_1526-1796_007) und die Reinschrift (CR_1_QS_Ak_1526-1796_006)</rdfs:comment>
+    <dcterms:medium>Papier; Tinte; handgeschrieben</dcterms:medium>
+    <crown:date>August 1619</crown:date>
+    <crown:dateBegin>1619</crown:dateBegin>
+    <crown:dateEnd>1619</crown:dateEnd>
+    <gams:textualContent>1527814 CR_1_QS_Ak_1526-1796_007 Schriftquelle Akte August 1619 Papier; Tinte; handgeschrieben Genaue Erfassung des Bestandes an Edelsteinen und Perlen an der Reichskrone 1619, vor Verbringung nach Frankfurt als Teil der Krönungsinsignien. Dieses Verzeichnis in 2 Ausführungen in diesem Faszikel eingelegt – vermutlich handelt es sich um das Konzept (CR_1_QS_Ak_1526-1796_007) und die Reinschrift (CR_1_QS_Ak_1526-1796_006)</gams:textualContent>
+    <crown:transcription>[fol. 10r] A° 1619 adi 26[?] Augusti haben die E[hrenverten]. E[hrbaren].F[ürsichtigen]. und W[ohlweisen]. Herren Wolff Lienhardt Grundherr vnd Görg Christoff Volckhamer. als eines E[hrbaren]. Raths der Stat Nürmberg Abgesannte. Zur bevorstehenden Crönung Königs Ferdinandi, hernachverzeichnete Stuck, von dem Kays:[erlichen] Ornat, mit sich nach Franckfort genomen 1. Erstlich die Kaiserliche Kon, daran die Edlen stain und Perlein ordenlich nacheinander zuvor abgezehlet worden vnd sich befunden: In dem ersten Bogen vornhe: 12. große Edle stein Manglet: I. groß perlein Danneben ghen der rechten handt bey den eingeschmelzten Bildnus des Königs Salomonis: 10 stein Manglen. 2 perlein In den andern Bogen darneben, 7. edle stain Manglen: 4 stain und: 7. Perlein Daneben bey der bildnus Königs Davids: 10. edle stain Manglen: 2 perlein Ferners in dem dritten Bogen 12 große edle stain Manglen: 3 perlein Daneben bey der bildnus des Propheten Esaia: 10 stain. Manglen: 2 perlein In dem: 4 Bogen: 10. edle stain 1. ler Casten, darin vermurtlich: 1 stain gestanden Daneben bey den: 3. Cherubin vnd der schifft Per me reges regnant: 10. edle stain Manglen: 2 perlein Item, In dem Bogen vber der Cron befinden sich, 30 kleine edle stain und zwischen Jedem stain: 1 perlein Manglen: 2 perlein [fol. 10v] In dem Creuz so forn an die Cron gesteckt wirt haben sich befunden: 5 grosse edlestain 6 lere Cästen 2. Ein guldene Maiestat Apffel daran 4 Saphir. 3 Amatisten 3 Granaten 1. Rubin: 8 perlein 4. ler Casten Auff dem Creuz des Apffels vf beden seiten: 5 Schmaral 2 Saphir. 24 Granaten klain und groß. 4 Amatisten 16 perlein 1 ler Casten 3 Zwey Kaiseliche Scepter in einem futter, das eine silbern vergult das ander silbern weiß 4 Kaiser Carls Schwerdt Seint an der schaiden: 26 gevierte geschmelzte Rosen vnd perlein darumb gestickht Manglet vf der ainen seiten: 1 Casten mit sambt dem stain, Auf den der andren ist ein lehre Casten. Und seint 60. Kleine guldene Rößlein zu wenig. 5 Ein par rot seidener mit Goldt gestickter Kniehosen 6 Ein par Schuch mit perlen gestickt. Und darunter 6 Saphier 5. Amatisten 7 Ein Dunckelbraune Dalmatica, mit roten guldenen leisten Die Manipel mit goldt und perlein gestickt und forn mit geschmelzten guldenen Rosen 8 Ein weiße seiden Alben oder Dalmatica mit einer perlen Brustbuchsen vnd mit perlen gestickten Armleisten [Einfügung vom Rand: + und Manipel] darin versetzt. 7 Saphir, 3 Rubin palas, 1Topas, 7 Schmarallen 9 Ein guldener gewirkter Porten oder Gürtel mit silbern Ver gulten Rincken zu gurtung der weissn Dalmatica [fol. 11r] 10 Ein lange guldene Stola darin schwarze Adler gewirckt seint darin 68 geschmelzt silbem Vergulte Roßen 11 Ein groß rot guldener gemuseter Chormantel mit löwen vnd Elephanten fornen her mit guldenen Gespere dabey 2 guldener Schildt vnd darinn versetzt. 8 Saphir 15. Gra= naten vnd Amatisten: 5 klaine schmarallen. Mehr fornen vf bedenseiten herab vnd fo oben vbern halß: 31 geschmelzte Rößlein darumb viel perlein gestickt 12 Ein par Handschuch mit Perlein gestickt, vnd darinn versezt 13 Saphier :21 granaten: 19 geschmelzte Rößlein 13 Ein guldener Schmaler Porten oder Gürtel zu der dunckel- braunen Dalmatica zugebrauchn.</crown:transcription>
+    <crown:originOf>
+      <crown:TextualSource rdf:about="https://gams.uni-graz.at/o:crown.object.1527814.TextualSource">
+        <crown:provenance>(not assigned)</crown:provenance>
+        <crown:comment>Genaue Erfassung des Bestandes an Edelsteinen und Perlen an der Reichskrone 1619, vor Verbringung nach Frankfurt als Teil der Krönungsinsignien. Dieses Verzeichnis in 2 Ausführungen in diesem Faszikel eingelegt – vermutlich handelt es sich um das Konzept (CR_1_QS_Ak_1526-1796_007) und die Reinschrift (CR_1_QS_Ak_1526-1796_006)</crown:comment>
+        <crown:aboutRegalia>0</crown:aboutRegalia>
+        <crown:aboutCrown>1</crown:aboutCrown>
+        <crown:aboutComponent>1</crown:aboutComponent>
+        <crown:localisation>(not assigned)</crown:localisation>
+        <crown:significance>hoch</crown:significance>
+      </crown:TextualSource>
+    </crown:originOf>
+  </crown:AdditionalMaterial>
+</rdf:RDF>

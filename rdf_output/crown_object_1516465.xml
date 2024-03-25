@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#">
+  <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1516465">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1516465/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
+    <dc:title>Span, CR_1_G_GrUm_2</dc:title>
+    <dc:description>Span von Grundplatte abgestochen und über die Grundplattenumsäumung gebogen;</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
+    <dc:language>ger</dc:language>
+    <dc:source>KHM</dc:source>
+    <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
+    <dc:relation>http://gams.uni-graz.at/crown</dc:relation>
+    <dc:publisher>Institute Centre for Information Modelling, University of Graz</dc:publisher>
+    <dc:publisher>Kunsthistorisches Museum, Wien</dc:publisher>
+    <dc:rights>Creative Commons BY-NC 4.0</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Craft OG</dc:creator>
+    <dc:creator>Reiter, Georg</dc:creator>
+    <dc:creator>Steiner, Christian</dc:creator>
+    <dc:creator>Pollin, Christopher</dc:creator>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
+    <dc:subject xml:lang="de">Geschichte</dc:subject>
+    <dc:subject xml:lang="en">History</dc:subject>
+    <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
+    <dc:subject xml:lang="en">Art History</dc:subject>
+    <dc:subject xml:lang="de">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Linked Open Data</dc:subject>
+    <dc:subject xml:lang="en">Collection</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
+  </void:Dataset>
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1516465">
+    <rdfs:label>Span, CR_1_G_GrUm_2</rdfs:label>
+    <rdfs:comment>Span von Grundplatte abgestochen und über die Grundplattenumsäumung gebogen;</rdfs:comment>
+    <dcterms:medium>Gold</dcterms:medium>
+    <gams:textualContent>1516465 CR_1_G_GrUm_2 Kronreif Span Gold Span von Grundplatte abgestochen und über die Grundplattenumsäumung gebogen;</gams:textualContent>
+    <crown:descriptionOf>
+      <crown:BasePlateEdgingBeadedWire rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire">
+        <crown:component>
+          <crown:Edging rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Edging">
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Edging.BeadedWire" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#EquatorLine" />
+            <crown:assembledPieces>0</crown:assembledPieces>
+            <crown:number>0.00000000</crown:number>
+            <crown:description>(not assigned)</crown:description>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Edging>
+        </crown:component>
+        <crown:component>
+          <crown:LowerEdge rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.LowerEdge">
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.LowerEdge.GroovedTube" />
+          </crown:LowerEdge>
+        </crown:component>
+        <crown:component>
+          <crown:SettingOpening rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.SettingOpening">
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.SettingOpening.BeadedWire" />
+            <crown:endsBeadedWire>(auswählen)</crown:endsBeadedWire>
+          </crown:SettingOpening>
+        </crown:component>
+        <crown:component>
+          <crown:Nozzle rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Nozzle">
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Nozzle.BeadedWire" />
+          </crown:Nozzle>
+        </crown:component>
+        <crown:feature>
+          <crown:SolderingTechnique rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.SolderingTechnique">
+            <crown:fixWithChip>0</crown:fixWithChip>
+            <crown:number>0.00000000</crown:number>
+            <crown:description>(not assigned)</crown:description>
+            <crown:other>(not assigned)</crown:other>
+          </crown:SolderingTechnique>
+        </crown:feature>
+        <crown:feature>
+          <crown:TechnicalStructure rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.TechnicalStructure">
+            <crown:other>(not assigned)</crown:other>
+          </crown:TechnicalStructure>
+        </crown:feature>
+      </crown:BasePlateEdgingBeadedWire>
+    </crown:descriptionOf>
+  </crown:Object>
+  <crown:BeadedWire rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Nozzle.BeadedWire">
+    <crown:wireDiameter>0.00000000</crown:wireDiameter>
+    <crown:has>0</crown:has>
+  </crown:BeadedWire>
+  <crown:GroovedTube rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.LowerEdge.GroovedTube">
+    <crown:diameterMax>0.00000000</crown:diameterMax>
+    <crown:diameterMin>0.00000000</crown:diameterMin>
+    <crown:innerDiameter>0.00000000</crown:innerDiameter>
+    <crown:joint>(auswählen)</crown:joint>
+    <crown:sheetThickness>0.00000000</crown:sheetThickness>
+    <crown:fragmented>0</crown:fragmented>
+    <crown:number>0.00000000</crown:number>
+    <crown:description>(not assigned)</crown:description>
+  </crown:GroovedTube>
+  <crown:BeadedWire rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.Edging.BeadedWire">
+    <crown:diameter>0.00000000</crown:diameter>
+  </crown:BeadedWire>
+  <crown:BeadedWire rdf:about="https://gams.uni-graz.at/o:crown.object.1516465.BasePlateEdgingBeadedWire.SettingOpening.BeadedWire">
+    <crown:wireDiameter>0.00000000</crown:wireDiameter>
+    <crown:has>0</crown:has>
+  </crown:BeadedWire>
+</rdf:RDF>

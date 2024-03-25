@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:void="http://rdfs.org/ns/void#"
-  xmlns:schema="https://schema.org/"
-  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crown="https://gams.uni-graz.at/o:crown.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:gams="https://gams.uni-graz.at/o:gams-ontology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:void="http://rdfs.org/ns/void#">
   <void:Dataset rdf:about="https://gams.uni-graz.at/o:crown.object.1467487">
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487/ONTOLOGY"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#"/>
-    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#"/>
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="https://schema.org/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:dataDump rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487/ONTOLOGY" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:crown.ontology#" />
+    <void:vocabulary rdf:resource="https://gams.uni-graz.at/o:gams-ontology#" />
+    <void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+    <void:vocabulary rdf:resource="https://schema.org/" />
     <dc:title>Hochfassung für Perle mit Einsteckstiften, CR_1_A_Fa_22</dc:title>
-    <dc:description>Hochfassung für Perle mit Einsteckstiften, CR_1_A_Fa_22, leer</dc:description>
-    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</dc:date>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-22</dcterms:modified>
+    <dc:description>leer</dc:description>
+    <dcterms:isPartOf>Kronreif</dcterms:isPartOf>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</dc:date>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-04</dcterms:modified>
     <dc:language>ger</dc:language>
     <dc:source>KHM</dc:source>
     <dc:relation>CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.</dc:relation>
@@ -32,7 +24,7 @@
     <dc:creator>Reiter, Georg</dc:creator>
     <dc:creator>Steiner, Christian</dc:creator>
     <dc:creator>Pollin, Christopher</dc:creator>
-    <rdfs:seeAlso>https://www.projekt-reichskrone.at/</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.projekt-reichskrone.at</rdfs:seeAlso>
     <dc:subject xml:lang="de">Geschichte</dc:subject>
     <dc:subject xml:lang="en">History</dc:subject>
     <dc:subject xml:lang="de">Kunstgeschichte</dc:subject>
@@ -40,157 +32,290 @@
     <dc:subject xml:lang="de">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Linked Open Data</dc:subject>
     <dc:subject xml:lang="en">Collection</dc:subject>
-    <dc:subject xml:lang="en">Sammlung</dc:subject>
+    <dc:subject xml:lang="de">Sammlung</dc:subject>
   </void:Dataset>
-  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.o">
+  <crown:Object rdf:about="https://gams.uni-graz.at/o:crown.object.1467487">
     <rdfs:label>Hochfassung für Perle mit Einsteckstiften, CR_1_A_Fa_22</rdfs:label>
     <rdfs:comment>leer</rdfs:comment>
     <dcterms:medium>Gold</dcterms:medium>
-    <crown:analysisPerformed>
-      <crown:Analysis rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.analysis.1">
-        <rdfs:label>3D Mikroskopie</rdfs:label>
-      </crown:Analysis>
-    </crown:analysisPerformed>
     <gams:textualContent>1467487 CR_1_A_Fa_22 Kronreif Hochfassung für Perle mit Einsteckstiften Gold nan leer 3D Mikroskopie</gams:textualContent>
+    <crown:descriptionOf>
+      <crown:PearlSetting rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting">
+        <crown:feature>
+          <crown:Opening rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.Opening">
+            <crown:other>(not assigned)</crown:other>
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#OpeningInBaseplate" />
+            <crown:matchesFormOfSetting>1</crown:matchesFormOfSetting>
+          </crown:Opening>
+        </crown:feature>
+        <crown:feature>
+          <crown:SolderingTechnique rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.SolderingTechnique">
+            <crown:other>(not assigned)</crown:other>
+          </crown:SolderingTechnique>
+        </crown:feature>
+        <crown:feature>
+          <crown:TechnicalStructure rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.TechnicalStructure">
+            <crown:other>(not assigned)</crown:other>
+          </crown:TechnicalStructure>
+        </crown:feature>
+        <crown:feature>
+          <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.ManufacturingProcess">
+            <crown:features>(not assigned)</crown:features>
+          </crown:ManufacturingProcess>
+        </crown:feature>
+        <crown:component>
+          <crown:BeadedWires rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.BeadedWires">
+            <crown:wire1Diameter>0.00000000</crown:wire1Diameter>
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#EquatorLine" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#EquatorLineWire2" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#2ndPinOn1stBeadedWireRing" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Pin2ndBeadedWireRing" />
+            <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#2ndPinFromTube" />
+            <crown:wire2Diameter>0.00000000</crown:wire2Diameter>
+            <crown:other>(not assigned)</crown:other>
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.BeadedWires.Pin" />
+          </crown:BeadedWires>
+        </crown:component>
+        <crown:component>
+          <crown:Tubes rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.Tubes">
+            <crown:number>4.00000000</crown:number>
+            <crown:height>0.00000000</crown:height>
+            <crown:diameter>0.00000000</crown:diameter>
+            <crown:sheetThickness>0.00000000</crown:sheetThickness>
+            <crown:spaceBetween>0.00000000</crown:spaceBetween>
+            <crown:other>(not assigned)</crown:other>
+          </crown:Tubes>
+        </crown:component>
+        <crown:component>
+          <crown:Pins rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.Pins">
+            <crown:component rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.Pins.Pin" />
+          </crown:Pins>
+        </crown:component>
+      </crown:PearlSetting>
+    </crown:descriptionOf>
     <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.media.1405710">
-        <rdfs:label>CR_1_A_Fa_Nummerierung_farbcode</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487/IMAGE.1"/>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.1">
+        <rdfs:label>CR_1_A_Fa_22_Lokalisation.jpg</rdfs:label>
         <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_Lokalisation.jpg</schema:contentUrl>
+      </schema:ImageObject>
     </crown:media>
     <crown:media>
-      <schema:MediaObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.media.1406110">
-        <rdfs:label>CR_1_A_Fa_22_Lokalisation</rdfs:label>
-        <schema:image rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487/IMAGE.2"/>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.2">
+        <rdfs:label>CR_1_A_Fa_22_AA_2_ZL_Low_12x.jpg</rdfs:label>
         <dcterms:format>image/jpeg</dcterms:format>
-      </schema:MediaObject>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_AA_2_ZL_Low_12x.jpg</schema:contentUrl>
+      </schema:ImageObject>
     </crown:media>
-    <crown:conditionOfObject>
-      <crown:AdhesionDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.adhesiondamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:AdhesionDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DiscolorationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.discolorationdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DiscolorationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BurntSurface rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.burntsurface">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BurntSurface>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:ToolTraceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.tooltracedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:ToolTraceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DeformationDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.deformationdamage">
-        <crown:comment>Röhrchen: [[gestaucht - Schlag von oben]], Fugen sind unter Bildung von Falten aufgeweitet</crown:comment>
-      </crown:DeformationDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:DetachmentOfPlateDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.detachmentofplatedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:DetachmentOfPlateDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:CrackDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.crackdamage">
-        <crown:comment>2. Perldrahtring: klafft 1mm auseinander</crown:comment>
-      </crown:CrackDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:BrokenSolderingDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.brokensolderingdamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:BrokenSolderingDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:FractureDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.fracturedamage">
-        <crown:comment>(not assigned)</crown:comment>
-      </crown:FractureDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:MissingPartDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.missingpartdamage">
-        <crown:comment>Einsteckstift 1. Perldrahtring: Rückstände von aufgerissener Lotstelle</crown:comment>
-      </crown:MissingPartDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:SettingEvidenceDamage rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.settingevidencedamage">
-        <crown:comment>Perle: fehlt; Einsteckstift: fehlt</crown:comment>
-      </crown:SettingEvidenceDamage>
-    </crown:conditionOfObject>
-    <crown:conditionOfObject>
-      <crown:Condition rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.condition">
-        <crown:other>Perle: fehlt</crown:other>
-      </crown:Condition>
-    </crown:conditionOfObject>
-    <crown:description>
-      <crown:Interventions rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.interventions">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#inventorynumberCR_1_A_Ei_6"/>
-      </crown:Interventions>
-    </crown:description>
-    <crown:description>
-      <crown:Intervention rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.intervention">
-        <crown:comment>1. Perldrahtring (äußerer Perldrahtring, hinter 1. Röhrchen): am Rand angebohrt [[bei Herstellung der Löcher für Montage des Eisenbandes]]</crown:comment>
-      </crown:Intervention>
-    </crown:description>
-    <crown:description>
-      <crown:ManufacturingProcess rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.manufacturingprocess">
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#SpecialFeatures(notassigned)"/>
-      </crown:ManufacturingProcess>
-    </crown:description>
-    <crown:descriptionOfComponents>
-      <crown:PearlWireRing rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.pearlwirering">
-        <crown:wire rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487.descriptionOfComponents.wire"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline0"/>
-      </crown:PearlWireRing>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Aperture rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.aperture">
-        <crown:onBaseplate rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#BasePlate"/>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Aperture>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Tube rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.tube">
-        <crown:number>4</crown:number>
-        <crown:plateThickness>0</crown:plateThickness>
-        <crown:distanceBetween>0</crown:distanceBetween>
-        <crown:other>(not assigned)</crown:other>
-      </crown:Tube>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Pins rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.pins">
-        <crown:pin rdf:resource="https://gams.uni-graz.at/o:crown.object.1467487.descriptionOfComponents.pin"/>
-        <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#fromtubes0"/>
-      </crown:Pins>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:Pin rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.pin">
-        <crown:diameter>0</crown:diameter>
-        <crown:other>Einsteckstift auf 1. Perldrahtring: fehlt, leere Lotstelle am 1. und 2. Perldrahtring sichtbar;</crown:other>
-      </crown:Pin>
-    </crown:descriptionOfComponents>
-    <crown:descriptionOfComponents>
-      <crown:PearlWires rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.pearlwires">
-        <crown:other>(not assigned)</crown:other>
-      </crown:PearlWires>
-    </crown:descriptionOfComponents>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.3">
+        <rdfs:label>CR_1_A_Fa_22_Bruecke_zu_Fa_27_R_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_Bruecke_zu_Fa_27_R_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.4">
+        <rdfs:label>CR_1_A_Fa_22_Bruecke_zu_Fa_27_R_1_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_Bruecke_zu_Fa_27_R_1_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.5">
+        <rdfs:label>CR_1_A_Fa_22_TL_30x_freigestellt_aus_Scan.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_TL_30x_freigestellt_aus_Scan.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.6">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_1_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_1_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.7">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_20x_+Einsteckstift_abgerissen.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_+Einsteckstift_abgerissen.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.8">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_1.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.9">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_2.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.10">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_3.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.11">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_20x_Bruecke_zu_Fa_27.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_Bruecke_zu_Fa_27.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.12">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_20x_Bruecke_zu_Fa_27_1.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_Bruecke_zu_Fa_27_1.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.13">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_20x_Grundplatte.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_Grundplatte.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.14">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_20x_Roehrchen_offen.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_20x_Roehrchen_offen.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.15">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_2_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_2_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.16">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_30x_Einsteckstift_abgerissen.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_30x_Einsteckstift_abgerissen.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.17">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_30x_Roehrchen_offen.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_30x_Roehrchen_offen.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.18">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_3_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_3_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.19">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_40x_4.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.20">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_40x_5.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.21">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_40x_6.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.22">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_40x_Grundplatte.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_40x_Grundplatte.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.23">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_5_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_5_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.24">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_5_40x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_5_40x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.25">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_6_40x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_6_40x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.26">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_abgerissener+Einsteckstift_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_abgerissener+Einsteckstift_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.27">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_abgerissener+Einsteckstift_30x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_abgerissener+Einsteckstift_30x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.28">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_Grundblech_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_Grundblech_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.29">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_Grundblech_40x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_Grundblech_40x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.30">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_Roehrchen_offen_20x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_Roehrchen_offen_20x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
+    <crown:media>
+      <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.img.31">
+        <rdfs:label>CR_1_A_Fa_22_ZL_R_Roehrchen_offen_30x.jpg</rdfs:label>
+        <dcterms:format>image/jpeg</dcterms:format>
+        <schema:contentUrl>https://crown.goobi.cloud/viewer/api/v2/records/CR_1_A_Fa_22/files/images/CR_1_A_Fa_22_ZL_R_Roehrchen_offen_30x.jpg</schema:contentUrl>
+      </schema:ImageObject>
+    </crown:media>
   </crown:Object>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487/IMAGE.1">
-    <schema:contentURL>Projekte\CROWN\CR_1_A\CR_1_A_Fa_Nummerierung_farbcode.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Pin rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.descriptionOfComponents.pin">
-    <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#fromtubes"/>
-    <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#onfirstpearlwirering"/>
+  <crown:Pin rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.Pins.Pin">
+    <crown:fromTube>1</crown:fromTube>
   </crown:Pin>
-  <schema:ImageObject rdf:about="https://gams.uni-graz.at/o:crown.object.1467487/IMAGE.2">
-    <schema:contentURL>Projekte\CROWN\CR_1_A\CR_1_A_Fa\CR_1_A_Fa_22\CR_1_A_Fa_22_Lokalisation.jpg</schema:contentURL>
-  </schema:ImageObject>
-  <crown:Wire rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.descriptionOfComponents.wire">
-    <crown:diameter>0</crown:diameter>
-    <crown:has rdf:resource="https://gams.uni-graz.at/o:crown.vocabulary#Equatorline"/>
-  </crown:Wire>
+  <crown:Pin rdf:about="https://gams.uni-graz.at/o:crown.object.1467487.PearlSetting.BeadedWires.Pin">
+    <crown:diameter>0.00000000</crown:diameter>
+    <crown:other>Einsteckstift auf 1. Perldrahtring: fehlt, leere Lotstelle am 1. und 2. Perldrahtring sichtbar;</crown:other>
+  </crown:Pin>
 </rdf:RDF>
