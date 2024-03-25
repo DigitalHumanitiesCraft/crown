@@ -5,6 +5,16 @@
 * Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
 * Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
 
+* **Objectives of the Document**
+  * To provide a guide to establishing a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data in accordance with FAIR principles.
+  * To outline the steps involved in the data transformation process, including data export, processing and conversion to RDF format.
+  * Introduce the tools and scripts used in the workflow and explain their role in data extraction, ontology mapping and RDF creation.
+  * To detail the development and structure of the application ontology, focusing on how it facilitates the integration of museum data with domain ontologies.
+* **Prerequisites**
+  * Basic understanding of museum data management
+  * Knowledge of RDF, RDFs and basic data modelling
+  * Python basics
+
 ## Introduction
 
 ### About the CROWN Project
@@ -37,62 +47,36 @@ Another script, **datafields-to-ontology.py**, extracts mappings from the datafi
 
 The RDF data and the application ontology together describe all the information about the CROWN project, or any other project represented in TMS. This data can be used directly in a triple store, or archived and published in a research data **repository**.
 
-### Objectives of the Documentation
-The primary objective is to guide users through the data transformation processes implemented in the CROWN Project, ensuring clarity, reproducibility, and adherence to best practices in data modelling.
+## TMS and Export
 
-### Target Audience
-This documentation is intended for academics, digital humanities, cultural heritage, linked open data community and developers involved in museum data management and ontology engineering, specifically those working with TMS, RDF, and related technologies.
+### The Museum System (TMS)
 
-## Prerequisites
+The Museum System (TMS), developed by Gallery Systems and built on an open architecture database using Microsoft SQL Server, is a web-based collections management system designed for museums, galleries and cultural institutions. It supports the effective management of collections. TMS Collections provides a wide range of collection management tools, including
 
-- Basic understanding of museum data management
-- Knowledge of RDF and ontological structures
-- Technical requirements include proficiency in Python, ability to work with Excel and Google Spreadsheets, and API access
+- **Objects Management:** Enables the cataloguing and management of detailed records of objects, such as descriptions, provenance, condition and location.
+- Exhibitions and Loans:** Helps organise and track objects that are exhibited or loaned to other organisations.
+- Digital Asset Management:** Integrates with systems to associate multimedia files with object records, enhancing documentation.
+- Conservation Documentation:** Provides modules for recording treatments, condition reports and conservation activities.
+- Reporting and Analysis:** Includes reporting capabilities for customised reports and collection insights.
+- Standards Compliance:** Complies with international standards such as CDWA, CIDOC CRM, LIDO and Dublin Core for collection data management and exchange.
+- Web Publishing:** Can be integrated with eMuseum to publish collections online, widening access to collections.
 
-## Section 1: Understanding TMS and the Datafields Spreadsheet
+### TMS Excel Export.
 
-The Museum System (TMS)
+The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS, outlining the structured approach to managing and documenting various aspects of the objects under study.
 
-### Overview over TMS Excel Export.
+| File Name                                      | Primary Focus                        | Key Fields                                                                                                   | Description                                                                                                                                                           |
+|------------------------------------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CROWN_Objects_1_2024_02_02.xlsx                | Details of various objects           | ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil | Records details on objects, including material, dimensions, and condition. Authority50ID and Bestandteil indicate relationships to other parts.                       |
+| CROWN_Objects_3_TextEntries_2024_02_02.xlsx    | Text entries related to the objects  | ID, TextType, TextEntry                                                                                      | Stores additional descriptive or historical text information on objects for various purposes including display and documentation.                                      |
+| CROWN_Objects_4_AltNumbers_2024_02_02.xlsx     | Alternate numbering for objects      | ID, AltNumDescription, AltNum                                                                                | Provides alternate identifiers or links to resources, allowing for cross-references to external databases or digital collections.                                      |
+| CROWN_Objects_5_Constituents_2024_02_02.xlsx   | Constituent information on objects   | ObjectID, DisplayOrder, Role, DisplayName, ConstituentID                                                     | Details on individuals or institutions associated with the objects, such as analysis participants.                                                                     |
+| CROWN_Objects_6_Medien_2024_02_02.xlsx         | Media related to the objects         | ObjectID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName                    | Manages digital media for objects, including images and documents. Path and filename indicate storage location within TMS.                                            |
+| CROWN_Restaurierung_1_2024_02_02.xlsx          | Information for analysis events      | ID, ObjectNumber, ExaminerID, dbo_Constituents_DisplayName, Examiner2ID, SurveyISODate, SurveyType, Project, ConditionID | Records details on analysis assessments, including examiner details and survey types, for tracking analysis events.                                                    |
+| CROWN_Restaurierung_2_2024_02_02.xlsx          | Detailed restoration actions         | ConditionID, CondLineItemID, AttributeType, BriefDescription, Statement, Proposal, ActionTaken, DateCompleted, Treatment  | Dives into specific restoration and analysis treatments, documenting actions taken and future conservation proposals.                                                  |
+| CROWN_Restaurierung_3_Medien_2024_02_02.xlsx   | Media related to restoration and analysis | CondLineItemID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName                | Focuses on documenting restoration and analysis through media, including before/after images, reports, or scans.                                                       |
+| Crown_Userfields_2024_02_02.xlsx               | Custom user-defined fields for objects| ObjectNumber, ID, UserFieldName, FieldValue, GroupName, UserFieldGroupID, NumericFieldValue, DisplayOrder, UserFieldID | Defines project-specific TMS data fields for the CROWN project. "UserFieldName" is mapped to "Property Path" in the Data Fields spreadsheet.                          |
 
-
-1. CROWN_Objects_1_2024_02_02.xlsx
-Details of various objects, presumably part of a collection.
-Key Fields: ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil.
-Records detailed descriptions and conditions of objects, including material (Medium), dimensions, and specific notes on condition or features. The Authority50ID and Bestandteil define a relationship to other parts.
-2. CROWN_Objects_3_TextEntries_2024_02_02.xlsx
-Primary Focus: Text entries related to the objects.
-Key Fields: ID, TextType, TextEntry.
-Appears to store additional descriptive or historical text information related to objects, possibly for display or documentation purposes.
-TextType contains Bemerkung, Beschreibung, Bildbeschreibung, Notiz, Transkription, Literaturzitat, Recherchenotiz, Beschriftung
-3. CROWN_Objects_4_AltNumbers_2024_02_02.xlsx
-Primary Focus: Alternate numbering or identifiers for objects.
-Key Fields: ID, AltNumDescription, AltNum.
-Provides alternate identifiers or links to additional resources, potentially offering cross-references to external databases or digital collections.
-4. CROWN_Objects_5_Constituents_2024_02_02.xlsx
-Primary Focus: Constituent information related to the objects.
-Key Fields: ObjectID, DisplayOrder, Role, DisplayName, ConstituentID.
-Details on individuals or institutions associated with the objects, such persons involved in an analysis
-5. CROWN_Objects_6_Medien_2024_02_02.xlsx
-Primary Focus: Media related to the objects.
-Key Fields: ObjectID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName.
-Manages digital media associated with objects, including images and documents. The path and filename fields indicate the storage location within TMS.
-6. CROWN_Restaurierung_1_2024_02_02.xlsx
-Information for analysis events.
-Key Fields: ID, ObjectNumber, ExaminerID, dbo_Constituents_DisplayName, Examiner2ID, SurveyISODate, SurveyType, Project, ConditionID.
-Records details on analysis  assessments, including examiners and survey types. Is used for tracking analysis events.
-7. CROWN_Restaurierung_2_2024_02_02.xlsx
-Primary Focus: Detailed restoration actions.
-Key Fields: ConditionID, CondLineItemID, AttributeType, BriefDescription, Statement, Proposal, ActionTaken, DateCompleted, Treatment.
-Provides a deeper dive into specific restoration and analysis treatments, actions taken, and proposals for future conservation efforts.
-8. CROWN_Restaurierung_3_Medien_2024_02_02.xlsx
-Primary Focus: Media related to restoration and analysis.
-Key Fields: CondLineItemID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName.
-Focuses on documenting restoration through media, potentially including before/after images, reports, or scans.
-9. Crown_Userfields_2024_02_02.xlsx
-Primary Focus: Custom user-defined fields for objects.
-Key Fields: ObjectNumber, ID, UserFieldName, FieldValue, GroupName, UserFieldGroupID, NumericFieldValue, DisplayOrder, UserFieldID.
-Defines all project specific TMS data fields explicitly created for the CROWN project. The structure of this table is different from the other tables. It defines the data field in "UserFieldName" and the corresponding value in "FieldValue". For the object with the ID "1481717" there is a user field "Form:" with the value "viereckig". "UserFieldName" is mapped to the "Property Path" column in the Data Fields spreadsheet.
 
 ### 1.2 Datafields Spreadsheet
 
