@@ -25,6 +25,8 @@ The project consists of several key tasks and packages, such as developing a dom
 
 ### Overview of the Workflow
 
+![CROWN Workflow](img/crown-workflow.png)
+
 The workflow begins with data collection using The Museum System (TMS). TMS allows data to be exported in Excel format, with a variety of data fields tailored to the needs of the museum's operations and the specifics of individual objects.
 
 Once extracted, the data fields spreadsheet becomes a critical intermediary. This is where domain experts work together to define and refine the data fields that TMS will use. They provide translations for field names and establish definitions for each field, ensuring clarity and consistency across the dataset. This spreadsheet is integral to the mapping process, where data fields are linked to corresponding elements in the ontology being developed.
