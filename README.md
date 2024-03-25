@@ -1,27 +1,27 @@
 # Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data
 
-* Dr. Martina Griesser, KHM-Museumsverband, Wissenschaftliche Anstalt öffentlichen Rechts
-* Christopher Pollin, ZIM, Universität Graz
+[CLARIAH-AT - Funding Call 2022: Interoperability and Reusability of DH Data and Tools](https://clariah.at/project-funding)
+
+* Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
+* Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
 
 ## Introduction
 
 ### About the CROWN Project
 
-The CROWN Project is a research initiative to study the Imperial Crown of the Holy Roman Empire, an iconic artefact of European history and tradition. This comprehensive study adopts an interdisciplinary methodology, integrating art history, conservation science and technological analysis to unravel the complexities surrounding the Crown's material composition, historical significance and state of conservation.
+The CROWN project is an interdisciplinary research project focusing on the Imperial Crown of the Holy Roman Empire. It combines fields such as art history, history, conservation science and technological analysis. The aim is to understand the material composition of the crown, its historical significance and its state of conservation.
 
-Central to the project is the analysis of the crown's physical attributes, the composition and arrangement of its gemstones, and the technological craftsmanship evident in its construction. Specialised techniques such as Raman spectroscopy, µ-XRF analysis and 3D digital microscopy play a central role in these investigations, providing insights into the methods used by medieval craftsmen and the chronological sequence of the crown's assembly.
+At the heart of the project is a detailed examination of the physical characteristics of the crown, including all its different parts and components, such as its gemstone settings, wires and plates. We will call these components `crown:Object`. Advanced methods such as Raman spectroscopy, µ-XRF analysis, 3D digital microscopy and others are key to these studies. They provide insights into the physical composition of the different materials in each component, and thus into the working techniques and the condition of the crown.
 
-In addition to material and technological research, the project will also explore the historical and symbolic facets of the crown. This includes an examination of the inscriptions, the stylistic elements in relation to their historical context, and the representation of the crown in historical sources. The symbolic and theological interpretations of the crown's design and ornamentation will also be examined in order to understand its role as a symbol of divine kingship.
+The project also examines the history of the crown. This includes studying the inscriptions, analysing stylistic features within their historical periods, and considering how the crown has been depicted in historical records. The study also looks at the design and decoration of the crown from a symbolic point of view, in order to understand its significance as an emblem of divine authority. For this reason, additional sources on the crown and its history are also included in the project. All these sources, from charters to images and physical objects, are summarised as `crown:AdditionalMaterial`.
 
-### About the CLARIAH funded “Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data” Project
+### CLARIAH-AT: “Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data”
 
-The "Sharing the CROWN - Establishing a Workflow from Collection Data to Linked Research Data" project is a project funded by CLARIAH to improve the accessibility and reusability of museum research data. Given the complexity and historical significance of the crown, the project is designed to address the challenges of managing, processing and sharing specialised research data derived from interdisciplinary studies of the crown.
+The project, supported by CLARIAH-AT, aims to improve the accessibility and reusability of museum research data through improved data creatin workflows. Due to the complexity and historical value of the Crown, the project addresses the difficulties of handling, analysing and disseminating specialised research data resulting from cross-disciplinary studies of the Crown.
 
-The main objective of the project is to develop a best practice workflow that facilitates the transformation of collection data captured by The Museum System (TMS) into Findable, Accessible, Interoperable and Reusable (FAIR) research data. This involves moving beyond conventional collection data to meet the nuanced requirements of specific research domains encountered in the museum context, where standard templates for data capture and standardisation are lacking.
+Its primary objective is to establish best practice for transforming data from The Museum System (TMS) into data that is Findable, Accessible, Interoperable and Reusable (FAIR). This process goes beyond traditional data management to address the complex needs of museum research, which often lacks standard data capture and standardisation methods. A critical part of this effort is the creation of a structured RDF data and lightweight application ontology, based on the principles of the [CIDOC Conceptual Reference Model (CIDOC-CRM)](https://www.cidoc-crm.org). This ontology acts as a structure for linking data points to controlled vocabularies and Wikidata, adding a semantic layer.
 
-A key aspect of this endeavour is the creation of a lightweight knowledge graph (not including description logics) for the formal representation of both the data model and the entities within the dataset. This is achieved through the development of an application ontology based on the principles of the CIDOC Conceptual Reference Model (CIDOC-CRM). This ontology serves as a framework for linking data entities to controlled vocabularies and Wikidata, thereby enriching the dataset with a rich semantic layer that facilitates interoperability and increases the depth of analysis.
-
-The project is structured around several key actions and work packages, including the development of a domain-specific ontology, the mapping and export of data from TMS into a Linked Open Data (LOD) and FAIR dataset, the semantic enrichment of data through matching with knowledge bases such as Wikidata, and the implementation of a proof-of-concept prototype for data access. Each of these components is designed to address specific challenges associated with managing complex research data in the museum sector, from initial data modelling to the final presentation and analysis of linked research data.
+The project consists of several key tasks and packages, such as developing a domain-specific application ontology, converting the TMS data into a Linked Open Data (LOD) and FAIR RDF dataset, semantically enriching the data by aligning it with resources such as Wikidata, and creating a prototype in [GAMS](https://gams.uni-graz.at/) for accessing the data. These steps are designed to address the unique challenges of managing complex research data in the museum environment, from initial data modelling to the final analysis and presentation of linked research data.
 
 ### Overview of the Workflow
 
