@@ -1,9 +1,9 @@
 # Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data
 
 [CLARIAH-AT - Funding Call 2022: Interoperability and Reusability of DH Data and Tools](https://clariah.at/project-funding)
-
-* Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
-* Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
+Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
+Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
+Author: Christopher Pollin
 
 * **Objectives of the Document**
   * To provide a guide to establishing a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data in accordance with FAIR principles.
@@ -110,6 +110,168 @@ The script reads data from multiple Excel files related to the CROWN project, pr
   - **String Normalization**: Includes removing unnecessary spaces, converting umlauts, and formatting strings for URIs and JSON.
   - **Data Type Conversions**: Converts numeric data and formats dates appropriately for RDF.
   - **File Extension Handling**: Translates file extensions into MIME types for media files.
+
+#### Example Output as Turtle RDF
+
+This section provides a demonstration of how data from The Museum System (TMS) is represented Turtle RDF.
+
+```
+@prefix crown: <https://gams.uni-graz.at/o:crown.ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gams: <https://gams.uni-graz.at/o:gams-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gams.uni-graz.at/o:crown.object.1469100> a void:Dataset,
+        crown:Object ;
+    rdfs:label "opak gelb, CR_1_B_ET_Em_ogel" ;
+    dc:creator "Digital Humanities Craft OG",
+        "Pollin, Christopher",
+        "Reiter, Georg",
+        "Steiner, Christian" ;
+    dc:date 2024 ;
+    dc:description "Senkschmelz" ;
+    dc:language "ger" ;
+    dc:publisher "Institute Centre for Information Modelling, University of Graz",
+        "Kunsthistorisches Museum, Wien" ;
+    dc:relation "CROWN. Untersuchungen zu Materialität, Technologie und Erhaltungszustand der Wiener Reichskrone.",
+        "http://gams.uni-graz.at/crown" ;
+    dc:rights "Creative Commons BY-NC 4.0",
+        "https://creativecommons.org/licenses/by-nc/4.0/" ;
+    dc:source "KHM" ;
+    dc:subject "Geschichte"@de,
+        "Kunstgeschichte"@de,
+        "Linked Open Data"@de,
+        "Sammlung"@de,
+        "Art History"@en,
+        "Collection"@en,
+        "History"@en,
+        "Linked Open Data"@en ;
+    dc:title "opak gelb, CR_1_B_ET_Em_ogel" ;
+    dcterms:isPartOf "Kronreif" ;
+    dcterms:medium "Email" ;
+    dcterms:modified "2024-03-04"^^xsd:date ;
+    void:dataDump <https://gams.uni-graz.at/o:crown.object.1469100/ONTOLOGY> ;
+    void:feature <http://www.w3.org/ns/formats/RDF_XML> ;
+    void:vocabulary dcterms:,
+        crown:,
+        gams:,
+        schema: ;
+    rdfs:comment "Senkschmelz" ;
+    rdfs:seeAlso "https://www.projekt-reichskrone.at" ;
+    crown:Enamel <https://gams.uni-graz.at/o:crown.object.1469100.damage> ;
+    crown:analysisPerformed <https://gams.uni-graz.at/o:crown.object.1469100.EnamelMuRaman> ;
+    crown:conditionOf <https://gams.uni-graz.at/o:crown.object.1469100.Enamel> ;
+    crown:descriptionOf <https://gams.uni-graz.at/o:crown.object.1469100.Enamel> ;
+    crown:surveyPerformed <https://gams.uni-graz.at/o:crown.object.1469100.212282>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.214275> ;
+    gams:textualContent "1469100 CR_1_B_ET_Em_ogel Kronreif opak gelb Email nan Senkschmelz 3D Mikroskopie; µ-XRF; MA-XRF; µ-Raman; FORS; technische Fotografie" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.212282> a crown:Survey ;
+    crown:attributeType "FORS" ;
+    crown:briefDescription "Farbcharakterisierung Email" ;
+    crown:date "2023-06-21" ;
+    crown:media <https://gams.uni-graz.at/o:crown.object.1469100.media.1497939>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.media.1506998>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.media.1525049>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.media.1525193> ;
+    crown:personInvolved <https://gams.uni-graz.at/o:crown.index.person#45373>,
+        <https://gams.uni-graz.at/o:crown.index.person#56142> ;
+    crown:surveyType "Analyse" ;
+    crown:treatment "Messgerät: Gorgias Reflectance spectrometer for Art, Cultural Heritage Science Open Source (CHSOS); Lichtquelle: 10 W Halogenlampe; Reflexionsfasersonde mit 7 x 600 µ Kernfasern (6 Anegungsfaern, 1 Detektionsfaser; Messgeometrie: ca. 45° Detektor: Toshiba TCD1304DG linear array mit 300 – 1000 nm Spektralbereich; Durchmesser des Messspots: ca. 1 mm; Messpunkt entspricht CRONO-Messpunkt" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.214275> a crown:Survey ;
+    crown:attributeType "µ-Raman" ;
+    crown:briefDescription "Charakterisierung des Emailtyps, der farbgebenden Komponenten, Trübungsmittel, ev. Korrosionsprodukte" ;
+    crown:date "2023-10-03" ;
+    crown:media <https://gams.uni-graz.at/o:crown.object.1469100.media.1524894>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.media.1524896>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.media.1524897>;
+    crown:personInvolved <https://gams.uni-graz.at/o:crown.index.person#90747>,
+        <https://gams.uni-graz.at/o:crown.index.person#90752> ;
+    crown:statement "signals of lead antimonate (Naples) yellow (Pb2Sb2O7); Raman signals at about 340 cm−1 (Sb–O and Pb–O modes) are indications of a modified pyrochlore structure" ;
+    crown:surveyType "Analyse" ;
+    crown:treatment "portable i-Raman Plus instrument by BWTEC; two laser sources at 532 and 785 nm; two dedicated TE cooled CCD detectors; two optical fibre probes (one for each laser, both 1.5 m long) coupled to a micro-probe equipped with different objectives (4 x, 20 x, 40 x and 80 x); spot size: 90-100 µm; different lateral resolutions (depending on the objective used) reaching sampling spots of 300-400, 90-100, 40-50 and 15-20 µm, respectively); a camera for visualizing the sample and focusing the lasers on the selected measurement spots; spectral range: 65-4200 cm-1; laser power could be modulated up to 40-50 mW for the 532 nm and about 300 mW for the 785 nm excitation; number of measurement points: 5" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Adhesion> a crown:Adhesion ;
+    crown:description "bräunliche Masse in Vertiefungen (Blasen/Fehlstellen/Risse): an Oberfläche anhaftende Goldpartikel, lose Emailpartikel in Masse eingeschlossen (?); teilweise mit weißen Ausblühungsprodukten an der Oberfläche;" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Blisters> a crown:Blisters ;
+    crown:description "teilweise sehr groß und durch die Stege begrenzt (nicht komplett rund ausgebildet);" ;
+    crown:diameterMax "0.00000000" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.CrackFracture> a crown:CrackFracture ;
+    crown:description "(not assigned)" ;
+    crown:frequency "wenig" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.CrystallineEfflorescence> a crown:CrystallineEfflorescence ;
+    crown:description "(not assigned)" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Granularity> a crown:Granularity ;
+    crown:description "(not assigned)" ;
+    crown:grainSizeMax "0.00000000" ;
+    crown:grainSizeMin "0.00000000" ;
+    crown:has <https://gams.uni-graz.at/o:crown.vocabulary#GranularityVisible> .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Intervention> a crown:Intervention ;
+    crown:description "(not assigned)" ;
+    crown:inventoryNumber "0" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.LossOfAdhesion> a crown:LossOfAdhesion ;
+    crown:description "(not assigned)" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Losses> a crown:Losses ;
+    crown:description "Knöchel, links: Niveauunterschied zwischen Emailoberfläche und Stegen [[oberflächige Abgesplitterung]], bräunliche Masse partiell höher als Emailoberfläche [[Fehlstelle nach Anhaftungen entstanden]];" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.ManufacturingProcess> a crown:ManufacturingProcess ;
+    crown:features "herstellungsbedingte Fehlstellen: Email in sehr spitzen Winkel und anderen Engstellen zwischen den Stegen nicht eingeflossen; deplatzierte Emailkörner: andersfarbige Emailkörner bei Herstellungsprozess in falsche Zellen gefallen; deplatzierte Emailkörner: in Bereichen wo Stege nicht geschlossen aneinander stoßen fließen Emailfarben ineinander;" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Scratches> a crown:Scratches ;
+    crown:description "(not assigned)" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel.TurbidityOfSurface> a crown:TurbidityOfSurface ;
+    crown:description "(not assigned)" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.EnamelMuRaman> a crown:EnamelMuRaman ;
+    crown:interpretation "Neapelgelb" ;
+    crown:numberOfMeasuringPoints "5.00000000" ;
+    crown:other "Kristallstruktur: modifizierter Pyrochlortyp" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.damage> a crown:damage ;
+    crown:Adhesion "1" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.media.1497939> a crown:Media ;
+    rdfs:label "CR_1_B_ET_Em_ogel_FORS_09" ;
+    dcterms:format "text/plain" ;
+    schema:contentUrl "Projekte\\CROWN\\CR_1_B\\CR_1_B_ET\\CR_1_B_ET_Em\\CR_1_B_ET_Em_FORS\\CR_1_B_ET_Em_ogel_FORS_09.txt" .
+
+<https://gams.uni-graz.at/o:crown.object.1469100.media.1506998> a crown:Media ;
+    rdfs:label "CR_1_B_ET_Em_spots_FORS" ;
+    dcterms:format "image/jpeg" ;
+    schema:contentUrl "Projekte\\CROWN\\CR_1_B\\CR_1_B_ET\\CR_1_B_ET_Em\\CR_1_B_ET_Em_FORS\\CR_1_B_ET_Em_spots_FORS.jpg" .
+
+# [...] more media objects
+
+<https://gams.uni-graz.at/o:crown.object.1469100.Enamel> a crown:Enamel ;
+    crown:additionalDescription "(not assigned)" ;
+    crown:appearance "homogen" ;
+    crown:damage <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Adhesion>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.CrackFracture>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.CrystallineEfflorescence>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Intervention>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.LossOfAdhesion>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Losses>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Scratches>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.TurbidityOfSurface> ;
+    crown:descriptionOfAppearance "in gesamter Emailschicht regelmäßig verteilte sehr kleine intensiv farbige Partikel [[Färbung mit Bleiantimon oder ähnlichem gelben Pigment]]; semi-transluzid: Farbpartikel und Blasen unterhalb der Oberfläche sichtbar;" ;
+    crown:feature <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Blisters>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.Granularity>,
+        <https://gams.uni-graz.at/o:crown.object.1469100.Enamel.ManufacturingProcess> ;
+    crown:other "lose Emailpartikel (Bruchstücke) in bräunlicher Masse (Anhaftung) eingeschlossen (?)" .
+```
 
 ### 2.2 The index-to-rdf.py Script
 
