@@ -41,7 +41,7 @@ The process begins with the collection of data through **The Museum System (TMS)
 
 Two Python scripts are used to convert the data from Excel to RDF format: excel-to-rdf.py and index-to-rdf.py. The **excel-to-rdf.py script** does most of the conversion, using the *Datafields Spreadsheet* to map Excel fields to the ontology and creates the **RDF data** itself. This stage also includes data normalisation to meet the specific needs of the project. The **index-to-rdf.py script** creates the necessary index files, like those for materials and persons. Both use the [rdflib](https://rdflib.readthedocs.io/en/stable/) Python library.
 
-The most important aspect of the workflow is the mapping of the data fields in TMS, in particular the user fields, which are customisable, project-specific data fields that can be defined in the TMS. These fields need to be mapped to RDF classes and properties defined in the application ontology, and it is important that domain experts are able to customise field names, definitions and translations. This is achieved by **Datafields Spreadsheet**. One recommendation is to use Google spreadsheets for this, but any spreadsheet or CSV will do for this type of work.
+A crucial element of the workflow is the mapping of TMS data fields, especially customisable, project-specific user fields, to RDF classes and properties within the application ontology. It's essential that domain experts have the flexibility to change field names, definitions and translations. This task is facilitated by the **Datafields Spreadsheet**. While Google spreadsheets are recommended for their ability to support real-time collaborative editing and built-in version control, any type of spreadsheet or CSV file can be used effectively. The ability for multiple users to edit simultaneously streamlines the workflow and leverages the collective expertise of different team members. In addition, the Google Spreadsheets API provides the ability to programmatically interact with the Datafields spreadsheet, increasing workflow efficiency. Nevertheless, working with CSV remains a viable option for non-commercial productions.
 
 Another script, **datafields-to-ontology.py**, extracts mappings from the datafields spreadsheet. This process likely involves insights from domain experts to develop the complete RDF data model. This specific, lightweight **application ontology** is crucial for organizing the RDF data for the CROWN project. Furthermore, it defines how to link to additional ontologies like CIDOC-CRM, helping to ensure the project aligns with broader cultural heritage documentation standards.
 
@@ -61,102 +61,68 @@ The Museum System (TMS), developed by Gallery Systems and built on an open archi
 - Standards Compliance:** Complies with international standards such as CDWA, CIDOC CRM, LIDO and Dublin Core for collection data management and exchange.
 - Web Publishing:** Can be integrated with eMuseum to publish collections online, widening access to collections.
 
-### TMS Excel Export.
+### TMS Excel Export
 
 The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS, outlining the structured approach to managing and documenting various aspects of the objects under study.
 
-| File Name                                  | Primary Focus                    | Key Fields                                                                                               | Description                                                                                                                                                       |
-|------------------------------------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CROWN_Objects_1_2024_02_02.xlsx            | Details of various objects       | ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil | Records details on objects, including material, dimensions, and condition. Authority50ID and Bestandteil indicate relationships to other parts.                   |
-| CROWN_Objects_3_TextEntries_2024_02_02.xlsx| Text entries related to the objects  | ID, TextType, TextEntry                                                                                  | Stores additional descriptive or historical text information on objects for various purposes including display and documentation.                                  |
-| CROWN_Objects_4_AltNumbers_2024_02_02.xlsx | Alternate numbering for objects  | ID, AltNumDescription, AltNum                                                                            | Provides alternate identifiers or links to resources, allowing for cross-references to external databases or digital collections.                                  |
-| CROWN_Objects_5_Constituents_2024_02_02.xlsx   | Constituent information on objects   | ObjectID, DisplayOrder, Role, DisplayName, ConstituentID                                                 | Details on individuals or institutions associated with the objects, such as analysis participants.                                                                 |
-| CROWN_Objects_6_Medien_2024_02_02.xlsx     | Media related to the objects     | ObjectID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName                | Manages digital media for objects, including images and documents. Path and filename indicate storage location within TMS.                                        |
-| CROWN_Restaurierung_1_2024_02_02.xlsx      | Information for analysis events  | ID, ObjectNumber, ExaminerID, dbo_Constituents_DisplayName, Examiner2ID, SurveyISODate, SurveyType, Project, ConditionID | Records details on analysis assessments, including examiner details and survey types, for tracking analysis events.                                                |
-| CROWN_Restaurierung_2_2024_02_02.xlsx      | Detailed restoration actions     | ConditionID, CondLineItemID, AttributeType, BriefDescription, Statement, Proposal, ActionTaken, DateCompleted, Treatment  | Dives into specific restoration and analysis treatments, documenting actions taken and future conservation proposals.                                              |
-| CROWN_Restaurierung_3_Medien_2024_02_02.xlsx   | Media related to restoration and analysis | CondLineItemID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName            | Focuses on documenting restoration and analysis through media, including before/after images, reports, or scans.                                                   |
-| Crown_Userfields_2024_02_02.xlsx           | Custom user-defined fields for objects| ObjectNumber, ID, UserFieldName, FieldValue, GroupName, UserFieldGroupID, NumericFieldValue, DisplayOrder, UserFieldID | Defines project-specific TMS data fields for the CROWN project. "UserFieldName" is mapped to "Property Path" in the Data Fields spreadsheet.                      |
+|File Name|Primary Focus|Key Fields|Description|
+|---|---|---|---|
+|CROWN_Objects_1_2024_02_02.xlsx|Details of various objects|ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil|Records details on objects, including material, dimensions, and condition. Authority50ID and Bestandteil indicate relationships to other parts.|
+|CROWN_Objects_3_TextEntries_2024_02_02.xlsx|Text entries related to the objects|ID, TextType, TextEntry|Stores additional descriptive or historical text information on objects for various purposes including display and documentation.|
+|CROWN_Objects_4_AltNumbers_2024_02_02.xlsx|Alternate numbering for objects|ID, AltNumDescription, AltNum|Provides alternate identifiers or links to resources, allowing for cross-references to external databases or digital collections.|
+|CROWN_Objects_5_Constituents_2024_02_02.xlsx|Constituent information on objects|ObjectID, DisplayOrder, Role, DisplayName, ConstituentID|Details on individuals or institutions associated with the objects, such as analysis participants.|
+|CROWN_Objects_6_Medien_2024_02_02.xlsx|Media related to the objects|ObjectID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName|Manages digital media for objects, including images and documents. Path and filename indicate storage location within TMS.|
+|CROWN_Restaurierung_1_2024_02_02.xlsx|Information for analysis events|ID, ObjectNumber, ExaminerID, dbo_Constituents_DisplayName, Examiner2ID, SurveyISODate, SurveyType, Project, ConditionID|Records details on analysis assessments, including examiner details and survey types, for tracking analysis events.|
+|CROWN_Restaurierung_2_2024_02_02.xlsx|Detailed restoration actions|ConditionID, CondLineItemID, AttributeType, BriefDescription, Statement, Proposal, ActionTaken, DateCompleted, Treatment|Dives into specific restoration and analysis treatments, documenting actions taken and future conservation proposals.|
+|CROWN_Restaurierung_3_Medien_2024_02_02.xlsx|Media related to restoration and analysis|CondLineItemID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName|Focuses on documenting restoration and analysis through media, including before/after images, reports, or scans.|
+|Crown_Userfields_2024_02_02.xlsx|Custom user-defined fields for objects|ObjectNumber, ID, UserFieldName, FieldValue, GroupName, UserFieldGroupID, NumericFieldValue, DisplayOrder, UserFieldID|Defines project-specific TMS data fields for the CROWN project. "UserFieldName" is mapped to "Property Path" in the Data Fields spreadsheet.|
 
+### Example crown:Object
 
-### 1.2 Datafields Spreadsheet
+todo
 
-The Datafields spreadsheet implemented in Google Spreadsheets offers several benefits.  Real-time collaboration between multiple users is streamlined, allowing for simultaneous editing. This enables a more efficient workflow, especially when drawing on the expertise of different individuals or teams. Google Spreadsheets' built-in version control system automatically logs all changes. Another advantage of Google Spreadsheets is that the Google Spreadsheets API allows programmatic interaction with the Datafields spreadsheet. Using a non-commercial production and working with CSV, howser is also possible. 
+## Mapping TMS to RDF: Datafields Spreadsheet
 
-In the context of museum databases, the ability to define custom data fields is essential. Museums house diverse collections ranging from archaeological artifacts to modern art, each with unique characteristics and historical contexts. Custom data fields allow museums to tailor their data management practices to the specific needs of their collections, enabling precise documentation, analysis, and sharing of information about each object. This workflow, even though it requires modelling and programming expertise, allowsa this complexity to be managed.
+Custom data fields are essential for effective data management in museums. These institutions manage collections ranging from archaeological artefacts to contemporary art, each with its own unique characteristics and history. Custom data fields allow museums to adapt their data management approaches to meet the unique needs of their collections. This customisation facilitates the accurate documentation, analysis and dissemination of details about each item. Managing this complexity requires expertise in modelling and programming, but ensures that museums can efficiently manage the intricacies of their collections.
 
-#### Spreadsheet Structure and Headers
+For this reason, it is important to have a workflow that supports these complex relationships between domains and object types
+
+### Structure of the Datafields Spreadsheet
 - **GroupName: german/english**: Organizes fields into logical groups or categories, making the spreadsheet easier to navigate and aligning with the museum's internal taxonomy.
 - **Property Path**: Specifies the exact path used in RDF modeling to ensure mapping to RDF classes and properties.
 - **Datatype**: Defines the type of data (e.g., integer, text, date).
 - **UserfieldName: german/english**: The field name as used in the database, provided in both English and German to support bilingual documentation and international collaboration. The German user field is the string used for matching in the TMS export.
 - **Definition: german/english**: A description of the field, its contents, and how it should be interpreted. Used for rdfs:label in the application ontology.
 
-## Section 2: Data Transformation Scripts
+## Data Transformation Scripts
 
-### 2.1 The excel-to-rdf.py Script
+### The excel-to-rdf.py Script
 
-This section provides an overview of the `excel-to-rdf.py` script, designed to convert data from Excel spreadsheets into RDF (Resource Description Framework) format.
+This section provides an overview of the `excel-to-rdf.py` script, designed to convert data from Excel spreadsheets into RDF format.
 
-#### Detailed Script Functionality
-
-The script reads data from multiple Excel files related to the CROWN project, processes this data, and outputs RDF/XML files. Key functionalities include:
+The script reads data from multiple Excel files related to the CROWN project, processes this data, and outputs RDF/XML files. It expects data from The Museum System (TMS) exported into Excel files and uses rdflib to create a RDF document for every object defined in the TMS export. Key functionalities include:
 
 - **Reading Excel Files**: Utilizes pandas to load data from specified Excel files into dataframes for processing.
+- **Mapping Process**: The script maps fields from Excel files to RDF properties based on predefined mappings in *Datafields Spreadsheet*.
 - **RDF Graph Construction**: Employs the rdflib library to build an RDF graph for each object described in the Excel data, adding various types of metadata and relationships.
 - **Data Reconciliation**: Incorporates reconciliation of specific data fields against external sources like Wikidata to enhance data quality and interoperability.
 - **Normalization and Formatting**: Applies several normalization and formatting routines to ensure data consistency and compatibility with RDF standards.
-
-#### Input and Output Format
-
-**Input Format**: The script expects data from The Museum System (TMS) exported into Excel files.
-
-**Output Format**: The script generates RDF/XML files. Each file represents an RDF graph for a single object from the input data, including all relevant metadata, relationships, and linked external resources.
-
-#### Mapping Process and Data Normalization
-
-**Mapping Process**: The script maps fields from Excel files to RDF properties based on predefined mappings. These mappings are critical for converting spreadsheet data into a structured format that aligns with the project's ontology.
-
-**Data Normalization**:
-- **String Normalization**: Includes removing unnecessary spaces, converting umlauts, and formatting strings for URIs and JSON.
-- **Data Type Conversions**: Converts numeric data and formats dates appropriately for RDF.
-- **File Extension Handling**: Translates file extensions into MIME types for media files.
-
-#### Code Walkthrough and Execution
-
-1. **Preparation**:
-   - Ensure all dependencies are installed, including pandas, rdflib, and any other required libraries.
-   - Verify that Excel files are accessible and in the correct format.
-
-2. **Execution**:
-   - Run the script with Python. Adjust paths to Excel files and output directories as needed in the script's global variables section.
-   - The script processes each object in turn, building an RDF graph and saving it as an XML file.
+  - **String Normalization**: Includes removing unnecessary spaces, converting umlauts, and formatting strings for URIs and JSON.
+  - **Data Type Conversions**: Converts numeric data and formats dates appropriately for RDF.
+  - **File Extension Handling**: Translates file extensions into MIME types for media files.
 
 ### 2.2 The index-to-rdf.py Script
 
-#### Purpose of Indexing in RDF Creation
-The rationale behind using indexing when creating RDF files, focusing on materials and persons.
-
-#### Handling Material and Person Indexes
-A guide to managing material and person indexes within the RDF creation process.
-
-#### Step-by-Step Guide to Script Usage
-Instructions for using the `index-to-rdf.py` script, including setup, execution, and troubleshooting.
+todo
 
 ### 2.3 The datafields-to-ontology.py Script
 
-#### Role in Ontology Creation
-An overview of how the `datafields-to-ontology.py` script contributes to the creation of the Application Ontology.
+todo
+* Role in Ontology Creation: An overview of how the `datafields-to-ontology.py` script contributes to the creation of the Application Ontology.
+* Extracting and Combining Mappings: Details on how the script extracts mappings from the Datafields Spreadsheet and combines them with additional domain knowledge.
+* CIDOC-CRM Integration: Guidance on integrating the CIDOC-CRM model into the Application Ontology.
 
-#### Extracting and Combining Mappings
-Details on how the script extracts mappings from the Datafields Spreadsheet and combines them with additional domain knowledge.
-
-#### CIDOC-CRM Integration
-Guidance on integrating the CIDOC-CRM model into the Application Ontology.
-
-#### Script Explanation and Implementation
-An explanation of the script's functionality and instructions for its implementation.
-
-## Section 3: Developing the Application Ontology
+## Application Ontology
 
 ### 3.1 Introduction to the "CROWN" Ontology
 
