@@ -99,6 +99,7 @@ Within the RDF framework of the CROWN project, `crown:Survey` is an entity relat
 
 ![crown:Survey](img/crowndescriptionOf.png)
 
+todo: https://chat.openai.com/g/g-kMVucvvwL-crowngpt
 
 
 ## Mapping TMS to RDF: Datafields Spreadsheet
