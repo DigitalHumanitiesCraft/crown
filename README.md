@@ -390,36 +390,24 @@ The image shows the *Visual Graph* feature of GraphDB
 
 It shows the `crown:Object` *"opak yellow, CR_1_B_ET_Em_ogel"* from the chapter "Example output as Turtle RDF". Two purple `crown:Survey` and the associated `crown:Media` as well as the `crown:conditionOf` and `crown:descriptionOf` of the object's enamel (o:crown.object.1469100.Enamel), which further describe various damages and conditions of the enamel. 
 
-## SPARQL Queries: Basics and Examples
+## CROWN SPARQL Examples
 
-This section will introduce SPARQL, the query language for RDF used to extract and manipulate data within GraphDB. SPARQL is the standard query language and protocol used to select, add, modify, or delete data stored in RDF format.
+This section introduces SPARQL, the query language for RDF used to extract and manipulate data within GraphDB.SPARQL is the standard query language and protocol used to select, add, modify or delete data stored in RDF format.
 
-Let's start by analysing the given SPARQL example:
+### Executing the SPARQL queryTo run the SPARQL query in GraphDB
 
-todo: sparql sample for crown data
+* Open GraphDB and ensure that the "crown" repository is selected.
+* Go to the SPARQL tab.
+* Paste the provided SPARQL query into the query editor.
+* Click the Execute button to execute the query.
 
-### Understanding the SPARQL Query
+### Example query:
 
-### Executing the SPARQL Query
+How can we retrieve a list of emerald gemstones (`smaragd`) that have undergone Raman spectroscopy analysis, including the date of analysis and results?
 
-To execute the SPARQL query in GraphDB:
+### SPARQL query:
 
-* Open GraphDB and make sure the "crown" repository is selected.
-* Go to the "SPARQL" tab.
-* Paste the provided SPARQL query in the query editor.
-* Click the "Execute" button to run the query.
-
-The results will be displayed in a table format below the query editor, with each row representing a person who satisfies the conditions specified in the query. You can then explore the obtained data to analyze various aspects of the persons in the dataset.
-
-### CROWN SPARQL Examples
-
-#### Research Question Example:
-
-How can we retrieve a list of emerald gemstones (`Smaragd`) that have undergone Raman spectroscopy analysis, including the date of analysis and findings?
-
-#### SPARQL Query:
-
-To answer this research question, we'll write a SPARQL query that filters objects by medium (`Smaragd`) and analysis type (`Raman`), and extracts relevant details.
+To answer this research question, we'll write a SPARQL query that filters objects by medium (`Smaragd`) and analysis type (`Raman`) and extracts relevant details.
 
 ```sparql
 PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
@@ -452,6 +440,8 @@ Executing the above query yields the following sample results in a tabular forma
 | https://gams.uni-graz.at/o:crown.object.1481005 | Stein, CR_1_K_St_11  | Smaragd| 2022-05-18   | Smaragd |
 | https://gams.uni-graz.at/o:crown.object.1480982 | Stein, CR_1_BgRo_St_29| Smaragd| 2022-05-18   | Smaragd |
 | ...                                           | ...                  | ...    | ...          | ...     |
+
+![crown:Survey](img/screen-graphdb-4.png)
 
 ### Tutorial Explanation:
 
