@@ -6,15 +6,37 @@
 * Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
 * Author: Christopher Pollin
 
-#### Objectives of the Document**
+#### Objectives of the Document
   * Provide guidance on how to establish a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data according to FAIR principles.
   * Outline the steps involved in the data transformation process, including data export, processing and conversion to RDF format.
   * Introduce the tools and scripts used in the workflow and explain their role in data extraction, ontology mapping and RDF creation.
   * Describe in detail the development and structure of the application ontology, focusing on how it facilitates the integration of museum data with domain ontologies.
-#### Prerequisites**
+#### Prerequisites
   * Basic understanding of museum data management
   * Knowledge of RDF, RDFs and basic data modelling
   * Python basics
+
+## Table of Contents
+
+- [1. Introduction](#introduction)
+  - [1.1 About the CROWN Project](#about-the-crown-project)
+  - [1.2 CLARIAH-AT: Sharing the CROWN](#clariah-at-sharing-the-crown)
+- [2. Workflow Overview](#workflow-overview)
+  - [2.1 TMS and Export](#tms-and-export)
+  - [2.2 Data Transformation Scripts](#data-transformation-scripts)
+    - [2.2.1 excel-to-rdf.py](#excel-to-rdfpy)
+    - [2.2.2 index-to-rdf.py](#index-to-rdfpy)
+    - [2.2.3 thesaurus-to-rdf.py](#thesaurus-to-rdfpy)
+    - [2.2.4 datafields-to-ontology.py](#datafields-to-ontologypy)
+- [3. Application Ontology](#application-ontology)
+  - [3.1 Introduction to the "CROWN" Ontology](#introduction-to-the-crown-ontology)
+  - [3.2 Building the Ontology](#building-the-ontology)
+- [4. Using GraphDB for Data Reuse](#using-graphdb-for-data-reuse)
+  - [4.1 Setting up GraphDB and Ingesting RDF Data](#setting-up-graphdb-and-ingesting-rdf-data)
+  - [4.2 Exploring Your Data with GraphDB](#exploring-your-data-with-graphdb)
+- [5. CROWN SPARQL Examples](#crown-sparql-examples)
+  - [5.1 Executing the SPARQL Query](#executing-the-sparql-query)
+  - [5.2 Example Query](#example-query)
 
 ## Introduction
 
