@@ -50,24 +50,14 @@ The RDF data and the application ontology together describe all the information 
 
 ## TMS and Export
 
-### The Museum System (TMS)
-
-The Museum System (TMS), developed by Gallery Systems and built on an open architecture database using Microsoft SQL Server, is a web-based collections management system designed for museums, galleries and cultural institutions. It supports the effective management of collections. TMS Collections provides a wide range of collection management tools, including
-
-- **Objects Management:** Enables the cataloguing and management of detailed records of objects, such as descriptions, provenance, condition and location.
-- Exhibitions and Loans:** Helps organise and track objects that are exhibited or loaned to other organisations.
-- Digital Asset Management:** Integrates with systems to associate multimedia files with object records, enhancing documentation.
-- Conservation Documentation:** Provides modules for recording treatments, condition reports and conservation activities.
-- Reporting and Analysis:** Includes reporting capabilities for customised reports and collection insights.
-- Standards Compliance:** Complies with international standards such as CDWA, CIDOC CRM, LIDO and Dublin Core for collection data management and exchange.
-- Web Publishing:** Can be integrated with eMuseum to publish collections online, widening access to collections.
-
 ### TMS Excel Export
+
+The Museum System (TMS), developed by Gallery Systems and built on an open architecture database using Microsoft SQL Server, is a web-based collections management system designed for museums, galleries and cultural institutions. It supports the management of collections. 
 
 The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS, outlining the structured approach to managing and documenting various aspects of the objects under study.
 
 |File Name|Primary Focus|Key Fields|Description|
-|--|---|---|---|
+|---|---|---|---|
 |CROWN_Objects_1_2024_02_02.xlsx|Details of various objects|ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil|Records details on objects, including material, dimensions, and condition. Authority50ID and Bestandteil indicate relationships to other parts.|
 |CROWN_Objects_3_TextEntries_2024_02_02.xlsx|Text entries related to the objects|ID, TextType, TextEntry|Stores additional descriptive or historical text information on objects for various purposes including display and documentation.|
 |CROWN_Objects_4_AltNumbers_2024_02_02.xlsx|Alternate numbering for objects|ID, AltNumDescription, AltNum|Provides alternate identifiers or links to resources, allowing for cross-references to external databases or digital collections.|
@@ -103,12 +93,6 @@ The `crown:descriptionOf` property relates an individual object, uniquely identi
 
 SKOS (Simple Knowledge Organization System) concepts such as "passgenau" (exact fitting), "viereckig" (rectangular), and "grün" (green) demonstrate the integration of controlled vocabularies within the ontology. These concepts standardize the terminology used across the dataset, enhancing interoperability and enabling semantic queries.
 
-### Conclusion
-
-This segment of the ontology illustrates how detailed and structured data is modeled to represent complex descriptions of museum objects, specifically gemstones, in the context of the "Sharing the CROWN" project. The usage of `crown:descriptionOf` and `crown:feature` properties, alongside SKOS concepts, establishes a rich, semantically detailed framework for documenting the nuanced features of objects within a cultural heritage collection.
-
-
-
 ## Mapping TMS to RDF: Datafields Spreadsheet
 
 Custom data fields are essential for effective data management in museums. These institutions manage collections ranging from archaeological artefacts to contemporary art, each with its own unique characteristics and history. Custom data fields allow museums to adapt their data management approaches to meet the unique needs of their collections. This customisation facilitates the accurate documentation, analysis and dissemination of details about each item. Managing this complexity requires expertise in modelling and programming, but ensures that museums can efficiently manage the intricacies of their collections.
@@ -121,6 +105,8 @@ For this reason, it is important to have a workflow that supports these complex 
 - **Datatype**: Defines the type of data (e.g., integer, text, date).
 - **UserfieldName: german/english**: The field name as used in the database, provided in both English and German to support bilingual documentation and international collaboration. The German user field is the string used for matching in the TMS export.
 - **Definition: german/english**: A description of the field, its contents, and how it should be interpreted. Used for rdfs:label in the application ontology.
+
+![crown:Survey](img/crown-datafields.png)
 
 ## Data Transformation Scripts
 
@@ -302,9 +288,47 @@ This section provides a demonstration of how data from The Museum System (TMS) i
 
 ### 2.2 The index-to-rdf.py Script
 
-todo
+The Python script transforms Excel spreadsheet data into RDF format using the rdflib library. It imports the necessary libraries, defines namespaces, and sets up paths to Excel files containing data about the components associated with objects in a collection. It includes helper functions for normalising strings for URI and JSON compatibility. The script reads the Excel file into a pandas DataFrame and initialises two RDF graphs for people and organisations. It creates a void:dataset for each graph and populates them with static metadata using Dublin Core terms. It processes the data by iterating over the Excel rows, creating entries as either schema:Person or schema:Organisation based on specified roles. Finally, it serialises the RDF graphs into XML files for use in RDF data stores or linked data applications. The script makes assumptions about file accessibility, roles and serialisation paths, which may be areas for improvement.
 
-### 2.3 The datafields-to-ontology.py Script
+This RDF statement defines a person within the CROWN project's dataset:
+```xml
+<schema:Person rdf:about="https://gams.uni-graz.at/o:crown.index.person#person.87518">
+  <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+  <schema:name>Erwin Huppert</schema:name>
+</schema:Person>
+```
+Here, `schema:Person` identifies an individual, Erwin Huppert, as a person listet in the person index.
+
+##### Schema:Organisation
+This RDF statement details an organization associated with the CROWN project:
+```xml
+<schema:Organisation rdf:about="https://gams.uni-graz.at/o:crown.index.organisation#organisation.8839">
+  <gams:isMemberOfCollection rdf:resource="https://gams.uni-graz.at/context:crown"/>
+  <schema:name>Theatermuseum Wien</schema:name>
+</schema:Organisation>
+```
+`schema:Organisation` is used to define an organization, in this case, the Theatermuseum Wien, as part of the project's dataset.
+
+
+### 2.3 thesaurus-to-rdf.py
+
+This RDF statement represents a concept from the thesaurus used in the project:
+```xml
+  <skos:Concept rdf:about="https://gams.uni-graz.at/o:crown.thesaurus#1633313">
+    <skos:inScheme rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633319"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633337"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633449"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633379"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633648"/>
+    <skos:narrower rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1633653"/>
+    <skos:prefLabel xml:lang="de">Mineral</skos:prefLabel>
+    <skos:broader rdf:resource="https://gams.uni-graz.at/o:crown.thesaurus#1551319"/>
+  </skos:Concept>
+```
+`skos:Concept` denotes a thesaurus entry, "Mineral" in this case. It uses SKOS properties to indicate its place within the hierarchy of the thesaurus (`skos:inScheme`, `skos:narrower`, `skos:broader`).
+
+### 2.4 datafields-to-ontology.py
 
 todo
 * Role in Ontology Creation: An overview of how the `datafields-to-ontology.py` script contributes to the creation of the Application Ontology.

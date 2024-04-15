@@ -3,17 +3,15 @@ from rdflib.namespace import DCTERMS, RDF, RDFS, SKOS, XSD
 import pandas as pd
 import re
 
-### global variables
-########################################################################################
 BASE_URL = "https://gams.uni-graz.at/"
 PID_PERSON = 'o:crown.index.person'
 PID_ORGANISATION = 'o:crown.index.organisation'
 
 # excel files
-CROWN_Objects_4_Constituents = '//pers.ad.uni-graz.at/fs/ou/562/data/projekte/crown/data/Crown_Export_2023_03_07/CROWN_Objects_4_Constituents.xlsx'
+# 
+folder = "sample"
+CROWN_Objects_4_Constituents = f'/home/chrisi/Documents/GitHub/CROWN/data/export/{folder}/CROWN_Objects_5_Constituents_2024_02_02.xlsx'
 
-### functions
-########################################################################################
 # substring before " ("; remove ", " and  " " so its a valid URI
 def normalizeStringforURI(string):
      if(str(string).count(",") <= 1):
@@ -23,21 +21,17 @@ def normalizeStringforURI(string):
             return (string.replace(", ", "")).replace(" ", "")  
      else:
             return "anonym"
-########################################################################################
+
 def normalizeStringforJSON(string):
     string = string.replace('"', '\\"')
     string = " ".join(string.split())
     return string 
 
-########################################################################################
-### MAIN
-########################################################################################
-
+# MAIN
 # Objektinformationen
 
 CROWN_Objects_4_Constituents_df = pd.read_excel(CROWN_Objects_4_Constituents, engine='openpyxl')
 
-########################################################################################
 # make a persons graph
 persons_graph = Graph()
 GAMS = Namespace("https://gams.uni-graz.at/o:gams-ontology#")
@@ -66,10 +60,6 @@ persons_graph.add((VOID_Dataset, VOID.vocabulary, URIRef("https://gams.uni-graz.
 persons_graph.add((VOID_Dataset, VOID.vocabulary, URIRef("http://purl.org/dc/terms/")))
 
 persons_graph.add((VOID_Dataset, DC.title, Literal("Personenindex")))
-#if(pd.notnull(getattr(row, "DateBegin")) and pd.notnull(getattr(row, "DateEnd"))):
-#    persons_graph.add((VOID_Dataset, DC.date, Literal( str(getattr(row, "DateBegin")) + '-' + str(getattr(row, "DateEnd"))  ) ))
-#else:
-#    persons_graph.add((VOID_Dataset, DC.date, Literal( str(getattr(row, "DateBegin")) ) ))
 persons_graph.add((VOID_Dataset, DC.language, Literal('ger') ))
 persons_graph.add((VOID_Dataset, DC.source, Literal('KHM') ))
 # static metadata
@@ -79,9 +69,8 @@ persons_graph.add((VOID_Dataset, DC.publisher, Literal( "Institute Centre for In
 persons_graph.add((VOID_Dataset, DC.rights, Literal( "Creative Commons BY 4.0" ) ))
 persons_graph.add((VOID_Dataset, DC.rights, Literal( "https://creativecommons.org/licenses/by/4.0" ) ))
 
-########################################################################################
-# make a organisations graph
 
+# make a organisations graph
 organisations_graph = Graph()
 GAMS = Namespace("https://gams.uni-graz.at/o:gams-ontology#")
 VOID = Namespace("http://rdfs.org/ns/void#")
@@ -120,7 +109,6 @@ organisations_graph.add((VOID_Dataset, DC.rights, Literal( "Creative Commons BY 
 organisations_graph.add((VOID_Dataset, DC.rights, Literal( "https://creativecommons.org/licenses/by/4.0" ) ))
 
 # iterate through the rows, every row is a constituent
-
 for row in CROWN_Objects_4_Constituents_df.itertuples(index=True):
     
     # variables
@@ -142,8 +130,6 @@ for row in CROWN_Objects_4_Constituents_df.itertuples(index=True):
         persons_graph.add((person, GAMS.isMemberOfCollection, URIRef("https://gams.uni-graz.at/context:crown")))
         persons_graph.add((person, SCHEMA.name, Literal(getattr(row, "DisplayName"))))
 
-        
-########################################################################################
-### OUTPUT file .xml
+# OUTPUT file .xml
 persons_graph.serialize(destination = 'rdf_output_indices/index_persons.xml', format="pretty-xml")
 organisations_graph.serialize(destination = 'rdf_output_indices/index_organisations.xml', format="pretty-xml")
