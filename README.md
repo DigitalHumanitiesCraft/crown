@@ -68,6 +68,10 @@ A crucial element of the workflow is the mapping of TMS data fields, especially 
 
 Another script, **datafields-to-ontology.py**, extracts mappings from the datafields spreadsheet. This process likely involves insights from domain experts to develop the complete RDF data model. This specific, lightweight **application ontology** is crucial for organizing the RDF data for the CROWN project. Furthermore, it defines how to link to additional ontologies like CIDOC-CRM, helping to ensure the project aligns with broader cultural heritage documentation standards.
 
+Finally the **thesaurus-to-rdf.py script** creates the SKOS concepts that are needed.
+
+What could also be implemented at this point is validation by SHACL, i.e. mapping SHACL constraints from the Excel data fields to implement a validation mechanism for RDF generation. However, this was not part of the funded project.
+
 The RDF data and the application ontology together describe all the information about the CROWN project, or any other project represented in TMS. This data can be used directly in a triple store, or archived and published in a research data **repository**.
 
 ## TMS and Export
