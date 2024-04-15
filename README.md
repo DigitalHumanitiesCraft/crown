@@ -84,10 +84,6 @@ The following table summarises the content and purpose of each Excel file associ
 
 ![crown:Survey](img/crownSurvey.png)
 
-### Example crown:Object
-
-#### crown:Survey
-
 Within the RDF framework of the CROWN project, `crown:Survey` is an entity related to `crown:Object` that encapsulates the analysis performed on an object:
 
 - **Date (`crown:date`)**: Records when the analysis occurred.
@@ -364,13 +360,13 @@ One way o ensure that your RDF data has been successfully imported:
 - Go to the SPARQL section within GraphDB.
 - Execute the following query to fetch a sample of the data:
 
-  ```sparql
+```sparql
 PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
   SELECT * WHERE {
     ?subject ?predicate ?object ;
     		 a crown:Object.
   } LIMIT 100
-  ```
+```
 
 ![RDF Ingest into GraphDB](img/screen-graphdb-2.png)
 
