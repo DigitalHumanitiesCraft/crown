@@ -80,7 +80,23 @@ The following table summarises the content and purpose of each Excel file associ
 
 ### Example crown:Object
 
-todo
+#### crown:Survey
+
+![crown:Survey](img/crownSurvey.png)
+
+### Example crown:Object
+
+#### crown:Survey
+
+Within the RDF framework of the CROWN project, `crown:Survey` is an entity related to `crown:Object` that encapsulates the analysis performed on an object:
+
+- **Date (`crown:date`)**: Records when the analysis occurred.
+- **Type (`crown:surveyType`)**: Indicates the category or method of analysis.
+- **Persons (`crown:personInvolved`)**: Links to individuals who conducted the survey.
+- **Description (`crown:briefDescription`)**: Summarizes the goal of the survey.
+- **Findings (`crown:statement`)**: Presents conclusions or discoveries from the survey.
+- **Methodology (`crown:treatment`)**: Details the analytical techniques and instruments used.
+- **Media (`crown:media`)**: Associates the survey with relevant digital files, like images or data, accessible via URLs. 
 
 ## Mapping TMS to RDF: Datafields Spreadsheet
 
@@ -339,6 +355,8 @@ Now that your repository is ready, you need to import your RDF data:
 
 ![RDF Ingest into GraphDB](img/screen-graphdb-1.png)
 
+It takes a while to ingest all 2837 RDF objects (as of April 2024).
+
 ### Verifying the data import
 
 One way o ensure that your RDF data has been successfully imported:
@@ -347,12 +365,16 @@ One way o ensure that your RDF data has been successfully imported:
 - Execute the following query to fetch a sample of the data:
 
   ```sparql
+PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
   SELECT * WHERE {
-    ?subject ?predicate ?object .
+    ?subject ?predicate ?object ;
+    		 a crown:Object.
   } LIMIT 100
   ```
 
-This SPARQL query helps verify the first 100 triples, ensuring your data is correctly loaded.
+![RDF Ingest into GraphDB](img/screen-graphdb-2.png)
+
+This SPARQL query helps verify the first 100 triples, ensuring your data (the ´crown:Object´) is correctly loaded.
 
 ### Exploring your data with GraphDB
 
