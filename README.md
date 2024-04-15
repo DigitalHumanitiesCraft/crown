@@ -175,7 +175,6 @@ This section provides a demonstration of how data from The Museum System (TMS) i
         schema: ;
     rdfs:comment "Senkschmelz" ;
     rdfs:seeAlso "https://www.projekt-reichskrone.at" ;
-    crown:Enamel <https://gams.uni-graz.at/o:crown.object.1469100.damage> ;
     crown:analysisPerformed <https://gams.uni-graz.at/o:crown.object.1469100.EnamelMuRaman> ;
     crown:conditionOf <https://gams.uni-graz.at/o:crown.object.1469100.Enamel> ;
     crown:descriptionOf <https://gams.uni-graz.at/o:crown.object.1469100.Enamel> ;
@@ -370,7 +369,7 @@ PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
 
 ![RDF Ingest into GraphDB](img/screen-graphdb-2.png)
 
-This SPARQL query helps verify the first 100 triples, ensuring your data (the ´crown:Object´) is correctly loaded.
+This SPARQL query helps to check the first 100 triples to make sure that your data (specifically `crown:Object`) is loaded correctly.
 
 ### Exploring your data with GraphDB
 
@@ -379,6 +378,12 @@ GraphDB offers comprehensive tools for data exploration, which are particularly 
 - **Graph Overview**: Navigate to this section to see a visual representation of the RDF data.
 - **Class Hierarchy and Relationships**: These views help you understand the structure of your data and how different classes are related.
 - **Visual Graph**: Use this feature to visually navigate through the relationships and properties of specific data points.
+
+The image shows the *Visual Graph* feature of GraphDB
+
+![crown:Survey](img/screen-graphdb-3.png)
+
+It shows the `crown:Object` *"opak yellow, CR_1_B_ET_Em_ogel"* from the chapter "Example output as Turtle RDF". Two purple `crown:Survey` and the associated `crown:Media` as well as the `crown:conditionOf` and `crown:descriptionOf` of the object's enamel (o:crown.object.1469100.Enamel), which further describe various damages and conditions of the enamel.
 
 ## SPARQL Queries: Basics and Examples
 

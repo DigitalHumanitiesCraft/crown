@@ -286,10 +286,5 @@
       </crown:Enamel>
     </crown:descriptionOf>
     <crown:conditionOf rdf:resource="https://gams.uni-graz.at/o:crown.object.1469100.Enamel" />
-    <crown:Enamel>
-      <crown:damage rdf:about="https://gams.uni-graz.at/o:crown.object.1469100.damage">
-        <crown:Adhesion>1</crown:Adhesion>
-      </crown:damage>
-    </crown:Enamel>
   </crown:Object>
 </rdf:RDF>
