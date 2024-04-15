@@ -1,1109 +1,1105 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix crown: <https://gams.uni-graz.at/o:ontology.crown#> .
-@base <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Analysis> a rdfs:Class ;
+    rdfs:label "Analyse"@de,
+        "Analysis"@en ;
+    rdfs:comment "Klasse für verschiedene Arten von Analysen."@de,
+        "Class for various types of analyses."@en .
+
+<https://gams.uni-graz.at/o:ontology.crown#ArcadeFiligree> a rdfs:Class ;
+    rdfs:label "Arkadenfiligran"@de,
+        "Arcade Filigree"@en ;
+    rdfs:comment "Arkadenfiligran in historischen Kronen bezieht sich auf filigrane Metallarbeiten, die oft Arkaden und Säulen nachbilden, ein Element des Details und der Feinheit."@de,
+        "Arcade filigree in historical crowns refers to delicate metalwork often emulating arcades and columns, an element of detail and finesse."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#AssemblyTubes> a rdfs:Class ;
+    rdfs:label "Montageröhrchen"@de,
+        "Assembly Tubes"@en ;
+    rdfs:comment "Montageröhrchen sind kleine zylindrische Elemente in historischen Kronen, die zur Montage und Befestigung kleinerer Dekorationselemente oder als strukturelle Verbindungspunkte verwendet werden."@de,
+        "Assembly tubes are small cylindrical elements in historical crowns used for assembling and securing smaller decorative elements or as structural connection points."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#AttachmentLoss> a rdfs:Class ;
+    rdfs:label "Haftungsverlust"@de,
+        "Attachment Loss"@en ;
+    rdfs:comment "Zeigt einen Verlust der Anhaftung oder Adhäsion von Teilen des Objekts an."@de,
+        "Indicates a loss of attachment or adhesion in parts of the object."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BallPyramid> a rdfs:Class ;
+    rdfs:label "Kugelpyramide"@de,
+        "Ball Pyramid"@en ;
+    rdfs:comment "Die Kugelpyramide in historischen Kronen ist eine kugelförmige, pyramidenartige Struktur, die oft als dekoratives oder symbolisches Element eingesetzt wird."@de,
+        "The ball pyramid in historical crowns is a spherical, pyramid-like structure often used as a decorative or symbolic element."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BasePlate> a rdfs:Class ;
+    rdfs:label "Grundplatte"@de,
+        "Base Plate"@en ;
+    rdfs:comment "Die Grundplatte ist in historischen Kronen ein grundlegendes Element, das als Basis oder Unterstützung für andere Komponenten dient."@de,
+        "The base plate in historical crowns is a fundamental element serving as a base or support for other components."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BasePlateEdging> a rdfs:Class ;
+    rdfs:label "Grundplattenrand"@de,
+        "Base Plate Edging"@en ;
+    rdfs:comment "Der Rand der Grundplatte in historischen Kronen ist ein gestalterisches Element, das den äußeren Rand der Grundplatte verziert und oft Detailreichtum und Raffinesse hinzufügt."@de,
+        "The edging of the base plate in historical crowns is a design element that adorns the outer edge of the base plate, often adding detail and sophistication."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BeehiveWithSingleGranule> a rdfs:Class ;
+    rdfs:label "Bienenkorb mit Einzelgranulat"@de,
+        "Beehive with Single Granule"@en ;
+    rdfs:comment "Ein Bienenkorb mit Einzelgranulat ist eine spezielle Form einer dekorativen Komponente in historischen Kronen, gekennzeichnet durch seine einzigartige Struktur."@de,
+        "A beehive with single granule is a specific form of a decorative component in historical crowns, characterized by its unique structure."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Bezel> a rdf:Property,
+        rdfs:Class ;
+    rdfs:label "Zarge"@de,
+        "Zarge:"@de,
+        "Zarge: Fuge"@de,
+        "Bezel"@en,
+        "Bezel:"@en,
+        "Bezel: joint"@en ;
+    rdfs:comment "Die Art der Zarge an der Fassung des Kreuzes."@de,
+        "Die Fugenart der Zarge an der Fassung des Kreuzes."@de,
+        "Die Zarge ist ein ringförmiger Metallrahmen in historischen Kronen, der dazu dient, Edelsteine sicher zu fassen und hervorzuheben."@de,
+        "The bezel is a ring-shaped metal frame in historical crowns, serving to securely set and highlight gemstones."@en ;
+    rdfs:range xsd:string ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BezelSetting> a rdfs:Class ;
+    rdfs:label "Zargenfassung"@de,
+        "Bezel Setting"@en ;
+    rdfs:comment "Die Zargenfassung in historischen Kronen ist eine Technik, bei der Edelsteine durch eine Metallumrandung sicher gehalten werden, was sowohl Schutz als auch eine hervorgehobene Präsentation bietet."@de,
+        "The bezel setting in historical crowns is a technique where gemstones are securely held by a metal rim, offering both protection and an enhanced presentation."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Blistering> a rdfs:Class ;
+    rdfs:label "Blasen"@de,
+        "Blistering"@en ;
+    rdfs:comment "Das Vorhandensein von Blasen oder Bläschen, was auf zugrundeliegende Probleme oder Schäden hinweisen kann."@de,
+        "The presence of blisters or bubbles, which can indicate underlying issues or damage."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Breakage> a rdfs:Class ;
+    rdfs:label "Ursache: Bruch"@de,
+        "Breakage"@en ;
+    rdfs:comment "Zeigt an, dass eine Komponente gebrochen ist, was für das Verständnis der Geschichte und der Konservierungsbedürfnisse des Objekts entscheidend ist."@de,
+        "Indicates that a component has broken, which is crucial for understanding the object's history and conservation needs."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#BundlesOfVolute> a rdfs:Class ;
+    rdfs:label "Bündel von Voluten"@de,
+        "Bundles of Volute"@en ;
+    rdfs:comment "Bündel von Voluten sind in historischen Kronen dekorative Elemente mit spiralförmigen Mustern oder Designs, die für ihre kunstvolle Gestaltung und symbolische Bedeutung bekannt sind."@de,
+        "Bundles of volute in historical crowns are decorative elements with spiral patterns or designs, known for their artistic design and symbolic significance."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#ClampWithCVolutes> a rdfs:Class ;
+    rdfs:label "Klammer mit C-Voluten verlötet"@de,
+        "Clamp with C Volutes"@en ;
+    rdfs:comment "Eine mit C-Voluten verlötete Klammer ist ein in historischen Kronen verwendetes Element, das dekorative Spiralformen aufweist und zur strukturellen Stärkung oder als Teil des Designs dient."@de,
+        "A clamp soldered with C volutes is an element used in historical crowns featuring decorative spiral shapes, serving for structural strengthening or as part of the design."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#ClawSetting> a rdfs:Class ;
+    rdfs:label "Krallenfassung"@de,
+        "Claw Setting"@en ;
+    rdfs:comment "Eine Krallenfassung in historischen Kronen ist eine Methode, bei der Metallklauen zum Halten und Hervorheben von Edelsteinen verwendet werden."@de,
+        "A claw setting in historical crowns is a method where metal claws are used to hold and highlight gemstones."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Claws> a rdfs:Class ;
+    rdfs:label "Krallen"@de,
+        "Claws"@en ;
+    rdfs:comment "Krallen sind kleine, hakenförmige Metallelemente, die in historischen Kronen zur Befestigung von Edelsteinen und anderen Dekorationselementen dienen."@de,
+        "Claws are small, hook-shaped metal elements used in historical crowns to secure gemstones and other decorative pieces."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Component> a rdfs:Class ;
+    rdfs:label "Komponente"@de,
+        "Component"@en ;
+    rdfs:comment "Klasse für verschiedene Komponenten oder Teile von Objekten."@de,
+        "Class for different components or parts of objects."@en .
+
+<https://gams.uni-graz.at/o:ontology.crown#Condition> a rdfs:Class ;
+    rdfs:label "Zustand"@de,
+        "Condition"@en ;
+    rdfs:comment "Klasse zur Beschreibung des Zustands von Objekten."@de,
+        "Class for describing the condition of objects."@en .
+
+<https://gams.uni-graz.at/o:ontology.crown#Cracks> a rdfs:Class ;
+    rdfs:label "Ursache: Riss"@de,
+        "Cracks"@en ;
+    rdfs:comment "Spezifiziert Risse im Objekt, was für die Beurteilung seines Zustands und seiner strukturellen Integrität entscheidend sein kann."@de,
+        "Specifies cracks in the object, which can be critical for assessing its condition and structural integrity."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#CrystalBloom> a rdfs:Class ;
+    rdfs:label "kristalline Ausblühungen"@de,
+        "Crystal Bloom"@en ;
+    rdfs:comment "Bezieht sich auf kristalline Formationen, die oft aufgrund chemischer Reaktionen oder Umweltbedingungen auf der Oberfläche erscheinen."@de,
+        "Refers to crystalline formations that may appear on the surface, often due to chemical reactions or environmental conditions."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#DamageFromIntervention> a rdfs:Class ;
+    rdfs:label "durch Eingriff verursachte Schäden"@de,
+        "Damage from Intervention"@en ;
+    rdfs:comment "Zeigt Schäden an, die durch frühere Restaurierung, Reparatur oder andere Eingriffe verursacht wurden."@de,
+        "Indicates damage caused by previous restoration, repair, or other interventions."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Deformation> a rdfs:Class ;
+    rdfs:label "Ursache: Deformierung"@de,
+        "Deformation"@en ;
+    rdfs:comment "Bezieht sich auf jegliche Biegung, Verformung oder Umgestaltung der ursprünglichen Form einer Komponente."@de,
+        "Refers to any bending, warping, or reshaping of the original form of a component."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Enamel> a rdfs:Class ;
+    rdfs:label "Email"@de,
+        "Enamel"@en ;
+    rdfs:comment "Email, eine glasartige Beschichtung, wird in historischen Kronen verwendet, um Oberflächen zu verzieren und zu schützen, häufig in leuchtenden Farben und komplexen Mustern."@de,
+        "Enamel, a glass-like coating, is used in historical crowns to decorate and protect surfaces, often in vibrant colors and intricate patterns."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelDamage> a rdfs:Class ;
+    rdfs:label "Email: Beschädigt"@de,
+        "Enamel Damage"@en ;
+    rdfs:comment "Zeigt Schäden an der Email-Arbeit an, wie Risse, Chips oder Verblassen."@de,
+        "Indicates damage to the enamel work, such as cracks, chips, or fading."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelMetalWires> a rdfs:Class ;
+    rdfs:label "Email-Metall Drähte"@de,
+        "Enamel Metal Wires"@en ;
+    rdfs:comment "Email-Metall Drähte in historischen Kronen sind feine Drähte, die in die Emailarbeit eingebettet sind und strukturelle oder dekorative Funktionen erfüllen."@de,
+        "Enamel metal wires in historical crowns are fine wires embedded in the enamel work, serving structural or decorative functions."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelMuRamanAnalysis> a rdfs:Class ;
+    rdfs:label "Email µ-Raman-Analyse"@de,
+        "Enamel µ-Raman Analysis"@en ;
+    rdfs:comment "Email µ-Raman-Analyse ist eine spezialisierte Form der Raman-Spektroskopie, die sich auf die Untersuchung von Emailmaterialien konzentriert."@de,
+        "Enamel µ-Raman Analysis is a specialized form of Raman spectroscopy focused on the study of enamel materials."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelPlate> a rdfs:Class ;
+    rdfs:label "Emailplatte"@de,
+        "Enamel Plate"@en ;
+    rdfs:comment "Eine Emailplatte in historischen Kronen ist eine Komponente aus emailliertem Material, oft verwendet für dekorative und schützende Zwecke."@de,
+        "An enamel plate in historical crowns is a component made of enameled material, often used for decorative and protective purposes."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelPlateColourPalette> a rdfs:Class ;
+    rdfs:label "Emailplatten-Farbpalette"@de,
+        "Enamel Plate Colour Palette"@en ;
+    rdfs:comment "Die Farbpalette einer Emailplatte in historischen Kronen beschreibt die vielfältigen Farben und deren Zusammensetzung, die zur Schaffung visueller Effekte verwendet werden."@de,
+        "The colour palette of an enamel plate in historical crowns describes the diverse colors and their composition used to create visual effects."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelPlateDefect> a rdfs:Class ;
+    rdfs:label "Emailplatten-Defekt"@de,
+        "Enamel Plate Defect"@en ;
+    rdfs:comment "Ein Emailplatten-Defekt in historischen Kronen bezieht sich auf Beschädigungen oder Unvollkommenheiten, die die Ästhetik und Integrität der Emailarbeit beeinträchtigen."@de,
+        "An enamel plate defect in historical crowns refers to damage or imperfections that affect the aesthetics and integrity of the enamel work."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#EnamelXRFAnalysis> a rdfs:Class ;
+    rdfs:label "Email XRF-Analyse"@de,
+        "Enamel XRF Analysis"@en ;
+    rdfs:comment "Email XRF-Analyse verwendet die XRF-Technik, um die Elementzusammensetzung von Emailoberflächen zu bestimmen."@de,
+        "Enamel XRF Analysis uses XRF technique to determine the elemental composition of enamel surfaces."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#FORSAnalysis> a rdfs:Class ;
+    rdfs:label "FORS-Analyse"@de,
+        "FORS Analysis"@en ;
+    rdfs:comment "FORS (Fiber Optics Reflectance Spectroscopy) ist eine Technik zur Untersuchung der optischen Eigenschaften von Materialien."@de,
+        "FORS (Fiber Optics Reflectance Spectroscopy) is a technique used to study the optical properties of materials."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Gemstone> a rdfs:Class ;
+    rdfs:label "Edelstein"@de,
+        "Gemstone"@en ;
+    rdfs:comment "Ein Edelstein in historischen Kronen ist ein nach dem Schleifen und Polieren verwendeter Schmuckstein, oft als zentrales dekoratives Element."@de,
+        "A gemstone in historical crowns is a decorative stone used after being cut and polished, often as a central decorative element."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#GemstoneXRFAnalysis> a rdfs:Class ;
+    rdfs:label "Edelstein-XRF-Analyse"@de,
+        "Gemstone XRF Analysis"@en ;
+    rdfs:comment "Edelstein-XRF-Analyse nutzt die XRF-Spektroskopie, um die Elementzusammensetzung von Edelsteinen zu bestimmen."@de,
+        "Gemstone XRF Analysis utilizes XRF spectroscopy to determine the elemental composition of gemstones."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#GoldAddition> a rdfs:Class ;
+    rdfs:label "Ergänzung: Gold"@de,
+        "Gold Addition"@en ;
+    rdfs:comment "Bezieht sich darauf, dass Gold zu einer Komponente hinzugefügt wurde, möglicherweise zur Reparatur oder Verbesserung."@de,
+        "Refers to gold being added to a component, possibly for repair or enhancement."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Granule> a rdfs:Class ;
+    rdfs:label "Granalie"@de,
+        "Granule"@en ;
+    rdfs:comment "Granalien sind kleine, kugelförmige Partikel, oft aus Metall, die in der Verzierung historischer Kronen und Schmuckstücke verwendet werden, um Detailreichtum und Textur zu erzeugen."@de,
+        "Granules are small, spherical particles, often made of metal, used in the decoration of historical crowns and jewelry to create detail and texture."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#GranulesWithPearlWireRings> a rdfs:Class ;
+    rdfs:label "Granalien mit Perldrahtringen"@de,
+        "Granules with Pearl Wire Rings"@en ;
+    rdfs:comment "Diese Kombination aus kleinen Granalien und Perldrahtringen wird in der Verzierung historischer Kronen eingesetzt, um eine zusätzliche Dimension der Feinheit und Detailtreue zu erreichen."@de,
+        "This combination of small granules and pearl wire rings is used in the decoration of historical crowns to achieve an added dimension of finesse and detail."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Grooves> a rdfs:Class ;
+    rdfs:label "Rillen"@de,
+        "Grooves"@en ;
+    rdfs:comment "Rillen sind Kerben oder Einkerbungen an Objekten, häufig zur Verzierung oder Funktionalität, wie sie in historischen Kronen zu finden sind."@de,
+        "Grooves are notches or indentations on objects, often for decoration or functionality, as found in historical crowns."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#HingePin> a rdfs:Class ;
+    rdfs:label "Scharnierstift"@de,
+        "Hinge Pin"@en ;
+    rdfs:comment "Ein Scharnierstift in historischen Kronen ist eine mechanische Komponente, die zur drehbaren Verbindung von Teilen verwendet wird, was Flexibilität und Bewegung ermöglicht."@de,
+        "A hinge pin in historical crowns is a mechanical component used to pivotally connect parts, allowing for flexibility and movement."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#InsertionPins> a rdfs:Class ;
+    rdfs:label "Einsteckstifte"@de,
+        "Insertion Pins"@en ;
+    rdfs:comment "Einsteckstifte sind in historischen Kronen verwendete kleine Befestigungselemente, die für die präzise Positionierung und Fixierung von Schmuckstücken und Komponenten dienen."@de,
+        "Insertion pins are small fastening elements used in historical crowns for the precise positioning and securing of jewelry pieces and components."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#InterventionXRFAnalysis> a rdfs:Class ;
+    rdfs:label "Interventions-XRF-Analyse"@de,
+        "Intervention XRF Analysis"@en ;
+    rdfs:comment "Interventions-XRF-Analyse bezieht sich auf die Anwendung der XRF-Technik zur Untersuchung von Objekten nach einer Restaurierung oder Konservierung."@de,
+        "Intervention XRF Analysis refers to the application of XRF technique to study objects following restoration or conservation interventions."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Loops> a rdfs:Class ;
+    rdfs:label "Schlaufen"@de,
+        "Loops"@en ;
+    rdfs:comment "Schlaufen sind ring- oder schleifenförmige Elemente in historischen Kronen, die sowohl dekorative als auch funktionale Zwecke erfüllen, wie das Verbinden von Komponenten."@de,
+        "Loops are ring- or loop-shaped elements in historical crowns serving both decorative and functional purposes, such as connecting components."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#MissingParts> a rdfs:Class ;
+    rdfs:label "Ursache: fehlende Teile"@de,
+        "Missing Parts"@en ;
+    rdfs:comment "Hebt Komponenten oder Teile hervor, die vom Objekt fehlen."@de,
+        "Highlights components or parts that are missing from the object."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Nozzle> a rdfs:Class ;
+    rdfs:label "Düse"@de,
+        "Nozzle"@en ;
+    rdfs:comment "Düsen in historischen Kronen sind Vorrichtungen zur Steuerung der Richtung oder Eigenschaften eines Flüssigkeitsstroms, oft im Rahmen von dekorativen Wasserspielen."@de,
+        "Nozzles in historical crowns are devices to control the direction or characteristics of a fluid flow, often in the context of decorative water features."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Nozzles> a rdfs:Class ;
+    rdfs:label "Tüllen"@de,
+        "Nozzles"@en ;
+    rdfs:comment "Tüllen in historischen Kronen sind Düsen- oder röhrenförmige Elemente, die für die präzise Führung von Flüssigkeiten oder als feine dekorative Details eingesetzt werden."@de,
+        "Nozzles in historical crowns are spout- or tube-like elements used for precise guiding of liquids or as fine decorative details."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Object> a rdfs:Class ;
+    rdfs:label "Objekt"@de,
+        "Object"@en ;
+    rdfs:comment "Ein Objekt im CROWN Projekt: ein Komponent der Reichskrone."@de,
+        "A Object in the CROWN Project: a component of the Crown."@en .
+
+<https://gams.uni-graz.at/o:ontology.crown#OtherConditions> a rdfs:Class ;
+    rdfs:label "Zustand: Sonstiges"@de,
+        "Other Conditions"@en ;
+    rdfs:comment "Eine allgemeine Kategorie für andere Zustände, die nicht spezifisch anderweitig kategorisiert sind."@de,
+        "A general category for other conditions not specifically categorized elsewhere."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlRamanAnalysis> a rdfs:Class ;
+    rdfs:label "Perlen-Raman-Analyse"@de,
+        "Pearl Raman Analysis"@en ;
+    rdfs:comment "Perlen-Raman-Analyse ist eine Anwendung der Raman-Spektroskopie zur Untersuchung der molekularen Struktur von Perlen."@de,
+        "Pearl Raman Analysis is an application of Raman spectroscopy for investigating the molecular structure of pearls."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlSetting> a rdfs:Class ;
+    rdfs:label "Perlenfassung"@de,
+        "Pearl Setting"@en ;
+    rdfs:comment "Die Perlenfassung in historischen Kronen beschreibt die Art und Weise, wie Perlen eingebettet oder befestigt werden, oft mit einem Fokus auf Ästhetik und Handwerkskunst."@de,
+        "The pearl setting in historical crowns describes how pearls are embedded or affixed, often with a focus on aesthetics and craftsmanship."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlWire> a rdfs:Class ;
+    rdfs:label "Perldraht"@de,
+        "Pearl Wire"@en ;
+    rdfs:comment "Perldraht bezeichnet dünne, flexible Metalldrähte in historischen Kronen, oft verwendet, um Perlen zu halten oder feine Details zu erstellen."@de,
+        "Pearl wire refers to thin, flexible metal wires in historical crowns, often used to hold pearls or create fine details."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlWireRing> a rdfs:Class ;
+    rdfs:label "Perldrahtring"@de,
+        "Pearl Wire Ring"@en ;
+    rdfs:comment "Perldrahtringe sind feine, kreisförmige Metalldrähte, die in der Herstellung historischer Kronen verwendet werden, oft zur Halterung von Perlen oder als dekoratives Element."@de,
+        "Pearl wire rings are fine, circular metal wires used in the making of historical crowns, often for holding pearls or as a decorative element."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlWireRingWithSingleGranule> a rdfs:Class ;
+    rdfs:label "Perldrahtring mit Einzelgranulat"@de,
+        "Pearl Wire Ring with Single Granule"@en ;
+    rdfs:comment "Ein Perldrahting mit Einzelgranulat in historischen Kronen ist charakterisiert durch einen dünnen Draht mit einem einzelnen Granulat, oft als feines dekoratives Detail verwendet."@de,
+        "A pearl wire ring with single granule in historical crowns is characterized by a thin wire with a single granule, often used as a fine decorative detail."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PearlXRFAnalysis> a rdfs:Class ;
+    rdfs:label "Perlen-XRF-Analyse"@de,
+        "Pearl XRF Analysis"@en ;
+    rdfs:comment "Perlen-XRF-Analyse wird verwendet, um die chemische Zusammensetzung von Perlenoberflächen mittels XRF-Technik zu analysieren."@de,
+        "Pearl XRF Analysis is used to analyze the chemical composition of pearl surfaces using XRF technique."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#PendiliaTubeAndHingeTube> a rdfs:Class ;
+    rdfs:label "Pendilia-Rohr und Scharnierrohr"@de,
+        "Pendilia Tube and Hinge Tube"@en ;
+    rdfs:comment "Pendilia- und Scharnierrohre sind Komponenten, die in byzantinischen Kronen verwendet werden, oft zur Anbringung von hängenden Ornamenten oder als bewegliche Verbindungselemente."@de,
+        "Pendilia and hinge tubes are components used in Byzantine crowns, often for attaching hanging ornaments or as movable connecting elements."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Pinhead> a rdfs:Class ;
+    rdfs:label "Splintkopf"@de,
+        "Pinhead"@en ;
+    rdfs:comment "Der Splintkopf, oft in der Form einer Kugelpyramide, ist das Kopfteil eines Splints in historischen Kronen, welches zur Befestigung und dekorativen Akzentuierung dient."@de,
+        "The pinhead, often in the form of a ball pyramid, is the head part of a pin in historical crowns, serving for fastening and decorative accentuation."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Pins> a rdfs:Class ;
+    rdfs:label "Splinte"@de,
+        "Pins"@en ;
+    rdfs:comment "Splinte sind schmale, stabförmige Befestigungselemente in historischen Kronen, charakterisiert durch ihren Durchmesser und Querschnitt, verwendet für Verbindungen und Fixierungen."@de,
+        "Pins are slender, rod-like fasteners in historical crowns, characterized by their diameter and cross-section, used for connections and fixations."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#ProngSetting> a rdfs:Class ;
+    rdfs:label "Krappenfassung"@de,
+        "Prong Setting"@en ;
+    rdfs:comment "Eine Krappenfassung in historischen Kronen verwendet kleine Metallprongs, um Edelsteine fest zu halten, wodurch eine minimale Metallabdeckung und maximale Sichtbarkeit des Steins ermöglicht wird."@de,
+        "A prong setting in historical crowns uses small metal prongs to securely hold gemstones, allowing for minimal metal coverage and maximum visibility of the stone."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#RamanAnalysis> a rdfs:Class ;
+    rdfs:label "Raman-Analyse"@de,
+        "Raman Analysis"@en ;
+    rdfs:comment "Raman-Spektroskopie ist eine analytische Technik zur Beobachtung von Schwingungs-, Rotations- und anderen niederfrequenten Modi in einem System."@de,
+        "Raman spectroscopy is an analytical technique used to observe vibrational, rotational, and other low-frequency modes in a system."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Ribs> a rdfs:Class ;
+    rdfs:label "Rippen"@de,
+        "Ribs"@en ;
+    rdfs:comment "Rippen sind erhabene Streifen oder Leisten, die zur Verstärkung oder Dekoration an Objekten, insbesondere in metallischen Komponenten historischer Kronen, angebracht sind."@de,
+        "Ribs are raised strips or ridges applied to objects for reinforcement or decoration, especially in metallic components of historical crowns."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Rivets> a rdfs:Class ;
+    rdfs:label "Niete"@de,
+        "Rivets"@en ;
+    rdfs:comment "Nieten sind metallische Befestigungselemente, die zur Verbindung von Teilen in historischen Kronen verwendet werden, oft erkennbar an charakteristischen Werkzeugspuren."@de,
+        "Rivets are metallic fasteners used to join parts in historical crowns, often identifiable by characteristic tool traces."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#RupturedSolderConnection> a rdfs:Class ;
+    rdfs:label "Ursache: aufgerissene Lötverbindung"@de,
+        "Ruptured Solder Connection"@en ;
+    rdfs:comment "Spezifiziert einen Zustand, bei dem die Lötverbindung versagt hat oder beschädigt ist."@de,
+        "Specifies a condition where the solder connection has failed or is damaged."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Scratches> a rdfs:Class ;
+    rdfs:label "Kratzer"@de,
+        "Scratches"@en ;
+    rdfs:comment "Markierungen oder Linien, die auf physische Abrieb oder Verschleiß hinweisen."@de,
+        "Marks or lines indicating physical abrasion or wear."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#SettingFlange> a rdfs:Class ;
+    rdfs:label "Fassungszarge"@de,
+        "Setting Flange"@en ;
+    rdfs:comment "Die Fassungszarge ist ein Metallrahmen in historischen Kronen, der zur festen Umrandung und Hervorhebung von Edelsteinen und anderen Dekorationsstücken dient."@de,
+        "The setting flange is a metal frame in historical crowns used to firmly encircle and highlight gemstones and other decorative pieces."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#SettingOnTheCentralCross> a rdfs:Class ;
+    rdfs:label "Fassung am Zentralkreuz"@de,
+        "Setting on the Central Cross"@en ;
+    rdfs:comment "Die Fassung am Zentralkreuz in historischen Kronen bezieht sich auf die Anbringung von Edelsteinen oder Dekorationen an einem zentralen Kreuz, oft als symbolisches oder auffälliges Element."@de,
+        "The setting on the central cross in historical crowns refers to the placement of gemstones or decorations on a central cross, often as a symbolic or striking element."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#SettingWithThreePearls> a rdfs:Class ;
+    rdfs:label "Fassung mit drei Perlen"@de,
+        "Setting with Three Pearls"@en ;
+    rdfs:comment "Eine Fassung mit drei Perlen in historischen Kronen ist ein Schmuckelement, das drei Perlen auf besondere Weise präsentiert und betont."@de,
+        "A setting with three pearls in historical crowns is a jewelry element that distinctively presents and accentuates three pearls."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#ShapeForSetting> a rdfs:Class ;
+    rdfs:label "Form für Fassung"@de,
+        "Shape for Setting"@en ;
+    rdfs:comment "Die Form für Fassung bezeichnet die spezifische Gestaltung und Konstruktion der Edelsteinfassungen in historischen Kronen, die das Design und die Funktionalität der Fassung beeinflusst."@de,
+        "The shape for setting refers to the specific design and construction of gemstone settings in historical crowns, influencing the design and functionality of the setting."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#SolderedConnections> a rdfs:Class ;
+    rdfs:label "verlötet mit..."@de,
+        "Soldered Connections"@en ;
+    rdfs:comment "Zeigt an, dass Komponenten mit Löten verbunden oder repariert wurden, eine gängige Methode zur Restaurierung oder Montage in der Metallverarbeitung."@de,
+        "Indicates components that have been joined or repaired using soldering, a common restoration or assembly method in metalworking."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#SurfaceDegradation> a rdfs:Class ;
+    rdfs:label "Degradation der Oberfläche"@de,
+        "Surface Degradation"@en ;
+    rdfs:comment "Bezieht sich auf die visuelle Verschlechterung der Oberfläche, einschließlich Verfärbungen, Abblättern oder anderen Formen des Verfalls."@de,
+        "Refers to the visual degradation of the surface, which can include discoloration, peeling, or other forms of deterioration."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Tubes> a rdfs:Class ;
+    rdfs:label "Röhrchen"@de,
+        "Tubes"@en ;
+    rdfs:comment "Röhrchen in historischen Kronen sind kleine, zylindrische Komponenten, verwendet für strukturelle Zwecke oder als Halterungen für kleinere Schmuckelemente."@de,
+        "Tubes in historical crowns are small, cylindrical components used for structural purposes or as mounts for smaller jewelry elements."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#UShapedClamps> a rdfs:Class ;
+    rdfs:label "bügelförmige Klammern"@de,
+        "U-shaped Clamps"@en ;
+    rdfs:comment "Bügelförmige Klammern sind U-förmige Befestigungselemente in historischen Kronen, die für das Zusammenhalten von Teilen oder als strukturelle Verstärkungen eingesetzt werden."@de,
+        "U-shaped clamps are U-shaped fasteners in historical crowns used for holding parts together or as structural reinforcements."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Wear> a rdfs:Class ;
+    rdfs:label "Abnutzung"@de,
+        "Wear"@en ;
+    rdfs:comment "Allgemeine Abnutzung, die im Laufe der Zeit auftritt, was auf das Alter und die Nutzung des Objekts hinweist."@de,
+        "General wear and tear that occurs over time, indicating the object's age and usage."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#Wire> a rdfs:Class ;
+    rdfs:label "Draht"@de,
+        "Wire"@en ;
+    rdfs:comment "Draht in historischen Kronen bezieht sich auf Metallfäden, die für Struktur, Verbindung oder Verzierung verwendet werden, oft mit spezifischen Durchmessern und Windungsrichtungen."@de,
+        "Wire in historical crowns refers to metal threads used for structure, connection, or decoration, often with specific diameters and winding directions."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#WireBinding> a rdfs:Class ;
+    rdfs:label "Drahtbindung"@de,
+        "Wire Binding"@en ;
+    rdfs:comment "Drahtbindung ist eine Technik zur Befestigung oder Verbindung von Komponenten in historischen Kronen, wobei Draht verwendet wird, um Teile zusammenzuhalten."@de,
+        "Wire binding is a technique for fastening or connecting components in historical crowns, using wire to hold parts together."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#XRFAnalysis> a rdfs:Class ;
+    rdfs:label "XRF-Analyse"@de,
+        "XRF Analysis"@en ;
+    rdfs:comment "Klasse für XRF-Analysen."@de,
+        "Class for XRF analyses."@en ;
+    rdfs:subClassOf <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#AdditionEmail> a skos:Concept ;
+    rdfs:comment "Es gibt eine Emailergänzung."@de ;
+    skos:prefLabel "Ergänzung: Email"@de,
+        "Addition: enamel"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#AdditionGold> a skos:Concept ;
+    rdfs:comment "Es gibt eine Goldergänzung."@de ;
+    skos:prefLabel "Ergänzung: Gold"@de,
+        "Addition: gold"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#BgCh_GrPl> a skos:Concept ;
+    rdfs:comment "Die Klammer ist verlötet mit der Grundplatte von BgCh."@de ;
+    skos:prefLabel "verlötet mit BgCh_GrPl:"@de,
+        "soldered with BgCh_GrPl:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#BgRo_GrPl> a skos:Concept ;
+    rdfs:comment "Die Klammer ist verlötet mit der Grundplatte von BgRo."@de ;
+    skos:prefLabel "verlötet mit BgRo_GrPl:"@de,
+        "soldered with BgRo_GrPl:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#CharredSurface> a skos:Concept ;
+    rdfs:comment "Die Lötung weist eine verschmorte Oberfläche auf."@de ;
+    skos:prefLabel "Lötung: verschmorte Oberfläche"@de,
+        "Soldering: charred surface"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#DamageThroughLaterIntervention> a skos:Concept ;
+    rdfs:comment "Es gibt durch Eingriffe verursachte Schäden."@de ;
+    skos:prefLabel "durch Eingriff verursachte Schäden:"@de,
+        "Damage through later intervention:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#EndCut> a skos:Concept ;
+    rdfs:comment "Die Enden der Klammern sind beschnitten."@de ;
+    skos:prefLabel "Enden: beschnitten"@de,
+        "Ends: cut"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#EndVisible> a skos:Concept ;
+    rdfs:comment "Die Enden der Klammern sind sichtbar."@de ;
+    skos:prefLabel "Enden: einsehbar"@de,
+        "Ends: visible"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#EquatorLine> a skos:Concept ;
+    rdfs:comment "Am 1. Perldrahtring der Krallenfassung ist eine Äquatorlinie erkennbar."@de,
+        "Am 2. Perldrahtring der Krallenfassung ist eine Äquatorlinie erkennbar."@de,
+        "Am 3. Perldrahtring der Krallenfassung ist eine Äquatorlinie erkennbar."@de ;
+    skos:prefLabel "1. Perldrahtring: Äquatorlinie"@de,
+        "2. Perldrahtring: Äquatorlinie"@de,
+        "3. Perldrahtring: Äquatorlinie"@de,
+        "1. Pearl wire ring: equator line"@en,
+        "2. Pearl wire ring: equator line"@en,
+        "3. Pearl wire ring: equator line"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#FloodedSurface> a skos:Concept ;
+    rdfs:comment "Die Lötung weist eine zugeschwemmte Oberfläche auf."@de ;
+    skos:prefLabel "Lötung: zugeschwemmte Oberfläche"@de,
+        "Soldering: flooded surface"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#GranularityVisible> a skos:Concept ;
+    rdfs:comment "Die Körnung im Email ist erkennbar."@de ;
+    skos:prefLabel "Körnung: erkennbar"@de,
+        "Granularity: visible"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#Hole> a skos:Concept ;
+    rdfs:comment "Es gibt ein Loch."@de ;
+    skos:prefLabel "Loch:"@de,
+        "Hole:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#RowOfHolesLowerEdgeOfPlate> a skos:Concept ;
+    rdfs:comment "Die Komponente hat eine Lochreihe an der Plattenunterkante."@de ;
+    skos:prefLabel "Lochreihe (an Plattenunterkante):"@de,
+        "Row of holes (lower edge of plate):"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#RowOfHolesTextilFibre> a skos:Concept ;
+    rdfs:comment "In der Lochreihe befindet sich eine Textilfaser."@de ;
+    skos:prefLabel "Lochreihe: Textilfaser"@de,
+        "Row of holes: textile fibre"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#Stab> a skos:Concept ;
+    rdfs:comment "Die Klammer ist verlötet mit dem Stab."@de ;
+    skos:prefLabel "verlötet mit Stab:"@de,
+        "soldered with:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#StabilisingMaterial> a skos:Concept ;
+    rdfs:comment "Es wurde Stabilisierungsmaterial verwendet."@de ;
+    skos:prefLabel "Stabilisierungsmaterial:"@de,
+        "Stabilising material:"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#TooMarks> a skos:Concept ;
+    rdfs:comment "An der Niete sind Werkzeugspuren vorhanden."@de ;
+    skos:prefLabel "Niete: Werkzeugspur"@de,
+        "Rivet: tool marks"@en .
+
+<https://gams.uni-graz.at/o:crown.vocabulary#WireTies> a skos:Concept ;
+    rdfs:comment "Es wurde eine Drahtbindung verwendet, um Komponenten zu befestigen."@de ;
+    skos:prefLabel "Drahtbindung:"@de,
+        "Wire ties"@en .
+
+<https://gams.uni-graz.at/o:ontology.crown#DrillHole> a rdf:Property ;
+    rdfs:label "Bohrloch"@de,
+        "Drill hole:"@en;
+    rdfs:comment "Die Perle weist ein Bohrloch auf."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#DrillHolediameter> a rdf:Property ;
+    rdfs:label "Bohrloch: Durchmesser"@de,
+        "Drill hole: diameter"@en ;
+    rdfs:comment "Der Durchmesser des Bohrlochs in der Perle."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#Granules> a rdf:Property ;
+    rdfs:label "Granalien:"@de,
+        "Granalien: Abstand zwischen Granalien"@de,
+        "Granules:"@en,
+        "Granules: space between granules"@en ;
+    rdfs:comment "Der Abstand zwischen den Granalien an der Fassung am Kreuz."@de,
+        "Die Fassung am Kreuz weist Granalien auf."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#LowerEnd> a rdf:Property ;
+    rdfs:label "unteres Ende:"@de,
+        "lower end:"@en ;
+    rdfs:comment "Der Zustand des unteren Endes des Scharnierstifts."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcess> a rdf:Property ;
+    rdfs:label "Herstellungsprozess: Beschreibung"@de,
+        "Manufacturing process: description"@en,;
+    rdfs:comment "Die Beschreibung der Werkzeugspuren auf der Emailtafel, die auf den Herstellungsprozess zurückzuführen sind."@de,
+        "Die Beschreibung der verschmorten Oberfläche auf der Emailtafel."@de;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#Treatment> a rdf:Property ;
+    rdfs:label "Behandlungen"@de,
+        "Treatments:"@en;
+    rdfs:comment "Der Zustand des Edelsteins weist auf mindestens eine Behandlung hin."@de,
+        "Die Oberfläche des Edelsteins wurde überzogen."@de,
+        "Die Risse des Edelsteins wurden gefüllt."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#additionalDescription> a rdf:Property ;
+    rdfs:label "Sonstiges Beschreibung:"@de,
+        "Additional Description:"@en ;
+    rdfs:comment "Zusätzliche Informationen über das Email."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#additionalInformation> a rdf:Property ;
+    rdfs:label "Sonstiges:"@de,
+        "weitere Elemente/Spurenelemente:"@de,
+        "Additional Information:"@en,
+        "Additional elements/trace elements:"@en ;
+    rdfs:comment "Informationen über zusätzlich vorkommende Elemente/Spurenelemente."@de,
+        "Zusätzliche Information über die RFA-Analyse des Emails."@de,
+        "Zusätzliche Information über die µ-Raman Analyse."@de,
+        "XRF"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#additionalInterventions> a rdf:Property ;
+    rdfs:label "Sonstige Eingriffe:"@de,
+        "Additional interventions:"@en ;
+    rdfs:comment "Informationen über weitere Eingriffe."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#analysisPerformed> a rdf:Property ;
+    rdfs:label "Analyse durchgeführt"@de,
+        "Analysis Performed"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit der durchgeführten Analyse."@de,
+        "Links an object to the performed analysis."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Analysis> .
+
+<https://gams.uni-graz.at/o:ontology.crown#colouringElements:> a rdf:Property ;
+    rdfs:label "farbgebende Elemente:"@de,
+        "Colouring elements:"@en ;
+    rdfs:comment "Die farbgebenden Elemente im Email."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#component> a rdf:Property ;
+    rdfs:label "Komponente"@de,
+        "Component"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit seinen Komponenten."@de,
+        "Links an object to its components."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#conditionReported> a rdf:Property ;
+    rdfs:label "Zustand berichtet"@de,
+        "Condition Reported"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit einem Bericht über seinen Zustand."@de,
+        "Links an object to a report of its condition."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Condition> .
+
+<https://gams.uni-graz.at/o:ontology.crown#crown:informationCu> a rdf:Property ;
+    rdfs:label "Cu"@de,
+        "Cu"@en ;
+    rdfs:comment "Informationen über den Kupfergehalt."@de,
+        "copper"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#crownvoc:EquatorLine> a rdf:Property ;
+    rdfs:label "1. Perldrahtring: Äquatorlinie"@de,
+        "3. Pearl wire ring: equator line"@en ;
+    rdfs:comment "Am 1. Perldrahtring der Fassung mit den drei Perlen ist eine Äquatorlinie erkennbar."@de,
+        "Am 1. Perldrahtring der Perlfassung ist eine Äquatorlinie erkennbar."@de,
+        "Der dritte Perldrahtring an der Fassung des Kreuzes weist eine Äquatorlinie auf."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#dateOfAnalysis> a rdf:Property ;
+    rdfs:label "Inspektionsdatum"@de,
+        "Date of Analysis"@en ;
+    rdfs:comment "Das Datum an dem die Untersuchung durchgeführt wurde."@de,
+        "The date on which the analysis was conducted."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Analysis> ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#degradationOfSurface> a rdf:Property ;
+    rdfs:label "Degradation der Oberfläche (visuell):"@de,
+        "Degradation of the surface (visual):"@en ;
+    rdfs:comment "Die Stärke der visuelle Degradation der Oberfläche."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#description> a rdf:Property ;
+    rdfs:label "Beschreibung"@de,
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#descriptionOf> a rdf:Property ;
+    rdfs:label "Beschreibung von"@de,
+        "Description of"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit seiner Beschreibung über eine Komponente."@de,
+        "Links an object to a components description."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Component> .
+
+<https://gams.uni-graz.at/o:ontology.crown#descriptionOfCut> a rdf:Property ;
+    rdfs:label "Form: Schliff: Beschreibung"@de,
+        "Form: cut: description"@en ;
+    rdfs:comment "Die Beschreibung der Schliffform des Edelsteins."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#descriptionOfShape> a rdf:Property ;
+    rdfs:label "Form:"@de,
+        "Form:"@en,
+        "Shape"@en ;
+    rdfs:comment "Beschreibung der Form."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#diameter> a rdf:Property ;
+    rdfs:label "Durchmesser"@de,
+        "lower end: diameter"@en ;
+    rdfs:comment "Der Durchmesser der Einsteckstifte an der Fassung am Kreuz."@de,
+        "Der Durchmesser der Granalie am Perldrahtring."@de,
+        "Der Durchmesser der Granalie."@de,
+        "Der Durchmesser der Granalien an den Volutenbündeln."@de,
+        "Der Durchmesser der Granalien an der Fassung am Kreuz."@de,
+        "Der Durchmesser der Granalien mit Perldrahtringen."@de,
+        "Der Durchmesser der Granalien."@de,
+        "Der Durchmesser der Kugelpyramide am Splintkopf der Fassung mit den drei Perlen."@de,
+        "Der Durchmesser der Rillen, die auf den Pendielienröhrchen/Scharnierröhrchen vorkommen."@de,
+        "Der Durchmesser der Rippen, die auf den Pendielienröhrchen/Scharnierröhrchen vorkommen."@de,
+        "Der Durchmesser der Röhrchen an der Krallenfassung."@de,
+        "Der Durchmesser der Splinte an der Fassung mit den drei Perlen."@de,
+        "Der Durchmesser der bügelförmigen Klammern an der Fassung mit den drei Perlen."@de,
+        "Der Durchmesser des 1. Perldrahts an der Zarge, der an der Fassung des Kreuzes vorkommt."@de,
+        "Der Durchmesser des 2. Perldrahts an der Zarge, der an der Fassung des Kreuzes vorkommt."@de,
+        "Der Durchmesser des Bohrlochs im Edelstein."@de,
+        "Der Durchmesser des Einsteckstifts an der Perlfassung"@de,
+        "Der Durchmesser des Lochs bei der Fassung mit den drei Perlen."@de,
+        "Der Durchmesser des Perldrahtrings an den Volutenbündeln."@de,
+        "Der Durchmesser des Perldrahtrings."@de,
+        "Der Durchmesser des Rings."@de,
+        "Der Durchmesser des Röhrchens an der Fassung mit den drei Perlen."@de,
+        "Der Durchmesser des Röhrchens an der Krappenfassung."@de,
+        "Der Durchmesser des Röhrchens an der Perlfassung."@de,
+        "Der Durchmesser des Röhrchens."@de,
+        "Der Durchmesser des unteren Endes des Scharnierstifts."@de,
+        "Der Durchmesser von der Oberseite der Tülle."@de,
+        "Der Durchmesser von der Unterseite der Tülle."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#diameterMax> a rdf:Property ;
+    rdfs:label "Blasen: Durchmesser max."@de,
+        "Unterkante: gerilltes Rohr: Durchmesser: Maxima"@de,
+        "Blisters: diameter max."@en,
+        "Lower edge: grooved tube: diameter: maxima"@en ;
+    rdfs:comment "Der maximale Durchmesser des gerillten Rohres an der Unterkante der Grundplattenperldrahtumsäumung."@de,
+        "Die Maße des maximalen Durchmessers der Blasen im Email."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#diameterMin> a rdf:Property ;
+    rdfs:label "Unterkante: gerilltes Rohr: Durchmesser: Minima"@de,
+        "Lower edge: grooved tube: diameter: minima"@en ;
+    rdfs:comment "Der minimale Durchmesser des gerillten Rohres an der Unterkante der Grundplattenperldrahtumsäumung."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#documentation> a rdf:Property ;
+    rdfs:label "Dokumentation"@de,
+        "Documentation"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit seiner Dokumentation."@de,
+        "Links an object to its documentation."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Documentation> .
+
+<https://gams.uni-graz.at/o:ontology.crown#grainSizeMax> a rdf:Property ;
+    rdfs:label "Körnung: Korngröße max."@de,
+        "Granularity: grain size max."@en ;
+    rdfs:comment "Die maximale Korngröße bei vorhandener Körnung im/des Email."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#grainSizeMin> a rdf:Property ;
+    rdfs:label "Körnung: Korngröße min."@de,
+        "Granularity: grain size min."@en ;
+    rdfs:comment "Die minimale Korngröße bei vorhandener Körnung im/des Email."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#has> a rdf:Property ;
+    rdfs:range skos:Concept .
+
+<https://gams.uni-graz.at/o:ontology.crown#height> a rdf:Property ;
+    rdfs:label "Röhrchen: Höhe"@de,
+        "Zargenblech: Höhe"@de,
+        "Bezel sheet: height"@en,
+        "Tubes: height"@en ;
+    rdfs:comment "Die Höhe des Röhrchens an der Krappenfassung."@de,
+        "Die Höhe des Zargenblechs an der Kastenfassung."@de ;
+    rdfs:range xsd:float,
+        xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationAg> a rdf:Property ;
+    rdfs:label "Ag"@de,
+        "Ag"@en ;
+    rdfs:comment "Informationen über den Silbergehalt."@de,
+        "silver"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationAu> a rdf:Property ;
+    rdfs:label "Au"@de,
+        "Au"@en ;
+    rdfs:comment "Informationen über den Goldgehalt."@de,
+        "gold"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationBa> a rdf:Property ;
+    rdfs:label "Ba"@de,
+        "Ba"@en ;
+    rdfs:comment "Informationen über den Bariumgehalt."@de,
+        "barium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationCa> a rdf:Property ;
+    rdfs:label "Ca"@de,
+        "Ca"@en ;
+    rdfs:comment "Informationen über den Calciumgehalt des Edelsteins."@de,
+        "calcium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationCr> a rdf:Property ;
+    rdfs:label "Cr"@de,
+        "Cr"@en ;
+    rdfs:comment "Informationen über den Chromgehalt des Edelsteins."@de,
+        "chromium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationCz> a rdf:Property ;
+    rdfs:label "Cu"@de,
+        "Cu"@en ;
+    rdfs:comment "Informationen über den Kupfergehalt."@de,
+        "copper"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationFe> a rdf:Property ;
+    rdfs:label "Fe"@de,
+        "Fe"@en ;
+    rdfs:comment "Informationen über den Eisengehalt."@de,
+        "iron"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationMg> a rdf:Property ;
+    rdfs:label "Mg"@de,
+        "Mg"@en ;
+    rdfs:comment "Informationen über den Magnesiumgehalt des Edelsteins."@de,
+        "magnesium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationMn> a rdf:Property ;
+    rdfs:label "Mn"@de,
+        "Mn"@en ;
+    rdfs:comment "Informationen über den Mangangehalt des Edelsteins."@de,
+        "Informationen über den Mangangehalt."@de,
+        "manganese"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationNa> a rdf:Property ;
+    rdfs:label "Na"@de,
+        "Na"@en ;
+    rdfs:comment "Informationen über den Natriumgehalt."@de,
+        "sodium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationPb> a rdf:Property ;
+    rdfs:label "Pb"@de,
+        "Pb"@en ;
+    rdfs:comment "Informationen über den Bleigehalt."@de,
+        "lead"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationSn> a rdf:Property ;
+    rdfs:label "Sn"@de,
+        "Sn"@en ;
+    rdfs:comment "Informationen über den Zinngehalt."@de,
+        "tin"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationSr> a rdf:Property ;
+    rdfs:label "Sr"@de,
+        "Sr"@en ;
+    rdfs:comment "Informationen über den Strontiumgehalt."@de,
+        "strontium"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#informationZn> a rdf:Property ;
+    rdfs:label "Zn"@de,
+        "Zn"@en ;
+    rdfs:comment "Informationen über den Zinkgehalt."@de,
+        "zinc"@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#instrumentals> a rdf:Property ;
+    rdfs:label "Behandlung/Maßnahme"@de,
+        "Instrumentals"@en ;
+    rdfs:comment "Zusätzliche Informationen über die Untersuchungen, die verwendeten Geräte und Einstellungen."@de,
+        "Additional information about the analyses, the instruments used, and their settings."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#interpretation> a rdf:Property ;
+    rdfs:label "Interpretation:"@de,
+        "Interpretation:"@en ;
+    rdfs:comment "Die Interpretation der Ergebnisse."@de,
+        "The interpretation of the results."@en ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#interpretationCorrosion> a rdf:Property ;
+    rdfs:label "Interpretation Korrosion:"@de,
+        "Interpretation corrosion:"@en ;
+    rdfs:comment "Die Interpretation der Korrosion."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#joint> a rdf:Property ;
+    rdfs:label "Zargenblech: Fuge"@de,
+        "Bezel sheet: joint"@en ;
+    rdfs:comment "Der Zustand der Fuge des Zargenblechs an der Kastenfassung."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#length> a rdf:Property ;
+    rdfs:label "unteres Ende: Länge"@de,
+        "lower end: length"@en ;
+    rdfs:comment "Die Länge des unteren Endes des Scharnierstifts."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#lengthFromShaft> a rdf:Property ;
+    rdfs:label "Krallen: Länge (ab Schaft)"@de,
+        "Claws: length (from shaft)"@en ;
+    rdfs:comment "Die Länge der Krallen (ab dem Schaft gemessen), die auf der Fassung am Kreuz vorkommen."@de,
+        "Die Länge der Krallen (ab dem Schaft gemessen), die auf der Krallenfassung vorkommen."@de ;
+    rdfs:range xsd:float,
+        xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#materialUsed> a rdf:Property ;
+    rdfs:label "Verwendetes Material"@de,
+        "Material Used"@en ;
+    rdfs:comment "Verknüpft ein Objekt mit dem verwendeten Material."@de,
+        "Links an object to the material used."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Object> ;
+    rdfs:range <https://gams.uni-graz.at/o:ontology.crown#Material> .
+
+<https://gams.uni-graz.at/o:ontology.crown#media> a rdf:Property ;
+    rdfs:label "Medien"@de,
+        "Media"@en ;
+    rdfs:comment "Die Dateien der Untersuchungsergebnisse."@de,
+        "The files of the analysis results."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Analysis> ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#method> a rdf:Property ;
+    rdfs:label "Maßnahme/Bildmaterial"@de,
+        "Method"@en ;
+    rdfs:comment "Die verwendete Untersuchungsmethode."@de,
+        "The method used for the analysis."@en ;
+    rdfs:domain <https://gams.uni-graz.at/o:ontology.crown#Analysis> ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#number> a rdf:Property ;
+    rdfs:label "Bohrloch: Anzahl"@de,
+        "Tubes: number"@en;
+    rdfs:comment "Die Anzahl der Bohrlöcher im Edelstein."@de;
+    rdfs:range xsd:integer .
+
+<https://gams.uni-graz.at/o:ontology.crown#numberOfGranules> a rdf:Property ;
+    rdfs:label "Granalien: Anzahl"@de,
+        "Granules: number"@en ;
+    rdfs:comment "Die Anzahl der Granalien, die auf der Krallenfassung vorkommen."@de ;
+    rdfs:range xsd:integer .
+
+<https://gams.uni-graz.at/o:ontology.crown#numberOfGranulesBetweenClaws> a rdf:Property ;
+    rdfs:label "Granalien: Anzahl zwischen Krallen"@de,
+        "Granules: number between claws"@en ;
+    rdfs:comment "Die Anzahl der Granalien, die zwischen den Krallen liegen."@de ;
+    rdfs:range xsd:integer .
+
+<https://gams.uni-graz.at/o:ontology.crown#numberOfMeasuringPoints> a rdf:Property ;
+    rdfs:label "Anzahl Messpunkte:"@de,
+        "Number of measuring points:"@en ;
+    rdfs:comment "Die Anzahl der Messpunkte bei der RFA-Analyse der Perlen."@de,
+        "The number of measuring points used in the raman analysis."@en,
+        "XRF"@en ;
+    rdfs:range xsd:integer,
+        xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#numberOfMeasuringPoints:> a rdf:Property ;
+    rdfs:label "Anzahl der Messpunkte:"@de,
+        "Number of measuring points:"@en ;
+    rdfs:comment "Die Anzahl der Messpunkte, die bei der RFA-Analyse des Emails verwendet wurden."@de,
+        "XRF"@en ;
+    rdfs:range xsd:integer .
+
+<https://gams.uni-graz.at/o:ontology.crown#opacifier> a rdf:Property ;
+    rdfs:label "Trübungsmittel:"@de,
+        "Opacifier:"@en ;
+    rdfs:comment "Das verwendete Trübungsmittel."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#other> a rdf:Property ;
+    rdfs:label "Sonstiges"@de;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#sheetThickness> a rdf:Property ;
+    rdfs:label "Röhrchen: Blechstärke"@de,
+        "Tubes: sheet thickness"@en ;
+    rdfs:comment "Die Blechstärke des Röhrchens an der Krappenfassung."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#spaceBetween> a rdf:Property ;
+    rdfs:label "Granalien: Abstand zwischen Granalien"@de,
+        "Granules: space between granules"@en ;
+    rdfs:comment "Der Abstand zwischen den Granalien an der Krallenfassung."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#spaceBetweenTubes> a rdf:Property ;
+    rdfs:label "Röhrchen: Abstand zwischen Röhrchen"@de,
+        "Tubes: space between tubes"@en ;
+    rdfs:comment "Der Abstand zwischen den Röhrchen an der Krappenfassung."@de ;
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#specialities> a rdf:Property ;
+    rdfs:label "Herstellungsprozess: Besonderheiten"@de,
+        "Manufacturing process: specialities"@en ;
+    rdfs:comment "Die Besonderheiten im Herstellungsprozess des Emails."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#thickness> a rdf:Property ;
+    rdfs:label "Zarge: Stärke"@de,
+        "Zargenblech: Stärke"@de,
+        "Bezel sheet: thickness"@en,
+        "Bezel: thickness"@en ;
+    rdfs:comment "Die Blechstärke der Zarge an der Kastenfassung."@de,
+        "Die Stärke der Zarge an der Fassung des Kreuzes."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#typeOfClass> a rdf:Property ;
+    rdfs:label "Glastyp:"@de,
+        "Type of glass:"@en ;
+    rdfs:comment "Der Glastyp, der bei der Herstellung des Emails verwendet wurde."@de ;
+    rdfs:range xsd:string .
+
+<https://gams.uni-graz.at/o:ontology.crown#width> a rdf:Property ;
+    rdfs:label "C-Voluten: Breite"@de;
+    rdfs:comment "Die Breite der C-Voluten.";
+    rdfs:range xsd:float .
+
+<https://gams.uni-graz.at/o:ontology.crown#wireDiameter> a rdf:Property ;
+    rdfs:label "Drahtdurchmesser"@de,
+        "1. Pearl wire ring: wire diameter"@en;
+    rdfs:comment "Der Drahtdurchmesser des 1. Perldrahtrings an der Krappenfassung."@de ;
+    rdfs:range xsd:float,
+        xsd:string .
 
-[ rdf:type owl:Ontology
- ] .
-
-#################################################################
-#    Object Properties
-#################################################################
-
-###  https://gams.uni-graz.at/o:ontology.crown#analysisPerformed
-crown:analysisPerformed rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf owl:topObjectProperty ;
-                        rdfs:domain crown:Object ;
-                        rdfs:range crown:Analysis .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#basicShape
-crown:basicShape rdf:type owl:ObjectProperty .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#color
-crown:color rdf:type owl:ObjectProperty ;
-            rdfs:domain crown:Color ;
-            rdfs:range skos:Concept .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#conditionOfObject
-crown:conditionOfObject rdf:type owl:ObjectProperty ;
-                        rdfs:domain crown:Object ;
-                        rdfs:range crown:Condition .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#cut
-crown:cut rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain crown:Component ;
-          rdfs:range skos:Concept .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#descriptionOfComponents
-crown:descriptionOfComponents rdf:type owl:ObjectProperty ;
-                              rdfs:domain crown:Object ;
-                              rdfs:range crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#descriptionOfObject
-crown:descriptionOfObject rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf owl:topObjectProperty ;
-                          rdfs:domain crown:Object ;
-                          rdfs:range crown:Description .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#featureOfObject
-crown:featureOfObject rdf:type owl:ObjectProperty ;
-                      rdfs:domain crown:Object ;
-                      rdfs:range crown:Feature .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#material
-crown:material rdf:type owl:ObjectProperty ;
-               rdfs:domain crown:Object ;
-               rdfs:range skos:Concept .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#pin
-crown:pin rdf:type owl:ObjectProperty ;
-          rdfs:domain crown:Pins ;
-          rdfs:range crown:Pin .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#stoneInSetting
-crown:stoneInSetting rdf:type owl:ObjectProperty ;
-                     rdfs:domain crown:Component ;
-                     rdfs:range skos:Concept ;
-                     rdfs:comment "Stein in Fassung"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#technique
-crown:technique rdf:type owl:ObjectProperty ;
-                rdfs:domain crown:Component ;
-                rdfs:range skos:Concept .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#wire
-crown:wire rdf:type owl:ObjectProperty ;
-           rdfs:domain crown:Wires ;
-           rdfs:range crown:Wire .
-
-
-#################################################################
-#    Data properties
-#################################################################
-
-###  https://gams.uni-graz.at/o:ontology.crown#bottomPlate
-crown:bottomPlate rdf:type owl:DatatypeProperty ;
-                  rdfs:domain crown:HoleRow ;
-                  rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#burnedSurface
-crown:burnedSurface rdf:type owl:DatatypeProperty ;
-                    rdfs:domain crown:Solder ;
-                    rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#crossSection
-crown:crossSection rdf:type owl:DatatypeProperty ;
-                   rdfs:domain crown:Component ;
-                   rdfs:range xsd:float ;
-                   rdfs:label "Querschnitt"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#depth
-crown:depth rdf:type owl:DatatypeProperty ;
-            rdfs:domain crown:Component ;
-            rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#description
-crown:description rdf:type owl:DatatypeProperty ;
-                  rdfs:domain crown:Component ,
-                              crown:Condition ,
-                              crown:Description ,
-                              crown:Object ;
-                  rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#diameter
-crown:diameter rdf:type owl:DatatypeProperty ;
-               rdfs:domain crown:Component ;
-               rdfs:range xsd:float ;
-               rdfs:label "Durchmesser"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#dianumberBemeter
-crown:dianumberBemeter rdf:type owl:DatatypeProperty .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#distanceBetween
-crown:distanceBetween rdf:type owl:DatatypeProperty ;
-                      rdfs:domain crown:Component ;
-                      rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#distanceBetweenGrains
-crown:distanceBetweenGrains rdf:type owl:DatatypeProperty ;
-                            rdfs:domain crown:Component ;
-                            rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#endOfWire
-crown:endOfWire rdf:type owl:DatatypeProperty ;
-                rdfs:domain crown:Wire ;
-                rdfs:range rdfs:Literal ;
-                rdfs:label "Drahtenden"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#equatorLine
-crown:equatorLine rdf:type owl:DatatypeProperty ;
-                  rdfs:domain crown:CarrierPlate ,
-                              crown:Perldraht ;
-                  rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#floodedSurface
-crown:floodedSurface rdf:type owl:DatatypeProperty ;
-                     rdfs:domain crown:Solder ;
-                     rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#gap
-crown:gap rdf:type owl:DatatypeProperty ;
-          rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#hasDamageDescription
-crown:hasDamageDescription rdf:type owl:DatatypeProperty ;
-                           rdfs:domain crown:Damage ;
-                           rdfs:range xsd:string ;
-                           rdfs:label "Schadensbeschreibung"@de ,
-                                      "damage description"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#hasDamageIdentifier
-crown:hasDamageIdentifier rdf:type owl:DatatypeProperty ;
-                          rdfs:domain crown:Damage ;
-                          rdfs:range xsd:string ;
-                          rdfs:label "Damage identifier"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#hasSuspectedCause
-crown:hasSuspectedCause rdf:type owl:DatatypeProperty ;
-                        rdfs:domain crown:Damage ;
-                        rdfs:range xsd:string ;
-                        rdfs:label "suspected cause of damage"@en ,
-                                   "vermutete Schadensursache"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#height
-crown:height rdf:type owl:DatatypeProperty ;
-             rdfs:domain crown:Component ;
-             rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#innerDiameter
-crown:innerDiameter rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf crown:diameter ;
-                    rdfs:domain crown:Component ;
-                    rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#isPresent
-crown:isPresent rdf:type owl:DatatypeProperty ;
-                rdfs:domain crown:WireBinding ;
-                rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#jointCount
-crown:jointCount rdf:type owl:DatatypeProperty ;
-                 rdfs:domain crown:Component ;
-                 rdfs:range xsd:integer .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#jointDescription
-crown:jointDescription rdf:type owl:DatatypeProperty ;
-                       rdfs:domain crown:Joint ;
-                       rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#length
-crown:length rdf:type owl:DatatypeProperty .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#maxDiameter
-crown:maxDiameter rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf crown:diameter ;
-                  rdfs:domain crown:Component ;
-                  rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#minDiameter
-crown:minDiameter rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf crown:dianumberBemeter ;
-                  rdfs:domain crown:Component ;
-                  rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#number
-crown:number rdf:type owl:DatatypeProperty ;
-             rdfs:domain crown:Component ,
-                         crown:Object ;
-             rdfs:range xsd:integer ;
-             rdfs:label "Anzahl"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#numberBetweenTalons
-crown:numberBetweenTalons rdf:type owl:DatatypeProperty ;
-                          rdfs:domain crown:Component ;
-                          rdfs:range xsd:integer .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#numberOfDrillholes
-crown:numberOfDrillholes rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf crown:number ;
-                         rdfs:label "Anzahl der Bohrlöcher"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#numberOfGrooves
-crown:numberOfGrooves rdf:type owl:DatatypeProperty ;
-                      rdfs:subPropertyOf crown:number ;
-                      rdfs:label " Anzahl der Rillen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#numberOfMeasuringpoint
-crown:numberOfMeasuringpoint rdf:type owl:DatatypeProperty ;
-                             rdfs:subPropertyOf crown:number ;
-                             rdfs:label "Anzahl Messpunkte"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#numberOfRibs
-crown:numberOfRibs rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf crown:number ;
-                   rdfs:label "Anzahl der Rippen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#other
-crown:other rdf:type owl:DatatypeProperty ;
-            rdfs:comment "Sonstiges"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#otherCharacteristics
-crown:otherCharacteristics rdf:type owl:DatatypeProperty ;
-                           rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#production
-crown:production rdf:type owl:DatatypeProperty ;
-                 rdfs:domain crown:Component ;
-                 rdfs:range rdfs:Literal ;
-                 rdfs:label "Herstellung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#productionTechnique
-crown:productionTechnique rdf:type owl:DatatypeProperty .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#scratch
-crown:scratch rdf:type owl:DatatypeProperty ;
-              rdfs:domain crown:Object ;
-              rdfs:range xsd:boolean .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#scratchType
-crown:scratchType rdf:type owl:DatatypeProperty ;
-                  rdfs:domain crown:Object ;
-                  rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#size
-crown:size rdf:type owl:DatatypeProperty ;
-           rdfs:domain crown:BeadWire ;
-           rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#soldered
-crown:soldered rdf:type owl:DatatypeProperty ;
-               rdfs:domain crown:Perldrahtring ;
-               rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#techniqueDescription
-crown:techniqueDescription rdf:type owl:DatatypeProperty ;
-                           rdfs:domain crown:StabilizationMaterial ;
-                           rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#thickness
-crown:thickness rdf:type owl:DatatypeProperty ;
-                rdfs:domain crown:Component ;
-                rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#toolTraceDescription
-crown:toolTraceDescription rdf:type owl:DatatypeProperty ;
-                           rdfs:domain crown:Component ;
-                           rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#toolTraceDiameter
-crown:toolTraceDiameter rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf crown:diameter ;
-                        rdfs:domain crown:Rivets ;
-                        rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#toolTracesDescription
-crown:toolTracesDescription rdf:type owl:DatatypeProperty ;
-                            rdfs:domain crown:Rivets ;
-                            rdfs:range xsd:string .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#width
-crown:width rdf:type owl:DatatypeProperty ;
-            rdfs:domain crown:Component ;
-            rdfs:range xsd:float .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#wireDiameter
-crown:wireDiameter rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf crown:diameter ;
-                   rdfs:comment "Drahtdurchmesser"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#wireNumber
-crown:wireNumber rdf:type owl:DatatypeProperty ;
-                 rdfs:domain crown:WireBinding ;
-                 rdfs:range xsd:integer .
-
-
-#################################################################
-#    Classes
-#################################################################
-
-###  http://www.w3.org/2004/02/skos/core#Concept
-skos:Concept rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#AdditionalMaterial
-crown:AdditionalMaterial rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#AdhesionDamage
-crown:AdhesionDamage rdf:type owl:Class ;
-                     rdfs:subClassOf crown:Damage ;
-                     rdfs:label "Schaden: Anhaftungen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Analysis
-crown:Analysis rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Aperture
-crown:Aperture rdf:type owl:Class ;
-               rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Arc
-crown:Arc rdf:type owl:Class ;
-          rdfs:subClassOf crown:Component ;
-          rdfs:label "Bogen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Arkadenfiligran
-crown:Arkadenfiligran rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Component ;
-                      rdfs:label "Arkadenfiligran"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#BeadWire
-crown:BeadWire rdf:type owl:Class ;
-               rdfs:subClassOf crown:Wire .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#BeadWireRing
-crown:BeadWireRing rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Ring .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Bezel
-crown:Bezel rdf:type owl:Class ;
-            rdfs:subClassOf crown:Setting .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#BowShapedClamp
-crown:BowShapedClamp rdf:type owl:Class ;
-                     rdfs:subClassOf crown:Clamp ;
-                     rdfs:label "Klammer"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Bracket
-crown:Bracket rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#BrokenSolderingDamage
-crown:BrokenSolderingDamage rdf:type owl:Class ;
-                            rdfs:subClassOf crown:Damage ;
-                            rdfs:label "Schaden: aufgerissene Lötverbindung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Bulge
-crown:Bulge rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CVolutes
-crown:CVolutes rdf:type owl:Class ;
-               rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CapitalsArkadenfiligran
-crown:CapitalsArkadenfiligran rdf:type owl:Class ;
-                              rdfs:subClassOf crown:Arkadenfiligran ;
-                              rdfs:label "Arkadenfiligran: Kapitelle"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Carrier
-crown:Carrier rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CarrierPlate
-crown:CarrierPlate rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ChunkedArc
-crown:ChunkedArc rdf:type owl:Class ;
-                 rdfs:subClassOf crown:Arc ;
-                 rdfs:label "Bogen: gestückelt"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Clamp
-crown:Clamp rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component ;
-            rdfs:label "Klammer"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Color
-crown:Color rdf:type owl:Class ;
-            rdfs:subClassOf crown:Description .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Component
-crown:Component rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Condition
-crown:Condition rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CrackDamage
-crown:CrackDamage rdf:type owl:Class ;
-                  rdfs:subClassOf crown:Damage ;
-                  rdfs:label "Crack Damage"@en ,
-                             "Scahden: Riss"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CracksDamage
-crown:CracksDamage rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Damage ;
-                   rdfs:label "Cracks Damage"@en ,
-                              "Schaden: Risse"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#CrystallineEfflorescenceDamage
-crown:CrystallineEfflorescenceDamage rdf:type owl:Class ;
-                                     rdfs:subClassOf crown:Damage ;
-                                     rdfs:label "Damage: crystalline efflorescence"@en ,
-                                                "Schaden: kristalline Ausblühungen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Damage
-crown:Damage rdf:type owl:Class ;
-             rdfs:subClassOf crown:Condition ;
-             rdfs:label "Damage"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#DefectsDamage
-crown:DefectsDamage rdf:type owl:Class ;
-                    rdfs:subClassOf crown:Damage ;
-                    rdfs:label "Schaden: Fehlstellen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#DeformationDamage
-crown:DeformationDamage rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Damage ;
-                        rdfs:label "Schaden: Deformierung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Description
-crown:Description rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#DetachmentOfPlateDamage
-crown:DetachmentOfPlateDamage rdf:type owl:Class ;
-                              rdfs:subClassOf crown:Damage ;
-                              rdfs:label "Schaden: Abhebung vom Grundblech"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Dimensions
-crown:Dimensions rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#DiscolorationDamage
-crown:DiscolorationDamage rdf:type owl:Class ;
-                          rdfs:subClassOf crown:Damage ;
-                          rdfs:label "Schaden: Verfärbung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#DrillHole
-crown:DrillHole rdf:type owl:Class ;
-                rdfs:subClassOf crown:Component ;
-                rdfs:label "Bohrloch"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Drilling
-crown:Drilling rdf:type owl:Class ;
-               rdfs:subClassOf crown:Component ;
-               rdfs:label "Bohrung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Email
-crown:Email rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component ;
-            rdfs:label "Email"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#EmailDamage
-crown:EmailDamage rdf:type owl:Class ;
-                  rdfs:subClassOf crown:Damage ;
-                  rdfs:label "Schaden: Email"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#EmailIntervention
-crown:EmailIntervention rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Process .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#EmailOtherDamage
-crown:EmailOtherDamage rdf:type owl:Class ;
-                       rdfs:subClassOf crown:EmailDamage ,
-                                       crown:OtherDamage ;
-                       rdfs:label "Schadensbild Email: Sonstiges"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#EmailSupplement
-crown:EmailSupplement rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Component ;
-                      rdfs:label "Emailergänzung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#EmailToolTraceDamage
-crown:EmailToolTraceDamage rdf:type owl:Class ;
-                           rdfs:subClassOf crown:EmailDamage ,
-                                           crown:ToolTraceDamage ;
-                           rdfs:label "Schadensbild Email: Werkzeugspuren"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Ends
-crown:Ends rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Feature
-crown:Feature rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Flaw
-crown:Flaw rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#FractureDamage
-crown:FractureDamage rdf:type owl:Class ;
-                     rdfs:subClassOf crown:Damage ;
-                     rdfs:label "Fracture"@en ,
-                                "Schaden: Bruch"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#FracturesDamage
-crown:FracturesDamage rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Damage ;
-                      rdfs:label "Fractures"@en ,
-                                 "Schaden: Brüche"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldCrackDamage
-crown:GoldCrackDamage rdf:type owl:Class ;
-                      rdfs:subClassOf crown:CrackDamage ,
-                                      crown:GoldDamage ;
-                      rdfs:label "Schadensbild Gold: Riss"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldDamage
-crown:GoldDamage rdf:type owl:Class ;
-                 rdfs:subClassOf crown:Damage ;
-                 rdfs:label "Schaden: Gold"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldDeformationDamage
-crown:GoldDeformationDamage rdf:type owl:Class ;
-                            rdfs:subClassOf crown:DeformationDamage ,
-                                            crown:GoldDamage ;
-                            rdfs:label "Schaden Gold: Deformierungen"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldIntervention
-crown:GoldIntervention rdf:type owl:Class ;
-                       rdfs:subClassOf crown:Process .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldOtherDamage
-crown:GoldOtherDamage rdf:type owl:Class ;
-                      rdfs:subClassOf crown:GoldDamage ;
-                      rdfs:label "Schaden Gold: Sonstiges"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldSettingEvidenceDamage
-crown:GoldSettingEvidenceDamage rdf:type owl:Class ;
-                                rdfs:subClassOf crown:GoldDamage ,
-                                                crown:SettingEvidenceDamage ;
-                                rdfs:label "Schadensbild Gold: Hinweise auf Ausfassung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldSupplement
-crown:GoldSupplement rdf:type owl:Class ;
-                     rdfs:label "Goldergänzung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GoldToolTraceDamage
-crown:GoldToolTraceDamage rdf:type owl:Class ;
-                          rdfs:subClassOf crown:GoldDamage ;
-                          rdfs:label "Schadensbild Gold: Werkzeugspuren"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Granule
-crown:Granule rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Grooves
-crown:Grooves rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#GroundInclusionsProcessing
-crown:GroundInclusionsProcessing rdf:type owl:Class ;
-                                 rdfs:subClassOf crown:Processing ;
-                                 rdfs:label "Bearbeitung: ausgeschliffene Einschlüsse"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Head
-crown:Head rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component ;
-           rdfs:label "Kopf"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Helix
-crown:Helix rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#HoleRow
-crown:HoleRow rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Holes
-crown:Holes rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Inclusion
-crown:Inclusion rdf:type owl:Class ;
-                rdfs:subClassOf crown:Description ;
-                rdfs:label "Einschlüsse"@de ,
-                           "Inclusion"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#InclusionProfil
-crown:InclusionProfil rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Description ;
-                      rdfs:label "Einschlussprofil"@de ,
-                                 "Inclusion profil"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Indentation
-crown:Indentation rdf:type owl:Class ;
-                  rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Intervention
-crown:Intervention rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Description ;
-                   rdfs:label "Eingriff"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#InterventionCausedDamage
-crown:InterventionCausedDamage rdf:type owl:Class ;
-                               rdfs:subClassOf crown:Damage ;
-                               rdfs:label "Schaden: durch Eingriff verursachte Schäden"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#InterventionEmail
-crown:InterventionEmail rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Intervention ;
-                        rdfs:label "Eingriff Email"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#InterventionGold
-crown:InterventionGold rdf:type owl:Class ;
-                       rdfs:subClassOf crown:Intervention ;
-                       rdfs:label "Eingriff Gold"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#InterventionGoldSurface
-crown:InterventionGoldSurface rdf:type owl:Class ;
-                              rdfs:subClassOf crown:InterventionGold ;
-                              rdfs:label "Eingriff Gold: überschliffene Oberfläche"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Joint
-crown:Joint rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Latch
-crown:Latch rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#LevelDifferenceToSupportDamage
-crown:LevelDifferenceToSupportDamage rdf:type owl:Class ;
-                                     rdfs:subClassOf crown:EmailDamage ;
-                                     rdfs:label "Schadensbild Email: Niveauunterschied zum Träger"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#LiabilityLossDamage
-crown:LiabilityLossDamage rdf:type owl:Class ;
-                          rdfs:subClassOf crown:Damage ;
-                          rdfs:label "Schaden: Haftungsverlust"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Lochfiligran
-crown:Lochfiligran rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#LooseConnectionDamage
-crown:LooseConnectionDamage rdf:type owl:Class ;
-                            rdfs:subClassOf crown:Damage ;
-                            rdfs:label "Schaden: gelöste Verbindung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#LowerEdge
-crown:LowerEdge rdf:type owl:Class ;
-                rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#LowerEnd
-crown:LowerEnd rdf:type owl:Class ;
-               rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcess
-crown:ManufacturingProcess rdf:type owl:Class ;
-                           rdfs:subClassOf crown:Description ;
-                           rdfs:label "Herstellungsprozess"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcessSurface
-crown:ManufacturingProcessSurface rdf:type owl:Class ;
-                                  rdfs:subClassOf crown:ManufacturingProcess ;
-                                  rdfs:label "Herstellungsprozess: Oberfläche"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ManufacturingProcessToolTraces
-crown:ManufacturingProcessToolTraces rdf:type owl:Class ;
-                                     rdfs:subClassOf crown:ManufacturingProcess ;
-                                     rdfs:label "Herstellungsprozess: Werkzeugspuren Beschreibung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#MaterialRemovalDamage
-crown:MaterialRemovalDamage rdf:type owl:Class ;
-                            rdfs:subClassOf crown:Damage ;
-                            rdfs:label "Damage: material removal"@en ,
-                                       "Schaden: Materialabtrag"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Measurements
-crown:Measurements rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Description ;
-                   rdfs:label "Maße"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#MeltedParts
-crown:MeltedParts rdf:type owl:Class ;
-                  rdfs:subClassOf crown:Description .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#MicroCrackDamage
-crown:MicroCrackDamage rdf:type owl:Class ;
-                       rdfs:subClassOf crown:Damage ;
-                       rdfs:label "Schaden: Mikroriss"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#MissingPartDamage
-crown:MissingPartDamage rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Damage ;
-                        rdfs:label "Schaden: fehlende Teile"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Object
-crown:Object rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#OtherDamage
-crown:OtherDamage rdf:type owl:Class ;
-                  rdfs:subClassOf crown:Damage ;
-                  rdfs:label "Schaden: Sonstiges"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PearlIntervention
-crown:PearlIntervention rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Process .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PearlWire
-crown:PearlWire rdf:type owl:Class ;
-                rdfs:subClassOf crown:Wire ;
-                rdfs:label "Perldraht"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PearlWireArc
-crown:PearlWireArc rdf:type owl:Class ;
-                   rdfs:subClassOf crown:Arc ,
-                                   crown:PearlWire ;
-                   rdfs:label "Bogen: Perldraht"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PearlWireRing
-crown:PearlWireRing rdf:type owl:Class ;
-                    rdfs:subClassOf crown:Wire ;
-                    rdfs:label "Perldrahtring"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Perldraht
-crown:Perldraht rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Perldrahtring
-crown:Perldrahtring rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Pin
-crown:Pin rdf:type owl:Class ;
-          rdfs:subClassOf crown:Component ;
-          rdfs:label "Einsteckstift"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Pins
-crown:Pins rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component ;
-           rdfs:label "Einsteckstifte"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PreservationProcess
-crown:PreservationProcess rdf:type owl:Class ;
-                          rdfs:subClassOf crown:Process .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Process
-crown:Process rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Processing
-crown:Processing rdf:type owl:Class ;
-                 rdfs:subClassOf crown:Description ;
-                 rdfs:label "Bearbeitung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Prong
-crown:Prong rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component ,
-                            crown:Setting .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#PyramidOfGranules
-crown:PyramidOfGranules rdf:type owl:Class ;
-                        rdfs:subClassOf crown:Component ;
-                        rdfs:label "Kugelpyramide"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Recess
-crown:Recess rdf:type owl:Class ;
-             rdfs:subClassOf crown:Description ;
-             rdfs:label "Eintiefung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#RestorationProcess
-crown:RestorationProcess rdf:type owl:Class ;
-                         rdfs:subClassOf crown:Process .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Ribs
-crown:Ribs rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Ring
-crown:Ring rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#RivetToolTraces
-crown:RivetToolTraces rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Rivets .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Rivets
-crown:Rivets rdf:type owl:Class ;
-             rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ScratchDamage
-crown:ScratchDamage rdf:type owl:Class ;
-                    rdfs:subClassOf crown:Damage ;
-                    rdfs:label "Schaden: Kratzer"@de ,
-                               "Scratch"@en .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Setting
-crown:Setting rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#SettingEvidenceDamage
-crown:SettingEvidenceDamage rdf:type owl:Class ;
-                            rdfs:subClassOf crown:Damage ;
-                            rdfs:label "Schadensbild : Hinweise auf Ausfassung"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Shape
-crown:Shape rdf:type owl:Class ;
-            rdfs:subClassOf crown:Description .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Sockets
-crown:Sockets rdf:type owl:Class ;
-              rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Solder
-crown:Solder rdf:type owl:Class ;
-             rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Soldering
-crown:Soldering rdf:type owl:Class ;
-                rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#SolderingTechnique
-crown:SolderingTechnique rdf:type owl:Class ;
-                         rdfs:subClassOf crown:Description .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#StabilizationMaterial
-crown:StabilizationMaterial rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Stone
-crown:Stone rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Strap
-crown:Strap rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Surface
-crown:Surface rdf:type owl:Class ;
-              rdfs:subClassOf crown:Description ;
-              rdfs:label "Oberfläche"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#SurfaceTurbidityDamage
-crown:SurfaceTurbidityDamage rdf:type owl:Class ;
-                             rdfs:subClassOf crown:Damage ;
-                             rdfs:label "Schaden: Trübung der Oberfläche"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Talon
-crown:Talon rdf:type owl:Class ;
-            rdfs:subClassOf crown:Setting .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#TextileFiberHoleRow
-crown:TextileFiberHoleRow rdf:type owl:Class ;
-                          rdfs:subClassOf crown:HoleRow .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#ToolTraceDamage
-crown:ToolTraceDamage rdf:type owl:Class ;
-                      rdfs:subClassOf crown:Damage ;
-                      rdfs:label "Schaden: Werkzeugspuren"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Treatment
-crown:Treatment rdf:type owl:Class ;
-                rdfs:subClassOf crown:Feature .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Tube
-crown:Tube rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#UpperEdge
-crown:UpperEdge rdf:type owl:Class ;
-                rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Webs
-crown:Webs rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Wire
-crown:Wire rdf:type owl:Class ;
-           rdfs:subClassOf crown:Component ;
-           rdfs:label "Draht"@de .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#WireBinding
-crown:WireBinding rdf:type owl:Class .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#WireCVolutes
-crown:WireCVolutes rdf:type owl:Class ;
-                   rdfs:subClassOf crown:CVolutes ,
-                                   crown:Wire .
-
-
-###  https://gams.uni-graz.at/o:ontology.crown#Wires
-crown:Wires rdf:type owl:Class ;
-            rdfs:subClassOf crown:Component ;
-            rdfs:label "Drähte"@de .
-
-
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

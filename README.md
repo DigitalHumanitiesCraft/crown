@@ -60,19 +60,17 @@ The project consists of several key tasks and packages, such as developing a dom
 
 ![CROWN Workflow](img/crown-workflow.png)
 
-The process begins with the collection of data through **The Museum System (TMS)**, which allows data to be exported in Excel format. This format contains various data fields designed to meet the operational needs of the museum and the research-related details of each object (´crown:Object´ or ´crown:AdditionalMaterial´).
+The process begins with the collection of data through **The Museum System (TMS)**, which allows data to be exported in Excel format. This format contains various data fields designed to meet the operational needs of the museum and the research-related details of each object (`crown:Object` or `crown:AdditionalMaterial`).
 
-Two Python scripts are used to convert the data from Excel to RDF format: excel-to-rdf.py and index-to-rdf.py. The **excel-to-rdf.py script** does most of the conversion, using the *Datafields Spreadsheet* to map Excel fields to the ontology and creates the RDF data. This stage also includes data normalisation to meet the specific needs of the project. A major challenge in the project is the input of complex content in free text fields by different staff member. The **index-to-rdf.py script** creates the necessary index files, like those for materials and persons. Both use the [rdflib](https://rdflib.readthedocs.io/en/stable/) Python library.
+Multiple python scripts are used to convert the data from Excel to RDF format: excel-to-rdf.py, index-to-rdf.py and thesaurus-to-rdf.py. The **excel-to-rdf.py script** does most of the conversion, using the *Datafields Spreadsheet* to map Excel fields to the ontology and creates the RDF data. This stage also includes data normalisation to meet the specific needs of the project. A major challenge in the project is the input of complex content in free text fields by different staff member. The **index-to-rdf.py script** creates the necessary index files, like those for materials and persons. Both use the [rdflib](https://rdflib.readthedocs.io/en/stable/) Python library. Finally the **thesaurus-to-rdf.py script** creates the SKOS concepts that are needed.
 
 A crucial element of the workflow is the mapping of TMS data fields, especially customisable, project-specific user fields, to RDF classes and properties within the application ontology. It's essential that domain experts have the flexibility to change field names, definitions and translations. This task is facilitated by the **Datafields Spreadsheet**. While Google spreadsheets are recommended for their ability to support real-time collaborative editing and built-in version control, any type of spreadsheet or CSV file can be used effectively. The ability for multiple users to edit simultaneously streamlines the workflow and leverages the collective expertise of different team members. In addition, the Google Spreadsheets API provides the ability to programmatically interact with the Datafields spreadsheet, increasing workflow efficiency. Nevertheless, working with CSV remains a viable option for non-commercial productions.
 
 Another script, **datafields-to-ontology.py**, extracts mappings from the datafields spreadsheet. This process likely involves insights from domain experts to develop the complete RDF data model. This specific, lightweight **application ontology** is crucial for organizing the RDF data for the CROWN project. Furthermore, it defines how to link to additional ontologies like CIDOC-CRM, helping to ensure the project aligns with broader cultural heritage documentation standards.
 
-Finally the **thesaurus-to-rdf.py script** creates the SKOS concepts that are needed.
-
 What could also be implemented at this point is validation by SHACL, i.e. mapping SHACL constraints from the Excel data fields to implement a validation mechanism for RDF generation. However, this was not part of the funded project.
 
-The RDF data and the application ontology together describe all the information about the CROWN project, or any other project represented in TMS. This data can be used directly in a triple store, or archived and published in a research data **repository**.
+The RDF data and the application ontology together describe all information about the CROWN project, or any other project represented in TMS. This data can be used directly in a triple store, or archived and published in a research data **repository**. You can also find the RDF data here in the GitHub repository, and a tutorial on how to use the data in GraphDB is given in this tutorial and documentation.
 
 ## TMS and Export
 
@@ -80,7 +78,7 @@ The RDF data and the application ontology together describe all the information 
 
 The Museum System (TMS), developed by Gallery Systems and built on an open architecture database using Microsoft SQL Server, is a web-based collections management system designed for museums, galleries and cultural institutions. It supports the management of collections. 
 
-The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS, outlining the structured approach to managing and documenting various aspects of the objects under study.
+The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS.
 
 |File Name|Primary Focus|Key Fields|Description|
 |---|---|---|---|
@@ -94,9 +92,11 @@ The following table summarises the content and purpose of each Excel file associ
 |CROWN_Restaurierung_3_Medien_2024_02_02.xlsx|Media related to restoration and analysis|CondLineItemID, TableID, DisplayOrder, MediaMasterID, RenditionNumber, MediaType, Path, FileName|Focuses on documenting restoration and analysis through media, including before/after images, reports, or scans.|
 |Crown_Userfields_2024_02_02.xlsx|Custom user-defined fields for objects|ObjectNumber, ID, UserFieldName, FieldValue, GroupName, UserFieldGroupID, NumericFieldValue, DisplayOrder, UserFieldID|Defines project-specific TMS data fields for the CROWN project. "UserFieldName" is mapped to "Property Path" in the Data Fields spreadsheet.|
 
-### Example crown:Object
+### Example <crown:Object>
 
-#### crown:Survey
+This section illustrates the practical application of RDF and the CROWN project ontology by detailing how specific classes such as crown:Survey and specific properties such as crown:descriptionOf are modelled.
+
+#### <crown:Survey>
 
 ![crown:Survey](img/crownSurvey.png)
 
@@ -110,8 +110,7 @@ Within the RDF framework of the CROWN project, `crown:Survey` is an entity relat
 - **Methodology (`crown:treatment`)**: Details the analytical techniques and instruments used.
 - **Media (`crown:media`)**: Associates the survey with relevant digital files, like images or data, accessible via URLs. 
 
-
-#### crown:Object crown:descriptionOf ...
+#### <crown:Object> <crown:descriptionOf> <crown:Gemstone>
 
 ![crown:Survey](img/crowndescriptionOf.png)
 
