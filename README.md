@@ -306,27 +306,26 @@ Step-by-step instructions for creating RDF data models that adhere to the ontolo
 #### Best Practices for Ontology Development
 A compilation of best practices to follow when developing and refining the ontology to enhance data interoperability and accuracy.
 
-## Simple example of reusing the crown data
+## Using GraphDB for data reuse
 
 ### Setting up GraphDB and ingesting RDF data
 
-In this chapter, we will guide you through the process of setting up the triplestore GraphDB and ingesting RDF data into it, which is crucial for effectively using linked data in research and applications.
+GraphDB is an efficient triplestore that enables the management and querying of RDF data, making it ideal for projects like CROWN that involve complex data relationships and require scalable solutions. The free version of GraphDB is suitable for local setups and smaller projects.
 
-Before you can start using GraphDB, you need RDF data. For the purposes of this tutorial, you can obtain RDF data formatted from the GitHub Repo.
+The RDF data for this tutorial is available from a GitHub repository dedicated to the CROWN project.
 
 [Download RDF Data](https://github.com/DigitalHumanitiesCraft/crown/tree/main/rdf_output)
 
 ### Setting up GraphDB
 
-GraphDB is a powerful triplestore for storing and managing RDF data. Here's how to set it up:
+Follow these steps to install and configure GraphDB:
 
 1. Download **GraphDB**: Go to the [GraphDB download page](https://www.ontotext.com/products/graphdb/download/) and download the free version.
 2. **Install GraphDB: Follow the installation instructions in the [How to install GraphDB](https://graphdb.ontotext.com/documentation/10.6/how-to-install-graphdb.html#).
 3. **Access GraphDB: After installation, open GraphDB from your web browser.
 4. **Create a repository:
-   - Click on 'Setup' from the menu and select 'Repositories'.
-   - Click on "Create new repository".
-   - Enter "crown" as the Repository ID and configure any additional settings as required.
+   - Navigate to 'Setup' > 'Repositories' and click on "Create new repository".
+   - Name your repository "crown" and adjust settings as needed.
    - Save the configuration.
 
 ### Ingesting RDF data into GraphDB
@@ -334,16 +333,18 @@ GraphDB is a powerful triplestore for storing and managing RDF data. Here's how 
 Now that your repository is ready, you need to import your RDF data:
 
 1. **Import the RDF data:
-   - Go to the "Import" section of the GraphDB interface.
-   - Select "RDF" and then "Upload RDF files".
-   - Select your "exil.rdf" file and start the import process.
+   - Navigate to the "Import" section within the GraphDB interface.
+   - Select "RDF" then "Upload RDF files".
+   - Choose your RDF file (ensure it's correctly named and formatted as discussed earlier) and start the import process.
+
+![RDF Ingest into GraphDB](img/screen-graphdb-1.png)
 
 ### Verifying the data import
 
-To ensure that your RDF data has been successfully imported:
+One way o ensure that your RDF data has been successfully imported:
 
-- Navigate to the SPARQL section of GraphDB.
-- Enter the following query to retrieve a sample of the data
+- Go to the SPARQL section within GraphDB.
+- Execute the following query to fetch a sample of the data:
 
   ```sparql
   SELECT * WHERE {
@@ -351,14 +352,109 @@ To ensure that your RDF data has been successfully imported:
   } LIMIT 100
   ```
 
-This query returns the first 100 triples stored in your repository, allowing you to check the presence and correctness of the imported data.
+This SPARQL query helps verify the first 100 triples, ensuring your data is correctly loaded.
 
 ### Exploring your data with GraphDB
 
-GraphDB provides several tools for exploring and analysing your data:
+GraphDB offers comprehensive tools for data exploration, which are particularly useful in managing and analyzing linked data:
 
 - **Graph Overview**: Navigate to this section to see a visual representation of the RDF data.
-- Class Hierarchy and Relationships: These views help you understand the structure of your data and how different classes are related.
-- Visual Graph: Use this feature to visually navigate through the relationships and properties of specific data points.
+- **Class Hierarchy and Relationships**: These views help you understand the structure of your data and how different classes are related.
+- **Visual Graph**: Use this feature to visually navigate through the relationships and properties of specific data points.
 
-For example, if you wanted to explore data related to a person named Stefan Zweig, you could enter his URI in the Visual Graph section and interactively explore all the related data.
+## SPARQL Queries: Basics and Examples
+
+This section will introduce SPARQL, the query language for RDF used to extract and manipulate data within GraphDB. SPARQL is the standard query language and protocol used to select, add, modify, or delete data stored in RDF format.
+
+Let's start by analysing the given SPARQL example:
+
+todo: sparql sample for crown data
+
+### Understanding the SPARQL Query
+
+### Executing the SPARQL Query
+
+To execute the SPARQL query in GraphDB:
+
+* Open GraphDB and make sure the "crown" repository is selected.
+* Go to the "SPARQL" tab.
+* Paste the provided SPARQL query in the query editor.
+* Click the "Execute" button to run the query.
+
+The results will be displayed in a table format below the query editor, with each row representing a person who satisfies the conditions specified in the query. You can then explore the obtained data to analyze various aspects of the persons in the dataset.
+
+### SPARQL Query Examples
+
+Now that we've covered the basics of SPARQL syntax, let's look at some examples to demonstrate different types of queries:
+
+
+
+
+
+
+
+Sure, let's delve into SPARQL queries with a specific example tailored for the CROWN project. We'll construct a query to retrieve detailed information about a particular object, such as its historical background, related persons, and the analytical surveys performed. This will showcase how to effectively extract interconnected data from a complex RDF dataset.
+
+### SPARQL Queries: Basics and Examples
+
+SPARQL is the standard query language and protocol used to select, add, modify, or delete data stored in RDF format. Its flexibility and expressiveness make it particularly useful for navigating and analyzing intricate data relationships in projects like CROWN.
+
+#### Example SPARQL Query for the CROWN Project
+
+Let's say we want to gather comprehensive details about an object labeled as "Stein, CR_1_E_St_25", which is part of the CROWN project. We aim to include its description, the analysis performed on it, and any persons involved in these analyses.
+
+##### Constructing the Query
+
+1. **Select Statement**: Start by specifying what we want to retrieve. Here, we focus on the object's title, description, date of analysis, type of analysis, and names of involved persons.
+
+2. **Where Clause**: This part defines the pattern to match in the RDF graph. We link the object to its surveys and, further, to persons involved in these surveys.
+
+3. **Filters and Conditions**: We'll use filters to specify that we are only interested in the particular object "Stein, CR_1_E_St_25".
+
+Here is the SPARQL query:
+
+```sparql
+PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?objectLabel ?description ?analysisDate ?analysisType ?personName
+WHERE {
+  ?object dc:title ?objectLabel;
+          dc:description ?description;
+          crown:surveyPerformed ?survey.
+  ?survey crown:date ?analysisDate;
+          crown:surveyType ?analysisType;
+          crown:personInvolved ?person.
+  ?person rdfs:label ?personName.
+  
+  FILTER (STR(?objectLabel) = "Stein, CR_1_E_St_25")
+}
+```
+
+##### Step-by-Step Explanation
+
+- **Prefixes**: Defines short names for the namespaces used in the query, making it easier to read and write.
+  
+- **SELECT Clause**: Defines the variables (?objectLabel, ?description, etc.) that will be returned by the query.
+
+- **WHERE Clause**:
+  - `?object dc:title ?objectLabel; dc:description ?description; crown:surveyPerformed ?survey.` This pattern matches objects with a specific title and description and identifies any surveys performed on them.
+  - `?survey crown:date ?analysisDate; crown:surveyType ?analysisType; crown:personInvolved ?person.` Links the survey to specific dates, types, and involved persons.
+  - `?person rdfs:label ?personName.` Retrieves the name of the person involved in the survey.
+
+- **FILTER**: Restricts results to only those where the object's title matches "Stein, CR_1_E_St_25".
+
+#### Executing the SPARQL Query
+
+To run this query in GraphDB:
+- Ensure the "crown" repository is selected in GraphDB.
+- Navigate to the "SPARQL" tab.
+- Copy and paste the query into the query editor.
+- Click "Execute".
+
+The results will display in a table, showing each instance where the specified object was involved in a survey, along with the details of the analysis and the people involved.
+
+### Conclusion
+
+This SPARQL query exemplifies how to extract linked and detailed information from a dataset, making it possible to track specific aspects of an object’s research history within the CROWN project. This approach is invaluable for researchers who need to access structured data across interconnected domains.
