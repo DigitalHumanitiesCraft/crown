@@ -97,7 +97,9 @@ Within the RDF framework of the CROWN project, `crown:Survey` is an entity relat
 
 #### crown:Object crown:descriptionOf ...
 
-![crown:Survey](img/crownSurvey.png)
+![crown:Survey](img/crowndescriptionOf.png)
+
+
 
 ## Mapping TMS to RDF: Datafields Spreadsheet
 
@@ -443,7 +445,7 @@ Executing the above query yields the following sample results in a tabular forma
 
 ![crown:Survey](img/screen-graphdb-4.png)
 
-### Tutorial Explanation:
+### Explanation:
 
 In this tutorial, we have queried RDF data for specific attributes related to emerald gemstones analysed by Raman spectroscopy.The SPARQL query systematically filters the data using `FILTER' clauses to match our criteria. The `?object` is a URI representing an individual gemstone. The `?medium` confirms that the gemstone is an emerald, and the `?analysisType` confirms that the analysis performed was Raman spectroscopy.
 
