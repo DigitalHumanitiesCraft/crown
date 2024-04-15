@@ -310,7 +310,7 @@ This section provides a demonstration of how data from The Museum System (TMS) i
     crown:other "lose Emailpartikel (Bruchstücke) in bräunlicher Masse (Anhaftung) eingeschlossen (?)" .
 ```
 
-### 2.2 The index-to-rdf.py Script
+### index-to-rdf.py
 
 The Python script transforms Excel spreadsheet data into RDF format using the rdflib library. It imports the necessary libraries, defines namespaces, and sets up paths to Excel files containing data about the components associated with objects in a collection. It includes helper functions for normalising strings for URI and JSON compatibility. The script reads the Excel file into a pandas DataFrame and initialises two RDF graphs for people and organisations. It creates a void:dataset for each graph and populates them with static metadata using Dublin Core terms. It processes the data by iterating over the Excel rows, creating entries as either schema:Person or schema:Organisation based on specified roles. Finally, it serialises the RDF graphs into XML files for use in RDF data stores or linked data applications. The script makes assumptions about file accessibility, roles and serialisation paths, which may be areas for improvement.
 
@@ -334,7 +334,9 @@ This RDF statement details an organization associated with the CROWN project:
 `schema:Organisation` is used to define an organization, in this case, the Theatermuseum Wien, as part of the project's dataset.
 
 
-### 2.3 thesaurus-to-rdf.py
+### thesaurus-to-rdf.py
+
+This Python script reads thesaurus data from Excel spreadsheets, processes terms into a hierarchical SKOS-based RDF structure with labels and external vocabulary matches, and serialises this structure into an RDF/XML file, creating a machine-readable thesaurus for the CROWN..
 
 This RDF statement represents a concept from the thesaurus used in the project:
 ```xml
@@ -352,7 +354,7 @@ This RDF statement represents a concept from the thesaurus used in the project:
 ```
 `skos:Concept` denotes a thesaurus entry, "Mineral" in this case. It uses SKOS properties to indicate its place within the hierarchy of the thesaurus (`skos:inScheme`, `skos:narrower`, `skos:broader`).
 
-### 2.4 datafields-to-ontology.py
+### datafields-to-ontology.py
 
 todo
 * Role in Ontology Creation: An overview of how the `datafields-to-ontology.py` script contributes to the creation of the Application Ontology.
@@ -361,7 +363,7 @@ todo
 
 ## Application Ontology
 
-### 3.1 Introduction to the "CROWN" Ontology
+### Introduction to the "CROWN" Ontology
 
 #### Overview of the CROWN Ontology Structure
 A description of the structure and components of the CROWN Ontology, which outlines the data model for the RDF data.
@@ -369,7 +371,7 @@ A description of the structure and components of the CROWN Ontology, which outli
 #### Mapping to CIDOC-CRM
 Details on the process and benefits of mapping the CROWN Ontology to the CIDOC-CRM standards.
 
-### 3.2 Building the Ontology
+### Building the Ontology
 
 #### Defining Classes and Properties
 A guide to defining classes and properties within the ontology to ensure accurate representation of data.
