@@ -129,6 +129,8 @@ The script reads data from multiple Excel files related to the CROWN project, pr
 
 This section provides a demonstration of how data from The Museum System (TMS) is represented Turtle RDF.
 
+![crown:Survey](img/rdf-example.png)
+
 ```
 @prefix crown: <https://gams.uni-graz.at/o:crown.ontology#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
