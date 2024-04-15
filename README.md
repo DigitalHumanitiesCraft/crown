@@ -1,15 +1,16 @@
 # Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data
 
 [CLARIAH-AT - Funding Call 2022: Interoperability and Reusability of DH Data and Tools](https://clariah.at/project-funding)
-Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
-Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
-Author: Christopher Pollin
+
+* Project Investigator (KHM): Dr Martina Griesser, KHM-Museumsverband, Vienna
+* Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
+* Author: Christopher Pollin
 
 * **Objectives of the Document**
-  * To provide a guide to establishing a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data in accordance with FAIR principles.
-  * To outline the steps involved in the data transformation process, including data export, processing and conversion to RDF format.
+  * Provide guidance on how to establish a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data according to FAIR principles.
+  * Outline the steps involved in the data transformation process, including data export, processing and conversion to RDF format.
   * Introduce the tools and scripts used in the workflow and explain their role in data extraction, ontology mapping and RDF creation.
-  * To detail the development and structure of the application ontology, focusing on how it facilitates the integration of museum data with domain ontologies.
+  * Describe in detail the development and structure of the application ontology, focusing on how it facilitates the integration of museum data with domain ontologies.
 * **Prerequisites**
   * Basic understanding of museum data management
   * Knowledge of RDF, RDFs and basic data modelling
@@ -23,15 +24,15 @@ The CROWN project is an interdisciplinary research project focusing on the Imper
 
 At the heart of the project is a detailed examination of the physical characteristics of the crown, including all its different parts and components, such as its gemstone settings, wires and plates. We will call these components `crown:Object`. Advanced methods such as Raman spectroscopy, µ-XRF analysis, 3D digital microscopy and others are key to these studies. They provide insights into the physical composition of the different materials in each component, and thus into the working techniques and the condition of the crown.
 
-The project also examines the history of the crown. This includes studying the inscriptions, analysing stylistic features within their historical periods, and considering how the crown has been depicted in historical records. The study also looks at the design and decoration of the crown from a symbolic point of view, in order to understand its significance as an emblem of divine authority. For this reason, additional sources on the crown and its history are also included in the project. All these sources, from charters to images and physical objects, are summarised as `crown:AdditionalMaterial`.
+The project also examines the history of the crown. This includes studying the inscriptions, analysing stylistic features within their historical periods, and considering how the crown has been depicted in historical records. For this reason, additional sources on the crown and its history are also included in the project (text, image, etc.). All these sources, from charters to images and physical objects, are summarised as `crown:AdditionalMaterial`.
 
 ### CLARIAH-AT: “Sharing the CROWN – Establishing a Workflow from Collection Data to Linked Research Data”
 
-The project, supported by CLARIAH-AT, aims to improve the accessibility and reusability of museum research data through improved data creatin workflows. Due to the complexity and historical value of the Crown, the project addresses the difficulties of handling, analysing and disseminating specialised research data resulting from cross-disciplinary studies of the Crown.
+The project, supported by CLARIAH-AT, aims to improve the accessibility and reusability of museum research data through improved data creation workflows. Due to the complexity and historical value of the Crown, the project addresses the difficulties of handling, analysing and disseminating specialised research data resulting from cross-disciplinary studies of the Crown.
 
 Its primary objective is to establish best practice for transforming data from The Museum System (TMS) into data that is Findable, Accessible, Interoperable and Reusable (FAIR). This process goes beyond traditional data management to address the complex needs of museum research, which often lacks standard data capture and standardisation methods. A critical part of this effort is the creation of a structured RDF data and lightweight application ontology, based on the principles of the [CIDOC Conceptual Reference Model (CIDOC-CRM)](https://www.cidoc-crm.org). This ontology acts as a structure for linking data points to controlled vocabularies and Wikidata, adding a semantic layer.
 
-The project consists of several key tasks and packages, such as developing a domain-specific application ontology, converting the TMS data into a Linked Open Data (LOD) and FAIR RDF dataset, semantically enriching the data by aligning it with resources such as Wikidata, and creating a prototype in [GAMS](https://gams.uni-graz.at/) for accessing the data. These steps are designed to address the unique challenges of managing complex research data in the museum environment, from initial data modelling to the final analysis and presentation of linked research data.
+The project consists of several key tasks and packages, such as developing a domain-specific application ontology, converting the TMS data into a Linked Open Data (LOD) and FAIR RDF dataset, semantically enriching the data by aligning it with resources such as Wikidata, and creating a prototype in [GAMS](https://gams.uni-graz.at/) for accessing the data.
 
 ### Overview of the Workflow
 
@@ -39,7 +40,7 @@ The project consists of several key tasks and packages, such as developing a dom
 
 The process begins with the collection of data through **The Museum System (TMS)**, which allows data to be exported in Excel format. This format contains various data fields designed to meet the operational needs of the museum and the research-related details of each object (´crown:Object´ or ´crown:AdditionalMaterial´).
 
-Two Python scripts are used to convert the data from Excel to RDF format: excel-to-rdf.py and index-to-rdf.py. The **excel-to-rdf.py script** does most of the conversion, using the *Datafields Spreadsheet* to map Excel fields to the ontology and creates the **RDF data** itself. This stage also includes data normalisation to meet the specific needs of the project. The **index-to-rdf.py script** creates the necessary index files, like those for materials and persons. Both use the [rdflib](https://rdflib.readthedocs.io/en/stable/) Python library.
+Two Python scripts are used to convert the data from Excel to RDF format: excel-to-rdf.py and index-to-rdf.py. The **excel-to-rdf.py script** does most of the conversion, using the *Datafields Spreadsheet* to map Excel fields to the ontology and creates the RDF data. This stage also includes data normalisation to meet the specific needs of the project. A major challenge in the project is the input of complex content in free text fields by different staff member. The **index-to-rdf.py script** creates the necessary index files, like those for materials and persons. Both use the [rdflib](https://rdflib.readthedocs.io/en/stable/) Python library.
 
 A crucial element of the workflow is the mapping of TMS data fields, especially customisable, project-specific user fields, to RDF classes and properties within the application ontology. It's essential that domain experts have the flexibility to change field names, definitions and translations. This task is facilitated by the **Datafields Spreadsheet**. While Google spreadsheets are recommended for their ability to support real-time collaborative editing and built-in version control, any type of spreadsheet or CSV file can be used effectively. The ability for multiple users to edit simultaneously streamlines the workflow and leverages the collective expertise of different team members. In addition, the Google Spreadsheets API provides the ability to programmatically interact with the Datafields spreadsheet, increasing workflow efficiency. Nevertheless, working with CSV remains a viable option for non-commercial productions.
 
@@ -304,3 +305,60 @@ Step-by-step instructions for creating RDF data models that adhere to the ontolo
 
 #### Best Practices for Ontology Development
 A compilation of best practices to follow when developing and refining the ontology to enhance data interoperability and accuracy.
+
+## Simple example of reusing the crown data
+
+### Setting up GraphDB and ingesting RDF data
+
+In this chapter, we will guide you through the process of setting up the triplestore GraphDB and ingesting RDF data into it, which is crucial for effectively using linked data in research and applications.
+
+Before you can start using GraphDB, you need RDF data. For the purposes of this tutorial, you can obtain RDF data formatted from the GitHub Repo.
+
+[Download RDF Data](https://github.com/DigitalHumanitiesCraft/crown/tree/main/rdf_output)
+
+### Setting up GraphDB
+
+GraphDB is a powerful triplestore for storing and managing RDF data. Here's how to set it up:
+
+1. Download **GraphDB**: Go to the [GraphDB download page](https://www.ontotext.com/products/graphdb/download/) and download the free version.
+2. **Install GraphDB: Follow the installation instructions in the [How to install GraphDB](https://graphdb.ontotext.com/documentation/10.6/how-to-install-graphdb.html#).
+3. **Access GraphDB: After installation, open GraphDB from your web browser.
+4. **Create a repository:
+   - Click on 'Setup' from the menu and select 'Repositories'.
+   - Click on "Create new repository".
+   - Enter "crown" as the Repository ID and configure any additional settings as required.
+   - Save the configuration.
+
+### Ingesting RDF data into GraphDB
+
+Now that your repository is ready, you need to import your RDF data:
+
+1. **Import the RDF data:
+   - Go to the "Import" section of the GraphDB interface.
+   - Select "RDF" and then "Upload RDF files".
+   - Select your "exil.rdf" file and start the import process.
+
+### Verifying the data import
+
+To ensure that your RDF data has been successfully imported:
+
+- Navigate to the SPARQL section of GraphDB.
+- Enter the following query to retrieve a sample of the data
+
+  ```sparql
+  SELECT * WHERE {
+    ?subject ?predicate ?object .
+  } LIMIT 100
+  ```
+
+This query returns the first 100 triples stored in your repository, allowing you to check the presence and correctness of the imported data.
+
+### Exploring your data with GraphDB
+
+GraphDB provides several tools for exploring and analysing your data:
+
+- **Graph Overview**: Navigate to this section to see a visual representation of the RDF data.
+- Class Hierarchy and Relationships: These views help you understand the structure of your data and how different classes are related.
+- Visual Graph: Use this feature to visually navigate through the relationships and properties of specific data points.
+
+For example, if you wanted to explore data related to a person named Stefan Zweig, you could enter his URI in the Visual Graph section and interactively explore all the related data.
