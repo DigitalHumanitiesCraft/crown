@@ -94,6 +94,11 @@ Within the RDF framework of the CROWN project, `crown:Survey` is an entity relat
 - **Methodology (`crown:treatment`)**: Details the analytical techniques and instruments used.
 - **Media (`crown:media`)**: Associates the survey with relevant digital files, like images or data, accessible via URLs. 
 
+
+#### crown:Object crown:descriptionOf ...
+
+![crown:Survey](img/crownSurvey.png)
+
 ## Mapping TMS to RDF: Datafields Spreadsheet
 
 Custom data fields are essential for effective data management in museums. These institutions manage collections ranging from archaeological artefacts to contemporary art, each with its own unique characteristics and history. Custom data fields allow museums to adapt their data management approaches to meet the unique needs of their collections. This customisation facilitates the accurate documentation, analysis and dissemination of details about each item. Managing this complexity requires expertise in modelling and programming, but ensures that museums can efficiently manage the intricacies of their collections.
@@ -383,7 +388,7 @@ The image shows the *Visual Graph* feature of GraphDB
 
 ![crown:Survey](img/screen-graphdb-3.png)
 
-It shows the `crown:Object` *"opak yellow, CR_1_B_ET_Em_ogel"* from the chapter "Example output as Turtle RDF". Two purple `crown:Survey` and the associated `crown:Media` as well as the `crown:conditionOf` and `crown:descriptionOf` of the object's enamel (o:crown.object.1469100.Enamel), which further describe various damages and conditions of the enamel.
+It shows the `crown:Object` *"opak yellow, CR_1_B_ET_Em_ogel"* from the chapter "Example output as Turtle RDF". Two purple `crown:Survey` and the associated `crown:Media` as well as the `crown:conditionOf` and `crown:descriptionOf` of the object's enamel (o:crown.object.1469100.Enamel), which further describe various damages and conditions of the enamel. 
 
 ## SPARQL Queries: Basics and Examples
 
@@ -406,78 +411,50 @@ To execute the SPARQL query in GraphDB:
 
 The results will be displayed in a table format below the query editor, with each row representing a person who satisfies the conditions specified in the query. You can then explore the obtained data to analyze various aspects of the persons in the dataset.
 
-### SPARQL Query Examples
+### CROWN SPARQL Examples
 
-Now that we've covered the basics of SPARQL syntax, let's look at some examples to demonstrate different types of queries:
+#### Research Question Example:
 
+How can we retrieve a list of emerald gemstones (`Smaragd`) that have undergone Raman spectroscopy analysis, including the date of analysis and findings?
 
+#### SPARQL Query:
 
-
-
-
-
-Sure, let's delve into SPARQL queries with a specific example tailored for the CROWN project. We'll construct a query to retrieve detailed information about a particular object, such as its historical background, related persons, and the analytical surveys performed. This will showcase how to effectively extract interconnected data from a complex RDF dataset.
-
-### SPARQL Queries: Basics and Examples
-
-SPARQL is the standard query language and protocol used to select, add, modify, or delete data stored in RDF format. Its flexibility and expressiveness make it particularly useful for navigating and analyzing intricate data relationships in projects like CROWN.
-
-#### Example SPARQL Query for the CROWN Project
-
-Let's say we want to gather comprehensive details about an object labeled as "Stein, CR_1_E_St_25", which is part of the CROWN project. We aim to include its description, the analysis performed on it, and any persons involved in these analyses.
-
-##### Constructing the Query
-
-1. **Select Statement**: Start by specifying what we want to retrieve. Here, we focus on the object's title, description, date of analysis, type of analysis, and names of involved persons.
-
-2. **Where Clause**: This part defines the pattern to match in the RDF graph. We link the object to its surveys and, further, to persons involved in these surveys.
-
-3. **Filters and Conditions**: We'll use filters to specify that we are only interested in the particular object "Stein, CR_1_E_St_25".
-
-Here is the SPARQL query:
+To answer this research question, we'll write a SPARQL query that filters objects by medium (`Smaragd`) and analysis type (`Raman`), and extracts relevant details.
 
 ```sparql
 PREFIX crown: <https://gams.uni-graz.at/o:crown.ontology#>
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT ?objectLabel ?description ?analysisDate ?analysisType ?personName
+SELECT ?object ?objectLabel ?medium ?analysisDate ?finding
 WHERE {
-  ?object dc:title ?objectLabel;
-          dc:description ?description;
-          crown:surveyPerformed ?survey.
-  ?survey crown:date ?analysisDate;
-          crown:surveyType ?analysisType;
-          crown:personInvolved ?person.
-  ?person rdfs:label ?personName.
-  
-  FILTER (STR(?objectLabel) = "Stein, CR_1_E_St_25")
+  ?object a crown:Object .
+  ?object dcterms:medium ?medium .
+  FILTER(str(?medium) = "Smaragd")
+  ?object crown:surveyPerformed ?survey .
+  ?survey a crown:Survey .
+  ?survey crown:attributeType ?analysisType .
+  FILTER(str(?analysisType) = "Raman")
+  ?survey crown:date ?analysisDate .
+  ?survey crown:statement ?finding .
+  OPTIONAL { ?object rdfs:label ?objectLabel . }
 }
+ORDER BY ?analysisDate
 ```
 
-##### Step-by-Step Explanation
+### Results:
 
-- **Prefixes**: Defines short names for the namespaces used in the query, making it easier to read and write.
-  
-- **SELECT Clause**: Defines the variables (?objectLabel, ?description, etc.) that will be returned by the query.
+Executing the above query yields the following sample results in a tabular format, providing a list of emerald gemstones with details about the Raman spectroscopy analysis:
 
-- **WHERE Clause**:
-  - `?object dc:title ?objectLabel; dc:description ?description; crown:surveyPerformed ?survey.` This pattern matches objects with a specific title and description and identifies any surveys performed on them.
-  - `?survey crown:date ?analysisDate; crown:surveyType ?analysisType; crown:personInvolved ?person.` Links the survey to specific dates, types, and involved persons.
-  - `?person rdfs:label ?personName.` Retrieves the name of the person involved in the survey.
+| object                                      | objectLabel          | medium | analysisDate | finding |
+|---------------------------------------------|----------------------|--------|--------------|---------|
+| https://gams.uni-graz.at/o:crown.object.1481035 | Stein, CR_1_K_St_41  | Smaragd| 2022-05-18   | Smaragd |
+| https://gams.uni-graz.at/o:crown.object.1481005 | Stein, CR_1_K_St_11  | Smaragd| 2022-05-18   | Smaragd |
+| https://gams.uni-graz.at/o:crown.object.1480982 | Stein, CR_1_BgRo_St_29| Smaragd| 2022-05-18   | Smaragd |
+| ...                                           | ...                  | ...    | ...          | ...     |
 
-- **FILTER**: Restricts results to only those where the object's title matches "Stein, CR_1_E_St_25".
+### Tutorial Explanation:
 
-#### Executing the SPARQL Query
+In this tutorial, we have queried RDF data for specific attributes related to emerald gemstones analysed by Raman spectroscopy.The SPARQL query systematically filters the data using `FILTER' clauses to match our criteria. The `?object` is a URI representing an individual gemstone. The `?medium` confirms that the gemstone is an emerald, and the `?analysisType` confirms that the analysis performed was Raman spectroscopy.
 
-To run this query in GraphDB:
-- Ensure the "crown" repository is selected in GraphDB.
-- Navigate to the "SPARQL" tab.
-- Copy and paste the query into the query editor.
-- Click "Execute".
-
-The results will display in a table, showing each instance where the specified object was involved in a survey, along with the details of the analysis and the people involved.
-
-### Conclusion
-
-This SPARQL query exemplifies how to extract linked and detailed information from a dataset, making it possible to track specific aspects of an object’s research history within the CROWN project. This approach is invaluable for researchers who need to access structured data across interconnected domains.
+By including the `?analysisDate` and `?finding` we can track when each analysis was performed and what the result was. The `OPTIONAL` clause for `?objectLabel` ensures that even if a label is missing, the query will still return results. Finally, the results are ordered by the date of the analysis to facilitate chronological review.
