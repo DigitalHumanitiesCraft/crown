@@ -6,12 +6,12 @@
 * Project Investigator (ZIM): Christopher Pollin, ZIM, University of Graz
 * Author: Christopher Pollin
 
-* **Objectives of the Document**
+#### Objectives of the Document**
   * Provide guidance on how to establish a workflow that transforms collection data from The Museum System (TMS) into structured, linked research data according to FAIR principles.
   * Outline the steps involved in the data transformation process, including data export, processing and conversion to RDF format.
   * Introduce the tools and scripts used in the workflow and explain their role in data extraction, ontology mapping and RDF creation.
   * Describe in detail the development and structure of the application ontology, focusing on how it facilitates the integration of museum data with domain ontologies.
-* **Prerequisites**
+#### Prerequisites**
   * Basic understanding of museum data management
   * Knowledge of RDF, RDFs and basic data modelling
   * Python basics
@@ -67,7 +67,7 @@ The Museum System (TMS), developed by Gallery Systems and built on an open archi
 The following table summarises the content and purpose of each Excel file associated with the CROWN project and as a data export from TMS, outlining the structured approach to managing and documenting various aspects of the objects under study.
 
 |File Name|Primary Focus|Key Fields|Description|
-|---|---|---|---|
+|--|---|---|---|
 |CROWN_Objects_1_2024_02_02.xlsx|Details of various objects|ObjectID, ObjectNumber, SortNumber, ObjectName, Dated, Medium, Dimensions, Description, Notes, ShortText8, Authority50ID, Bestandteil|Records details on objects, including material, dimensions, and condition. Authority50ID and Bestandteil indicate relationships to other parts.|
 |CROWN_Objects_3_TextEntries_2024_02_02.xlsx|Text entries related to the objects|ID, TextType, TextEntry|Stores additional descriptive or historical text information on objects for various purposes including display and documentation.|
 |CROWN_Objects_4_AltNumbers_2024_02_02.xlsx|Alternate numbering for objects|ID, AltNumDescription, AltNum|Provides alternate identifiers or links to resources, allowing for cross-references to external databases or digital collections.|
@@ -99,7 +99,14 @@ Within the RDF framework of the CROWN project, `crown:Survey` is an entity relat
 
 ![crown:Survey](img/crowndescriptionOf.png)
 
-todo: https://chat.openai.com/g/g-kMVucvvwL-crowngpt
+The `crown:descriptionOf` property relates an individual object, uniquely identified within the data set, to its detailed gemstone description. The image shows the `crown:Object` *Stein, CR_1_E_St_25* , which is connected via `crown:descriptionOf` to the `crown:Gemstone` class. The gemstone is further described through connections to classes representing its shape (`crown:Shape`), cut (`crown:Cut`), and surface (`crown:Surface`). These classes are instantiated with specific features of the gemstone, which are outlined using SKOS concepts and descriptive text. Here is a brief overview of each component.
+
+SKOS (Simple Knowledge Organization System) concepts such as "passgenau" (exact fitting), "viereckig" (rectangular), and "grün" (green) demonstrate the integration of controlled vocabularies within the ontology. These concepts standardize the terminology used across the dataset, enhancing interoperability and enabling semantic queries.
+
+### Conclusion
+
+This segment of the ontology illustrates how detailed and structured data is modeled to represent complex descriptions of museum objects, specifically gemstones, in the context of the "Sharing the CROWN" project. The usage of `crown:descriptionOf` and `crown:feature` properties, alongside SKOS concepts, establishes a rich, semantically detailed framework for documenting the nuanced features of objects within a cultural heritage collection.
+
 
 
 ## Mapping TMS to RDF: Datafields Spreadsheet
